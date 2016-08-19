@@ -1,0 +1,138 @@
+#include <stdio.h>
+#include <memory.h>
+#include <string>
+#include <iostream>
+
+using namespace std;
+
+//1代表普通文件2代表目录文件0表示空文件
+#define GENERAL 1
+#define DIRECTORY 2
+#define NULL 0
+
+struct FCB
+{
+	char fname[16];			//文件名 
+	char type;
+	int size;				//文件大小 
+	int fatherBlockNum;		//当前的父目录盘块号
+	int currentBlockNum;	//当前的盘块  
+
+	void initialize()
+	{
+		strcpy(fname, "/0");
+		type = NULL;
+		fatherBlockNum = currentBlockNum = 0;
+	}
+};
+
+/*常量设置*/  
+const char* FilePath = "C://myfiles";  
+const int BlockSize = 512;       //盘块大小  
+const int OPEN_MAX = 5;          //能打开最多的文件数  
+const int BlockCount = 128;   //盘块数  
+const int DiskSize = BlockSize*BlockCount;    //磁盘大小  
+const int BlockFcbCount = BlockSize/sizeof(FCB);//目录文件的最多FCB数  
+  
+int OpenFileCount = 0; 
+
+struct OPENLIST			//用户文件打开表
+{
+	int files;			//当前打开文件数  
+	FCB f[OPEN_MAX];	//FCB拷贝
+	OPENLIST() 
+	{
+		files = 0;
+		for (int i = 0; i < OPEN_MAX; i++)
+		{
+			f[i].fatherBlockNum = -1;	//为分配打开 
+			f[i].type = GENERAL;
+		}
+	}
+};
+
+/*-------------目录文件结构---------------*/
+struct dirFile
+{
+	struct FCB fcb[BlocakFcbCount];
+	void init(int _FatherBlockNum, int _CurrentBlockNum, char *name)//父块号，当前块号，目录名 
+	{
+		strcpy(fcb[0].fname, name);//本身的FCB
+		fcb[0].fatherBlockNum = _FatherBlockNum;
+		fcb[0].currentBlockNum = _CurrentBlockNum;
+		fcb[0].type = DIRECTORY;//标记目录文件  
+		for (int i = 1; BlockFcbCount; i++)
+		{
+			fcb[i].fatherBlockNum = _CurrentBlockNum;//标记为子项
+			fcb[i].type = NULL;// 标记为空白项
+		}
+	}
+};
+
+/**********************************************************************/  
+struct DISK
+{
+	int FAT1[BlockCount]; //FAT1
+	int FAT2[BlockCount]; //FAT2
+	struct dirFile root;//根目录
+	char data[BlockCount - 3][BlockSize];
+	void format()
+	{
+		memset(FAT1, 0, BlockCount);	//FAT1 
+		memset(FAT2, 0, BlockCount);     //FAT2
+		 memset(FAT1,0,BlockCount);     //FAT1  
+        memset(FAT2,0,BlockCount);     //FAT2  
+        FAT1[0]=FAT1[1]=FAT1[2]=-2; //0,1,2盘块号依次代表FAT1,FAT2,根目录区  
+        FAT2[0]=FAT2[1]=FAT2[2]=-2;  //FAT作备份  
+        root.init(2,2,"C://");//根目录区  
+        memset(data,0,sizeof(data));//数据区 
+	}
+};
+
+/*-----------------全局变量--------------------------*/  
+FILE *fp;      //磁盘文件地址  
+char * BaseAddr;    //虚拟磁盘空间基地址  
+string currentPath="C://";   //当前路径  
+int current=2;    //当前目录的盘块号  
+string cmd;      //输入指令  
+struct DISK *osPoint;    //磁盘操作系统指针  
+char command[16];    //文件名标识  
+struct OPENLIST* openlist; //用户文件列表指针  
+  
+/*-----------函数事先申明--------------------*/  
+int format();  
+int mkdir(char *sonfname);  
+int rmdir(char *sonfname);  
+int create(char *name);  
+int listshow();  
+int delfile(char *name);  
+int changePath(char *sonfname);  
+int write(char *name);  
+int exit();  
+int open(char *file);  
+int close(char *file);  
+int read(char *file);  
+/*------------初始化-----------------------*/ 
+int format()
+{
+	current = 2;  
+    currentPath="C://";   //当前路径  
+    osPoint->format();//打开文件列表初始化  
+    delete openlist;  
+    openlist=new OPENLIST;  
+    /*-------保存到磁盘上myfiles--------*/  
+    fp = fopen(FilePath,"w+");  
+    fwrite(BaseAddr,sizeof(char),DiskSize,fp);  
+    fclose(fp);  
+    printf("----------------------------------------------------------/n/n");  
+    return 1;  
+}
+
+
+
+int main(int argc, char *argv[])
+{
+	printf("Hello, world\n");
+	
+	return 0;
+}
