@@ -107,5 +107,159 @@ int I2C_devIoctl(struct inode * inode, struct file *filp, unsigned int cmd, unsi
 */
 void * I2C_create(int devAddr) 
 {
-	
+	int ret;
+	struct i2c_driver *driver;
+	struct i2c_client *client = client;
+	I2C_Obj *pObj;
+
+	devAddr >>= 1;
+
+	if (devAddr > I2C_DEV_MAX_ADDR)
+		return NULL;
+
+	if (gI2C_dev.pObj[devAddr] != NULL) {
+		gI2C_dev.pObj[devAddr]->users++;
+		return gI2C_dev.pObj[devAddr];
+	}
+
+	pObj = (void *)kmalloc(sizeof(I2C_Obj), GFP_KERNEL);
+	gI2C_dev.pObj[devAddr] = pObj;
+	memset(pObj, 0, sizeof(I2C_Obj));
+
+	pObj->client.adapter = NULL;
+	pObj->users++;
+	pObj->devAddr = devAddr;
+
+	gI2C_curAddr = pObj->devAddr;
+	driver = &pObj->driver;
+
+	pObj->nameSize=0;//i2c设备名称，注意，这里不是在/dev下面的设备节点名  
+    pObj->name[pObj->nameSize++] = 'I';  
+    pObj->name[pObj->nameSize++] = '2';  
+    pObj->name[pObj->nameSize++] = 'C';  
+    pObj->name[pObj->nameSize++] = '_';     
+    pObj->name[pObj->nameSize++] = 'A' + ((pObj->devAddr >> 0) & 0xF);  
+    pObj->name[pObj->nameSize++] = 'B' + ((pObj->devAddr >> 4) & 0xF);  
+    pObj->name[pObj->nameSize++] = 0; 
+
+    driver->driver.name = pObj->name;
+    driver->id = I2C_DRIVERID_MISC;
+    driver->attach_adapter = I2C_attachAdapter;
+    driver->detach_client = I2C_detachClient;
+
+    if ((ret = i2c_add_driver(driver))) {
+    	printk( KERN_ERR "I2C: ERROR: Driver registration failed 
+    		(address=%x), module not inserted.\n", pObj->devAddr);
+    }
+
+    if (ret < 0) {
+    	gI2C_dev.pObj[pObj->devAddr] = NULL;
+    	kfree(pObj);
+    	return NULL;
+    }
+    return pObj;
 }
+
+/*
+*其他两个命令是I2C_CMD_WRITE和I2C_CMD_READ，
+*这个比较简单，只需设置寄存器地址的大小以及寄存器值的大小，
+*然后通过i2c-core 提供的i2c_transfer()函数发送即可。例如I2C_wirte()
+*/
+int I2C_write(I2C_Obj *pObj, uint8_t *reg, uint8_t *buffer, uint8_t count, uint8_t dataSize)
+{
+	
+	uint8_t i;
+	int err;
+	struct i2c_client *client;
+	struct i2c_msg msg[1];
+	unsigned char data[8];
+
+	if (pObj == NULL)
+		return -ENODEV;
+
+	client = &pObj->client;
+	if (!client->adapter)
+		return -ENODEV;
+
+	if (dataSize <= 0 || dataSize > 4)
+		return -1;
+
+	for (i = 0; i < count; i++) {
+		
+		msg->addr = client->addr;//设置要写的i2c设备地址 
+		msg->flags = 0;
+		msg->buf = data;////date为准备i2c通信的缓冲区，这个缓冲区除了不包含设备地址外，要包括要目标寄存器地址，和要写入该寄存器的值
+
+		data[0] = reg[i];
+		if(dataSize==1) {//寄存器值长度为1  
+       		data[1]  = buffer[i];//寄存器值赋值  
+       		msg->len = 2;     //设置data长度为2      
+    	} else if(dataSize==2) {//寄存器值长度为2  
+       		data[1] = buffer[2*i+1];  
+       		data[2] = buffer[2*i];  
+       		msg->len = 3;  
+    	}   
+    	err = i2c_transfer(client->adapter, msg, 1);//调用i2c-core中的i2c_transfer发送i2c数据  
+    	if( err < 0 )  
+      		return err;  
+    }  
+    
+  return 0;
+}
+
+int I2C_attachAdapter(struct i2c_adapter *adapter)  
+{  
+    return I2C_detectClient(adapter, gI2C_curAddr);  
+}  
+
+int I2C_detectClient(struct i2c_adapter *adapter, int address)
+{
+	I2C_Obj *pObj;
+	struct i2c_client *client;
+	int err = 0;
+
+	if (address > I2C_DEV_MAX_ADDR) {
+		printk( KERN_ERR "I2C: ERROR: Invalid device address %x\n", address);
+		return -1;
+	}
+
+	pObj = gI2C_dev.pObj[address];
+
+	if (pObj == NULL) {
+		printk( KERN_ERR "I2C: ERROR: Object not found for address %x\n", address);
+		return -1;
+	}
+
+	client = &pObj->client;
+	if (client) 
+		return -EBUSY;
+
+	memset(client, 0x00, sizeof(struct i2c_client));
+	client->addr = pObj->devAddr;
+	client->adpater = adapter;
+	client->driver = &pObj->driver;
+
+	if ((err = i2c_attach_client(client))) {
+		printk( KERN_ERR "I2C: ERROR: Couldn't attach %s (address=%x)\n", pObj->name, pObj->devAddr);
+		client->adapter = NULL;
+		return err;
+	}
+	return 0;
+}
+
+int I2C_detachClient(struct i2c_client *client)  
+{  
+    int err;  
+  
+    if(!client->adapter)  
+        return -ENODEV; /* our client isn't attached */  
+  
+    if((err = i2c_detach_client(client))) {  
+        printk( KERN_ERR "Client deregistration failed (address=%x), client not detached.\n", client->addr);  
+        return err;  
+    }  
+  
+    client->adapter = NULL;  
+  
+    return 0;  
+}  
