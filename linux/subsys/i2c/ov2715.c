@@ -60,3 +60,52 @@ struct file_operations gI2c_devFileOps = {
 	.release = I2C_devRelease;
 	.ioctl = I2C_devIoctl;
 };
+
+/*ioctl*/
+int I2C_devIoctl(struct inode * inode, struct file *filp, unsigned int cmd, unsigned long arg)
+{
+	I2C_Obj *pObj;
+	int status = 0;
+	I2C_TransferPrm transferPrm;
+
+	pObj = (I2C_Obj *) filp->private_data;
+
+	if (!I2C_IOCTL_CMD_IS_VALID(cmd))
+	{
+		return -1;
+	}
+	cmd = I2C_IOCTL_CMD_GET(cmd);
+
+	down_interruptible(&gI2C_dev.semLock);
+
+	switch(cmd)
+	{
+		case I2C_CMD_SET_DEV_ADDR:
+			filp->private_data = I2C_create(arg);
+			break;
+		case I2C_CMD_WRITE:
+			status = copy_from_user(&transferPrm, (void *) arg, sizeof(transferPrm));
+			break;
+		case I2C_CMD_READ:
+			status = copy_from_user(&transferPrm, (void *) arg, sizeof(transferPrm));
+			break;
+		default:
+			status = -1;
+			break;
+	}
+
+	up(&gI2C_dev.semLock);
+
+	return status;
+}
+
+/*
+*以上三个命令中最重要最复杂的是第一个I2C_CMD_SET_DEV_ADDR，
+*设置设备地址，之所以重要和复杂，因为在I2C_create()函数中，
+*将通过i2c-core提供的函数把该驱动程序和底层的i2c_adapter联系起来。
+*下面是I2C_create()函数源码
+*/
+void * I2C_create(int devAddr) 
+{
+	
+}
