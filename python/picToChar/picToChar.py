@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from PIL import Image
 import argparse
 
@@ -46,5 +47,5 @@ if __name__ == '__main__':
 		with open(OUTPUT, 'w') as f:
 			f.write(txt)
 	else:
-		with open("output.txt", w) as f:
+		with open("output.txt", 'w') as f:
 			f.write(txt)
