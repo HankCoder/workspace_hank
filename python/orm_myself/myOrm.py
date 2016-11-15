@@ -16,7 +16,7 @@ class Field(object):
         Field._count = Field._count + 1
         print 'xxx'
         self.ddl = kw.get('ddl','')
- 
+
     @property
     def default(self):
         d = self._default
@@ -50,7 +50,7 @@ def _gen_sql(table_name,mappings):
         pk = None
     sql.append(');')
     return '\n'.join(sql)
-         
+
 class ModelMetaclass(type):
     def __new__(cls,name,bases,attrs):
         if name == 'Model':
@@ -84,19 +84,19 @@ class ModelMetaclass(type):
             if not trigger in attrs:
                 attrs[trigger] = None
         return type.__new__(cls,name,bases,attrs)
- 
+
 class Model(dict):
     __metaclass__ = ModelMetaclass
- 
+
     def __init__(self,**kw):
         super(Model,self).__init__(**kw)
- 
+
     def __getattr__(self,key):
         try:
             return self[key]
         except KeyError:
             raise AttributeError(r"'Model' object has no attribute '%s'" % key)
- 
+
     def __setattr__(self,key,value):
         self[key] = value
         print '%s: %s' % self,value
@@ -111,12 +111,12 @@ class Model(dict):
         sql = 'insert into %s (%s) values(%s)' % (self.__table__,','.join(fields),','.join(params))
         print sql
         print ('ARGS: %s' % str(args))
- 
+
 class User(Model):
-     
+
     id = StringField(primary_key=True,ddl='varchar(50)')
     name = StringField(ddl='varchar(50)')
- 
+print (tables)
 sql = ''.join(tables)
 sql = sql.replace('`','')
 print sql
