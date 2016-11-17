@@ -1,0 +1,682 @@
+title:
+content:
+			本课程主要是腾讯大咖与大家分享一些技术经验与心得。
+classtime:6课时
+							122分钟
+classlevel:高级
+learnnum:2745人学习
+title:
+content:
+			本课程主要是由腾讯大咖为大家分享创业心经。
+classtime:7课时
+							93分钟
+classlevel:高级
+learnnum:2328人学习
+title:
+content:
+			本课程通过实操演示，教大家快速完成SDK集成。
+classtime:10课时
+							81分钟
+classlevel:中级
+learnnum:2206人学习
+title:
+content:
+			本课程主要为大家讲解SDK集成，iOS集成。
+classtime:10课时
+							106分钟
+classlevel:中级
+learnnum:2211人学习
+title:
+content:
+			本课程手把手教大家快速调用相关SDK。
+classtime:4课时
+							85分钟
+classlevel:中级
+learnnum:2121人学习
+title:
+content:
+			本课程主要为大家介绍云数据库的使用入门。
+classtime:1课时
+							9分钟
+classlevel:中级
+learnnum:2185人学习
+title:
+content:
+			本课程通过实操演示，教大家快速掌握云服务器的使用方法。
+classtime:4课时
+							19分钟
+classlevel:中级
+learnnum:2261人学习
+title:
+content:
+			本课程主要为大家介绍如何使用Windows系统及Linux系统云服务器。
+classtime:3课时
+							13分钟
+classlevel:中级
+learnnum:2189人学习
+title:
+content:
+			本课程通过产品介绍、应用场景介绍等，手把手教你快速入门。
+classtime:4课时
+							14分钟
+classlevel:中级
+learnnum:2232人学习
+title:
+content:
+			本课程深入浅出为你讲解COS的使用方法。
+classtime:5课时
+							30分钟
+classlevel:中级
+learnnum:2111人学习
+title:
+content:
+			本课程主要为大家讲解云计算的组成，COS对象存储及CDN内容分发网络。
+classtime:4课时
+							22分钟
+classlevel:初级
+learnnum:2112人学习
+title:
+content:
+			本课程主要带大家了解什么是云以及云计算的应用场景。
+classtime:5课时
+							19分钟
+classlevel:初级
+learnnum:2187人学习
+title:
+content:
+			本课主要阐述Dragonboard  410c支持的软硬件环境，外设接口，以及功能用途的同时，教大家如何去购买及使用Dragonboard  410c开发板。
+classtime:3课时
+							16分钟
+classlevel:初级
+learnnum:2278人学习
+title:
+content:
+			本课主要教大家如何在Android应用开发中加入NDK的编程开发，旨在借此让大家学会在Java代码中嵌入C/C++的高效代码，实现java/C混合编程。
+classtime:3课时
+							22分钟
+classlevel:初级
+learnnum:2221人学习
+title:
+content:
+			本课主要是教大家一款应用程序的开发、调试和部署。通过Android提供的蓝牙、网络通讯等模块的接口，讲解应用中对接口的调用和调试，并详细讲解应用在Studio虚拟设备上的部署和设备上的部署运行。
+classtime:2课时
+							27分钟
+classlevel:初级
+learnnum:2155人学习
+title:
+content:
+			1.介绍DragonBoard 410c网络服务
+2.配置Dragonboard 410c网络服务
+classtime:2课时
+							12分钟
+classlevel:初级
+learnnum:2116人学习
+title:
+content:
+			本课将教大家如何进行Android的游戏应用开发，包括介绍所开发游戏的架构及软件的应用接口等等，目的是让大家学会在Dragonboard410c 上开发属于自己游戏应用。
+classtime:2课时
+							17分钟
+classlevel:初级
+learnnum:2738人学习
+title:
+content:
+			本课教大家如何选择适合自己的操作系统和更换Dragonboard 410c开发板上的操作系统，包括在linux、windows环境下使用SD卡和fastboot工具来烧写android和linux操作系统，熟练掌握各种系统烧录工具和方法的使用。
+classtime:9课时
+							100分钟
+classlevel:初级
+learnnum:2256人学习
+title:
+content:
+			该课程详细讲解了如何1小时快速搭建一个应用号，包括搭建过程的演示与框架，搭建流程以及组件与API，手把手教你搭建你自己的第一个微信小程序
+classtime:3课时
+							30分钟
+classlevel:初级
+learnnum:5749人学习
+title:
+content:
+			本课程主要是教大家怎么解决开发板变砖的问题，通过给讲述开发板变砖的类型，解决变砖开发板的方法，最后教大家以正确的操作方式去预防开发板变砖。
+classtime:3课时
+							7分钟
+classlevel:初级
+learnnum:2421人学习
+title:
+content:
+			本课程主要介绍DragonBoard 410c的开发环境，APP开发推荐使用的软件。Android Studio的介绍和安装，git、adb和fastboot工具的介绍。
+classtime:6课时
+							26分钟
+classlevel:初级
+learnnum:2277人学习
+title:
+content:
+			对DragonBoard 410c开发公开课整套课程中所涉及到的一些专业术语和技术概念进行介绍，并对相关技术的使用进行了补充，让大家在后续课程中更快的理解和接受相关的技术知识点。
+classtime:3课时
+							15分钟
+classlevel:初级
+learnnum:2402人学习
+title:
+content:
+			对整个Dragonboard 410c开发公开课课程体系进行介绍，带大家熟悉整个课程体系中的九大课程模块内容。
+classtime:1课时
+							3分钟
+classlevel:初级
+learnnum:2683人学习
+title:LeMaker Guitar 官方 LeMuntu 系统体验
+content:
+			本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。
+classtime:4课时
+							9分钟
+classlevel:初级
+learnnum:3579人学习
+title:
+content:
+			本课程讲解使用 Axure RP8.0 原型设计工具来设计携程大型旅游网站，综合应用 Axure RP8.0 原型工具的页面区域、元件库应用、母版功能、交互设计、变量的使用等等功能，来设计携程大型旅游网站的注册、登录、页面布局设计、导航菜单母版设计、页签切换效果、海报轮播效果、跑马灯效果等等页面布局与交互设计，通过这个案例的学习，深入的应用 Axure RP8.0 原型工具，同时学会大型网站的原型设计。
+classtime:6课时
+							190分钟
+classlevel:高级
+learnnum:4480人学习
+title:登录到Guitar运行的 Linux系统
+content:
+			本课程主要介绍除了使用 HDMI 接口以外的系统登陆方式，便于后期在条件受限的情况下进行Guitar 的开发和学习。
+classtime:3课时
+							8分钟
+classlevel:初级
+learnnum:2904人学习
+title:LeMaker Guitar 系统安装
+content:
+			本课程主要介绍如何安装 Linux 和 Android 操作系统到不同的存储单元中，让学员在后面的学习和开发中能够快速灵活的更新操作系统。
+classtime:4课时
+							12分钟
+classlevel:初级
+learnnum:2728人学习
+title:
+content:
+			本课程主要是让学员初步认识 LeMaker Guitar 这个开发平台的硬件组成，介绍学习 LeMaker Guitar 的时候所需要的教程等资源应该如何获取。
+classtime:3课时
+							12分钟
+classlevel:初级
+learnnum:2968人学习
+title:综合案例：使用 Axure RP8.0 设计手机淘宝 App 高保真原型
+content:
+			本课程讲解使用 Axure RP8.0 原型设计工具来设计手机淘宝 App 的高保真原型设计，包括手机淘宝 App 底部标签导航母版设计，首页界面布局与交互设计、微淘界面布局与交互设计以及购物车界面布局与交互设计，通过这个案例的学习，掌握 Axure RP8.0 如何进行高保真原型设计。
+classtime:4课时
+							76分钟
+classlevel:中级
+learnnum:5911人学习
+title:
+content:
+			本课程讲解使用 Axure RP8.0 原型设计工具来设计支付宝 App 的低保真原型设计，通过母版的方式设计支付宝 App 的底部标签导航，支付宝界面、余额宝界面的布局与交互设计，利用中继器组件设计余额宝转入界面，口碑界面的布局与交互设计；通过支付宝 App 的低保真原型设计，进一步深化 Axure RP8.0 原型设计工具的使用。
+classtime:5课时
+							102分钟
+classlevel:中级
+learnnum:4751人学习
+title:Axure RP8.0 与 Axure RP7.0 的区别
+content:
+			本课程讲解 Axure RP8.0 与 Axure RP7.0 的区别，通过对比  Axure RP8 和 Axure RP7.0 原型设计工具，分析软件界面、菜单栏区域、工具栏区域、站点地图区域、部件区域、部件交互区域、部件管理区域、用例编辑以及发布设置、浏览器显示等等方面区别，学会 Axure RP8.0 原型设计工具的使用。
+classtime:5课时
+							71分钟
+classlevel:初级
+learnnum:3786人学习
+title:Cocos2d-x 引擎源码中的纹理优化
+content:
+			本课程将讲解Cocos2d-x的纹理优化，包括压缩纹理的原理和使用，纹理缓存机制，以及其他的一些纹理相关的优化方式，让你详细了解 Cocos2d-x 引擎是如何对纹理进行优化的。
+classtime:3课时
+							86分钟
+classlevel:高级
+learnnum:2792人学习
+title:
+content:
+			本课程从技术学习的角度解构与剖析 2016 苹果全球开发者大会，内容包括  WatchOS、TvOS、macOS 和 iOS 四大平台升级、三大应用开放和两处人工智能登场，以及程序员最关注的 Siri 的 API 开放。
+classtime:1课时
+							14分钟
+classlevel:初级
+learnnum:6179人学习
+title:Gulp + Sass + Bootstrap 网页开发实战
+content:
+			本课程将介绍如何使用 yo 快速开发一个基于 Gulp + Sass + Bootstrap 的网站，着重讲解 Gulp 这一自动化构建工具，并通过实例教学，帮助学员学习如何去快速搭建一个漂亮、功能完备的网站。
+classtime:4课时
+							35分钟
+classlevel:中级
+learnnum:4988人学习
+title:Android 快速开发框架之 xUtils3
+content:
+			本课程将详细讲解 xUtils3 的配置，并深入讲解注解模块、网络模块、图片模块、数据库模块四大模块在实际开发中的使用。
+classtime:6课时
+							95分钟
+classlevel:初级
+learnnum:7741人学习
+title:
+content:
+			本课程主要详细讲解 SQL Server 底层组件查询优化器的运行机制，了解合理的参数配置项，通过本课程的学习，理解 SQL Server 数据库底层查询优化器的运行方式，掌握我们所写的 T-SQL 语句的优化步骤，了解 SQL Server 底层原理进而掌握调优技巧。
+classtime:3课时
+							58分钟
+classlevel:中级
+learnnum:3907人学习
+title:
+content:
+			本课程介绍了一个完整的树莓派项目的开发过程——可用 web 控制的人体感应小夜灯。
+这个小夜灯算是一个功能很基础的「智能硬件」，但在现实生活中非常实用。
+大概说来，它具有以下功能特点：
+（1）可以在 web 页面上控制灯的开、关、以及自动模式，在自动模式下，当检测到人体接近的时候灯会自动点亮；
+（2）可在 web 页面上设置自动模式下的人体感应时间段，只有在指定的时间段内，灯才会感应人体接近状态。在其他时间段内，灯不会点亮。
+classtime:4课时
+							67分钟
+classlevel:中级
+learnnum:5419人学习
+title:
+content:
+			本课程讲述如何在用户的私有主机、公有主机上安装 Docker，同时介绍如何使用国内的镜像仓库。
+classtime:3课时
+							21分钟
+classlevel:中级
+learnnum:6335人学习
+title:
+content:
+			本课程将讲解Cocos2d-x的纹理，包括生成纹理之前，将信息从客户端保存的原始图片中解包出来，然后将信息传给GPU生成纹理，设置纹理属性，最后通过纹理单元将纹理传递给Shader，把纹理映射到图片上，让你详细了解 Cocos2d-x 引擎是如何进行使用纹理的。
+classtime:3课时
+							105分钟
+classlevel:高级
+learnnum:2852人学习
+title:Dubbo 使用入门（下）
+content:
+			本课使用 Dubbo 配置与 Web 工程交互，以及使用 Dubbo 配置多协议交互。
+classtime:3课时
+							53分钟
+classlevel:中级
+learnnum:4091人学习
+title:
+content:
+			本课程介绍异步编程和同步编程的区别，分析异步编程的优势。并且通过异步编程的实例，来引导学员学习异步编程思想，提高开发效率和改善编码风格。
+classtime:4课时
+							29分钟
+classlevel:中级
+learnnum:9139人学习
+title:
+content:
+			本课程主要针对2016 Google I/O大会Keynote发布的内容进行剖析。讲解Google目前发展的技术趋势及主打方向。并针对开发者在大会中所需要了解的知识方向进行分析。让开发者们了解接下去需要学习哪些技能来应对新发布的产品及技术。以及如何进行学习。
+classtime:4课时
+							52分钟
+classlevel:初级
+learnnum:10927人学习
+title:
+content:
+			本课程首先运行并解析第一个容器，然后介绍虚拟化和 Docker 的历史及云计算的基础知识。
+classtime:3课时
+							20分钟
+classlevel:中级
+learnnum:6521人学习
+title:OSG人机交互
+content:
+			本课程讲解 OSG 中的人机交互，课程从 OpenGL 成像流程入手，循循渐进的方式对每一步的转换做深入的解释说明，然后在引入 OSG 中具体的实现。知道了整个的流程，再学习场景漫游交互和对象拾取更容易理解了。
+classtime:3课时
+							36分钟
+classlevel:初级
+learnnum:2919人学习
+title:Arduino 模拟鼠标键盘（二）
+content:
+			本课程首先讲解利用 Arduino 来模拟鼠标键盘基本原理，然后通过对三个具体实例的讲解帮助学员掌握如何利用 Arduino 来模拟鼠标键盘操作。
+classtime:3课时
+							51分钟
+classlevel:中级
+learnnum:2816人学习
+title:
+content:
+			本课程主要讲解 Flume 的基础架构，然后会对 Flume 的三大组件（Source组件、Channel组件、Sink组件）以及 Flume 过滤器 ( Interceptors )、Flume Channel 选择器 ( Selectors )、Flume 序列化器 ( Serializers ) 进行详细的讲解。最后会讲解 Flume Sink 容错和负责均衡。
+classtime:4课时
+							45分钟
+classlevel:初级
+learnnum:3658人学习
+title:
+content:
+			本课程讲解一元线性回归的思想和原理，内容包括一元线性回归的术语和原理，以及对回归结果的检验，并通过实例演示一元线性回归的做法。
+classtime:3课时
+							50分钟
+classlevel:初级
+learnnum:2856人学习
+title:
+content:
+			本课程为OpenGL ES课程的下半部分，将把 OpenGL ES 和 EGL 以及 GLSL 串起来讲解，并按照 OpenGL ES 的流程，详细介绍OpenGL ES中的主要API，绑定 Shader，传入绘制信息，并执行绘制命令。
+classtime:3课时
+							116分钟
+classlevel:高级
+learnnum:2523人学习
+title:
+content:
+			本课程主要是腾讯大咖与大家分享一些技术经验与心得。
+classtime:6课时
+							122分钟
+classlevel:高级
+learnnum:2745人学习
+title:
+content:
+			本课程主要是由腾讯大咖为大家分享创业心经。
+classtime:7课时
+							93分钟
+classlevel:高级
+learnnum:2328人学习
+title:
+content:
+			本课程通过实操演示，教大家快速完成SDK集成。
+classtime:10课时
+							81分钟
+classlevel:中级
+learnnum:2206人学习
+title:
+content:
+			本课程主要为大家讲解SDK集成，iOS集成。
+classtime:10课时
+							106分钟
+classlevel:中级
+learnnum:2211人学习
+title:
+content:
+			本课程手把手教大家快速调用相关SDK。
+classtime:4课时
+							85分钟
+classlevel:中级
+learnnum:2121人学习
+title:
+content:
+			本课程主要为大家介绍云数据库的使用入门。
+classtime:1课时
+							9分钟
+classlevel:中级
+learnnum:2185人学习
+title:
+content:
+			本课程通过实操演示，教大家快速掌握云服务器的使用方法。
+classtime:4课时
+							19分钟
+classlevel:中级
+learnnum:2261人学习
+title:
+content:
+			本课程主要为大家介绍如何使用Windows系统及Linux系统云服务器。
+classtime:3课时
+							13分钟
+classlevel:中级
+learnnum:2189人学习
+title:
+content:
+			本课程通过产品介绍、应用场景介绍等，手把手教你快速入门。
+classtime:4课时
+							14分钟
+classlevel:中级
+learnnum:2232人学习
+title:
+content:
+			本课程深入浅出为你讲解COS的使用方法。
+classtime:5课时
+							30分钟
+classlevel:中级
+learnnum:2111人学习
+title:
+content:
+			本课程主要为大家讲解云计算的组成，COS对象存储及CDN内容分发网络。
+classtime:4课时
+							22分钟
+classlevel:初级
+learnnum:2112人学习
+title:
+content:
+			本课程主要带大家了解什么是云以及云计算的应用场景。
+classtime:5课时
+							19分钟
+classlevel:初级
+learnnum:2187人学习
+title:
+content:
+			本课主要阐述Dragonboard  410c支持的软硬件环境，外设接口，以及功能用途的同时，教大家如何去购买及使用Dragonboard  410c开发板。
+classtime:3课时
+							16分钟
+classlevel:初级
+learnnum:2278人学习
+title:
+content:
+			本课主要教大家如何在Android应用开发中加入NDK的编程开发，旨在借此让大家学会在Java代码中嵌入C/C++的高效代码，实现java/C混合编程。
+classtime:3课时
+							22分钟
+classlevel:初级
+learnnum:2221人学习
+title:
+content:
+			本课主要是教大家一款应用程序的开发、调试和部署。通过Android提供的蓝牙、网络通讯等模块的接口，讲解应用中对接口的调用和调试，并详细讲解应用在Studio虚拟设备上的部署和设备上的部署运行。
+classtime:2课时
+							27分钟
+classlevel:初级
+learnnum:2155人学习
+title:
+content:
+			1.介绍DragonBoard 410c网络服务
+2.配置Dragonboard 410c网络服务
+classtime:2课时
+							12分钟
+classlevel:初级
+learnnum:2116人学习
+title:
+content:
+			本课将教大家如何进行Android的游戏应用开发，包括介绍所开发游戏的架构及软件的应用接口等等，目的是让大家学会在Dragonboard410c 上开发属于自己游戏应用。
+classtime:2课时
+							17分钟
+classlevel:初级
+learnnum:2738人学习
+title:
+content:
+			本课教大家如何选择适合自己的操作系统和更换Dragonboard 410c开发板上的操作系统，包括在linux、windows环境下使用SD卡和fastboot工具来烧写android和linux操作系统，熟练掌握各种系统烧录工具和方法的使用。
+classtime:9课时
+							100分钟
+classlevel:初级
+learnnum:2256人学习
+title:
+content:
+			该课程详细讲解了如何1小时快速搭建一个应用号，包括搭建过程的演示与框架，搭建流程以及组件与API，手把手教你搭建你自己的第一个微信小程序
+classtime:3课时
+							30分钟
+classlevel:初级
+learnnum:5749人学习
+title:
+content:
+			本课程主要是教大家怎么解决开发板变砖的问题，通过给讲述开发板变砖的类型，解决变砖开发板的方法，最后教大家以正确的操作方式去预防开发板变砖。
+classtime:3课时
+							7分钟
+classlevel:初级
+learnnum:2421人学习
+title:
+content:
+			本课程主要介绍DragonBoard 410c的开发环境，APP开发推荐使用的软件。Android Studio的介绍和安装，git、adb和fastboot工具的介绍。
+classtime:6课时
+							26分钟
+classlevel:初级
+learnnum:2277人学习
+title:
+content:
+			对DragonBoard 410c开发公开课整套课程中所涉及到的一些专业术语和技术概念进行介绍，并对相关技术的使用进行了补充，让大家在后续课程中更快的理解和接受相关的技术知识点。
+classtime:3课时
+							15分钟
+classlevel:初级
+learnnum:2402人学习
+title:
+content:
+			对整个Dragonboard 410c开发公开课课程体系进行介绍，带大家熟悉整个课程体系中的九大课程模块内容。
+classtime:1课时
+							3分钟
+classlevel:初级
+learnnum:2683人学习
+title:LeMaker Guitar 官方 LeMuntu 系统体验
+content:
+			本课程主要介绍 LeMaker Guitar 官方的 Linux 操作系统 LeMuntu 该如何使用，以及如何配置主要的接口，为后期更深入的 Linux 系统开发和学习奠定基础。
+classtime:4课时
+							9分钟
+classlevel:初级
+learnnum:3579人学习
+title:
+content:
+			本课程讲解使用 Axure RP8.0 原型设计工具来设计携程大型旅游网站，综合应用 Axure RP8.0 原型工具的页面区域、元件库应用、母版功能、交互设计、变量的使用等等功能，来设计携程大型旅游网站的注册、登录、页面布局设计、导航菜单母版设计、页签切换效果、海报轮播效果、跑马灯效果等等页面布局与交互设计，通过这个案例的学习，深入的应用 Axure RP8.0 原型工具，同时学会大型网站的原型设计。
+classtime:6课时
+							190分钟
+classlevel:高级
+learnnum:4480人学习
+title:登录到Guitar运行的 Linux系统
+content:
+			本课程主要介绍除了使用 HDMI 接口以外的系统登陆方式，便于后期在条件受限的情况下进行Guitar 的开发和学习。
+classtime:3课时
+							8分钟
+classlevel:初级
+learnnum:2904人学习
+title:LeMaker Guitar 系统安装
+content:
+			本课程主要介绍如何安装 Linux 和 Android 操作系统到不同的存储单元中，让学员在后面的学习和开发中能够快速灵活的更新操作系统。
+classtime:4课时
+							12分钟
+classlevel:初级
+learnnum:2728人学习
+title:
+content:
+			本课程主要是让学员初步认识 LeMaker Guitar 这个开发平台的硬件组成，介绍学习 LeMaker Guitar 的时候所需要的教程等资源应该如何获取。
+classtime:3课时
+							12分钟
+classlevel:初级
+learnnum:2968人学习
+title:综合案例：使用 Axure RP8.0 设计手机淘宝 App 高保真原型
+content:
+			本课程讲解使用 Axure RP8.0 原型设计工具来设计手机淘宝 App 的高保真原型设计，包括手机淘宝 App 底部标签导航母版设计，首页界面布局与交互设计、微淘界面布局与交互设计以及购物车界面布局与交互设计，通过这个案例的学习，掌握 Axure RP8.0 如何进行高保真原型设计。
+classtime:4课时
+							76分钟
+classlevel:中级
+learnnum:5911人学习
+title:
+content:
+			本课程讲解使用 Axure RP8.0 原型设计工具来设计支付宝 App 的低保真原型设计，通过母版的方式设计支付宝 App 的底部标签导航，支付宝界面、余额宝界面的布局与交互设计，利用中继器组件设计余额宝转入界面，口碑界面的布局与交互设计；通过支付宝 App 的低保真原型设计，进一步深化 Axure RP8.0 原型设计工具的使用。
+classtime:5课时
+							102分钟
+classlevel:中级
+learnnum:4751人学习
+title:Axure RP8.0 与 Axure RP7.0 的区别
+content:
+			本课程讲解 Axure RP8.0 与 Axure RP7.0 的区别，通过对比  Axure RP8 和 Axure RP7.0 原型设计工具，分析软件界面、菜单栏区域、工具栏区域、站点地图区域、部件区域、部件交互区域、部件管理区域、用例编辑以及发布设置、浏览器显示等等方面区别，学会 Axure RP8.0 原型设计工具的使用。
+classtime:5课时
+							71分钟
+classlevel:初级
+learnnum:3786人学习
+title:Cocos2d-x 引擎源码中的纹理优化
+content:
+			本课程将讲解Cocos2d-x的纹理优化，包括压缩纹理的原理和使用，纹理缓存机制，以及其他的一些纹理相关的优化方式，让你详细了解 Cocos2d-x 引擎是如何对纹理进行优化的。
+classtime:3课时
+							86分钟
+classlevel:高级
+learnnum:2792人学习
+title:
+content:
+			本课程从技术学习的角度解构与剖析 2016 苹果全球开发者大会，内容包括  WatchOS、TvOS、macOS 和 iOS 四大平台升级、三大应用开放和两处人工智能登场，以及程序员最关注的 Siri 的 API 开放。
+classtime:1课时
+							14分钟
+classlevel:初级
+learnnum:6179人学习
+title:Gulp + Sass + Bootstrap 网页开发实战
+content:
+			本课程将介绍如何使用 yo 快速开发一个基于 Gulp + Sass + Bootstrap 的网站，着重讲解 Gulp 这一自动化构建工具，并通过实例教学，帮助学员学习如何去快速搭建一个漂亮、功能完备的网站。
+classtime:4课时
+							35分钟
+classlevel:中级
+learnnum:4988人学习
+title:Android 快速开发框架之 xUtils3
+content:
+			本课程将详细讲解 xUtils3 的配置，并深入讲解注解模块、网络模块、图片模块、数据库模块四大模块在实际开发中的使用。
+classtime:6课时
+							95分钟
+classlevel:初级
+learnnum:7741人学习
+title:
+content:
+			本课程主要详细讲解 SQL Server 底层组件查询优化器的运行机制，了解合理的参数配置项，通过本课程的学习，理解 SQL Server 数据库底层查询优化器的运行方式，掌握我们所写的 T-SQL 语句的优化步骤，了解 SQL Server 底层原理进而掌握调优技巧。
+classtime:3课时
+							58分钟
+classlevel:中级
+learnnum:3907人学习
+title:
+content:
+			本课程介绍了一个完整的树莓派项目的开发过程——可用 web 控制的人体感应小夜灯。
+这个小夜灯算是一个功能很基础的「智能硬件」，但在现实生活中非常实用。
+大概说来，它具有以下功能特点：
+（1）可以在 web 页面上控制灯的开、关、以及自动模式，在自动模式下，当检测到人体接近的时候灯会自动点亮；
+（2）可在 web 页面上设置自动模式下的人体感应时间段，只有在指定的时间段内，灯才会感应人体接近状态。在其他时间段内，灯不会点亮。
+classtime:4课时
+							67分钟
+classlevel:中级
+learnnum:5419人学习
+title:
+content:
+			本课程讲述如何在用户的私有主机、公有主机上安装 Docker，同时介绍如何使用国内的镜像仓库。
+classtime:3课时
+							21分钟
+classlevel:中级
+learnnum:6335人学习
+title:
+content:
+			本课程将讲解Cocos2d-x的纹理，包括生成纹理之前，将信息从客户端保存的原始图片中解包出来，然后将信息传给GPU生成纹理，设置纹理属性，最后通过纹理单元将纹理传递给Shader，把纹理映射到图片上，让你详细了解 Cocos2d-x 引擎是如何进行使用纹理的。
+classtime:3课时
+							105分钟
+classlevel:高级
+learnnum:2852人学习
+title:Dubbo 使用入门（下）
+content:
+			本课使用 Dubbo 配置与 Web 工程交互，以及使用 Dubbo 配置多协议交互。
+classtime:3课时
+							53分钟
+classlevel:中级
+learnnum:4091人学习
+title:
+content:
+			本课程介绍异步编程和同步编程的区别，分析异步编程的优势。并且通过异步编程的实例，来引导学员学习异步编程思想，提高开发效率和改善编码风格。
+classtime:4课时
+							29分钟
+classlevel:中级
+learnnum:9139人学习
+title:
+content:
+			本课程主要针对2016 Google I/O大会Keynote发布的内容进行剖析。讲解Google目前发展的技术趋势及主打方向。并针对开发者在大会中所需要了解的知识方向进行分析。让开发者们了解接下去需要学习哪些技能来应对新发布的产品及技术。以及如何进行学习。
+classtime:4课时
+							52分钟
+classlevel:初级
+learnnum:10927人学习
+title:
+content:
+			本课程首先运行并解析第一个容器，然后介绍虚拟化和 Docker 的历史及云计算的基础知识。
+classtime:3课时
+							20分钟
+classlevel:中级
+learnnum:6521人学习
+title:OSG人机交互
+content:
+			本课程讲解 OSG 中的人机交互，课程从 OpenGL 成像流程入手，循循渐进的方式对每一步的转换做深入的解释说明，然后在引入 OSG 中具体的实现。知道了整个的流程，再学习场景漫游交互和对象拾取更容易理解了。
+classtime:3课时
+							36分钟
+classlevel:初级
+learnnum:2919人学习
+title:Arduino 模拟鼠标键盘（二）
+content:
+			本课程首先讲解利用 Arduino 来模拟鼠标键盘基本原理，然后通过对三个具体实例的讲解帮助学员掌握如何利用 Arduino 来模拟鼠标键盘操作。
+classtime:3课时
+							51分钟
+classlevel:中级
+learnnum:2816人学习
+title:
+content:
+			本课程主要讲解 Flume 的基础架构，然后会对 Flume 的三大组件（Source组件、Channel组件、Sink组件）以及 Flume 过滤器 ( Interceptors )、Flume Channel 选择器 ( Selectors )、Flume 序列化器 ( Serializers ) 进行详细的讲解。最后会讲解 Flume Sink 容错和负责均衡。
+classtime:4课时
+							45分钟
+classlevel:初级
+learnnum:3658人学习
+title:
+content:
+			本课程讲解一元线性回归的思想和原理，内容包括一元线性回归的术语和原理，以及对回归结果的检验，并通过实例演示一元线性回归的做法。
+classtime:3课时
+							50分钟
+classlevel:初级
+learnnum:2856人学习
+title:
+content:
+			本课程为OpenGL ES课程的下半部分，将把 OpenGL ES 和 EGL 以及 GLSL 串起来讲解，并按照 OpenGL ES 的流程，详细介绍OpenGL ES中的主要API，绑定 Shader，传入绘制信息，并执行绘制命令。
+classtime:3课时
+							116分钟
+classlevel:高级
+learnnum:2523人学习
