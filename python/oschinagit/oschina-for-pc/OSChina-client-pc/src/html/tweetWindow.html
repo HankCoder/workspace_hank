@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<script type="text/javascript" src="../js/jquery-2.0.2.min.js"></script>
+		<script type="text/javascript" src="../js/window.js"></script>
+		<style>
+			.main{
+				border:1px #49585f solid;
+				height:170px;
+				overflow:visible;
+				border-radius:4px;
+				-webkit-user-select: none;	
+			}
+			#main-iframe{
+				height:520px;
+			}
+			.win-content{
+				height:150px;
+				border-radius:4px;
+				background-image:-webkit-gradient(linear, 0 0, 0 30%, from(rgba(255,255,255,0)), to(#ffffff));
+			}
+		</style>
+		<script>
+			$(function(){
+				Drag.init();
+				reBg();
+				$("#main-iframe")[0].contentDocument.write(_window_.loadHtml());	
+			});
+			
+			function tweetSuccess(){
+				parent._notifications_.showNotification("动弹提示","osc_tweet_notice","动弹成功！",5000);
+				$(".win-close").click();
+			}
+		</script>
+	</head>
+	<body>
+		<div class="main">
+			<div class="win-title">
+				<span class="win-title-text">动弹一下</span>
+				<span class="tools">
+					<a class="win-close" href="javascript:void(0)" onclick="windowClose()"></a>
+				<span>
+			</div>
+			<div class="win-content">
+				<iframe id="main-iframe" src="" frameborder="no" scrolling="no"></iframe>
+			</div>
+		</div>
+	</body>
+</html>

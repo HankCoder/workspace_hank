@@ -1,0 +1,413 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh-CN" xml:lang="zh-CN" xmlns="http://www.w3.org/1999/xhtml">
+ <head> 
+  <base href="http://my.oschina.net/" />
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" /> 
+  <meta content="zh-CN" http-equiv="Content-Language" /> 
+  <title> fantasy - 开源中国社区</title> 
+  <link href="${home}/css/styles.css" rel="stylesheet" type="text/css" /> 
+  <script src="${home}/js/jquery-1.7.1.min.js" type="text/javascript"></script> 
+  <script src="${home}/js/jquery.form.js" type="text/javascript"></script> 
+  <script src="${home}/js/oschina.js" type="text/javascript"></script> 
+  <script src="${home}/js/jquery.atwho.js" type="text/javascript"></script> 
+  <link href="${home}/css/jquery.atwho.css" rel="stylesheet" type="text/css" /> 
+  <style type="text/css">
+    body,table,input,textarea,select {font-family:微软雅黑,Verdana,sans-serif,宋体;}  
+  
+    div{-webkit-user-select: none;}
+    #MyTweetForm{
+        background:none;
+        padding:10px;
+        border:0px;
+    }
+</style> 
+ </head> 
+ <body style="background:none;"> 
+  <div id="OSC_Screen" style="width:538px;padding:0px;margin-bootom:0px;"> 
+   <div id="OSC_Content" style="margin:0px;"> 
+    <div id="SpaceMain" style="margin:0px;"> 
+     <div id="MyTweetForm"> 
+      <div id="TFormTitle">
+       <span class="r">还可以输入<em id="TweetContentLength">160</em>字</span>&nbsp;
+      </div> 
+      <form action="/action/tweet/pub" id="TForm" method="POST" onkeydown="if((event.metaKey || event.ctrlKey)&amp;&amp;event.keyCode==13){$('#TForm').submit();}"> 
+       <input name="user" type="hidden" value="272789" /> 
+       <input name="user_code" type="hidden" value="pbf3dy6lwtVBMPf1MC6p3LBYbNZf2ikoMIGqIt3M" /> 
+       <input id="TweetAttachment" name="attachment" type="hidden" value="0" /> 
+       <div id="TFormEditor">
+        <textarea id="TXT_Tweet_Text" name="msg"></textarea>
+       </div> 
+       <div id="TFormOpts"> 
+        <ul> 
+         <li class="t">插入：</li> 
+         <li class="emotion"><a href="javascript:insert_emotions()">表情</a></li> 
+         <li class="img"><a href="javascript:insert_images()">图片</a></li> 
+         <li class="app"><a href="javascript:insert_projects()">开源软件</a></li> 
+        </ul> 
+        <input class="B" type="submit" value="发 布" /> 
+        <div style="clear:right;"></div> 
+       </div> 
+      </form> 
+      <div id="TweetFormPopupWraper"> 
+       <div id="TweetFormPopupArrow"> 
+        <div id="TweetFormPopup"> 
+         <div id="TweetEmotions"> 
+          <div class="TweetPopupTitle">
+           <a href="javascript:;" onclick="$('#TweetFormPopupWraper').hide();return false;">关闭</a>插入表情
+          </div> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(0);" style="background-position: -0px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(1);" style="background-position: -24px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(2);" style="background-position: -48px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(3);" style="background-position: -72px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(4);" style="background-position: -96px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(5);" style="background-position: -120px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(6);" style="background-position: -144px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(7);" style="background-position: -168px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(8);" style="background-position: -192px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(9);" style="background-position: -216px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(10);" style="background-position: -240px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(11);" style="background-position: -264px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(12);" style="background-position: -288px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(13);" style="background-position: -312px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(14);" style="background-position: -336px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(15);" style="background-position: -360px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(16);" style="background-position: -384px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(17);" style="background-position: -408px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(18);" style="background-position: -432px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(19);" style="background-position: -456px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(20);" style="background-position: -480px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(21);" style="background-position: -504px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(22);" style="background-position: -528px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(23);" style="background-position: -552px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(24);" style="background-position: -576px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(25);" style="background-position: -600px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(26);" style="background-position: -624px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(27);" style="background-position: -648px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(28);" style="background-position: -672px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(29);" style="background-position: -696px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(30);" style="background-position: -720px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(31);" style="background-position: -744px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(32);" style="background-position: -768px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(33);" style="background-position: -792px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(34);" style="background-position: -816px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(35);" style="background-position: -840px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(36);" style="background-position: -864px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(37);" style="background-position: -888px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(38);" style="background-position: -912px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(39);" style="background-position: -936px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(40);" style="background-position: -960px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(41);" style="background-position: -984px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(42);" style="background-position: -1008px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(43);" style="background-position: -1032px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(44);" style="background-position: -1056px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(45);" style="background-position: -1080px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(46);" style="background-position: -1104px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(47);" style="background-position: -1128px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(48);" style="background-position: -1152px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(49);" style="background-position: -1176px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(50);" style="background-position: -1200px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(51);" style="background-position: -1224px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(52);" style="background-position: -1248px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(53);" style="background-position: -1272px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(54);" style="background-position: -1296px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(55);" style="background-position: -1320px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(56);" style="background-position: -1344px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(57);" style="background-position: -1368px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(58);" style="background-position: -1392px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(59);" style="background-position: -1416px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(60);" style="background-position: -1440px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(61);" style="background-position: -1464px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(62);" style="background-position: -1488px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(63);" style="background-position: -1512px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(64);" style="background-position: -1536px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(65);" style="background-position: -1560px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(66);" style="background-position: -1584px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(67);" style="background-position: -1608px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(68);" style="background-position: -1632px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(69);" style="background-position: -1656px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(70);" style="background-position: -1680px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(71);" style="background-position: -1704px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(72);" style="background-position: -1728px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(73);" style="background-position: -1752px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(74);" style="background-position: -1776px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(75);" style="background-position: -1800px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(76);" style="background-position: -1824px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(77);" style="background-position: -1848px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(78);" style="background-position: -1872px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(79);" style="background-position: -1896px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(80);" style="background-position: -1920px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(81);" style="background-position: -1944px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(82);" style="background-position: -1968px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(83);" style="background-position: -1992px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(84);" style="background-position: -2016px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(85);" style="background-position: -2040px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(86);" style="background-position: -2064px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(87);" style="background-position: -2088px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(88);" style="background-position: -2112px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(89);" style="background-position: -2136px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(90);" style="background-position: -2160px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(91);" style="background-position: -2184px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(92);" style="background-position: -2208px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(93);" style="background-position: -2232px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(94);" style="background-position: -2256px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(95);" style="background-position: -2280px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(96);" style="background-position: -2304px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(97);" style="background-position: -2328px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(98);" style="background-position: -2352px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(99);" style="background-position: -2376px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(100);" style="background-position: -2400px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(101);" style="background-position: -2424px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(102);" style="background-position: -2448px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(103);" style="background-position: -2472px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(104);" style="background-position: -2496px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(105);" style="background-position: -2520px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(106);" style="background-position: -2544px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(107);" style="background-position: -2568px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(108);" style="background-position: -2592px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(109);" style="background-position: -2616px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(110);" style="background-position: -2640px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(111);" style="background-position: -2664px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(112);" style="background-position: -2688px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(113);" style="background-position: -2712px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(114);" style="background-position: -2736px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(115);" style="background-position: -2760px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(116);" style="background-position: -2784px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(117);" style="background-position: -2808px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(118);" style="background-position: -2832px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(119);" style="background-position: -2856px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(120);" style="background-position: -2880px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(121);" style="background-position: -2904px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(122);" style="background-position: -2928px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(123);" style="background-position: -2952px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(124);" style="background-position: -2976px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(125);" style="background-position: -3000px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(126);" style="background-position: -3024px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(127);" style="background-position: -3048px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(128);" style="background-position: -3072px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(129);" style="background-position: -3096px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(130);" style="background-position: -3120px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(131);" style="background-position: -3144px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(132);" style="background-position: -3168px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(133);" style="background-position: -3192px 0px;"></a> 
+          <a class="emotion" href="javascript:;" onclick="return ins_e(134);" style="background-position: -3216px 0px;"></a> 
+          <div class="clear"></div> 
+         </div> 
+         <div id="TweetImages"> 
+          <div class="TweetPopupTitle">
+           <a href="javascript:;" onclick="$('#TweetFormPopupWraper').hide();return false;">关闭</a>插入图片
+          </div> 
+          <form action="/action/tweet/insert_img?user=272789" enctype="multipart/form-data" id="TweetImageForm" method="POST"> 
+           <div class="l"> 
+            <input checked="" id="ti_img_source_1" name="source" type="radio" value="1" /> 
+            <label for="ti_img_source_1">上传本地图片</label> 
+            <input id="ti_img_source_2" name="source" type="radio" value="2" /> 
+            <label for="ti_img_source_2">使用网络图片</label> 
+           </div> 
+           <div class="l" id="t_image_upload">
+             本地图片：
+            <input name="file" size="30" type="file" /> 
+           </div> 
+           <div class="l" id="t_image_network" style="display:none;">
+             网络图片: 
+            <input id="img_network_url" name="url" size="40" type="text" /> 
+           </div> 
+           <div class="l tip">
+            仅支持JPG、GIF、PNG图片文件，且文件小于200K
+           </div> 
+           <div class="l submit"> 
+            <input id="BTN_TweetImageInsert" style="height:24px;line-height:24px;padding:0 3px;" type="submit" value="插入图片" /> 
+            <span id="ajax_processing" style="display:none;">正在插入图片，请稍候...</span> 
+           </div> 
+          </form> 
+          <div id="TweetImage" style="display:none;"> 
+           <p> <span id="TweetImageFilename"></span> <a href="" id="DeleteTweetImage">删除</a> </p> 
+           <img id="TweetImageObj" src="" style="display:block;margin:10px;border:1px solid #40AA53;" /> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <script type="text/javascript">
+    var textbox = $("#TXT_Tweet_Text").textbox({
+        maxLength: 160,
+        onInput: function(event, status) {
+            var txt = jQuery.trim($("#TXT_Tweet_Text").val());
+            jQuery.cookie('last_tweet_text', null);         
+            jQuery.cookie('last_tweet_text', txt, {expires: 7,path:''});
+            $("#TweetContentLength").text(status.leftLength);
+        }
+    }); 
+    var last_tweet_text = jQuery.cookie('last_tweet_text');
+    if(last_tweet_text){
+        $("#TXT_Tweet_Text").val('');
+        textbox.insertText(last_tweet_text);
+    }
+    $('#TForm').ajaxForm({
+        dataType: 'json',
+        success: function(json) {
+            if(json.msg){
+                alert(json.msg);
+            }else if(json.log){
+                $('#TweetFormPopupWraper').hide();              
+                //重新绑定document的click方法使插入窗口能正常关闭
+                $(document).unbind('click',after_upload_image);
+                $(document).bind('click',before_upload_image);
+                jQuery.cookie('last_tweet_text', null);
+                $('#TweetContentLength').html("160");
+                parent.tweetSuccess();              $('#TweetImage').hide();
+                $('#TweetImageForm').slideDown();
+                $('#TweetAttachment').val(0);
+                $('#img_network_url').val('');
+            }
+        }
+    });
+    var before_upload_image = function(event){
+        if(!$(event.srcElement || event.target).is('#TweetFormPopupWraper,#TweetFormPopupWraper *,.TXT_TweetRpl_Text'))
+            $('#TweetFormPopupWraper').hide();
+    };
+    var after_upload_image = function(event){
+        if($(event.srcElement || event.target).is('#DeleteTweetImage'))
+            $('#TweetFormPopupWraper').hide();
+    };
+    
+    $(document).bind('click',before_upload_image);
+    
+    function insert_projects() {
+        textbox.insertText('#此处输入软件名#');
+        $('#TweetEmotions').removeAttr('txt_id');
+    }
+    function insert_emotions(id) {
+        if(id) {
+            $('#TweetEmotions').attr('txt_id',id);
+            var $offset = $('#TweetReplyForm_' + id).offset();
+            var $offset1 = $('#OSC_Content').offset();
+            var left = $offset.left - $offset1.left;
+            var top = $offset.top - $offset1.top;
+            $('#TweetFormPopupWraper').css({'top':top + 50 +'px','left':left-20+'px'});
+        }
+        else {
+            $('#TweetFormPopupWraper').css({'top':'','left':''});
+            $('#TweetEmotions').removeAttr('txt_id');
+        }
+        $('#TweetEmotions').show();
+        $('#TweetImages').hide();
+        $('#TweetFormPopupArrow').removeClass('projects');
+        $('#TweetFormPopupArrow').removeClass('images');
+        $('#TweetFormPopupArrow').addClass('emotions');
+        $('#TweetFormPopupWraper').slideDown('fast');
+    }
+    function insert_images() {
+        $('#TweetFormPopupWraper').css({'top':'','left':''});
+        $('#TweetEmotions').hide();
+        $('#TweetImages').show();
+        $('#TweetFormPopupArrow').addClass('images');
+        $('#TweetFormPopupArrow').removeClass('projects');
+        $('#TweetFormPopupArrow').removeClass('emotions');
+        $('#TweetFormPopupWraper').slideDown('fast');       
+    }
+    function ins_e(idx){
+        var txt_id = $('#TweetEmotions').attr('txt_id');
+        if(!txt_id)
+            textbox.insertText('['+idx+']');
+        else {
+            insertAtCursor('edt_tweet_post_'+txt_id,'['+idx+']');
+        }
+        $('#TweetFormPopupWraper').hide();
+        return false;
+    }
+    function insertAtCursor(tbid,str) {
+        var tb = document.getElementById(tbid);
+        if (document.selection){
+            tb.focus();
+            var r = document.selection.createRange();
+            document.selection.empty();
+            r.text = str;
+            r.collapse();
+            r.select();
+        }
+        else{
+            var newstart = tb.selectionStart+str.length;
+            tb.value=tb.value.substr(0,tb.selectionStart)+str+tb.value.substring(tb.selectionEnd);
+            tb.selectionStart = newstart;
+            tb.selectionEnd = newstart;
+        }
+    }
+    $('#TweetImages input[name=source]').click(function(){
+        var s = $(this).val();
+        if(s == 1){
+            $('#t_image_upload').show();
+            $('#t_image_network').hide();
+        }
+        else{
+            $('#t_image_upload').hide();
+            $('#t_image_network').show();
+            $('#img_network_url').focus();
+        }
+    });
+    $('#TweetImageForm').ajaxForm({
+        dataType: 'json',
+        success: function(json) {
+            if(json.msg){
+                alert(json.msg);
+            }else if(json.thumb){
+                //显示预览图
+                $('#TweetImageObj').attr('src',json.thumb);
+                $('#TweetImageForm').hide();
+                $('#TweetImageFilename').text(json.name);
+                $('#DeleteTweetImage').attr('href',"javascript:delete_tweet_photo("+json.id+")");
+                $('#TweetImage').slideDown();
+                $('#TweetAttachment').val(json.id);
+                //重新绑定document的click方法防止预览图关闭
+                $(document).unbind('click',before_upload_image);
+                $(document).bind('click',after_upload_image);
+            }
+        }
+    });
+    $("#TweetImageForm").ajaxStart(function(){
+        $('#BTN_TweetImageInsert').attr("disabled","disabled");
+        $('.ajax_processing').css('display','inline');
+    });
+    $("#TweetImageForm").ajaxComplete(function(event,request, settings){
+        $('#BTN_TweetImageInsert').removeAttr("disabled");
+        $('.ajax_processing').css('display','none');
+    }); 
+    function delete_tweet_photo(photo_id){
+        ajax_post("/action/photo/delete","id="+photo_id,function(html){
+            if(html.length==0){
+                $('#TweetImage').hide();
+                $('#TweetImageForm').slideDown();
+                $('#TweetAttachment').val(0);
+                //重新绑定document的click方法使插入窗口能正常关闭
+                $(document).unbind('click',after_upload_image);
+                $(document).bind('click',before_upload_image);
+            }
+            else
+                alert(html);
+        });
+    }
+</script> 
+     <style>.osc_red{color:#A00;margin-left:10px;}</style> 
+    </div> 
+
+   </div> 
+   <div class="clear"></div> 
+  </div>  
+  <script type="text/javascript">
+	function initAt() {
+	    $("#TForm textarea").atWho("@", function(query, callback){
+	        jQuery.ajax({
+	            type:'POST',
+	            url:"/action/tweet/at_suggest",
+	            data:{'q':query},
+	            dataType:'json',
+	            success:function(json){
+	                callback(json);
+	            }
+	        });
+	    });
+	}
+	initAt();
+</script>  
+ </body>
+</html>

@@ -1,0 +1,90 @@
+<html>
+<head>
+	<meta http-equiv=Content-Type content="text/html;charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+	<link rel="stylesheet" type="text/css" href="../js/jquery-poshytip/tip-yellow/tip-yellow.css"/>
+	<script type="text/javascript" src="../js/jquery-2.0.2.min.js"></script>
+	<script type="text/javascript" src="../js/urls.js"></script>
+	<script type="text/javascript" src="../js/api.js"></script>
+	<script type="text/javascript" src="../js/jquery-poshytip/jquery.poshytip.min.js"></script>
+	<script type="text/javascript" src="../js/service.js"></script>
+	<script type="text/javascript" src="../js/main.js"></script>
+</head>
+<body>
+	<div>
+		<div class="main-top">
+			<div id="user-portrait" style="background-image:url('../imgs/portrait.gif');"></div>
+			<ul class="user-info">
+				<li class="user-name"></li>
+				<li class="user-signature">这个人很懒，啥也没写</li>
+				<li class="fun-btns">
+					<span>
+						<a href="javascript:parent.parent._window_.openTweetWindow()" title="动弹一下" style="background:url('../imgs/tweet_icon.png')"></a>
+					</span>
+					<span>
+						<a href="http://www.oschina.net" title="OSC首页" style="background:url('../imgs/sicon.png')"></a>
+					</span>
+					<span>
+						<a href="http://www.ostools.net" title="OSCTools" style="background:url('../imgs/osctools-icon.png')"></a>
+					</span>
+					<span>
+						<a href="javascript:void(0)" onclick="about()" title="about" style="background:url('../imgs/about.png')"></a>
+					</span>
+				</li>
+			</ul>
+		</div>
+		<div class="main-content">
+			<ul class="tabs-title">
+				<li title="动弹" onclick="tabTitleClick(this,0)" class="tab-select"><span class="tab-tweet"></span></li>
+				<li title="新闻资讯" onclick="tabTitleClick(this,1)"><span class="tab-news"></span></li>
+				<li title="联系人" onclick="tabTitleClick(this,2)"><span class="tab-contact"></span></li>
+			</ul>
+			<div class="tabs-content">
+				<div class="tab-content">
+					<table cellspacing="0" cellpadding="0">
+						<tr class="sub-tab-title tweet-class">
+							<td>
+								<label onclick="tweetClassClick(this,'new-tweet-list')" class="tc-select">最新动弹</label>
+								<label onclick="tweetClassClick(this,'hot-tweet-list')">热门动弹</label>
+								<label onclick="tweetClassClick(this,'all-tweet-list')">全部动弹</label>
+								<button id="tweet-ref" class="refresh-btn" style="display:none;" onclick="allTweetRefresh()"><a href="javascript:void(0)"></a></button>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="cl tweet-list" id="new-tweet-list"><ul><ul></div>
+								<div class="cl tweet-list" id="hot-tweet-list"><ul><ul></div>
+								<div class="cl tweet-list" id="all-tweet-list">
+									<iframe id="all-tweet-frame" src="" width="100%" frameborder="no"></iframe>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="tab-content">
+					<table cellspacing="0" cellpadding="0">
+						<tr class="sub-tab-title news-class">
+							<td>
+								<label onclick="newsClassClick(this,'new-news-list')" class="tc-select">最新资讯</label>
+								<label onclick="newsClassClick(this,'new-blog-list')">最新博客</label>
+								<label onclick="newsClassClick(this,'rc-read-list')">推荐阅读</label>
+								<button id="news-ref" class="refresh-btn" onclick="newsRefresh()"><a href="javascript:void(0)"></a></button>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="cl news-list" id="new-news-list"><ul class="scroll-load"><ul></div>
+								<div class="cl news-list" id="new-blog-list"><ul class="scroll-load"><ul></div>
+								<div class="cl news-list" id="rc-read-list"><ul class="scroll-load"><ul></div>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="tab-content">
+					<div id="contact-list"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
