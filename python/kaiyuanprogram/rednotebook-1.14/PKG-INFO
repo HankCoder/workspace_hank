@@ -1,0 +1,15 @@
+Metadata-Version: 1.0
+Name: rednotebook
+Version: 1.14
+Summary: Graphical daily journal with calendar, templates and keyword searching
+Home-page: http://rednotebook.sourceforge.net
+Author: Jendrik Seipp
+Author-email: jendrikseipp@web.de
+License: GPL
+Description: RedNotebook is a modern desktop journal. It lets you format, tag and
+        search your entries. You can also add pictures, links and customizable
+        templates, spell check your notes, and export to plain text, HTML,
+        Latex or PDF.
+        
+Keywords: journal,diary
+Platform: UNKNOWN

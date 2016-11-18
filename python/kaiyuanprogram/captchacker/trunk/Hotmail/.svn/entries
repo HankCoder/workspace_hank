@@ -1,0 +1,43 @@
+10
+
+dir
+80
+http://captchacker.googlecode.com/svn/trunk/Hotmail
+http://captchacker.googlecode.com/svn
+
+
+
+2009-03-02T21:45:33.156453Z
+62
+remi.paucher@student.ecp.fr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2e5afe5e-f900-11dd-b556-9305e745af9e
+
+Rough Captchas
+dir
+
+DBTraining
+dir
+
+Models
+dir
+
+Preprocessed Catpchas
+dir
+
+DBTest
+dir
+

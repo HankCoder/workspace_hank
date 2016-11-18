@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/60/trunk/Egoshare/Models
+END
+captcha_based_TR=1018_TEST=348_C=1000_KERNEL=1.svm
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/49/trunk/Egoshare/Models/captcha_based_TR=1018_TEST=348_C=1000_KERNEL=1.svm
+END
+captcha_based_TR=576_TEST=143_C=1000_KERNEL=1.svm
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/39/trunk/Egoshare/Models/captcha_based_TR=576_TEST=143_C=1000_KERNEL=1.svm
+END
+Stats.txt
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/60/trunk/Egoshare/Models/Stats.txt
+END
+captcha_based_TR=687_TEST=143_C=1000_KERNEL=1.svm
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/44/trunk/Egoshare/Models/captcha_based_TR=687_TEST=143_C=1000_KERNEL=1.svm
+END
+captcha_based_TR=687_TEST=143_C=1000_KERNEL=2.svm
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/44/trunk/Egoshare/Models/captcha_based_TR=687_TEST=143_C=1000_KERNEL=2.svm
+END
+simulation_based_C=1000_KERNEL=1.svm
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/54/trunk/Egoshare/Models/simulation_based_C=1000_KERNEL=1.svm
+END
+captcha_based_TR=1896_TEST=714_C=1000_KERNEL=1.svm
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/50/trunk/Egoshare/Models/captcha_based_TR=1896_TEST=714_C=1000_KERNEL=1.svm
+END
+model_califb+comic_sans distortion_variation-seuil_c=100.svm
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/21/trunk/Egoshare/Models/model_califb+comic_sans%20distortion_variation-seuil_c=100.svm
+END
+model_WITH_CAPTCHA_DATA_C=1000_KERNEL=1.svm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/36/trunk/Egoshare/Models/model_WITH_CAPTCHA_DATA_C=1000_KERNEL=1.svm
+END

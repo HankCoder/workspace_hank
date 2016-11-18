@@ -1,0 +1,123 @@
+10
+
+dir
+80
+http://captchacker.googlecode.com/svn/trunk/Egoshare
+http://captchacker.googlecode.com/svn
+
+
+
+2009-02-27T14:32:37.480651Z
+60
+remi.paucher@student.ecp.fr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2e5afe5e-f900-11dd-b556-9305e745af9e
+
+Labelled Catpchas Test
+dir
+
+Rough Captchas
+dir
+
+Egoshare.exe
+file
+
+
+
+
+2016-02-13T02:22:18.871989Z
+5a12adacd68bd8936b05745befec5bce
+2009-02-22T20:53:59.495670Z
+50
+remi.paucher@student.ecp.fr
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16896
+
+DBTraining-Captcha_based
+dir
+
+DBTraining-Simulation_based
+dir
+
+Egoshare Preprocessing
+file
+
+
+
+
+2016-02-13T02:22:18.871989Z
+0fb1395ce773b80229dbcb4aa24271ba
+2009-02-21T22:13:56.750313Z
+31
+hellwoxx
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+104753
+
+Computer Labelled Captcha based set
+dir
+
+Models
+dir
+
+DBTest-Captcha_based
+dir
+
+DBTest-Simulation_based
+dir
+
+Labelled Catpchas Training
+dir
+

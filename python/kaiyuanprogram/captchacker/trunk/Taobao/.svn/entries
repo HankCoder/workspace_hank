@@ -1,0 +1,43 @@
+10
+
+dir
+80
+http://captchacker.googlecode.com/svn/trunk/Taobao
+http://captchacker.googlecode.com/svn
+
+
+
+2009-02-19T23:05:20.398406Z
+15
+remi.paucher@student.ecp.fr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2e5afe5e-f900-11dd-b556-9305e745af9e
+
+Rough Captchas
+dir
+
+DBTraining
+dir
+
+Models
+dir
+
+Preprocessed Catpchas
+dir
+
+DBTest
+dir
+
