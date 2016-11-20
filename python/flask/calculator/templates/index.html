@@ -1,0 +1,19 @@
+<head>
+	<title>Calculator</title>
+	<script src="add.js" type="text/javascript"></script>
+</head>
+<body>
+	<div align="center" style="margin-top:40px;">
+		<img src="add.png">
+	</div>
+	<div align="center" style="margin-top:60px;">
+		<form name="form1" method="POST">
+			{{message}}
+			<input type="text" placeholder="adder" name="adder1">+
+			<input type="text" placeholder="adder-2" name="adder2">=
+			<input type="text" readonlyp="readonly "laceholder="result"
+			name="result" value={{message}}>
+			<input type="submit" value="Calculator" onclick="add()">
+		</form>
+	</div>
+</body>
