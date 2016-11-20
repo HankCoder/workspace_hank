@@ -1,0 +1,1317 @@
+QtMultimedia.QAbstractVideoBuffer.MapMode?10
+QtMultimedia.QAbstractVideoBuffer.NotMapped?10
+QtMultimedia.QAbstractVideoBuffer.ReadOnly?10
+QtMultimedia.QAbstractVideoBuffer.WriteOnly?10
+QtMultimedia.QAbstractVideoBuffer.ReadWrite?10
+QtMultimedia.QAbstractVideoBuffer.HandleType?10
+QtMultimedia.QAbstractVideoBuffer.NoHandle?10
+QtMultimedia.QAbstractVideoBuffer.GLTextureHandle?10
+QtMultimedia.QAbstractVideoBuffer.XvShmImageHandle?10
+QtMultimedia.QAbstractVideoBuffer.CoreImageHandle?10
+QtMultimedia.QAbstractVideoBuffer.QPixmapHandle?10
+QtMultimedia.QAbstractVideoBuffer.UserHandle?10
+QtMultimedia.QAbstractVideoBuffer?1(QAbstractVideoBuffer.HandleType)
+QtMultimedia.QAbstractVideoBuffer.__init__?1(self, QAbstractVideoBuffer.HandleType)
+QtMultimedia.QAbstractVideoBuffer.handleType?4() -> QAbstractVideoBuffer.HandleType
+QtMultimedia.QAbstractVideoBuffer.mapMode?4() -> QAbstractVideoBuffer.MapMode
+QtMultimedia.QAbstractVideoBuffer.map?4(QAbstractVideoBuffer.MapMode) -> (sip.voidptr, int, int)
+QtMultimedia.QAbstractVideoBuffer.unmap?4()
+QtMultimedia.QAbstractVideoBuffer.handle?4() -> QVariant
+QtMultimedia.QAbstractVideoBuffer.release?4()
+QtMultimedia.QAbstractVideoSurface.Error?10
+QtMultimedia.QAbstractVideoSurface.NoError?10
+QtMultimedia.QAbstractVideoSurface.UnsupportedFormatError?10
+QtMultimedia.QAbstractVideoSurface.IncorrectFormatError?10
+QtMultimedia.QAbstractVideoSurface.StoppedError?10
+QtMultimedia.QAbstractVideoSurface.ResourceError?10
+QtMultimedia.QAbstractVideoSurface?1(QObject parent=None)
+QtMultimedia.QAbstractVideoSurface.__init__?1(self, QObject parent=None)
+QtMultimedia.QAbstractVideoSurface.supportedPixelFormats?4(QAbstractVideoBuffer.HandleType type=QAbstractVideoBuffer.NoHandle) -> list-of-QVideoFrame.PixelFormat
+QtMultimedia.QAbstractVideoSurface.isFormatSupported?4(QVideoSurfaceFormat) -> bool
+QtMultimedia.QAbstractVideoSurface.nearestFormat?4(QVideoSurfaceFormat) -> QVideoSurfaceFormat
+QtMultimedia.QAbstractVideoSurface.surfaceFormat?4() -> QVideoSurfaceFormat
+QtMultimedia.QAbstractVideoSurface.start?4(QVideoSurfaceFormat) -> bool
+QtMultimedia.QAbstractVideoSurface.stop?4()
+QtMultimedia.QAbstractVideoSurface.isActive?4() -> bool
+QtMultimedia.QAbstractVideoSurface.present?4(QVideoFrame) -> bool
+QtMultimedia.QAbstractVideoSurface.error?4() -> QAbstractVideoSurface.Error
+QtMultimedia.QAbstractVideoSurface.activeChanged?4(bool)
+QtMultimedia.QAbstractVideoSurface.surfaceFormatChanged?4(QVideoSurfaceFormat)
+QtMultimedia.QAbstractVideoSurface.supportedFormatsChanged?4()
+QtMultimedia.QAbstractVideoSurface.setError?4(QAbstractVideoSurface.Error)
+QtMultimedia.QAbstractVideoSurface.nativeResolution?4() -> QSize
+QtMultimedia.QAbstractVideoSurface.setNativeResolution?4(QSize)
+QtMultimedia.QAbstractVideoSurface.nativeResolutionChanged?4(QSize)
+QtMultimedia.QAudio.Mode?10
+QtMultimedia.QAudio.AudioInput?10
+QtMultimedia.QAudio.AudioOutput?10
+QtMultimedia.QAudio.State?10
+QtMultimedia.QAudio.ActiveState?10
+QtMultimedia.QAudio.SuspendedState?10
+QtMultimedia.QAudio.StoppedState?10
+QtMultimedia.QAudio.IdleState?10
+QtMultimedia.QAudio.Error?10
+QtMultimedia.QAudio.NoError?10
+QtMultimedia.QAudio.OpenError?10
+QtMultimedia.QAudio.IOError?10
+QtMultimedia.QAudio.UnderrunError?10
+QtMultimedia.QAudio.FatalError?10
+QtMultimedia.QAudioBuffer?1()
+QtMultimedia.QAudioBuffer.__init__?1(self)
+QtMultimedia.QAudioBuffer?1(QByteArray, QAudioFormat, int startTime=-1)
+QtMultimedia.QAudioBuffer.__init__?1(self, QByteArray, QAudioFormat, int startTime=-1)
+QtMultimedia.QAudioBuffer?1(int, QAudioFormat, int startTime=-1)
+QtMultimedia.QAudioBuffer.__init__?1(self, int, QAudioFormat, int startTime=-1)
+QtMultimedia.QAudioBuffer?1(QAudioBuffer)
+QtMultimedia.QAudioBuffer.__init__?1(self, QAudioBuffer)
+QtMultimedia.QAudioBuffer.isValid?4() -> bool
+QtMultimedia.QAudioBuffer.format?4() -> QAudioFormat
+QtMultimedia.QAudioBuffer.frameCount?4() -> int
+QtMultimedia.QAudioBuffer.sampleCount?4() -> int
+QtMultimedia.QAudioBuffer.byteCount?4() -> int
+QtMultimedia.QAudioBuffer.duration?4() -> int
+QtMultimedia.QAudioBuffer.startTime?4() -> int
+QtMultimedia.QAudioBuffer.constData?4() -> sip.voidptr
+QtMultimedia.QAudioBuffer.data?4() -> sip.voidptr
+QtMultimedia.QMediaObject?1(QObject, QMediaService)
+QtMultimedia.QMediaObject.__init__?1(self, QObject, QMediaService)
+QtMultimedia.QMediaObject.isAvailable?4() -> bool
+QtMultimedia.QMediaObject.availability?4() -> QMultimedia.AvailabilityStatus
+QtMultimedia.QMediaObject.service?4() -> QMediaService
+QtMultimedia.QMediaObject.notifyInterval?4() -> int
+QtMultimedia.QMediaObject.setNotifyInterval?4(int)
+QtMultimedia.QMediaObject.bind?4(QObject) -> bool
+QtMultimedia.QMediaObject.unbind?4(QObject)
+QtMultimedia.QMediaObject.isMetaDataAvailable?4() -> bool
+QtMultimedia.QMediaObject.metaData?4(str) -> QVariant
+QtMultimedia.QMediaObject.availableMetaData?4() -> list-of-str
+QtMultimedia.QMediaObject.notifyIntervalChanged?4(int)
+QtMultimedia.QMediaObject.metaDataAvailableChanged?4(bool)
+QtMultimedia.QMediaObject.metaDataChanged?4()
+QtMultimedia.QMediaObject.metaDataChanged?4(str, QVariant)
+QtMultimedia.QMediaObject.availabilityChanged?4(QMultimedia.AvailabilityStatus)
+QtMultimedia.QMediaObject.addPropertyWatch?4(QByteArray)
+QtMultimedia.QMediaObject.removePropertyWatch?4(QByteArray)
+QtMultimedia.QAudioDecoder.Error?10
+QtMultimedia.QAudioDecoder.NoError?10
+QtMultimedia.QAudioDecoder.ResourceError?10
+QtMultimedia.QAudioDecoder.FormatError?10
+QtMultimedia.QAudioDecoder.AccessDeniedError?10
+QtMultimedia.QAudioDecoder.ServiceMissingError?10
+QtMultimedia.QAudioDecoder.State?10
+QtMultimedia.QAudioDecoder.StoppedState?10
+QtMultimedia.QAudioDecoder.DecodingState?10
+QtMultimedia.QAudioDecoder?1(QObject parent=None)
+QtMultimedia.QAudioDecoder.__init__?1(self, QObject parent=None)
+QtMultimedia.QAudioDecoder.hasSupport?4(str, list-of-str codecs=QStringList()) -> QMultimedia.SupportEstimate
+QtMultimedia.QAudioDecoder.state?4() -> QAudioDecoder.State
+QtMultimedia.QAudioDecoder.sourceFilename?4() -> str
+QtMultimedia.QAudioDecoder.setSourceFilename?4(str)
+QtMultimedia.QAudioDecoder.sourceDevice?4() -> QIODevice
+QtMultimedia.QAudioDecoder.setSourceDevice?4(QIODevice)
+QtMultimedia.QAudioDecoder.audioFormat?4() -> QAudioFormat
+QtMultimedia.QAudioDecoder.setAudioFormat?4(QAudioFormat)
+QtMultimedia.QAudioDecoder.error?4() -> QAudioDecoder.Error
+QtMultimedia.QAudioDecoder.errorString?4() -> str
+QtMultimedia.QAudioDecoder.read?4() -> QAudioBuffer
+QtMultimedia.QAudioDecoder.bufferAvailable?4() -> bool
+QtMultimedia.QAudioDecoder.position?4() -> int
+QtMultimedia.QAudioDecoder.duration?4() -> int
+QtMultimedia.QAudioDecoder.start?4()
+QtMultimedia.QAudioDecoder.stop?4()
+QtMultimedia.QAudioDecoder.bufferAvailableChanged?4(bool)
+QtMultimedia.QAudioDecoder.bufferReady?4()
+QtMultimedia.QAudioDecoder.finished?4()
+QtMultimedia.QAudioDecoder.stateChanged?4(QAudioDecoder.State)
+QtMultimedia.QAudioDecoder.formatChanged?4(QAudioFormat)
+QtMultimedia.QAudioDecoder.error?4(QAudioDecoder.Error)
+QtMultimedia.QAudioDecoder.sourceChanged?4()
+QtMultimedia.QAudioDecoder.positionChanged?4(int)
+QtMultimedia.QAudioDecoder.durationChanged?4(int)
+QtMultimedia.QAudioDecoder.bind?4(QObject) -> bool
+QtMultimedia.QAudioDecoder.unbind?4(QObject)
+QtMultimedia.QAudioDeviceInfo?1()
+QtMultimedia.QAudioDeviceInfo.__init__?1(self)
+QtMultimedia.QAudioDeviceInfo?1(QAudioDeviceInfo)
+QtMultimedia.QAudioDeviceInfo.__init__?1(self, QAudioDeviceInfo)
+QtMultimedia.QAudioDeviceInfo.isNull?4() -> bool
+QtMultimedia.QAudioDeviceInfo.deviceName?4() -> str
+QtMultimedia.QAudioDeviceInfo.isFormatSupported?4(QAudioFormat) -> bool
+QtMultimedia.QAudioDeviceInfo.preferredFormat?4() -> QAudioFormat
+QtMultimedia.QAudioDeviceInfo.nearestFormat?4(QAudioFormat) -> QAudioFormat
+QtMultimedia.QAudioDeviceInfo.supportedCodecs?4() -> list-of-str
+QtMultimedia.QAudioDeviceInfo.supportedSampleSizes?4() -> list-of-int
+QtMultimedia.QAudioDeviceInfo.supportedByteOrders?4() -> list-of-QAudioFormat.Endian
+QtMultimedia.QAudioDeviceInfo.supportedSampleTypes?4() -> list-of-QAudioFormat.SampleType
+QtMultimedia.QAudioDeviceInfo.defaultInputDevice?4() -> QAudioDeviceInfo
+QtMultimedia.QAudioDeviceInfo.defaultOutputDevice?4() -> QAudioDeviceInfo
+QtMultimedia.QAudioDeviceInfo.availableDevices?4(QAudio.Mode) -> list-of-QAudioDeviceInfo
+QtMultimedia.QAudioDeviceInfo.supportedSampleRates?4() -> list-of-int
+QtMultimedia.QAudioDeviceInfo.supportedChannelCounts?4() -> list-of-int
+QtMultimedia.QAudioFormat.Endian?10
+QtMultimedia.QAudioFormat.BigEndian?10
+QtMultimedia.QAudioFormat.LittleEndian?10
+QtMultimedia.QAudioFormat.SampleType?10
+QtMultimedia.QAudioFormat.Unknown?10
+QtMultimedia.QAudioFormat.SignedInt?10
+QtMultimedia.QAudioFormat.UnSignedInt?10
+QtMultimedia.QAudioFormat.Float?10
+QtMultimedia.QAudioFormat?1()
+QtMultimedia.QAudioFormat.__init__?1(self)
+QtMultimedia.QAudioFormat?1(QAudioFormat)
+QtMultimedia.QAudioFormat.__init__?1(self, QAudioFormat)
+QtMultimedia.QAudioFormat.isValid?4() -> bool
+QtMultimedia.QAudioFormat.setSampleSize?4(int)
+QtMultimedia.QAudioFormat.sampleSize?4() -> int
+QtMultimedia.QAudioFormat.setCodec?4(str)
+QtMultimedia.QAudioFormat.codec?4() -> str
+QtMultimedia.QAudioFormat.setByteOrder?4(QAudioFormat.Endian)
+QtMultimedia.QAudioFormat.byteOrder?4() -> QAudioFormat.Endian
+QtMultimedia.QAudioFormat.setSampleType?4(QAudioFormat.SampleType)
+QtMultimedia.QAudioFormat.sampleType?4() -> QAudioFormat.SampleType
+QtMultimedia.QAudioFormat.setSampleRate?4(int)
+QtMultimedia.QAudioFormat.sampleRate?4() -> int
+QtMultimedia.QAudioFormat.setChannelCount?4(int)
+QtMultimedia.QAudioFormat.channelCount?4() -> int
+QtMultimedia.QAudioFormat.bytesForDuration?4(int) -> int
+QtMultimedia.QAudioFormat.durationForBytes?4(int) -> int
+QtMultimedia.QAudioFormat.bytesForFrames?4(int) -> int
+QtMultimedia.QAudioFormat.framesForBytes?4(int) -> int
+QtMultimedia.QAudioFormat.framesForDuration?4(int) -> int
+QtMultimedia.QAudioFormat.durationForFrames?4(int) -> int
+QtMultimedia.QAudioFormat.bytesPerFrame?4() -> int
+QtMultimedia.QAudioInput?1(QAudioFormat format=QAudioFormat(), QObject parent=None)
+QtMultimedia.QAudioInput.__init__?1(self, QAudioFormat format=QAudioFormat(), QObject parent=None)
+QtMultimedia.QAudioInput?1(QAudioDeviceInfo, QAudioFormat format=QAudioFormat(), QObject parent=None)
+QtMultimedia.QAudioInput.__init__?1(self, QAudioDeviceInfo, QAudioFormat format=QAudioFormat(), QObject parent=None)
+QtMultimedia.QAudioInput.format?4() -> QAudioFormat
+QtMultimedia.QAudioInput.start?4(QIODevice)
+QtMultimedia.QAudioInput.start?4() -> QIODevice
+QtMultimedia.QAudioInput.stop?4()
+QtMultimedia.QAudioInput.reset?4()
+QtMultimedia.QAudioInput.suspend?4()
+QtMultimedia.QAudioInput.resume?4()
+QtMultimedia.QAudioInput.setBufferSize?4(int)
+QtMultimedia.QAudioInput.bufferSize?4() -> int
+QtMultimedia.QAudioInput.bytesReady?4() -> int
+QtMultimedia.QAudioInput.periodSize?4() -> int
+QtMultimedia.QAudioInput.setNotifyInterval?4(int)
+QtMultimedia.QAudioInput.notifyInterval?4() -> int
+QtMultimedia.QAudioInput.processedUSecs?4() -> int
+QtMultimedia.QAudioInput.elapsedUSecs?4() -> int
+QtMultimedia.QAudioInput.error?4() -> QAudio.Error
+QtMultimedia.QAudioInput.state?4() -> QAudio.State
+QtMultimedia.QAudioInput.stateChanged?4(QAudio.State)
+QtMultimedia.QAudioInput.notify?4()
+QtMultimedia.QAudioInput.setVolume?4(float)
+QtMultimedia.QAudioInput.volume?4() -> float
+QtMultimedia.QAudioOutput?1(QAudioFormat format=QAudioFormat(), QObject parent=None)
+QtMultimedia.QAudioOutput.__init__?1(self, QAudioFormat format=QAudioFormat(), QObject parent=None)
+QtMultimedia.QAudioOutput?1(QAudioDeviceInfo, QAudioFormat format=QAudioFormat(), QObject parent=None)
+QtMultimedia.QAudioOutput.__init__?1(self, QAudioDeviceInfo, QAudioFormat format=QAudioFormat(), QObject parent=None)
+QtMultimedia.QAudioOutput.format?4() -> QAudioFormat
+QtMultimedia.QAudioOutput.start?4(QIODevice)
+QtMultimedia.QAudioOutput.start?4() -> QIODevice
+QtMultimedia.QAudioOutput.stop?4()
+QtMultimedia.QAudioOutput.reset?4()
+QtMultimedia.QAudioOutput.suspend?4()
+QtMultimedia.QAudioOutput.resume?4()
+QtMultimedia.QAudioOutput.setBufferSize?4(int)
+QtMultimedia.QAudioOutput.bufferSize?4() -> int
+QtMultimedia.QAudioOutput.bytesFree?4() -> int
+QtMultimedia.QAudioOutput.periodSize?4() -> int
+QtMultimedia.QAudioOutput.setNotifyInterval?4(int)
+QtMultimedia.QAudioOutput.notifyInterval?4() -> int
+QtMultimedia.QAudioOutput.processedUSecs?4() -> int
+QtMultimedia.QAudioOutput.elapsedUSecs?4() -> int
+QtMultimedia.QAudioOutput.error?4() -> QAudio.Error
+QtMultimedia.QAudioOutput.state?4() -> QAudio.State
+QtMultimedia.QAudioOutput.stateChanged?4(QAudio.State)
+QtMultimedia.QAudioOutput.notify?4()
+QtMultimedia.QAudioOutput.setVolume?4(float)
+QtMultimedia.QAudioOutput.volume?4() -> float
+QtMultimedia.QAudioOutput.category?4() -> str
+QtMultimedia.QAudioOutput.setCategory?4(str)
+QtMultimedia.QAudioProbe?1(QObject parent=None)
+QtMultimedia.QAudioProbe.__init__?1(self, QObject parent=None)
+QtMultimedia.QAudioProbe.setSource?4(QMediaObject) -> bool
+QtMultimedia.QAudioProbe.setSource?4(QMediaRecorder) -> bool
+QtMultimedia.QAudioProbe.isActive?4() -> bool
+QtMultimedia.QAudioProbe.audioBufferProbed?4(QAudioBuffer)
+QtMultimedia.QAudioProbe.flush?4()
+QtMultimedia.QMediaBindableInterface?1()
+QtMultimedia.QMediaBindableInterface.__init__?1(self)
+QtMultimedia.QMediaBindableInterface?1(QMediaBindableInterface)
+QtMultimedia.QMediaBindableInterface.__init__?1(self, QMediaBindableInterface)
+QtMultimedia.QMediaBindableInterface.mediaObject?4() -> QMediaObject
+QtMultimedia.QMediaBindableInterface.setMediaObject?4(QMediaObject) -> bool
+QtMultimedia.QMediaRecorder.Error?10
+QtMultimedia.QMediaRecorder.NoError?10
+QtMultimedia.QMediaRecorder.ResourceError?10
+QtMultimedia.QMediaRecorder.FormatError?10
+QtMultimedia.QMediaRecorder.OutOfSpaceError?10
+QtMultimedia.QMediaRecorder.Status?10
+QtMultimedia.QMediaRecorder.UnavailableStatus?10
+QtMultimedia.QMediaRecorder.UnloadedStatus?10
+QtMultimedia.QMediaRecorder.LoadingStatus?10
+QtMultimedia.QMediaRecorder.LoadedStatus?10
+QtMultimedia.QMediaRecorder.StartingStatus?10
+QtMultimedia.QMediaRecorder.RecordingStatus?10
+QtMultimedia.QMediaRecorder.PausedStatus?10
+QtMultimedia.QMediaRecorder.FinalizingStatus?10
+QtMultimedia.QMediaRecorder.State?10
+QtMultimedia.QMediaRecorder.StoppedState?10
+QtMultimedia.QMediaRecorder.RecordingState?10
+QtMultimedia.QMediaRecorder.PausedState?10
+QtMultimedia.QMediaRecorder?1(QMediaObject, QObject parent=None)
+QtMultimedia.QMediaRecorder.__init__?1(self, QMediaObject, QObject parent=None)
+QtMultimedia.QMediaRecorder.mediaObject?4() -> QMediaObject
+QtMultimedia.QMediaRecorder.isAvailable?4() -> bool
+QtMultimedia.QMediaRecorder.availability?4() -> QMultimedia.AvailabilityStatus
+QtMultimedia.QMediaRecorder.outputLocation?4() -> QUrl
+QtMultimedia.QMediaRecorder.setOutputLocation?4(QUrl) -> bool
+QtMultimedia.QMediaRecorder.actualLocation?4() -> QUrl
+QtMultimedia.QMediaRecorder.state?4() -> QMediaRecorder.State
+QtMultimedia.QMediaRecorder.status?4() -> QMediaRecorder.Status
+QtMultimedia.QMediaRecorder.error?4() -> QMediaRecorder.Error
+QtMultimedia.QMediaRecorder.errorString?4() -> str
+QtMultimedia.QMediaRecorder.duration?4() -> int
+QtMultimedia.QMediaRecorder.isMuted?4() -> bool
+QtMultimedia.QMediaRecorder.volume?4() -> float
+QtMultimedia.QMediaRecorder.supportedContainers?4() -> list-of-str
+QtMultimedia.QMediaRecorder.containerDescription?4(str) -> str
+QtMultimedia.QMediaRecorder.supportedAudioCodecs?4() -> list-of-str
+QtMultimedia.QMediaRecorder.audioCodecDescription?4(str) -> str
+QtMultimedia.QMediaRecorder.supportedAudioSampleRates?4(QAudioEncoderSettings settings=QAudioEncoderSettings()) -> (list-of-int, bool)
+QtMultimedia.QMediaRecorder.supportedVideoCodecs?4() -> list-of-str
+QtMultimedia.QMediaRecorder.videoCodecDescription?4(str) -> str
+QtMultimedia.QMediaRecorder.supportedResolutions?4(QVideoEncoderSettings settings=QVideoEncoderSettings()) -> (list-of-QSize, bool)
+QtMultimedia.QMediaRecorder.supportedFrameRates?4(QVideoEncoderSettings settings=QVideoEncoderSettings()) -> (list-of-float, bool)
+QtMultimedia.QMediaRecorder.audioSettings?4() -> QAudioEncoderSettings
+QtMultimedia.QMediaRecorder.videoSettings?4() -> QVideoEncoderSettings
+QtMultimedia.QMediaRecorder.containerFormat?4() -> str
+QtMultimedia.QMediaRecorder.setAudioSettings?4(QAudioEncoderSettings)
+QtMultimedia.QMediaRecorder.setVideoSettings?4(QVideoEncoderSettings)
+QtMultimedia.QMediaRecorder.setContainerFormat?4(str)
+QtMultimedia.QMediaRecorder.setEncodingSettings?4(QAudioEncoderSettings, QVideoEncoderSettings video=QVideoEncoderSettings(), str container=QString())
+QtMultimedia.QMediaRecorder.isMetaDataAvailable?4() -> bool
+QtMultimedia.QMediaRecorder.isMetaDataWritable?4() -> bool
+QtMultimedia.QMediaRecorder.metaData?4(str) -> QVariant
+QtMultimedia.QMediaRecorder.setMetaData?4(str, QVariant)
+QtMultimedia.QMediaRecorder.availableMetaData?4() -> list-of-str
+QtMultimedia.QMediaRecorder.record?4()
+QtMultimedia.QMediaRecorder.pause?4()
+QtMultimedia.QMediaRecorder.stop?4()
+QtMultimedia.QMediaRecorder.setMuted?4(bool)
+QtMultimedia.QMediaRecorder.setVolume?4(float)
+QtMultimedia.QMediaRecorder.stateChanged?4(QMediaRecorder.State)
+QtMultimedia.QMediaRecorder.statusChanged?4(QMediaRecorder.Status)
+QtMultimedia.QMediaRecorder.durationChanged?4(int)
+QtMultimedia.QMediaRecorder.mutedChanged?4(bool)
+QtMultimedia.QMediaRecorder.volumeChanged?4(float)
+QtMultimedia.QMediaRecorder.actualLocationChanged?4(QUrl)
+QtMultimedia.QMediaRecorder.error?4(QMediaRecorder.Error)
+QtMultimedia.QMediaRecorder.metaDataAvailableChanged?4(bool)
+QtMultimedia.QMediaRecorder.metaDataWritableChanged?4(bool)
+QtMultimedia.QMediaRecorder.metaDataChanged?4(str, QVariant)
+QtMultimedia.QMediaRecorder.availabilityChanged?4(QMultimedia.AvailabilityStatus)
+QtMultimedia.QMediaRecorder.setMediaObject?4(QMediaObject) -> bool
+QtMultimedia.QAudioRecorder?1(QObject parent=None)
+QtMultimedia.QAudioRecorder.__init__?1(self, QObject parent=None)
+QtMultimedia.QAudioRecorder.audioInputs?4() -> list-of-str
+QtMultimedia.QAudioRecorder.defaultAudioInput?4() -> str
+QtMultimedia.QAudioRecorder.audioInputDescription?4(str) -> str
+QtMultimedia.QAudioRecorder.audioInput?4() -> str
+QtMultimedia.QAudioRecorder.setAudioInput?4(str)
+QtMultimedia.QAudioRecorder.audioInputChanged?4(str)
+QtMultimedia.QAudioRecorder.availableAudioInputsChanged?4()
+QtMultimedia.QCamera.LockType?10
+QtMultimedia.QCamera.NoLock?10
+QtMultimedia.QCamera.LockExposure?10
+QtMultimedia.QCamera.LockWhiteBalance?10
+QtMultimedia.QCamera.LockFocus?10
+QtMultimedia.QCamera.LockChangeReason?10
+QtMultimedia.QCamera.UserRequest?10
+QtMultimedia.QCamera.LockAcquired?10
+QtMultimedia.QCamera.LockFailed?10
+QtMultimedia.QCamera.LockLost?10
+QtMultimedia.QCamera.LockTemporaryLost?10
+QtMultimedia.QCamera.LockStatus?10
+QtMultimedia.QCamera.Unlocked?10
+QtMultimedia.QCamera.Searching?10
+QtMultimedia.QCamera.Locked?10
+QtMultimedia.QCamera.Error?10
+QtMultimedia.QCamera.NoError?10
+QtMultimedia.QCamera.CameraError?10
+QtMultimedia.QCamera.InvalidRequestError?10
+QtMultimedia.QCamera.ServiceMissingError?10
+QtMultimedia.QCamera.NotSupportedFeatureError?10
+QtMultimedia.QCamera.CaptureMode?10
+QtMultimedia.QCamera.CaptureViewfinder?10
+QtMultimedia.QCamera.CaptureStillImage?10
+QtMultimedia.QCamera.CaptureVideo?10
+QtMultimedia.QCamera.State?10
+QtMultimedia.QCamera.UnloadedState?10
+QtMultimedia.QCamera.LoadedState?10
+QtMultimedia.QCamera.ActiveState?10
+QtMultimedia.QCamera.Status?10
+QtMultimedia.QCamera.UnavailableStatus?10
+QtMultimedia.QCamera.UnloadedStatus?10
+QtMultimedia.QCamera.LoadingStatus?10
+QtMultimedia.QCamera.UnloadingStatus?10
+QtMultimedia.QCamera.LoadedStatus?10
+QtMultimedia.QCamera.StandbyStatus?10
+QtMultimedia.QCamera.StartingStatus?10
+QtMultimedia.QCamera.StoppingStatus?10
+QtMultimedia.QCamera.ActiveStatus?10
+QtMultimedia.QCamera?1(QObject parent=None)
+QtMultimedia.QCamera.__init__?1(self, QObject parent=None)
+QtMultimedia.QCamera?1(QByteArray, QObject parent=None)
+QtMultimedia.QCamera.__init__?1(self, QByteArray, QObject parent=None)
+QtMultimedia.QCamera.availableDevices?4() -> list-of-QByteArray
+QtMultimedia.QCamera.deviceDescription?4(QByteArray) -> str
+QtMultimedia.QCamera.availability?4() -> QMultimedia.AvailabilityStatus
+QtMultimedia.QCamera.state?4() -> QCamera.State
+QtMultimedia.QCamera.status?4() -> QCamera.Status
+QtMultimedia.QCamera.captureMode?4() -> QCamera.CaptureModes
+QtMultimedia.QCamera.isCaptureModeSupported?4(QCamera.CaptureModes) -> bool
+QtMultimedia.QCamera.exposure?4() -> QCameraExposure
+QtMultimedia.QCamera.focus?4() -> QCameraFocus
+QtMultimedia.QCamera.imageProcessing?4() -> QCameraImageProcessing
+QtMultimedia.QCamera.setViewfinder?4(QVideoWidget)
+QtMultimedia.QCamera.setViewfinder?4(QGraphicsVideoItem)
+QtMultimedia.QCamera.setViewfinder?4(QAbstractVideoSurface)
+QtMultimedia.QCamera.error?4() -> QCamera.Error
+QtMultimedia.QCamera.errorString?4() -> str
+QtMultimedia.QCamera.supportedLocks?4() -> QCamera.LockTypes
+QtMultimedia.QCamera.requestedLocks?4() -> QCamera.LockTypes
+QtMultimedia.QCamera.lockStatus?4() -> QCamera.LockStatus
+QtMultimedia.QCamera.lockStatus?4(QCamera.LockType) -> QCamera.LockStatus
+QtMultimedia.QCamera.setCaptureMode?4(QCamera.CaptureModes)
+QtMultimedia.QCamera.load?4()
+QtMultimedia.QCamera.unload?4()
+QtMultimedia.QCamera.start?4()
+QtMultimedia.QCamera.stop?4()
+QtMultimedia.QCamera.searchAndLock?4()
+QtMultimedia.QCamera.unlock?4()
+QtMultimedia.QCamera.searchAndLock?4(QCamera.LockTypes)
+QtMultimedia.QCamera.unlock?4(QCamera.LockTypes)
+QtMultimedia.QCamera.stateChanged?4(QCamera.State)
+QtMultimedia.QCamera.captureModeChanged?4(QCamera.CaptureModes)
+QtMultimedia.QCamera.statusChanged?4(QCamera.Status)
+QtMultimedia.QCamera.locked?4()
+QtMultimedia.QCamera.lockFailed?4()
+QtMultimedia.QCamera.lockStatusChanged?4(QCamera.LockStatus, QCamera.LockChangeReason)
+QtMultimedia.QCamera.lockStatusChanged?4(QCamera.LockType, QCamera.LockStatus, QCamera.LockChangeReason)
+QtMultimedia.QCamera.error?4(QCamera.Error)
+QtMultimedia.QCamera.CaptureModes?1(QCamera.CaptureModes)
+QtMultimedia.QCamera.CaptureModes.__init__?1(self, QCamera.CaptureModes)
+QtMultimedia.QCamera.CaptureModes?1(int)
+QtMultimedia.QCamera.CaptureModes.__init__?1(self, int)
+QtMultimedia.QCamera.CaptureModes?1()
+QtMultimedia.QCamera.CaptureModes.__init__?1(self)
+QtMultimedia.QCamera.LockTypes?1(QCamera.LockTypes)
+QtMultimedia.QCamera.LockTypes.__init__?1(self, QCamera.LockTypes)
+QtMultimedia.QCamera.LockTypes?1(int)
+QtMultimedia.QCamera.LockTypes.__init__?1(self, int)
+QtMultimedia.QCamera.LockTypes?1()
+QtMultimedia.QCamera.LockTypes.__init__?1(self)
+QtMultimedia.QCameraExposure.MeteringMode?10
+QtMultimedia.QCameraExposure.MeteringMatrix?10
+QtMultimedia.QCameraExposure.MeteringAverage?10
+QtMultimedia.QCameraExposure.MeteringSpot?10
+QtMultimedia.QCameraExposure.ExposureMode?10
+QtMultimedia.QCameraExposure.ExposureAuto?10
+QtMultimedia.QCameraExposure.ExposureManual?10
+QtMultimedia.QCameraExposure.ExposurePortrait?10
+QtMultimedia.QCameraExposure.ExposureNight?10
+QtMultimedia.QCameraExposure.ExposureBacklight?10
+QtMultimedia.QCameraExposure.ExposureSpotlight?10
+QtMultimedia.QCameraExposure.ExposureSports?10
+QtMultimedia.QCameraExposure.ExposureSnow?10
+QtMultimedia.QCameraExposure.ExposureBeach?10
+QtMultimedia.QCameraExposure.ExposureLargeAperture?10
+QtMultimedia.QCameraExposure.ExposureSmallAperture?10
+QtMultimedia.QCameraExposure.ExposureModeVendor?10
+QtMultimedia.QCameraExposure.FlashMode?10
+QtMultimedia.QCameraExposure.FlashAuto?10
+QtMultimedia.QCameraExposure.FlashOff?10
+QtMultimedia.QCameraExposure.FlashOn?10
+QtMultimedia.QCameraExposure.FlashRedEyeReduction?10
+QtMultimedia.QCameraExposure.FlashFill?10
+QtMultimedia.QCameraExposure.FlashTorch?10
+QtMultimedia.QCameraExposure.FlashVideoLight?10
+QtMultimedia.QCameraExposure.FlashSlowSyncFrontCurtain?10
+QtMultimedia.QCameraExposure.FlashSlowSyncRearCurtain?10
+QtMultimedia.QCameraExposure.FlashManual?10
+QtMultimedia.QCameraExposure.isAvailable?4() -> bool
+QtMultimedia.QCameraExposure.flashMode?4() -> QCameraExposure.FlashModes
+QtMultimedia.QCameraExposure.isFlashModeSupported?4(QCameraExposure.FlashModes) -> bool
+QtMultimedia.QCameraExposure.isFlashReady?4() -> bool
+QtMultimedia.QCameraExposure.exposureMode?4() -> QCameraExposure.ExposureMode
+QtMultimedia.QCameraExposure.isExposureModeSupported?4(QCameraExposure.ExposureMode) -> bool
+QtMultimedia.QCameraExposure.exposureCompensation?4() -> float
+QtMultimedia.QCameraExposure.meteringMode?4() -> QCameraExposure.MeteringMode
+QtMultimedia.QCameraExposure.isMeteringModeSupported?4(QCameraExposure.MeteringMode) -> bool
+QtMultimedia.QCameraExposure.spotMeteringPoint?4() -> QPointF
+QtMultimedia.QCameraExposure.setSpotMeteringPoint?4(QPointF)
+QtMultimedia.QCameraExposure.isoSensitivity?4() -> int
+QtMultimedia.QCameraExposure.aperture?4() -> float
+QtMultimedia.QCameraExposure.shutterSpeed?4() -> float
+QtMultimedia.QCameraExposure.requestedIsoSensitivity?4() -> int
+QtMultimedia.QCameraExposure.requestedAperture?4() -> float
+QtMultimedia.QCameraExposure.requestedShutterSpeed?4() -> float
+QtMultimedia.QCameraExposure.supportedIsoSensitivities?4() -> (list-of-int, bool)
+QtMultimedia.QCameraExposure.supportedApertures?4() -> (list-of-float, bool)
+QtMultimedia.QCameraExposure.supportedShutterSpeeds?4() -> (list-of-float, bool)
+QtMultimedia.QCameraExposure.setFlashMode?4(QCameraExposure.FlashModes)
+QtMultimedia.QCameraExposure.setExposureMode?4(QCameraExposure.ExposureMode)
+QtMultimedia.QCameraExposure.setMeteringMode?4(QCameraExposure.MeteringMode)
+QtMultimedia.QCameraExposure.setExposureCompensation?4(float)
+QtMultimedia.QCameraExposure.setManualIsoSensitivity?4(int)
+QtMultimedia.QCameraExposure.setAutoIsoSensitivity?4()
+QtMultimedia.QCameraExposure.setManualAperture?4(float)
+QtMultimedia.QCameraExposure.setAutoAperture?4()
+QtMultimedia.QCameraExposure.setManualShutterSpeed?4(float)
+QtMultimedia.QCameraExposure.setAutoShutterSpeed?4()
+QtMultimedia.QCameraExposure.flashReady?4(bool)
+QtMultimedia.QCameraExposure.apertureChanged?4(float)
+QtMultimedia.QCameraExposure.apertureRangeChanged?4()
+QtMultimedia.QCameraExposure.shutterSpeedChanged?4(float)
+QtMultimedia.QCameraExposure.shutterSpeedRangeChanged?4()
+QtMultimedia.QCameraExposure.isoSensitivityChanged?4(int)
+QtMultimedia.QCameraExposure.exposureCompensationChanged?4(float)
+QtMultimedia.QCameraExposure.FlashModes?1(QCameraExposure.FlashModes)
+QtMultimedia.QCameraExposure.FlashModes.__init__?1(self, QCameraExposure.FlashModes)
+QtMultimedia.QCameraExposure.FlashModes?1(int)
+QtMultimedia.QCameraExposure.FlashModes.__init__?1(self, int)
+QtMultimedia.QCameraExposure.FlashModes?1()
+QtMultimedia.QCameraExposure.FlashModes.__init__?1(self)
+QtMultimedia.QCameraFocusZone.FocusZoneStatus?10
+QtMultimedia.QCameraFocusZone.Invalid?10
+QtMultimedia.QCameraFocusZone.Unused?10
+QtMultimedia.QCameraFocusZone.Selected?10
+QtMultimedia.QCameraFocusZone.Focused?10
+QtMultimedia.QCameraFocusZone?1(QCameraFocusZone)
+QtMultimedia.QCameraFocusZone.__init__?1(self, QCameraFocusZone)
+QtMultimedia.QCameraFocusZone.isValid?4() -> bool
+QtMultimedia.QCameraFocusZone.area?4() -> QRectF
+QtMultimedia.QCameraFocusZone.status?4() -> QCameraFocusZone.FocusZoneStatus
+QtMultimedia.QCameraFocus.FocusPointMode?10
+QtMultimedia.QCameraFocus.FocusPointAuto?10
+QtMultimedia.QCameraFocus.FocusPointCenter?10
+QtMultimedia.QCameraFocus.FocusPointFaceDetection?10
+QtMultimedia.QCameraFocus.FocusPointCustom?10
+QtMultimedia.QCameraFocus.FocusMode?10
+QtMultimedia.QCameraFocus.ManualFocus?10
+QtMultimedia.QCameraFocus.HyperfocalFocus?10
+QtMultimedia.QCameraFocus.InfinityFocus?10
+QtMultimedia.QCameraFocus.AutoFocus?10
+QtMultimedia.QCameraFocus.ContinuousFocus?10
+QtMultimedia.QCameraFocus.MacroFocus?10
+QtMultimedia.QCameraFocus.isAvailable?4() -> bool
+QtMultimedia.QCameraFocus.focusMode?4() -> QCameraFocus.FocusModes
+QtMultimedia.QCameraFocus.setFocusMode?4(QCameraFocus.FocusModes)
+QtMultimedia.QCameraFocus.isFocusModeSupported?4(QCameraFocus.FocusModes) -> bool
+QtMultimedia.QCameraFocus.focusPointMode?4() -> QCameraFocus.FocusPointMode
+QtMultimedia.QCameraFocus.setFocusPointMode?4(QCameraFocus.FocusPointMode)
+QtMultimedia.QCameraFocus.isFocusPointModeSupported?4(QCameraFocus.FocusPointMode) -> bool
+QtMultimedia.QCameraFocus.customFocusPoint?4() -> QPointF
+QtMultimedia.QCameraFocus.setCustomFocusPoint?4(QPointF)
+QtMultimedia.QCameraFocus.focusZones?4() -> list-of-QCameraFocusZone
+QtMultimedia.QCameraFocus.maximumOpticalZoom?4() -> float
+QtMultimedia.QCameraFocus.maximumDigitalZoom?4() -> float
+QtMultimedia.QCameraFocus.opticalZoom?4() -> float
+QtMultimedia.QCameraFocus.digitalZoom?4() -> float
+QtMultimedia.QCameraFocus.zoomTo?4(float, float)
+QtMultimedia.QCameraFocus.opticalZoomChanged?4(float)
+QtMultimedia.QCameraFocus.digitalZoomChanged?4(float)
+QtMultimedia.QCameraFocus.focusZonesChanged?4()
+QtMultimedia.QCameraFocus.maximumOpticalZoomChanged?4(float)
+QtMultimedia.QCameraFocus.maximumDigitalZoomChanged?4(float)
+QtMultimedia.QCameraFocus.FocusModes?1(QCameraFocus.FocusModes)
+QtMultimedia.QCameraFocus.FocusModes.__init__?1(self, QCameraFocus.FocusModes)
+QtMultimedia.QCameraFocus.FocusModes?1(int)
+QtMultimedia.QCameraFocus.FocusModes.__init__?1(self, int)
+QtMultimedia.QCameraFocus.FocusModes?1()
+QtMultimedia.QCameraFocus.FocusModes.__init__?1(self)
+QtMultimedia.QCameraImageCapture.CaptureDestination?10
+QtMultimedia.QCameraImageCapture.CaptureToFile?10
+QtMultimedia.QCameraImageCapture.CaptureToBuffer?10
+QtMultimedia.QCameraImageCapture.DriveMode?10
+QtMultimedia.QCameraImageCapture.SingleImageCapture?10
+QtMultimedia.QCameraImageCapture.Error?10
+QtMultimedia.QCameraImageCapture.NoError?10
+QtMultimedia.QCameraImageCapture.NotReadyError?10
+QtMultimedia.QCameraImageCapture.ResourceError?10
+QtMultimedia.QCameraImageCapture.OutOfSpaceError?10
+QtMultimedia.QCameraImageCapture.NotSupportedFeatureError?10
+QtMultimedia.QCameraImageCapture.FormatError?10
+QtMultimedia.QCameraImageCapture?1(QMediaObject, QObject parent=None)
+QtMultimedia.QCameraImageCapture.__init__?1(self, QMediaObject, QObject parent=None)
+QtMultimedia.QCameraImageCapture.isAvailable?4() -> bool
+QtMultimedia.QCameraImageCapture.availability?4() -> QMultimedia.AvailabilityStatus
+QtMultimedia.QCameraImageCapture.mediaObject?4() -> QMediaObject
+QtMultimedia.QCameraImageCapture.error?4() -> QCameraImageCapture.Error
+QtMultimedia.QCameraImageCapture.errorString?4() -> str
+QtMultimedia.QCameraImageCapture.isReadyForCapture?4() -> bool
+QtMultimedia.QCameraImageCapture.supportedImageCodecs?4() -> list-of-str
+QtMultimedia.QCameraImageCapture.imageCodecDescription?4(str) -> str
+QtMultimedia.QCameraImageCapture.supportedResolutions?4(QImageEncoderSettings settings=QImageEncoderSettings()) -> (list-of-QSize, bool)
+QtMultimedia.QCameraImageCapture.encodingSettings?4() -> QImageEncoderSettings
+QtMultimedia.QCameraImageCapture.setEncodingSettings?4(QImageEncoderSettings)
+QtMultimedia.QCameraImageCapture.supportedBufferFormats?4() -> list-of-QVideoFrame.PixelFormat
+QtMultimedia.QCameraImageCapture.bufferFormat?4() -> QVideoFrame.PixelFormat
+QtMultimedia.QCameraImageCapture.setBufferFormat?4(QVideoFrame.PixelFormat)
+QtMultimedia.QCameraImageCapture.isCaptureDestinationSupported?4(QCameraImageCapture.CaptureDestinations) -> bool
+QtMultimedia.QCameraImageCapture.captureDestination?4() -> QCameraImageCapture.CaptureDestinations
+QtMultimedia.QCameraImageCapture.setCaptureDestination?4(QCameraImageCapture.CaptureDestinations)
+QtMultimedia.QCameraImageCapture.capture?4(str file=QString()) -> int
+QtMultimedia.QCameraImageCapture.cancelCapture?4()
+QtMultimedia.QCameraImageCapture.error?4(int, QCameraImageCapture.Error, str)
+QtMultimedia.QCameraImageCapture.readyForCaptureChanged?4(bool)
+QtMultimedia.QCameraImageCapture.bufferFormatChanged?4(QVideoFrame.PixelFormat)
+QtMultimedia.QCameraImageCapture.captureDestinationChanged?4(QCameraImageCapture.CaptureDestinations)
+QtMultimedia.QCameraImageCapture.imageExposed?4(int)
+QtMultimedia.QCameraImageCapture.imageCaptured?4(int, QImage)
+QtMultimedia.QCameraImageCapture.imageMetadataAvailable?4(int, str, QVariant)
+QtMultimedia.QCameraImageCapture.imageAvailable?4(int, QVideoFrame)
+QtMultimedia.QCameraImageCapture.imageSaved?4(int, str)
+QtMultimedia.QCameraImageCapture.setMediaObject?4(QMediaObject) -> bool
+QtMultimedia.QCameraImageCapture.CaptureDestinations?1(QCameraImageCapture.CaptureDestinations)
+QtMultimedia.QCameraImageCapture.CaptureDestinations.__init__?1(self, QCameraImageCapture.CaptureDestinations)
+QtMultimedia.QCameraImageCapture.CaptureDestinations?1(int)
+QtMultimedia.QCameraImageCapture.CaptureDestinations.__init__?1(self, int)
+QtMultimedia.QCameraImageCapture.CaptureDestinations?1()
+QtMultimedia.QCameraImageCapture.CaptureDestinations.__init__?1(self)
+QtMultimedia.QCameraImageProcessing.WhiteBalanceMode?10
+QtMultimedia.QCameraImageProcessing.WhiteBalanceAuto?10
+QtMultimedia.QCameraImageProcessing.WhiteBalanceManual?10
+QtMultimedia.QCameraImageProcessing.WhiteBalanceSunlight?10
+QtMultimedia.QCameraImageProcessing.WhiteBalanceCloudy?10
+QtMultimedia.QCameraImageProcessing.WhiteBalanceShade?10
+QtMultimedia.QCameraImageProcessing.WhiteBalanceTungsten?10
+QtMultimedia.QCameraImageProcessing.WhiteBalanceFluorescent?10
+QtMultimedia.QCameraImageProcessing.WhiteBalanceFlash?10
+QtMultimedia.QCameraImageProcessing.WhiteBalanceSunset?10
+QtMultimedia.QCameraImageProcessing.WhiteBalanceVendor?10
+QtMultimedia.QCameraImageProcessing.isAvailable?4() -> bool
+QtMultimedia.QCameraImageProcessing.whiteBalanceMode?4() -> QCameraImageProcessing.WhiteBalanceMode
+QtMultimedia.QCameraImageProcessing.setWhiteBalanceMode?4(QCameraImageProcessing.WhiteBalanceMode)
+QtMultimedia.QCameraImageProcessing.isWhiteBalanceModeSupported?4(QCameraImageProcessing.WhiteBalanceMode) -> bool
+QtMultimedia.QCameraImageProcessing.manualWhiteBalance?4() -> float
+QtMultimedia.QCameraImageProcessing.setManualWhiteBalance?4(float)
+QtMultimedia.QCameraImageProcessing.contrast?4() -> float
+QtMultimedia.QCameraImageProcessing.setContrast?4(float)
+QtMultimedia.QCameraImageProcessing.saturation?4() -> float
+QtMultimedia.QCameraImageProcessing.setSaturation?4(float)
+QtMultimedia.QCameraImageProcessing.sharpeningLevel?4() -> float
+QtMultimedia.QCameraImageProcessing.setSharpeningLevel?4(float)
+QtMultimedia.QCameraImageProcessing.denoisingLevel?4() -> float
+QtMultimedia.QCameraImageProcessing.setDenoisingLevel?4(float)
+QtMultimedia.QMediaContent?1()
+QtMultimedia.QMediaContent.__init__?1(self)
+QtMultimedia.QMediaContent?1(QUrl)
+QtMultimedia.QMediaContent.__init__?1(self, QUrl)
+QtMultimedia.QMediaContent?1(QNetworkRequest)
+QtMultimedia.QMediaContent.__init__?1(self, QNetworkRequest)
+QtMultimedia.QMediaContent?1(QMediaResource)
+QtMultimedia.QMediaContent.__init__?1(self, QMediaResource)
+QtMultimedia.QMediaContent?1(list-of-QMediaResource)
+QtMultimedia.QMediaContent.__init__?1(self, list-of-QMediaResource)
+QtMultimedia.QMediaContent?1(QMediaContent)
+QtMultimedia.QMediaContent.__init__?1(self, QMediaContent)
+QtMultimedia.QMediaContent?1(QMediaPlaylist, QUrl contentUrl=QUrl())
+QtMultimedia.QMediaContent.__init__?1(self, QMediaPlaylist, QUrl contentUrl=QUrl())
+QtMultimedia.QMediaContent.isNull?4() -> bool
+QtMultimedia.QMediaContent.canonicalUrl?4() -> QUrl
+QtMultimedia.QMediaContent.canonicalRequest?4() -> QNetworkRequest
+QtMultimedia.QMediaContent.canonicalResource?4() -> QMediaResource
+QtMultimedia.QMediaContent.resources?4() -> list-of-QMediaResource
+QtMultimedia.QMediaContent.playlist?4() -> QMediaPlaylist
+QtMultimedia.QMediaControl?1(QObject parent=None)
+QtMultimedia.QMediaControl.__init__?1(self, QObject parent=None)
+QtMultimedia.QAudioEncoderSettings?1()
+QtMultimedia.QAudioEncoderSettings.__init__?1(self)
+QtMultimedia.QAudioEncoderSettings?1(QAudioEncoderSettings)
+QtMultimedia.QAudioEncoderSettings.__init__?1(self, QAudioEncoderSettings)
+QtMultimedia.QAudioEncoderSettings.isNull?4() -> bool
+QtMultimedia.QAudioEncoderSettings.encodingMode?4() -> QMultimedia.EncodingMode
+QtMultimedia.QAudioEncoderSettings.setEncodingMode?4(QMultimedia.EncodingMode)
+QtMultimedia.QAudioEncoderSettings.codec?4() -> str
+QtMultimedia.QAudioEncoderSettings.setCodec?4(str)
+QtMultimedia.QAudioEncoderSettings.bitRate?4() -> int
+QtMultimedia.QAudioEncoderSettings.setBitRate?4(int)
+QtMultimedia.QAudioEncoderSettings.channelCount?4() -> int
+QtMultimedia.QAudioEncoderSettings.setChannelCount?4(int)
+QtMultimedia.QAudioEncoderSettings.sampleRate?4() -> int
+QtMultimedia.QAudioEncoderSettings.setSampleRate?4(int)
+QtMultimedia.QAudioEncoderSettings.quality?4() -> QMultimedia.EncodingQuality
+QtMultimedia.QAudioEncoderSettings.setQuality?4(QMultimedia.EncodingQuality)
+QtMultimedia.QAudioEncoderSettings.encodingOption?4(str) -> QVariant
+QtMultimedia.QAudioEncoderSettings.encodingOptions?4() -> dict-of-str-object
+QtMultimedia.QAudioEncoderSettings.setEncodingOption?4(str, QVariant)
+QtMultimedia.QAudioEncoderSettings.setEncodingOptions?4(dict-of-str-object)
+QtMultimedia.QVideoEncoderSettings?1()
+QtMultimedia.QVideoEncoderSettings.__init__?1(self)
+QtMultimedia.QVideoEncoderSettings?1(QVideoEncoderSettings)
+QtMultimedia.QVideoEncoderSettings.__init__?1(self, QVideoEncoderSettings)
+QtMultimedia.QVideoEncoderSettings.isNull?4() -> bool
+QtMultimedia.QVideoEncoderSettings.encodingMode?4() -> QMultimedia.EncodingMode
+QtMultimedia.QVideoEncoderSettings.setEncodingMode?4(QMultimedia.EncodingMode)
+QtMultimedia.QVideoEncoderSettings.codec?4() -> str
+QtMultimedia.QVideoEncoderSettings.setCodec?4(str)
+QtMultimedia.QVideoEncoderSettings.resolution?4() -> QSize
+QtMultimedia.QVideoEncoderSettings.setResolution?4(QSize)
+QtMultimedia.QVideoEncoderSettings.setResolution?4(int, int)
+QtMultimedia.QVideoEncoderSettings.frameRate?4() -> float
+QtMultimedia.QVideoEncoderSettings.setFrameRate?4(float)
+QtMultimedia.QVideoEncoderSettings.bitRate?4() -> int
+QtMultimedia.QVideoEncoderSettings.setBitRate?4(int)
+QtMultimedia.QVideoEncoderSettings.quality?4() -> QMultimedia.EncodingQuality
+QtMultimedia.QVideoEncoderSettings.setQuality?4(QMultimedia.EncodingQuality)
+QtMultimedia.QVideoEncoderSettings.encodingOption?4(str) -> QVariant
+QtMultimedia.QVideoEncoderSettings.encodingOptions?4() -> dict-of-str-object
+QtMultimedia.QVideoEncoderSettings.setEncodingOption?4(str, QVariant)
+QtMultimedia.QVideoEncoderSettings.setEncodingOptions?4(dict-of-str-object)
+QtMultimedia.QImageEncoderSettings?1()
+QtMultimedia.QImageEncoderSettings.__init__?1(self)
+QtMultimedia.QImageEncoderSettings?1(QImageEncoderSettings)
+QtMultimedia.QImageEncoderSettings.__init__?1(self, QImageEncoderSettings)
+QtMultimedia.QImageEncoderSettings.isNull?4() -> bool
+QtMultimedia.QImageEncoderSettings.codec?4() -> str
+QtMultimedia.QImageEncoderSettings.setCodec?4(str)
+QtMultimedia.QImageEncoderSettings.resolution?4() -> QSize
+QtMultimedia.QImageEncoderSettings.setResolution?4(QSize)
+QtMultimedia.QImageEncoderSettings.setResolution?4(int, int)
+QtMultimedia.QImageEncoderSettings.quality?4() -> QMultimedia.EncodingQuality
+QtMultimedia.QImageEncoderSettings.setQuality?4(QMultimedia.EncodingQuality)
+QtMultimedia.QImageEncoderSettings.encodingOption?4(str) -> QVariant
+QtMultimedia.QImageEncoderSettings.encodingOptions?4() -> dict-of-str-object
+QtMultimedia.QImageEncoderSettings.setEncodingOption?4(str, QVariant)
+QtMultimedia.QImageEncoderSettings.setEncodingOptions?4(dict-of-str-object)
+QtMultimedia.QMediaMetaData.AlbumArtist?7
+QtMultimedia.QMediaMetaData.AlbumTitle?7
+QtMultimedia.QMediaMetaData.AudioBitRate?7
+QtMultimedia.QMediaMetaData.AudioCodec?7
+QtMultimedia.QMediaMetaData.Author?7
+QtMultimedia.QMediaMetaData.AverageLevel?7
+QtMultimedia.QMediaMetaData.CameraManufacturer?7
+QtMultimedia.QMediaMetaData.CameraModel?7
+QtMultimedia.QMediaMetaData.Category?7
+QtMultimedia.QMediaMetaData.ChannelCount?7
+QtMultimedia.QMediaMetaData.ChapterNumber?7
+QtMultimedia.QMediaMetaData.Comment?7
+QtMultimedia.QMediaMetaData.Composer?7
+QtMultimedia.QMediaMetaData.Conductor?7
+QtMultimedia.QMediaMetaData.Contrast?7
+QtMultimedia.QMediaMetaData.ContributingArtist?7
+QtMultimedia.QMediaMetaData.Copyright?7
+QtMultimedia.QMediaMetaData.CoverArtImage?7
+QtMultimedia.QMediaMetaData.CoverArtUrlLarge?7
+QtMultimedia.QMediaMetaData.CoverArtUrlSmall?7
+QtMultimedia.QMediaMetaData.Date?7
+QtMultimedia.QMediaMetaData.DateTimeDigitized?7
+QtMultimedia.QMediaMetaData.DateTimeOriginal?7
+QtMultimedia.QMediaMetaData.Description?7
+QtMultimedia.QMediaMetaData.DeviceSettingDescription?7
+QtMultimedia.QMediaMetaData.DigitalZoomRatio?7
+QtMultimedia.QMediaMetaData.Director?7
+QtMultimedia.QMediaMetaData.Duration?7
+QtMultimedia.QMediaMetaData.Event?7
+QtMultimedia.QMediaMetaData.ExposureBiasValue?7
+QtMultimedia.QMediaMetaData.ExposureMode?7
+QtMultimedia.QMediaMetaData.ExposureProgram?7
+QtMultimedia.QMediaMetaData.ExposureTime?7
+QtMultimedia.QMediaMetaData.FNumber?7
+QtMultimedia.QMediaMetaData.Flash?7
+QtMultimedia.QMediaMetaData.FocalLength?7
+QtMultimedia.QMediaMetaData.FocalLengthIn35mmFilm?7
+QtMultimedia.QMediaMetaData.GPSAltitude?7
+QtMultimedia.QMediaMetaData.GPSAreaInformation?7
+QtMultimedia.QMediaMetaData.GPSDOP?7
+QtMultimedia.QMediaMetaData.GPSImgDirection?7
+QtMultimedia.QMediaMetaData.GPSImgDirectionRef?7
+QtMultimedia.QMediaMetaData.GPSLatitude?7
+QtMultimedia.QMediaMetaData.GPSLongitude?7
+QtMultimedia.QMediaMetaData.GPSMapDatum?7
+QtMultimedia.QMediaMetaData.GPSProcessingMethod?7
+QtMultimedia.QMediaMetaData.GPSSatellites?7
+QtMultimedia.QMediaMetaData.GPSSpeed?7
+QtMultimedia.QMediaMetaData.GPSStatus?7
+QtMultimedia.QMediaMetaData.GPSTimeStamp?7
+QtMultimedia.QMediaMetaData.GPSTrack?7
+QtMultimedia.QMediaMetaData.GPSTrackRef?7
+QtMultimedia.QMediaMetaData.GainControl?7
+QtMultimedia.QMediaMetaData.Genre?7
+QtMultimedia.QMediaMetaData.ISOSpeedRatings?7
+QtMultimedia.QMediaMetaData.Keywords?7
+QtMultimedia.QMediaMetaData.Language?7
+QtMultimedia.QMediaMetaData.LeadPerformer?7
+QtMultimedia.QMediaMetaData.LightSource?7
+QtMultimedia.QMediaMetaData.Lyrics?7
+QtMultimedia.QMediaMetaData.MediaType?7
+QtMultimedia.QMediaMetaData.MeteringMode?7
+QtMultimedia.QMediaMetaData.Mood?7
+QtMultimedia.QMediaMetaData.Orientation?7
+QtMultimedia.QMediaMetaData.ParentalRating?7
+QtMultimedia.QMediaMetaData.PeakValue?7
+QtMultimedia.QMediaMetaData.PixelAspectRatio?7
+QtMultimedia.QMediaMetaData.PosterImage?7
+QtMultimedia.QMediaMetaData.PosterUrl?7
+QtMultimedia.QMediaMetaData.Publisher?7
+QtMultimedia.QMediaMetaData.RatingOrganization?7
+QtMultimedia.QMediaMetaData.Resolution?7
+QtMultimedia.QMediaMetaData.SampleRate?7
+QtMultimedia.QMediaMetaData.Saturation?7
+QtMultimedia.QMediaMetaData.SceneCaptureType?7
+QtMultimedia.QMediaMetaData.Sharpness?7
+QtMultimedia.QMediaMetaData.Size?7
+QtMultimedia.QMediaMetaData.SubTitle?7
+QtMultimedia.QMediaMetaData.Subject?7
+QtMultimedia.QMediaMetaData.SubjectDistance?7
+QtMultimedia.QMediaMetaData.ThumbnailImage?7
+QtMultimedia.QMediaMetaData.Title?7
+QtMultimedia.QMediaMetaData.TrackCount?7
+QtMultimedia.QMediaMetaData.TrackNumber?7
+QtMultimedia.QMediaMetaData.UserRating?7
+QtMultimedia.QMediaMetaData.VideoBitRate?7
+QtMultimedia.QMediaMetaData.VideoCodec?7
+QtMultimedia.QMediaMetaData.VideoFrameRate?7
+QtMultimedia.QMediaMetaData.WhiteBalance?7
+QtMultimedia.QMediaMetaData.Writer?7
+QtMultimedia.QMediaMetaData.Year?7
+QtMultimedia.QMediaPlayer.Error?10
+QtMultimedia.QMediaPlayer.NoError?10
+QtMultimedia.QMediaPlayer.ResourceError?10
+QtMultimedia.QMediaPlayer.FormatError?10
+QtMultimedia.QMediaPlayer.NetworkError?10
+QtMultimedia.QMediaPlayer.AccessDeniedError?10
+QtMultimedia.QMediaPlayer.ServiceMissingError?10
+QtMultimedia.QMediaPlayer.Flag?10
+QtMultimedia.QMediaPlayer.LowLatency?10
+QtMultimedia.QMediaPlayer.StreamPlayback?10
+QtMultimedia.QMediaPlayer.VideoSurface?10
+QtMultimedia.QMediaPlayer.MediaStatus?10
+QtMultimedia.QMediaPlayer.UnknownMediaStatus?10
+QtMultimedia.QMediaPlayer.NoMedia?10
+QtMultimedia.QMediaPlayer.LoadingMedia?10
+QtMultimedia.QMediaPlayer.LoadedMedia?10
+QtMultimedia.QMediaPlayer.StalledMedia?10
+QtMultimedia.QMediaPlayer.BufferingMedia?10
+QtMultimedia.QMediaPlayer.BufferedMedia?10
+QtMultimedia.QMediaPlayer.EndOfMedia?10
+QtMultimedia.QMediaPlayer.InvalidMedia?10
+QtMultimedia.QMediaPlayer.State?10
+QtMultimedia.QMediaPlayer.StoppedState?10
+QtMultimedia.QMediaPlayer.PlayingState?10
+QtMultimedia.QMediaPlayer.PausedState?10
+QtMultimedia.QMediaPlayer?1(QObject parent=None, QMediaPlayer.Flags flags=0)
+QtMultimedia.QMediaPlayer.__init__?1(self, QObject parent=None, QMediaPlayer.Flags flags=0)
+QtMultimedia.QMediaPlayer.hasSupport?4(str, list-of-str codecs=QStringList(), QMediaPlayer.Flags flags=0) -> QMultimedia.SupportEstimate
+QtMultimedia.QMediaPlayer.supportedMimeTypes?4(QMediaPlayer.Flags flags=0) -> list-of-str
+QtMultimedia.QMediaPlayer.setVideoOutput?4(QVideoWidget)
+QtMultimedia.QMediaPlayer.setVideoOutput?4(QGraphicsVideoItem)
+QtMultimedia.QMediaPlayer.setVideoOutput?4(QAbstractVideoSurface)
+QtMultimedia.QMediaPlayer.media?4() -> QMediaContent
+QtMultimedia.QMediaPlayer.mediaStream?4() -> QIODevice
+QtMultimedia.QMediaPlayer.playlist?4() -> QMediaPlaylist
+QtMultimedia.QMediaPlayer.currentMedia?4() -> QMediaContent
+QtMultimedia.QMediaPlayer.state?4() -> QMediaPlayer.State
+QtMultimedia.QMediaPlayer.mediaStatus?4() -> QMediaPlayer.MediaStatus
+QtMultimedia.QMediaPlayer.duration?4() -> int
+QtMultimedia.QMediaPlayer.position?4() -> int
+QtMultimedia.QMediaPlayer.volume?4() -> int
+QtMultimedia.QMediaPlayer.isMuted?4() -> bool
+QtMultimedia.QMediaPlayer.isAudioAvailable?4() -> bool
+QtMultimedia.QMediaPlayer.isVideoAvailable?4() -> bool
+QtMultimedia.QMediaPlayer.bufferStatus?4() -> int
+QtMultimedia.QMediaPlayer.isSeekable?4() -> bool
+QtMultimedia.QMediaPlayer.playbackRate?4() -> float
+QtMultimedia.QMediaPlayer.error?4() -> QMediaPlayer.Error
+QtMultimedia.QMediaPlayer.errorString?4() -> str
+QtMultimedia.QMediaPlayer.currentNetworkConfiguration?4() -> QNetworkConfiguration
+QtMultimedia.QMediaPlayer.availability?4() -> QMultimedia.AvailabilityStatus
+QtMultimedia.QMediaPlayer.play?4()
+QtMultimedia.QMediaPlayer.pause?4()
+QtMultimedia.QMediaPlayer.stop?4()
+QtMultimedia.QMediaPlayer.setPosition?4(int)
+QtMultimedia.QMediaPlayer.setVolume?4(int)
+QtMultimedia.QMediaPlayer.setMuted?4(bool)
+QtMultimedia.QMediaPlayer.setPlaybackRate?4(float)
+QtMultimedia.QMediaPlayer.setMedia?4(QMediaContent, QIODevice stream=None)
+QtMultimedia.QMediaPlayer.setPlaylist?4(QMediaPlaylist)
+QtMultimedia.QMediaPlayer.setNetworkConfigurations?4(list-of-QNetworkConfiguration)
+QtMultimedia.QMediaPlayer.mediaChanged?4(QMediaContent)
+QtMultimedia.QMediaPlayer.currentMediaChanged?4(QMediaContent)
+QtMultimedia.QMediaPlayer.stateChanged?4(QMediaPlayer.State)
+QtMultimedia.QMediaPlayer.mediaStatusChanged?4(QMediaPlayer.MediaStatus)
+QtMultimedia.QMediaPlayer.durationChanged?4(int)
+QtMultimedia.QMediaPlayer.positionChanged?4(int)
+QtMultimedia.QMediaPlayer.volumeChanged?4(int)
+QtMultimedia.QMediaPlayer.mutedChanged?4(bool)
+QtMultimedia.QMediaPlayer.audioAvailableChanged?4(bool)
+QtMultimedia.QMediaPlayer.videoAvailableChanged?4(bool)
+QtMultimedia.QMediaPlayer.bufferStatusChanged?4(int)
+QtMultimedia.QMediaPlayer.seekableChanged?4(bool)
+QtMultimedia.QMediaPlayer.playbackRateChanged?4(float)
+QtMultimedia.QMediaPlayer.error?4(QMediaPlayer.Error)
+QtMultimedia.QMediaPlayer.networkConfigurationChanged?4(QNetworkConfiguration)
+QtMultimedia.QMediaPlayer.bind?4(QObject) -> bool
+QtMultimedia.QMediaPlayer.unbind?4(QObject)
+QtMultimedia.QMediaPlayer.Flags?1(QMediaPlayer.Flags)
+QtMultimedia.QMediaPlayer.Flags.__init__?1(self, QMediaPlayer.Flags)
+QtMultimedia.QMediaPlayer.Flags?1(int)
+QtMultimedia.QMediaPlayer.Flags.__init__?1(self, int)
+QtMultimedia.QMediaPlayer.Flags?1()
+QtMultimedia.QMediaPlayer.Flags.__init__?1(self)
+QtMultimedia.QMediaPlaylist.Error?10
+QtMultimedia.QMediaPlaylist.NoError?10
+QtMultimedia.QMediaPlaylist.FormatError?10
+QtMultimedia.QMediaPlaylist.FormatNotSupportedError?10
+QtMultimedia.QMediaPlaylist.NetworkError?10
+QtMultimedia.QMediaPlaylist.AccessDeniedError?10
+QtMultimedia.QMediaPlaylist.PlaybackMode?10
+QtMultimedia.QMediaPlaylist.CurrentItemOnce?10
+QtMultimedia.QMediaPlaylist.CurrentItemInLoop?10
+QtMultimedia.QMediaPlaylist.Sequential?10
+QtMultimedia.QMediaPlaylist.Loop?10
+QtMultimedia.QMediaPlaylist.Random?10
+QtMultimedia.QMediaPlaylist?1(QObject parent=None)
+QtMultimedia.QMediaPlaylist.__init__?1(self, QObject parent=None)
+QtMultimedia.QMediaPlaylist.mediaObject?4() -> QMediaObject
+QtMultimedia.QMediaPlaylist.playbackMode?4() -> QMediaPlaylist.PlaybackMode
+QtMultimedia.QMediaPlaylist.setPlaybackMode?4(QMediaPlaylist.PlaybackMode)
+QtMultimedia.QMediaPlaylist.currentIndex?4() -> int
+QtMultimedia.QMediaPlaylist.currentMedia?4() -> QMediaContent
+QtMultimedia.QMediaPlaylist.nextIndex?4(int steps=1) -> int
+QtMultimedia.QMediaPlaylist.previousIndex?4(int steps=1) -> int
+QtMultimedia.QMediaPlaylist.media?4(int) -> QMediaContent
+QtMultimedia.QMediaPlaylist.mediaCount?4() -> int
+QtMultimedia.QMediaPlaylist.isEmpty?4() -> bool
+QtMultimedia.QMediaPlaylist.isReadOnly?4() -> bool
+QtMultimedia.QMediaPlaylist.addMedia?4(QMediaContent) -> bool
+QtMultimedia.QMediaPlaylist.addMedia?4(list-of-QMediaContent) -> bool
+QtMultimedia.QMediaPlaylist.insertMedia?4(int, QMediaContent) -> bool
+QtMultimedia.QMediaPlaylist.insertMedia?4(int, list-of-QMediaContent) -> bool
+QtMultimedia.QMediaPlaylist.removeMedia?4(int) -> bool
+QtMultimedia.QMediaPlaylist.removeMedia?4(int, int) -> bool
+QtMultimedia.QMediaPlaylist.clear?4() -> bool
+QtMultimedia.QMediaPlaylist.load?4(QNetworkRequest, str format=None)
+QtMultimedia.QMediaPlaylist.load?4(QUrl, str format=None)
+QtMultimedia.QMediaPlaylist.load?4(QIODevice, str format=None)
+QtMultimedia.QMediaPlaylist.save?4(QUrl, str format=None) -> bool
+QtMultimedia.QMediaPlaylist.save?4(QIODevice, str) -> bool
+QtMultimedia.QMediaPlaylist.error?4() -> QMediaPlaylist.Error
+QtMultimedia.QMediaPlaylist.errorString?4() -> str
+QtMultimedia.QMediaPlaylist.shuffle?4()
+QtMultimedia.QMediaPlaylist.next?4()
+QtMultimedia.QMediaPlaylist.previous?4()
+QtMultimedia.QMediaPlaylist.setCurrentIndex?4(int)
+QtMultimedia.QMediaPlaylist.currentIndexChanged?4(int)
+QtMultimedia.QMediaPlaylist.playbackModeChanged?4(QMediaPlaylist.PlaybackMode)
+QtMultimedia.QMediaPlaylist.currentMediaChanged?4(QMediaContent)
+QtMultimedia.QMediaPlaylist.mediaAboutToBeInserted?4(int, int)
+QtMultimedia.QMediaPlaylist.mediaInserted?4(int, int)
+QtMultimedia.QMediaPlaylist.mediaAboutToBeRemoved?4(int, int)
+QtMultimedia.QMediaPlaylist.mediaRemoved?4(int, int)
+QtMultimedia.QMediaPlaylist.mediaChanged?4(int, int)
+QtMultimedia.QMediaPlaylist.loaded?4()
+QtMultimedia.QMediaPlaylist.loadFailed?4()
+QtMultimedia.QMediaPlaylist.setMediaObject?4(QMediaObject) -> bool
+QtMultimedia.QMediaResource?1()
+QtMultimedia.QMediaResource.__init__?1(self)
+QtMultimedia.QMediaResource?1(QUrl, str mimeType=QString())
+QtMultimedia.QMediaResource.__init__?1(self, QUrl, str mimeType=QString())
+QtMultimedia.QMediaResource?1(QNetworkRequest, str mimeType=QString())
+QtMultimedia.QMediaResource.__init__?1(self, QNetworkRequest, str mimeType=QString())
+QtMultimedia.QMediaResource?1(QMediaResource)
+QtMultimedia.QMediaResource.__init__?1(self, QMediaResource)
+QtMultimedia.QMediaResource.isNull?4() -> bool
+QtMultimedia.QMediaResource.url?4() -> QUrl
+QtMultimedia.QMediaResource.request?4() -> QNetworkRequest
+QtMultimedia.QMediaResource.mimeType?4() -> str
+QtMultimedia.QMediaResource.language?4() -> str
+QtMultimedia.QMediaResource.setLanguage?4(str)
+QtMultimedia.QMediaResource.audioCodec?4() -> str
+QtMultimedia.QMediaResource.setAudioCodec?4(str)
+QtMultimedia.QMediaResource.videoCodec?4() -> str
+QtMultimedia.QMediaResource.setVideoCodec?4(str)
+QtMultimedia.QMediaResource.dataSize?4() -> int
+QtMultimedia.QMediaResource.setDataSize?4(int)
+QtMultimedia.QMediaResource.audioBitRate?4() -> int
+QtMultimedia.QMediaResource.setAudioBitRate?4(int)
+QtMultimedia.QMediaResource.sampleRate?4() -> int
+QtMultimedia.QMediaResource.setSampleRate?4(int)
+QtMultimedia.QMediaResource.channelCount?4() -> int
+QtMultimedia.QMediaResource.setChannelCount?4(int)
+QtMultimedia.QMediaResource.videoBitRate?4() -> int
+QtMultimedia.QMediaResource.setVideoBitRate?4(int)
+QtMultimedia.QMediaResource.resolution?4() -> QSize
+QtMultimedia.QMediaResource.setResolution?4(QSize)
+QtMultimedia.QMediaResource.setResolution?4(int, int)
+QtMultimedia.QMediaService?1(QObject)
+QtMultimedia.QMediaService.__init__?1(self, QObject)
+QtMultimedia.QMediaService.requestControl?4(str) -> QMediaControl
+QtMultimedia.QMediaService.releaseControl?4(QMediaControl)
+QtMultimedia.QMediaTimeInterval?1()
+QtMultimedia.QMediaTimeInterval.__init__?1(self)
+QtMultimedia.QMediaTimeInterval?1(int, int)
+QtMultimedia.QMediaTimeInterval.__init__?1(self, int, int)
+QtMultimedia.QMediaTimeInterval?1(QMediaTimeInterval)
+QtMultimedia.QMediaTimeInterval.__init__?1(self, QMediaTimeInterval)
+QtMultimedia.QMediaTimeInterval.start?4() -> int
+QtMultimedia.QMediaTimeInterval.end?4() -> int
+QtMultimedia.QMediaTimeInterval.contains?4(int) -> bool
+QtMultimedia.QMediaTimeInterval.isNormal?4() -> bool
+QtMultimedia.QMediaTimeInterval.normalized?4() -> QMediaTimeInterval
+QtMultimedia.QMediaTimeInterval.translated?4(int) -> QMediaTimeInterval
+QtMultimedia.QMediaTimeRange?1()
+QtMultimedia.QMediaTimeRange.__init__?1(self)
+QtMultimedia.QMediaTimeRange?1(int, int)
+QtMultimedia.QMediaTimeRange.__init__?1(self, int, int)
+QtMultimedia.QMediaTimeRange?1(QMediaTimeInterval)
+QtMultimedia.QMediaTimeRange.__init__?1(self, QMediaTimeInterval)
+QtMultimedia.QMediaTimeRange?1(QMediaTimeRange)
+QtMultimedia.QMediaTimeRange.__init__?1(self, QMediaTimeRange)
+QtMultimedia.QMediaTimeRange.earliestTime?4() -> int
+QtMultimedia.QMediaTimeRange.latestTime?4() -> int
+QtMultimedia.QMediaTimeRange.intervals?4() -> list-of-QMediaTimeInterval
+QtMultimedia.QMediaTimeRange.isEmpty?4() -> bool
+QtMultimedia.QMediaTimeRange.isContinuous?4() -> bool
+QtMultimedia.QMediaTimeRange.contains?4(int) -> bool
+QtMultimedia.QMediaTimeRange.addInterval?4(int, int)
+QtMultimedia.QMediaTimeRange.addInterval?4(QMediaTimeInterval)
+QtMultimedia.QMediaTimeRange.addTimeRange?4(QMediaTimeRange)
+QtMultimedia.QMediaTimeRange.removeInterval?4(int, int)
+QtMultimedia.QMediaTimeRange.removeInterval?4(QMediaTimeInterval)
+QtMultimedia.QMediaTimeRange.removeTimeRange?4(QMediaTimeRange)
+QtMultimedia.QMediaTimeRange.clear?4()
+QtMultimedia.QMultimedia.AvailabilityStatus?10
+QtMultimedia.QMultimedia.Available?10
+QtMultimedia.QMultimedia.ServiceMissing?10
+QtMultimedia.QMultimedia.Busy?10
+QtMultimedia.QMultimedia.ResourceError?10
+QtMultimedia.QMultimedia.EncodingMode?10
+QtMultimedia.QMultimedia.ConstantQualityEncoding?10
+QtMultimedia.QMultimedia.ConstantBitRateEncoding?10
+QtMultimedia.QMultimedia.AverageBitRateEncoding?10
+QtMultimedia.QMultimedia.TwoPassEncoding?10
+QtMultimedia.QMultimedia.EncodingQuality?10
+QtMultimedia.QMultimedia.VeryLowQuality?10
+QtMultimedia.QMultimedia.LowQuality?10
+QtMultimedia.QMultimedia.NormalQuality?10
+QtMultimedia.QMultimedia.HighQuality?10
+QtMultimedia.QMultimedia.VeryHighQuality?10
+QtMultimedia.QMultimedia.SupportEstimate?10
+QtMultimedia.QMultimedia.NotSupported?10
+QtMultimedia.QMultimedia.MaybeSupported?10
+QtMultimedia.QMultimedia.ProbablySupported?10
+QtMultimedia.QMultimedia.PreferredService?10
+QtMultimedia.QRadioData.ProgramType?10
+QtMultimedia.QRadioData.Undefined?10
+QtMultimedia.QRadioData.News?10
+QtMultimedia.QRadioData.CurrentAffairs?10
+QtMultimedia.QRadioData.Information?10
+QtMultimedia.QRadioData.Sport?10
+QtMultimedia.QRadioData.Education?10
+QtMultimedia.QRadioData.Drama?10
+QtMultimedia.QRadioData.Culture?10
+QtMultimedia.QRadioData.Science?10
+QtMultimedia.QRadioData.Varied?10
+QtMultimedia.QRadioData.PopMusic?10
+QtMultimedia.QRadioData.RockMusic?10
+QtMultimedia.QRadioData.EasyListening?10
+QtMultimedia.QRadioData.LightClassical?10
+QtMultimedia.QRadioData.SeriousClassical?10
+QtMultimedia.QRadioData.OtherMusic?10
+QtMultimedia.QRadioData.Weather?10
+QtMultimedia.QRadioData.Finance?10
+QtMultimedia.QRadioData.ChildrensProgrammes?10
+QtMultimedia.QRadioData.SocialAffairs?10
+QtMultimedia.QRadioData.Religion?10
+QtMultimedia.QRadioData.PhoneIn?10
+QtMultimedia.QRadioData.Travel?10
+QtMultimedia.QRadioData.Leisure?10
+QtMultimedia.QRadioData.JazzMusic?10
+QtMultimedia.QRadioData.CountryMusic?10
+QtMultimedia.QRadioData.NationalMusic?10
+QtMultimedia.QRadioData.OldiesMusic?10
+QtMultimedia.QRadioData.FolkMusic?10
+QtMultimedia.QRadioData.Documentary?10
+QtMultimedia.QRadioData.AlarmTest?10
+QtMultimedia.QRadioData.Alarm?10
+QtMultimedia.QRadioData.Talk?10
+QtMultimedia.QRadioData.ClassicRock?10
+QtMultimedia.QRadioData.AdultHits?10
+QtMultimedia.QRadioData.SoftRock?10
+QtMultimedia.QRadioData.Top40?10
+QtMultimedia.QRadioData.Soft?10
+QtMultimedia.QRadioData.Nostalgia?10
+QtMultimedia.QRadioData.Classical?10
+QtMultimedia.QRadioData.RhythmAndBlues?10
+QtMultimedia.QRadioData.SoftRhythmAndBlues?10
+QtMultimedia.QRadioData.Language?10
+QtMultimedia.QRadioData.ReligiousMusic?10
+QtMultimedia.QRadioData.ReligiousTalk?10
+QtMultimedia.QRadioData.Personality?10
+QtMultimedia.QRadioData.Public?10
+QtMultimedia.QRadioData.College?10
+QtMultimedia.QRadioData.Error?10
+QtMultimedia.QRadioData.NoError?10
+QtMultimedia.QRadioData.ResourceError?10
+QtMultimedia.QRadioData.OpenError?10
+QtMultimedia.QRadioData.OutOfRangeError?10
+QtMultimedia.QRadioData?1(QMediaObject, QObject parent=None)
+QtMultimedia.QRadioData.__init__?1(self, QMediaObject, QObject parent=None)
+QtMultimedia.QRadioData.mediaObject?4() -> QMediaObject
+QtMultimedia.QRadioData.availability?4() -> QMultimedia.AvailabilityStatus
+QtMultimedia.QRadioData.stationId?4() -> str
+QtMultimedia.QRadioData.programType?4() -> QRadioData.ProgramType
+QtMultimedia.QRadioData.programTypeName?4() -> str
+QtMultimedia.QRadioData.stationName?4() -> str
+QtMultimedia.QRadioData.radioText?4() -> str
+QtMultimedia.QRadioData.isAlternativeFrequenciesEnabled?4() -> bool
+QtMultimedia.QRadioData.error?4() -> QRadioData.Error
+QtMultimedia.QRadioData.errorString?4() -> str
+QtMultimedia.QRadioData.setAlternativeFrequenciesEnabled?4(bool)
+QtMultimedia.QRadioData.stationIdChanged?4(str)
+QtMultimedia.QRadioData.programTypeChanged?4(QRadioData.ProgramType)
+QtMultimedia.QRadioData.programTypeNameChanged?4(str)
+QtMultimedia.QRadioData.stationNameChanged?4(str)
+QtMultimedia.QRadioData.radioTextChanged?4(str)
+QtMultimedia.QRadioData.alternativeFrequenciesEnabledChanged?4(bool)
+QtMultimedia.QRadioData.error?4(QRadioData.Error)
+QtMultimedia.QRadioData.setMediaObject?4(QMediaObject) -> bool
+QtMultimedia.QRadioTuner.SearchMode?10
+QtMultimedia.QRadioTuner.SearchFast?10
+QtMultimedia.QRadioTuner.SearchGetStationId?10
+QtMultimedia.QRadioTuner.StereoMode?10
+QtMultimedia.QRadioTuner.ForceStereo?10
+QtMultimedia.QRadioTuner.ForceMono?10
+QtMultimedia.QRadioTuner.Auto?10
+QtMultimedia.QRadioTuner.Error?10
+QtMultimedia.QRadioTuner.NoError?10
+QtMultimedia.QRadioTuner.ResourceError?10
+QtMultimedia.QRadioTuner.OpenError?10
+QtMultimedia.QRadioTuner.OutOfRangeError?10
+QtMultimedia.QRadioTuner.Band?10
+QtMultimedia.QRadioTuner.AM?10
+QtMultimedia.QRadioTuner.FM?10
+QtMultimedia.QRadioTuner.SW?10
+QtMultimedia.QRadioTuner.LW?10
+QtMultimedia.QRadioTuner.FM2?10
+QtMultimedia.QRadioTuner.State?10
+QtMultimedia.QRadioTuner.ActiveState?10
+QtMultimedia.QRadioTuner.StoppedState?10
+QtMultimedia.QRadioTuner?1(QObject parent=None)
+QtMultimedia.QRadioTuner.__init__?1(self, QObject parent=None)
+QtMultimedia.QRadioTuner.availability?4() -> QMultimedia.AvailabilityStatus
+QtMultimedia.QRadioTuner.state?4() -> QRadioTuner.State
+QtMultimedia.QRadioTuner.band?4() -> QRadioTuner.Band
+QtMultimedia.QRadioTuner.isBandSupported?4(QRadioTuner.Band) -> bool
+QtMultimedia.QRadioTuner.frequency?4() -> int
+QtMultimedia.QRadioTuner.frequencyStep?4(QRadioTuner.Band) -> int
+QtMultimedia.QRadioTuner.frequencyRange?4(QRadioTuner.Band) -> tuple-of-int-int
+QtMultimedia.QRadioTuner.isStereo?4() -> bool
+QtMultimedia.QRadioTuner.setStereoMode?4(QRadioTuner.StereoMode)
+QtMultimedia.QRadioTuner.stereoMode?4() -> QRadioTuner.StereoMode
+QtMultimedia.QRadioTuner.signalStrength?4() -> int
+QtMultimedia.QRadioTuner.volume?4() -> int
+QtMultimedia.QRadioTuner.isMuted?4() -> bool
+QtMultimedia.QRadioTuner.isSearching?4() -> bool
+QtMultimedia.QRadioTuner.isAntennaConnected?4() -> bool
+QtMultimedia.QRadioTuner.error?4() -> QRadioTuner.Error
+QtMultimedia.QRadioTuner.errorString?4() -> str
+QtMultimedia.QRadioTuner.radioData?4() -> QRadioData
+QtMultimedia.QRadioTuner.searchForward?4()
+QtMultimedia.QRadioTuner.searchBackward?4()
+QtMultimedia.QRadioTuner.searchAllStations?4(QRadioTuner.SearchMode searchMode=QRadioTuner.SearchFast)
+QtMultimedia.QRadioTuner.cancelSearch?4()
+QtMultimedia.QRadioTuner.setBand?4(QRadioTuner.Band)
+QtMultimedia.QRadioTuner.setFrequency?4(int)
+QtMultimedia.QRadioTuner.setVolume?4(int)
+QtMultimedia.QRadioTuner.setMuted?4(bool)
+QtMultimedia.QRadioTuner.start?4()
+QtMultimedia.QRadioTuner.stop?4()
+QtMultimedia.QRadioTuner.stateChanged?4(QRadioTuner.State)
+QtMultimedia.QRadioTuner.bandChanged?4(QRadioTuner.Band)
+QtMultimedia.QRadioTuner.frequencyChanged?4(int)
+QtMultimedia.QRadioTuner.stereoStatusChanged?4(bool)
+QtMultimedia.QRadioTuner.searchingChanged?4(bool)
+QtMultimedia.QRadioTuner.signalStrengthChanged?4(int)
+QtMultimedia.QRadioTuner.volumeChanged?4(int)
+QtMultimedia.QRadioTuner.mutedChanged?4(bool)
+QtMultimedia.QRadioTuner.stationFound?4(int, str)
+QtMultimedia.QRadioTuner.antennaConnectedChanged?4(bool)
+QtMultimedia.QRadioTuner.error?4(QRadioTuner.Error)
+QtMultimedia.QSound.Loop?10
+QtMultimedia.QSound.Infinite?10
+QtMultimedia.QSound?1(str, QObject parent=None)
+QtMultimedia.QSound.__init__?1(self, str, QObject parent=None)
+QtMultimedia.QSound.play?4(str)
+QtMultimedia.QSound.loops?4() -> int
+QtMultimedia.QSound.loopsRemaining?4() -> int
+QtMultimedia.QSound.setLoops?4(int)
+QtMultimedia.QSound.fileName?4() -> str
+QtMultimedia.QSound.isFinished?4() -> bool
+QtMultimedia.QSound.play?4()
+QtMultimedia.QSound.stop?4()
+QtMultimedia.QSoundEffect.Status?10
+QtMultimedia.QSoundEffect.Null?10
+QtMultimedia.QSoundEffect.Loading?10
+QtMultimedia.QSoundEffect.Ready?10
+QtMultimedia.QSoundEffect.Error?10
+QtMultimedia.QSoundEffect.Loop?10
+QtMultimedia.QSoundEffect.Infinite?10
+QtMultimedia.QSoundEffect?1(QObject parent=None)
+QtMultimedia.QSoundEffect.__init__?1(self, QObject parent=None)
+QtMultimedia.QSoundEffect.supportedMimeTypes?4() -> list-of-str
+QtMultimedia.QSoundEffect.source?4() -> QUrl
+QtMultimedia.QSoundEffect.setSource?4(QUrl)
+QtMultimedia.QSoundEffect.loopCount?4() -> int
+QtMultimedia.QSoundEffect.loopsRemaining?4() -> int
+QtMultimedia.QSoundEffect.setLoopCount?4(int)
+QtMultimedia.QSoundEffect.volume?4() -> float
+QtMultimedia.QSoundEffect.setVolume?4(float)
+QtMultimedia.QSoundEffect.isMuted?4() -> bool
+QtMultimedia.QSoundEffect.setMuted?4(bool)
+QtMultimedia.QSoundEffect.isLoaded?4() -> bool
+QtMultimedia.QSoundEffect.isPlaying?4() -> bool
+QtMultimedia.QSoundEffect.status?4() -> QSoundEffect.Status
+QtMultimedia.QSoundEffect.category?4() -> str
+QtMultimedia.QSoundEffect.setCategory?4(str)
+QtMultimedia.QSoundEffect.sourceChanged?4()
+QtMultimedia.QSoundEffect.loopCountChanged?4()
+QtMultimedia.QSoundEffect.loopsRemainingChanged?4()
+QtMultimedia.QSoundEffect.volumeChanged?4()
+QtMultimedia.QSoundEffect.mutedChanged?4()
+QtMultimedia.QSoundEffect.loadedChanged?4()
+QtMultimedia.QSoundEffect.playingChanged?4()
+QtMultimedia.QSoundEffect.statusChanged?4()
+QtMultimedia.QSoundEffect.categoryChanged?4()
+QtMultimedia.QSoundEffect.play?4()
+QtMultimedia.QSoundEffect.stop?4()
+QtMultimedia.QVideoFrame.PixelFormat?10
+QtMultimedia.QVideoFrame.Format_Invalid?10
+QtMultimedia.QVideoFrame.Format_ARGB32?10
+QtMultimedia.QVideoFrame.Format_ARGB32_Premultiplied?10
+QtMultimedia.QVideoFrame.Format_RGB32?10
+QtMultimedia.QVideoFrame.Format_RGB24?10
+QtMultimedia.QVideoFrame.Format_RGB565?10
+QtMultimedia.QVideoFrame.Format_RGB555?10
+QtMultimedia.QVideoFrame.Format_ARGB8565_Premultiplied?10
+QtMultimedia.QVideoFrame.Format_BGRA32?10
+QtMultimedia.QVideoFrame.Format_BGRA32_Premultiplied?10
+QtMultimedia.QVideoFrame.Format_BGR32?10
+QtMultimedia.QVideoFrame.Format_BGR24?10
+QtMultimedia.QVideoFrame.Format_BGR565?10
+QtMultimedia.QVideoFrame.Format_BGR555?10
+QtMultimedia.QVideoFrame.Format_BGRA5658_Premultiplied?10
+QtMultimedia.QVideoFrame.Format_AYUV444?10
+QtMultimedia.QVideoFrame.Format_AYUV444_Premultiplied?10
+QtMultimedia.QVideoFrame.Format_YUV444?10
+QtMultimedia.QVideoFrame.Format_YUV420P?10
+QtMultimedia.QVideoFrame.Format_YV12?10
+QtMultimedia.QVideoFrame.Format_UYVY?10
+QtMultimedia.QVideoFrame.Format_YUYV?10
+QtMultimedia.QVideoFrame.Format_NV12?10
+QtMultimedia.QVideoFrame.Format_NV21?10
+QtMultimedia.QVideoFrame.Format_IMC1?10
+QtMultimedia.QVideoFrame.Format_IMC2?10
+QtMultimedia.QVideoFrame.Format_IMC3?10
+QtMultimedia.QVideoFrame.Format_IMC4?10
+QtMultimedia.QVideoFrame.Format_Y8?10
+QtMultimedia.QVideoFrame.Format_Y16?10
+QtMultimedia.QVideoFrame.Format_Jpeg?10
+QtMultimedia.QVideoFrame.Format_CameraRaw?10
+QtMultimedia.QVideoFrame.Format_AdobeDng?10
+QtMultimedia.QVideoFrame.Format_User?10
+QtMultimedia.QVideoFrame.FieldType?10
+QtMultimedia.QVideoFrame.ProgressiveFrame?10
+QtMultimedia.QVideoFrame.TopField?10
+QtMultimedia.QVideoFrame.BottomField?10
+QtMultimedia.QVideoFrame.InterlacedFrame?10
+QtMultimedia.QVideoFrame?1()
+QtMultimedia.QVideoFrame.__init__?1(self)
+QtMultimedia.QVideoFrame?1(QAbstractVideoBuffer, QSize, QVideoFrame.PixelFormat)
+QtMultimedia.QVideoFrame.__init__?1(self, QAbstractVideoBuffer, QSize, QVideoFrame.PixelFormat)
+QtMultimedia.QVideoFrame?1(int, QSize, int, QVideoFrame.PixelFormat)
+QtMultimedia.QVideoFrame.__init__?1(self, int, QSize, int, QVideoFrame.PixelFormat)
+QtMultimedia.QVideoFrame?1(QImage)
+QtMultimedia.QVideoFrame.__init__?1(self, QImage)
+QtMultimedia.QVideoFrame?1(QVideoFrame)
+QtMultimedia.QVideoFrame.__init__?1(self, QVideoFrame)
+QtMultimedia.QVideoFrame.isValid?4() -> bool
+QtMultimedia.QVideoFrame.pixelFormat?4() -> QVideoFrame.PixelFormat
+QtMultimedia.QVideoFrame.handleType?4() -> QAbstractVideoBuffer.HandleType
+QtMultimedia.QVideoFrame.size?4() -> QSize
+QtMultimedia.QVideoFrame.width?4() -> int
+QtMultimedia.QVideoFrame.height?4() -> int
+QtMultimedia.QVideoFrame.fieldType?4() -> QVideoFrame.FieldType
+QtMultimedia.QVideoFrame.setFieldType?4(QVideoFrame.FieldType)
+QtMultimedia.QVideoFrame.isMapped?4() -> bool
+QtMultimedia.QVideoFrame.isReadable?4() -> bool
+QtMultimedia.QVideoFrame.isWritable?4() -> bool
+QtMultimedia.QVideoFrame.mapMode?4() -> QAbstractVideoBuffer.MapMode
+QtMultimedia.QVideoFrame.map?4(QAbstractVideoBuffer.MapMode) -> bool
+QtMultimedia.QVideoFrame.unmap?4()
+QtMultimedia.QVideoFrame.bytesPerLine?4() -> int
+QtMultimedia.QVideoFrame.bits?4() -> sip.voidptr
+QtMultimedia.QVideoFrame.mappedBytes?4() -> int
+QtMultimedia.QVideoFrame.handle?4() -> QVariant
+QtMultimedia.QVideoFrame.startTime?4() -> int
+QtMultimedia.QVideoFrame.setStartTime?4(int)
+QtMultimedia.QVideoFrame.endTime?4() -> int
+QtMultimedia.QVideoFrame.setEndTime?4(int)
+QtMultimedia.QVideoFrame.pixelFormatFromImageFormat?4(QImage.Format) -> QVideoFrame.PixelFormat
+QtMultimedia.QVideoFrame.imageFormatFromPixelFormat?4(QVideoFrame.PixelFormat) -> QImage.Format
+QtMultimedia.QVideoFrame.availableMetaData?4() -> dict-of-str-object
+QtMultimedia.QVideoFrame.metaData?4(str) -> QVariant
+QtMultimedia.QVideoFrame.setMetaData?4(str, QVariant)
+QtMultimedia.QVideoProbe?1(QObject parent=None)
+QtMultimedia.QVideoProbe.__init__?1(self, QObject parent=None)
+QtMultimedia.QVideoProbe.setSource?4(QMediaObject) -> bool
+QtMultimedia.QVideoProbe.setSource?4(QMediaRecorder) -> bool
+QtMultimedia.QVideoProbe.isActive?4() -> bool
+QtMultimedia.QVideoProbe.videoFrameProbed?4(QVideoFrame)
+QtMultimedia.QVideoProbe.flush?4()
+QtMultimedia.QVideoSurfaceFormat.YCbCrColorSpace?10
+QtMultimedia.QVideoSurfaceFormat.YCbCr_Undefined?10
+QtMultimedia.QVideoSurfaceFormat.YCbCr_BT601?10
+QtMultimedia.QVideoSurfaceFormat.YCbCr_BT709?10
+QtMultimedia.QVideoSurfaceFormat.YCbCr_xvYCC601?10
+QtMultimedia.QVideoSurfaceFormat.YCbCr_xvYCC709?10
+QtMultimedia.QVideoSurfaceFormat.YCbCr_JPEG?10
+QtMultimedia.QVideoSurfaceFormat.Direction?10
+QtMultimedia.QVideoSurfaceFormat.TopToBottom?10
+QtMultimedia.QVideoSurfaceFormat.BottomToTop?10
+QtMultimedia.QVideoSurfaceFormat?1()
+QtMultimedia.QVideoSurfaceFormat.__init__?1(self)
+QtMultimedia.QVideoSurfaceFormat?1(QSize, QVideoFrame.PixelFormat, QAbstractVideoBuffer.HandleType type=QAbstractVideoBuffer.NoHandle)
+QtMultimedia.QVideoSurfaceFormat.__init__?1(self, QSize, QVideoFrame.PixelFormat, QAbstractVideoBuffer.HandleType type=QAbstractVideoBuffer.NoHandle)
+QtMultimedia.QVideoSurfaceFormat?1(QVideoSurfaceFormat)
+QtMultimedia.QVideoSurfaceFormat.__init__?1(self, QVideoSurfaceFormat)
+QtMultimedia.QVideoSurfaceFormat.isValid?4() -> bool
+QtMultimedia.QVideoSurfaceFormat.pixelFormat?4() -> QVideoFrame.PixelFormat
+QtMultimedia.QVideoSurfaceFormat.handleType?4() -> QAbstractVideoBuffer.HandleType
+QtMultimedia.QVideoSurfaceFormat.frameSize?4() -> QSize
+QtMultimedia.QVideoSurfaceFormat.setFrameSize?4(QSize)
+QtMultimedia.QVideoSurfaceFormat.setFrameSize?4(int, int)
+QtMultimedia.QVideoSurfaceFormat.frameWidth?4() -> int
+QtMultimedia.QVideoSurfaceFormat.frameHeight?4() -> int
+QtMultimedia.QVideoSurfaceFormat.viewport?4() -> QRect
+QtMultimedia.QVideoSurfaceFormat.setViewport?4(QRect)
+QtMultimedia.QVideoSurfaceFormat.scanLineDirection?4() -> QVideoSurfaceFormat.Direction
+QtMultimedia.QVideoSurfaceFormat.setScanLineDirection?4(QVideoSurfaceFormat.Direction)
+QtMultimedia.QVideoSurfaceFormat.frameRate?4() -> float
+QtMultimedia.QVideoSurfaceFormat.setFrameRate?4(float)
+QtMultimedia.QVideoSurfaceFormat.pixelAspectRatio?4() -> QSize
+QtMultimedia.QVideoSurfaceFormat.setPixelAspectRatio?4(QSize)
+QtMultimedia.QVideoSurfaceFormat.setPixelAspectRatio?4(int, int)
+QtMultimedia.QVideoSurfaceFormat.yCbCrColorSpace?4() -> QVideoSurfaceFormat.YCbCrColorSpace
+QtMultimedia.QVideoSurfaceFormat.setYCbCrColorSpace?4(QVideoSurfaceFormat.YCbCrColorSpace)
+QtMultimedia.QVideoSurfaceFormat.sizeHint?4() -> QSize
+QtMultimedia.QVideoSurfaceFormat.propertyNames?4() -> list-of-QByteArray
+QtMultimedia.QVideoSurfaceFormat.property?4(str) -> QVariant
+QtMultimedia.QVideoSurfaceFormat.setProperty?4(str, QVariant)

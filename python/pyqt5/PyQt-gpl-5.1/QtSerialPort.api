@@ -1,0 +1,160 @@
+QtSerialPort.QSerialPort.SerialPortError?10
+QtSerialPort.QSerialPort.NoError?10
+QtSerialPort.QSerialPort.DeviceNotFoundError?10
+QtSerialPort.QSerialPort.PermissionError?10
+QtSerialPort.QSerialPort.OpenError?10
+QtSerialPort.QSerialPort.ParityError?10
+QtSerialPort.QSerialPort.FramingError?10
+QtSerialPort.QSerialPort.BreakConditionError?10
+QtSerialPort.QSerialPort.WriteError?10
+QtSerialPort.QSerialPort.ReadError?10
+QtSerialPort.QSerialPort.ResourceError?10
+QtSerialPort.QSerialPort.UnsupportedOperationError?10
+QtSerialPort.QSerialPort.UnknownError?10
+QtSerialPort.QSerialPort.DataErrorPolicy?10
+QtSerialPort.QSerialPort.SkipPolicy?10
+QtSerialPort.QSerialPort.PassZeroPolicy?10
+QtSerialPort.QSerialPort.IgnorePolicy?10
+QtSerialPort.QSerialPort.StopReceivingPolicy?10
+QtSerialPort.QSerialPort.UnknownPolicy?10
+QtSerialPort.QSerialPort.PinoutSignal?10
+QtSerialPort.QSerialPort.NoSignal?10
+QtSerialPort.QSerialPort.TransmittedDataSignal?10
+QtSerialPort.QSerialPort.ReceivedDataSignal?10
+QtSerialPort.QSerialPort.DataTerminalReadySignal?10
+QtSerialPort.QSerialPort.DataCarrierDetectSignal?10
+QtSerialPort.QSerialPort.DataSetReadySignal?10
+QtSerialPort.QSerialPort.RingIndicatorSignal?10
+QtSerialPort.QSerialPort.RequestToSendSignal?10
+QtSerialPort.QSerialPort.ClearToSendSignal?10
+QtSerialPort.QSerialPort.SecondaryTransmittedDataSignal?10
+QtSerialPort.QSerialPort.SecondaryReceivedDataSignal?10
+QtSerialPort.QSerialPort.FlowControl?10
+QtSerialPort.QSerialPort.NoFlowControl?10
+QtSerialPort.QSerialPort.HardwareControl?10
+QtSerialPort.QSerialPort.SoftwareControl?10
+QtSerialPort.QSerialPort.UnknownFlowControl?10
+QtSerialPort.QSerialPort.StopBits?10
+QtSerialPort.QSerialPort.OneStop?10
+QtSerialPort.QSerialPort.OneAndHalfStop?10
+QtSerialPort.QSerialPort.TwoStop?10
+QtSerialPort.QSerialPort.UnknownStopBits?10
+QtSerialPort.QSerialPort.Parity?10
+QtSerialPort.QSerialPort.NoParity?10
+QtSerialPort.QSerialPort.EvenParity?10
+QtSerialPort.QSerialPort.OddParity?10
+QtSerialPort.QSerialPort.SpaceParity?10
+QtSerialPort.QSerialPort.MarkParity?10
+QtSerialPort.QSerialPort.UnknownParity?10
+QtSerialPort.QSerialPort.DataBits?10
+QtSerialPort.QSerialPort.Data5?10
+QtSerialPort.QSerialPort.Data6?10
+QtSerialPort.QSerialPort.Data7?10
+QtSerialPort.QSerialPort.Data8?10
+QtSerialPort.QSerialPort.UnknownDataBits?10
+QtSerialPort.QSerialPort.BaudRate?10
+QtSerialPort.QSerialPort.Baud1200?10
+QtSerialPort.QSerialPort.Baud2400?10
+QtSerialPort.QSerialPort.Baud4800?10
+QtSerialPort.QSerialPort.Baud9600?10
+QtSerialPort.QSerialPort.Baud19200?10
+QtSerialPort.QSerialPort.Baud38400?10
+QtSerialPort.QSerialPort.Baud57600?10
+QtSerialPort.QSerialPort.Baud115200?10
+QtSerialPort.QSerialPort.UnknownBaud?10
+QtSerialPort.QSerialPort.Direction?10
+QtSerialPort.QSerialPort.Input?10
+QtSerialPort.QSerialPort.Output?10
+QtSerialPort.QSerialPort.AllDirections?10
+QtSerialPort.QSerialPort?1(QObject parent=None)
+QtSerialPort.QSerialPort.__init__?1(self, QObject parent=None)
+QtSerialPort.QSerialPort?1(str, QObject parent=None)
+QtSerialPort.QSerialPort.__init__?1(self, str, QObject parent=None)
+QtSerialPort.QSerialPort?1(QSerialPortInfo, QObject parent=None)
+QtSerialPort.QSerialPort.__init__?1(self, QSerialPortInfo, QObject parent=None)
+QtSerialPort.QSerialPort.setPortName?4(str)
+QtSerialPort.QSerialPort.portName?4() -> str
+QtSerialPort.QSerialPort.setPort?4(QSerialPortInfo)
+QtSerialPort.QSerialPort.open?4(QIODevice.OpenMode) -> bool
+QtSerialPort.QSerialPort.close?4()
+QtSerialPort.QSerialPort.setSettingsRestoredOnClose?4(bool)
+QtSerialPort.QSerialPort.settingsRestoredOnClose?4() -> bool
+QtSerialPort.QSerialPort.setBaudRate?4(int, QSerialPort.Directions dir=QSerialPort.AllDirections) -> bool
+QtSerialPort.QSerialPort.baudRate?4(QSerialPort.Directions dir=QSerialPort.AllDirections) -> int
+QtSerialPort.QSerialPort.setDataBits?4(QSerialPort.DataBits) -> bool
+QtSerialPort.QSerialPort.dataBits?4() -> QSerialPort.DataBits
+QtSerialPort.QSerialPort.setParity?4(QSerialPort.Parity) -> bool
+QtSerialPort.QSerialPort.parity?4() -> QSerialPort.Parity
+QtSerialPort.QSerialPort.setStopBits?4(QSerialPort.StopBits) -> bool
+QtSerialPort.QSerialPort.stopBits?4() -> QSerialPort.StopBits
+QtSerialPort.QSerialPort.setFlowControl?4(QSerialPort.FlowControl) -> bool
+QtSerialPort.QSerialPort.flowControl?4() -> QSerialPort.FlowControl
+QtSerialPort.QSerialPort.setDataTerminalReady?4(bool) -> bool
+QtSerialPort.QSerialPort.isDataTerminalReady?4() -> bool
+QtSerialPort.QSerialPort.setRequestToSend?4(bool) -> bool
+QtSerialPort.QSerialPort.isRequestToSend?4() -> bool
+QtSerialPort.QSerialPort.pinoutSignals?4() -> QSerialPort.PinoutSignals
+QtSerialPort.QSerialPort.flush?4() -> bool
+QtSerialPort.QSerialPort.clear?4(QSerialPort.Directions dir=QSerialPort.AllDirections) -> bool
+QtSerialPort.QSerialPort.atEnd?4() -> bool
+QtSerialPort.QSerialPort.setDataErrorPolicy?4(QSerialPort.DataErrorPolicy policy=QSerialPort.IgnorePolicy) -> bool
+QtSerialPort.QSerialPort.dataErrorPolicy?4() -> QSerialPort.DataErrorPolicy
+QtSerialPort.QSerialPort.error?4() -> QSerialPort.SerialPortError
+QtSerialPort.QSerialPort.clearError?4()
+QtSerialPort.QSerialPort.readBufferSize?4() -> int
+QtSerialPort.QSerialPort.setReadBufferSize?4(int)
+QtSerialPort.QSerialPort.isSequential?4() -> bool
+QtSerialPort.QSerialPort.bytesAvailable?4() -> int
+QtSerialPort.QSerialPort.bytesToWrite?4() -> int
+QtSerialPort.QSerialPort.canReadLine?4() -> bool
+QtSerialPort.QSerialPort.waitForReadyRead?4(int) -> bool
+QtSerialPort.QSerialPort.waitForBytesWritten?4(int) -> bool
+QtSerialPort.QSerialPort.sendBreak?4(int duration=0) -> bool
+QtSerialPort.QSerialPort.setBreakEnabled?4(bool enabled=True) -> bool
+QtSerialPort.QSerialPort.baudRateChanged?4(int, QSerialPort.Directions)
+QtSerialPort.QSerialPort.dataBitsChanged?4(QSerialPort.DataBits)
+QtSerialPort.QSerialPort.parityChanged?4(QSerialPort.Parity)
+QtSerialPort.QSerialPort.stopBitsChanged?4(QSerialPort.StopBits)
+QtSerialPort.QSerialPort.flowControlChanged?4(QSerialPort.FlowControl)
+QtSerialPort.QSerialPort.dataErrorPolicyChanged?4(QSerialPort.DataErrorPolicy)
+QtSerialPort.QSerialPort.dataTerminalReadyChanged?4(bool)
+QtSerialPort.QSerialPort.requestToSendChanged?4(bool)
+QtSerialPort.QSerialPort.error?4(QSerialPort.SerialPortError)
+QtSerialPort.QSerialPort.settingsRestoredOnCloseChanged?4(bool)
+QtSerialPort.QSerialPort.readData?4(int) -> bytes
+QtSerialPort.QSerialPort.readLineData?4(int) -> bytes
+QtSerialPort.QSerialPort.writeData?4(bytes) -> int
+QtSerialPort.QSerialPort.Directions?1(QSerialPort.Directions)
+QtSerialPort.QSerialPort.Directions.__init__?1(self, QSerialPort.Directions)
+QtSerialPort.QSerialPort.Directions?1(int)
+QtSerialPort.QSerialPort.Directions.__init__?1(self, int)
+QtSerialPort.QSerialPort.Directions?1()
+QtSerialPort.QSerialPort.Directions.__init__?1(self)
+QtSerialPort.QSerialPort.PinoutSignals?1(QSerialPort.PinoutSignals)
+QtSerialPort.QSerialPort.PinoutSignals.__init__?1(self, QSerialPort.PinoutSignals)
+QtSerialPort.QSerialPort.PinoutSignals?1(int)
+QtSerialPort.QSerialPort.PinoutSignals.__init__?1(self, int)
+QtSerialPort.QSerialPort.PinoutSignals?1()
+QtSerialPort.QSerialPort.PinoutSignals.__init__?1(self)
+QtSerialPort.QSerialPortInfo?1()
+QtSerialPort.QSerialPortInfo.__init__?1(self)
+QtSerialPort.QSerialPortInfo?1(QSerialPort)
+QtSerialPort.QSerialPortInfo.__init__?1(self, QSerialPort)
+QtSerialPort.QSerialPortInfo?1(str)
+QtSerialPort.QSerialPortInfo.__init__?1(self, str)
+QtSerialPort.QSerialPortInfo?1(QSerialPortInfo)
+QtSerialPort.QSerialPortInfo.__init__?1(self, QSerialPortInfo)
+QtSerialPort.QSerialPortInfo.swap?4(QSerialPortInfo)
+QtSerialPort.QSerialPortInfo.portName?4() -> str
+QtSerialPort.QSerialPortInfo.systemLocation?4() -> str
+QtSerialPort.QSerialPortInfo.description?4() -> str
+QtSerialPort.QSerialPortInfo.manufacturer?4() -> str
+QtSerialPort.QSerialPortInfo.vendorIdentifier?4() -> int
+QtSerialPort.QSerialPortInfo.productIdentifier?4() -> int
+QtSerialPort.QSerialPortInfo.hasVendorIdentifier?4() -> bool
+QtSerialPort.QSerialPortInfo.hasProductIdentifier?4() -> bool
+QtSerialPort.QSerialPortInfo.isBusy?4() -> bool
+QtSerialPort.QSerialPortInfo.isValid?4() -> bool
+QtSerialPort.QSerialPortInfo.standardBaudRates?4() -> list-of-int
+QtSerialPort.QSerialPortInfo.availablePorts?4() -> list-of-QSerialPortInfo
+QtSerialPort.QSerialPortInfo.isNull?4() -> bool

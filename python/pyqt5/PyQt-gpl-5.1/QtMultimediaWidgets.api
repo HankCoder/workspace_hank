@@ -1,0 +1,47 @@
+QtMultimediaWidgets.QVideoWidget?1(QWidget parent=None)
+QtMultimediaWidgets.QVideoWidget.__init__?1(self, QWidget parent=None)
+QtMultimediaWidgets.QVideoWidget.mediaObject?4() -> QMediaObject
+QtMultimediaWidgets.QVideoWidget.aspectRatioMode?4() -> Qt.AspectRatioMode
+QtMultimediaWidgets.QVideoWidget.brightness?4() -> int
+QtMultimediaWidgets.QVideoWidget.contrast?4() -> int
+QtMultimediaWidgets.QVideoWidget.hue?4() -> int
+QtMultimediaWidgets.QVideoWidget.saturation?4() -> int
+QtMultimediaWidgets.QVideoWidget.sizeHint?4() -> QSize
+QtMultimediaWidgets.QVideoWidget.setFullScreen?4(bool)
+QtMultimediaWidgets.QVideoWidget.setAspectRatioMode?4(Qt.AspectRatioMode)
+QtMultimediaWidgets.QVideoWidget.setBrightness?4(int)
+QtMultimediaWidgets.QVideoWidget.setContrast?4(int)
+QtMultimediaWidgets.QVideoWidget.setHue?4(int)
+QtMultimediaWidgets.QVideoWidget.setSaturation?4(int)
+QtMultimediaWidgets.QVideoWidget.fullScreenChanged?4(bool)
+QtMultimediaWidgets.QVideoWidget.brightnessChanged?4(int)
+QtMultimediaWidgets.QVideoWidget.contrastChanged?4(int)
+QtMultimediaWidgets.QVideoWidget.hueChanged?4(int)
+QtMultimediaWidgets.QVideoWidget.saturationChanged?4(int)
+QtMultimediaWidgets.QVideoWidget.event?4(QEvent) -> bool
+QtMultimediaWidgets.QVideoWidget.showEvent?4(QShowEvent)
+QtMultimediaWidgets.QVideoWidget.hideEvent?4(QHideEvent)
+QtMultimediaWidgets.QVideoWidget.resizeEvent?4(QResizeEvent)
+QtMultimediaWidgets.QVideoWidget.moveEvent?4(QMoveEvent)
+QtMultimediaWidgets.QVideoWidget.paintEvent?4(QPaintEvent)
+QtMultimediaWidgets.QVideoWidget.setMediaObject?4(QMediaObject) -> bool
+QtMultimediaWidgets.QCameraViewfinder?1(QWidget parent=None)
+QtMultimediaWidgets.QCameraViewfinder.__init__?1(self, QWidget parent=None)
+QtMultimediaWidgets.QCameraViewfinder.mediaObject?4() -> QMediaObject
+QtMultimediaWidgets.QCameraViewfinder.setMediaObject?4(QMediaObject) -> bool
+QtMultimediaWidgets.QGraphicsVideoItem?1(QGraphicsItem parent=None)
+QtMultimediaWidgets.QGraphicsVideoItem.__init__?1(self, QGraphicsItem parent=None)
+QtMultimediaWidgets.QGraphicsVideoItem.mediaObject?4() -> QMediaObject
+QtMultimediaWidgets.QGraphicsVideoItem.aspectRatioMode?4() -> Qt.AspectRatioMode
+QtMultimediaWidgets.QGraphicsVideoItem.setAspectRatioMode?4(Qt.AspectRatioMode)
+QtMultimediaWidgets.QGraphicsVideoItem.offset?4() -> QPointF
+QtMultimediaWidgets.QGraphicsVideoItem.setOffset?4(QPointF)
+QtMultimediaWidgets.QGraphicsVideoItem.size?4() -> QSizeF
+QtMultimediaWidgets.QGraphicsVideoItem.setSize?4(QSizeF)
+QtMultimediaWidgets.QGraphicsVideoItem.nativeSize?4() -> QSizeF
+QtMultimediaWidgets.QGraphicsVideoItem.boundingRect?4() -> QRectF
+QtMultimediaWidgets.QGraphicsVideoItem.paint?4(QPainter, QStyleOptionGraphicsItem, QWidget widget=None)
+QtMultimediaWidgets.QGraphicsVideoItem.nativeSizeChanged?4(QSizeF)
+QtMultimediaWidgets.QGraphicsVideoItem.timerEvent?4(QTimerEvent)
+QtMultimediaWidgets.QGraphicsVideoItem.itemChange?4(QGraphicsItem.GraphicsItemChange, QVariant) -> QVariant
+QtMultimediaWidgets.QGraphicsVideoItem.setMediaObject?4(QMediaObject) -> bool

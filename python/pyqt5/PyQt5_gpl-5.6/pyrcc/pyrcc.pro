@@ -1,0 +1,12 @@
+TARGET = pyrcc5
+TEMPLATE = app
+QT -= gui
+QT += xml
+CONFIG += warn_on release
+CONFIG -= android_install
+target.path = /usr/local/python3/bin
+INSTALLS += target
+INCLUDEPATH += /home/pythoner/workspace_hank/python/pyqt5/PyQt5_gpl-5.6/pyrcc
+VPATH = /home/pythoner/workspace_hank/python/pyqt5/PyQt5_gpl-5.6/pyrcc
+HEADERS = rcc.h
+SOURCES = rcc.cpp main.cpp

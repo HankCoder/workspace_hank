@@ -1,0 +1,227 @@
+QtXmlPatterns.QAbstractMessageHandler?1(QObject parent=None)
+QtXmlPatterns.QAbstractMessageHandler.__init__?1(self, QObject parent=None)
+QtXmlPatterns.QAbstractMessageHandler.message?4(QtMsgType, str, QUrl identifier=QUrl(), QSourceLocation sourceLocation=QSourceLocation())
+QtXmlPatterns.QAbstractMessageHandler.handleMessage?4(QtMsgType, str, QUrl, QSourceLocation)
+QtXmlPatterns.QAbstractUriResolver?1(QObject parent=None)
+QtXmlPatterns.QAbstractUriResolver.__init__?1(self, QObject parent=None)
+QtXmlPatterns.QAbstractUriResolver.resolve?4(QUrl, QUrl) -> QUrl
+QtXmlPatterns.QXmlNodeModelIndex.DocumentOrder?10
+QtXmlPatterns.QXmlNodeModelIndex.Precedes?10
+QtXmlPatterns.QXmlNodeModelIndex.Is?10
+QtXmlPatterns.QXmlNodeModelIndex.Follows?10
+QtXmlPatterns.QXmlNodeModelIndex.NodeKind?10
+QtXmlPatterns.QXmlNodeModelIndex.Attribute?10
+QtXmlPatterns.QXmlNodeModelIndex.Comment?10
+QtXmlPatterns.QXmlNodeModelIndex.Document?10
+QtXmlPatterns.QXmlNodeModelIndex.Element?10
+QtXmlPatterns.QXmlNodeModelIndex.Namespace?10
+QtXmlPatterns.QXmlNodeModelIndex.ProcessingInstruction?10
+QtXmlPatterns.QXmlNodeModelIndex.Text?10
+QtXmlPatterns.QXmlNodeModelIndex?1()
+QtXmlPatterns.QXmlNodeModelIndex.__init__?1(self)
+QtXmlPatterns.QXmlNodeModelIndex?1(QXmlNodeModelIndex)
+QtXmlPatterns.QXmlNodeModelIndex.__init__?1(self, QXmlNodeModelIndex)
+QtXmlPatterns.QXmlNodeModelIndex.data?4() -> int
+QtXmlPatterns.QXmlNodeModelIndex.internalPointer?4() -> object
+QtXmlPatterns.QXmlNodeModelIndex.model?4() -> QAbstractXmlNodeModel
+QtXmlPatterns.QXmlNodeModelIndex.additionalData?4() -> int
+QtXmlPatterns.QXmlNodeModelIndex.isNull?4() -> bool
+QtXmlPatterns.QAbstractXmlNodeModel.SimpleAxis?10
+QtXmlPatterns.QAbstractXmlNodeModel.Parent?10
+QtXmlPatterns.QAbstractXmlNodeModel.FirstChild?10
+QtXmlPatterns.QAbstractXmlNodeModel.PreviousSibling?10
+QtXmlPatterns.QAbstractXmlNodeModel.NextSibling?10
+QtXmlPatterns.QAbstractXmlNodeModel?1()
+QtXmlPatterns.QAbstractXmlNodeModel.__init__?1(self)
+QtXmlPatterns.QAbstractXmlNodeModel.baseUri?4(QXmlNodeModelIndex) -> QUrl
+QtXmlPatterns.QAbstractXmlNodeModel.documentUri?4(QXmlNodeModelIndex) -> QUrl
+QtXmlPatterns.QAbstractXmlNodeModel.kind?4(QXmlNodeModelIndex) -> QXmlNodeModelIndex.NodeKind
+QtXmlPatterns.QAbstractXmlNodeModel.compareOrder?4(QXmlNodeModelIndex, QXmlNodeModelIndex) -> QXmlNodeModelIndex.DocumentOrder
+QtXmlPatterns.QAbstractXmlNodeModel.root?4(QXmlNodeModelIndex) -> QXmlNodeModelIndex
+QtXmlPatterns.QAbstractXmlNodeModel.name?4(QXmlNodeModelIndex) -> QXmlName
+QtXmlPatterns.QAbstractXmlNodeModel.stringValue?4(QXmlNodeModelIndex) -> str
+QtXmlPatterns.QAbstractXmlNodeModel.typedValue?4(QXmlNodeModelIndex) -> QVariant
+QtXmlPatterns.QAbstractXmlNodeModel.namespaceBindings?4(QXmlNodeModelIndex) -> list-of-QXmlName
+QtXmlPatterns.QAbstractXmlNodeModel.elementById?4(QXmlName) -> QXmlNodeModelIndex
+QtXmlPatterns.QAbstractXmlNodeModel.nodesByIdref?4(QXmlName) -> list-of-QXmlNodeModelIndex
+QtXmlPatterns.QAbstractXmlNodeModel.sourceLocation?4(QXmlNodeModelIndex) -> QSourceLocation
+QtXmlPatterns.QAbstractXmlNodeModel.nextFromSimpleAxis?4(QAbstractXmlNodeModel.SimpleAxis, QXmlNodeModelIndex) -> QXmlNodeModelIndex
+QtXmlPatterns.QAbstractXmlNodeModel.attributes?4(QXmlNodeModelIndex) -> list-of-QXmlNodeModelIndex
+QtXmlPatterns.QAbstractXmlNodeModel.createIndex?4(int) -> QXmlNodeModelIndex
+QtXmlPatterns.QAbstractXmlNodeModel.createIndex?4(int, int) -> QXmlNodeModelIndex
+QtXmlPatterns.QAbstractXmlNodeModel.createIndex?4(object, int additionalData=0) -> QXmlNodeModelIndex
+QtXmlPatterns.QXmlItem?1()
+QtXmlPatterns.QXmlItem.__init__?1(self)
+QtXmlPatterns.QXmlItem?1(QXmlItem)
+QtXmlPatterns.QXmlItem.__init__?1(self, QXmlItem)
+QtXmlPatterns.QXmlItem?1(QXmlNodeModelIndex)
+QtXmlPatterns.QXmlItem.__init__?1(self, QXmlNodeModelIndex)
+QtXmlPatterns.QXmlItem?1(QVariant)
+QtXmlPatterns.QXmlItem.__init__?1(self, QVariant)
+QtXmlPatterns.QXmlItem.isNull?4() -> bool
+QtXmlPatterns.QXmlItem.isNode?4() -> bool
+QtXmlPatterns.QXmlItem.isAtomicValue?4() -> bool
+QtXmlPatterns.QXmlItem.toAtomicValue?4() -> QVariant
+QtXmlPatterns.QXmlItem.toNodeModelIndex?4() -> QXmlNodeModelIndex
+QtXmlPatterns.QAbstractXmlReceiver?1()
+QtXmlPatterns.QAbstractXmlReceiver.__init__?1(self)
+QtXmlPatterns.QAbstractXmlReceiver.startElement?4(QXmlName)
+QtXmlPatterns.QAbstractXmlReceiver.endElement?4()
+QtXmlPatterns.QAbstractXmlReceiver.attribute?4(QXmlName, QStringRef)
+QtXmlPatterns.QAbstractXmlReceiver.comment?4(str)
+QtXmlPatterns.QAbstractXmlReceiver.characters?4(QStringRef)
+QtXmlPatterns.QAbstractXmlReceiver.startDocument?4()
+QtXmlPatterns.QAbstractXmlReceiver.endDocument?4()
+QtXmlPatterns.QAbstractXmlReceiver.processingInstruction?4(QXmlName, str)
+QtXmlPatterns.QAbstractXmlReceiver.atomicValue?4(QVariant)
+QtXmlPatterns.QAbstractXmlReceiver.namespaceBinding?4(QXmlName)
+QtXmlPatterns.QAbstractXmlReceiver.startOfSequence?4()
+QtXmlPatterns.QAbstractXmlReceiver.endOfSequence?4()
+QtXmlPatterns.QSimpleXmlNodeModel?1(QXmlNamePool)
+QtXmlPatterns.QSimpleXmlNodeModel.__init__?1(self, QXmlNamePool)
+QtXmlPatterns.QSimpleXmlNodeModel.baseUri?4(QXmlNodeModelIndex) -> QUrl
+QtXmlPatterns.QSimpleXmlNodeModel.namePool?4() -> QXmlNamePool
+QtXmlPatterns.QSimpleXmlNodeModel.namespaceBindings?4(QXmlNodeModelIndex) -> list-of-QXmlName
+QtXmlPatterns.QSimpleXmlNodeModel.stringValue?4(QXmlNodeModelIndex) -> str
+QtXmlPatterns.QSimpleXmlNodeModel.elementById?4(QXmlName) -> QXmlNodeModelIndex
+QtXmlPatterns.QSimpleXmlNodeModel.nodesByIdref?4(QXmlName) -> list-of-QXmlNodeModelIndex
+QtXmlPatterns.QSourceLocation?1()
+QtXmlPatterns.QSourceLocation.__init__?1(self)
+QtXmlPatterns.QSourceLocation?1(QSourceLocation)
+QtXmlPatterns.QSourceLocation.__init__?1(self, QSourceLocation)
+QtXmlPatterns.QSourceLocation?1(QUrl, int line=-1, int column=-1)
+QtXmlPatterns.QSourceLocation.__init__?1(self, QUrl, int line=-1, int column=-1)
+QtXmlPatterns.QSourceLocation.column?4() -> int
+QtXmlPatterns.QSourceLocation.setColumn?4(int)
+QtXmlPatterns.QSourceLocation.line?4() -> int
+QtXmlPatterns.QSourceLocation.setLine?4(int)
+QtXmlPatterns.QSourceLocation.uri?4() -> QUrl
+QtXmlPatterns.QSourceLocation.setUri?4(QUrl)
+QtXmlPatterns.QSourceLocation.isNull?4() -> bool
+QtXmlPatterns.QXmlSerializer?1(QXmlQuery, QIODevice)
+QtXmlPatterns.QXmlSerializer.__init__?1(self, QXmlQuery, QIODevice)
+QtXmlPatterns.QXmlSerializer.namespaceBinding?4(QXmlName)
+QtXmlPatterns.QXmlSerializer.characters?4(QStringRef)
+QtXmlPatterns.QXmlSerializer.comment?4(str)
+QtXmlPatterns.QXmlSerializer.startElement?4(QXmlName)
+QtXmlPatterns.QXmlSerializer.endElement?4()
+QtXmlPatterns.QXmlSerializer.attribute?4(QXmlName, QStringRef)
+QtXmlPatterns.QXmlSerializer.processingInstruction?4(QXmlName, str)
+QtXmlPatterns.QXmlSerializer.atomicValue?4(QVariant)
+QtXmlPatterns.QXmlSerializer.startDocument?4()
+QtXmlPatterns.QXmlSerializer.endDocument?4()
+QtXmlPatterns.QXmlSerializer.startOfSequence?4()
+QtXmlPatterns.QXmlSerializer.endOfSequence?4()
+QtXmlPatterns.QXmlSerializer.outputDevice?4() -> QIODevice
+QtXmlPatterns.QXmlSerializer.setCodec?4(QTextCodec)
+QtXmlPatterns.QXmlSerializer.codec?4() -> QTextCodec
+QtXmlPatterns.QXmlFormatter?1(QXmlQuery, QIODevice)
+QtXmlPatterns.QXmlFormatter.__init__?1(self, QXmlQuery, QIODevice)
+QtXmlPatterns.QXmlFormatter.characters?4(QStringRef)
+QtXmlPatterns.QXmlFormatter.comment?4(str)
+QtXmlPatterns.QXmlFormatter.startElement?4(QXmlName)
+QtXmlPatterns.QXmlFormatter.endElement?4()
+QtXmlPatterns.QXmlFormatter.attribute?4(QXmlName, QStringRef)
+QtXmlPatterns.QXmlFormatter.processingInstruction?4(QXmlName, str)
+QtXmlPatterns.QXmlFormatter.atomicValue?4(QVariant)
+QtXmlPatterns.QXmlFormatter.startDocument?4()
+QtXmlPatterns.QXmlFormatter.endDocument?4()
+QtXmlPatterns.QXmlFormatter.startOfSequence?4()
+QtXmlPatterns.QXmlFormatter.endOfSequence?4()
+QtXmlPatterns.QXmlFormatter.indentationDepth?4() -> int
+QtXmlPatterns.QXmlFormatter.setIndentationDepth?4(int)
+QtXmlPatterns.QXmlName?1()
+QtXmlPatterns.QXmlName.__init__?1(self)
+QtXmlPatterns.QXmlName?1(QXmlNamePool, str, str namespaceUri='', str prefix='')
+QtXmlPatterns.QXmlName.__init__?1(self, QXmlNamePool, str, str namespaceUri='', str prefix='')
+QtXmlPatterns.QXmlName?1(QXmlName)
+QtXmlPatterns.QXmlName.__init__?1(self, QXmlName)
+QtXmlPatterns.QXmlName.namespaceUri?4(QXmlNamePool) -> str
+QtXmlPatterns.QXmlName.prefix?4(QXmlNamePool) -> str
+QtXmlPatterns.QXmlName.localName?4(QXmlNamePool) -> str
+QtXmlPatterns.QXmlName.toClarkName?4(QXmlNamePool) -> str
+QtXmlPatterns.QXmlName.isNull?4() -> bool
+QtXmlPatterns.QXmlName.isNCName?4(str) -> bool
+QtXmlPatterns.QXmlName.fromClarkName?4(str, QXmlNamePool) -> QXmlName
+QtXmlPatterns.QXmlNamePool?1()
+QtXmlPatterns.QXmlNamePool.__init__?1(self)
+QtXmlPatterns.QXmlNamePool?1(QXmlNamePool)
+QtXmlPatterns.QXmlNamePool.__init__?1(self, QXmlNamePool)
+QtXmlPatterns.QXmlQuery.QueryLanguage?10
+QtXmlPatterns.QXmlQuery.XQuery10?10
+QtXmlPatterns.QXmlQuery.XSLT20?10
+QtXmlPatterns.QXmlQuery?1()
+QtXmlPatterns.QXmlQuery.__init__?1(self)
+QtXmlPatterns.QXmlQuery?1(QXmlQuery)
+QtXmlPatterns.QXmlQuery.__init__?1(self, QXmlQuery)
+QtXmlPatterns.QXmlQuery?1(QXmlNamePool)
+QtXmlPatterns.QXmlQuery.__init__?1(self, QXmlNamePool)
+QtXmlPatterns.QXmlQuery?1(QXmlQuery.QueryLanguage, QXmlNamePool pool=QXmlNamePool())
+QtXmlPatterns.QXmlQuery.__init__?1(self, QXmlQuery.QueryLanguage, QXmlNamePool pool=QXmlNamePool())
+QtXmlPatterns.QXmlQuery.setMessageHandler?4(QAbstractMessageHandler)
+QtXmlPatterns.QXmlQuery.messageHandler?4() -> QAbstractMessageHandler
+QtXmlPatterns.QXmlQuery.setQuery?4(str, QUrl documentUri=QUrl())
+QtXmlPatterns.QXmlQuery.setQuery?4(QIODevice, QUrl documentUri=QUrl())
+QtXmlPatterns.QXmlQuery.setQuery?4(QUrl, QUrl baseUri=QUrl())
+QtXmlPatterns.QXmlQuery.namePool?4() -> QXmlNamePool
+QtXmlPatterns.QXmlQuery.bindVariable?4(QXmlName, QXmlItem)
+QtXmlPatterns.QXmlQuery.bindVariable?4(QXmlName, QIODevice)
+QtXmlPatterns.QXmlQuery.bindVariable?4(QXmlName, QXmlQuery)
+QtXmlPatterns.QXmlQuery.bindVariable?4(str, QXmlItem)
+QtXmlPatterns.QXmlQuery.bindVariable?4(str, QIODevice)
+QtXmlPatterns.QXmlQuery.bindVariable?4(str, QXmlQuery)
+QtXmlPatterns.QXmlQuery.isValid?4() -> bool
+QtXmlPatterns.QXmlQuery.evaluateTo?4(QXmlResultItems)
+QtXmlPatterns.QXmlQuery.evaluateTo?4(QAbstractXmlReceiver) -> bool
+QtXmlPatterns.QXmlQuery.evaluateToStringList?4() -> list-of-str
+QtXmlPatterns.QXmlQuery.evaluateTo?4(QIODevice) -> bool
+QtXmlPatterns.QXmlQuery.evaluateToString?4() -> str
+QtXmlPatterns.QXmlQuery.setUriResolver?4(QAbstractUriResolver)
+QtXmlPatterns.QXmlQuery.uriResolver?4() -> QAbstractUriResolver
+QtXmlPatterns.QXmlQuery.setFocus?4(QXmlItem)
+QtXmlPatterns.QXmlQuery.setFocus?4(QUrl) -> bool
+QtXmlPatterns.QXmlQuery.setFocus?4(QIODevice) -> bool
+QtXmlPatterns.QXmlQuery.setFocus?4(str) -> bool
+QtXmlPatterns.QXmlQuery.setInitialTemplateName?4(QXmlName)
+QtXmlPatterns.QXmlQuery.setInitialTemplateName?4(str)
+QtXmlPatterns.QXmlQuery.initialTemplateName?4() -> QXmlName
+QtXmlPatterns.QXmlQuery.setNetworkAccessManager?4(QNetworkAccessManager)
+QtXmlPatterns.QXmlQuery.networkAccessManager?4() -> QNetworkAccessManager
+QtXmlPatterns.QXmlQuery.queryLanguage?4() -> QXmlQuery.QueryLanguage
+QtXmlPatterns.QXmlResultItems?1()
+QtXmlPatterns.QXmlResultItems.__init__?1(self)
+QtXmlPatterns.QXmlResultItems.hasError?4() -> bool
+QtXmlPatterns.QXmlResultItems.next?4() -> QXmlItem
+QtXmlPatterns.QXmlResultItems.current?4() -> QXmlItem
+QtXmlPatterns.QXmlSchema?1()
+QtXmlPatterns.QXmlSchema.__init__?1(self)
+QtXmlPatterns.QXmlSchema?1(QXmlSchema)
+QtXmlPatterns.QXmlSchema.__init__?1(self, QXmlSchema)
+QtXmlPatterns.QXmlSchema.load?4(QUrl) -> bool
+QtXmlPatterns.QXmlSchema.load?4(QIODevice, QUrl documentUri=QUrl()) -> bool
+QtXmlPatterns.QXmlSchema.load?4(QByteArray, QUrl documentUri=QUrl()) -> bool
+QtXmlPatterns.QXmlSchema.isValid?4() -> bool
+QtXmlPatterns.QXmlSchema.namePool?4() -> QXmlNamePool
+QtXmlPatterns.QXmlSchema.documentUri?4() -> QUrl
+QtXmlPatterns.QXmlSchema.setMessageHandler?4(QAbstractMessageHandler)
+QtXmlPatterns.QXmlSchema.messageHandler?4() -> QAbstractMessageHandler
+QtXmlPatterns.QXmlSchema.setUriResolver?4(QAbstractUriResolver)
+QtXmlPatterns.QXmlSchema.uriResolver?4() -> QAbstractUriResolver
+QtXmlPatterns.QXmlSchema.setNetworkAccessManager?4(QNetworkAccessManager)
+QtXmlPatterns.QXmlSchema.networkAccessManager?4() -> QNetworkAccessManager
+QtXmlPatterns.QXmlSchemaValidator?1()
+QtXmlPatterns.QXmlSchemaValidator.__init__?1(self)
+QtXmlPatterns.QXmlSchemaValidator?1(QXmlSchema)
+QtXmlPatterns.QXmlSchemaValidator.__init__?1(self, QXmlSchema)
+QtXmlPatterns.QXmlSchemaValidator.setSchema?4(QXmlSchema)
+QtXmlPatterns.QXmlSchemaValidator.validate?4(QUrl) -> bool
+QtXmlPatterns.QXmlSchemaValidator.validate?4(QIODevice, QUrl documentUri=QUrl()) -> bool
+QtXmlPatterns.QXmlSchemaValidator.validate?4(QByteArray, QUrl documentUri=QUrl()) -> bool
+QtXmlPatterns.QXmlSchemaValidator.namePool?4() -> QXmlNamePool
+QtXmlPatterns.QXmlSchemaValidator.schema?4() -> QXmlSchema
+QtXmlPatterns.QXmlSchemaValidator.setMessageHandler?4(QAbstractMessageHandler)
+QtXmlPatterns.QXmlSchemaValidator.messageHandler?4() -> QAbstractMessageHandler
+QtXmlPatterns.QXmlSchemaValidator.setUriResolver?4(QAbstractUriResolver)
+QtXmlPatterns.QXmlSchemaValidator.uriResolver?4() -> QAbstractUriResolver
+QtXmlPatterns.QXmlSchemaValidator.setNetworkAccessManager?4(QNetworkAccessManager)
+QtXmlPatterns.QXmlSchemaValidator.networkAccessManager?4() -> QNetworkAccessManager

@@ -1,0 +1,641 @@
+QtQuick.QQuickTextureFactory?1()
+QtQuick.QQuickTextureFactory.__init__?1(self)
+QtQuick.QQuickTextureFactory.createTexture?4(QQuickWindow) -> QSGTexture
+QtQuick.QQuickTextureFactory.textureSize?4() -> QSize
+QtQuick.QQuickTextureFactory.textureByteCount?4() -> int
+QtQuick.QQuickTextureFactory.image?4() -> QImage
+QtQuick.QQuickImageProvider?1(QQmlImageProviderBase.ImageType, QQmlImageProviderBase.Flags flags=0)
+QtQuick.QQuickImageProvider.__init__?1(self, QQmlImageProviderBase.ImageType, QQmlImageProviderBase.Flags flags=0)
+QtQuick.QQuickImageProvider?1(QQuickImageProvider)
+QtQuick.QQuickImageProvider.__init__?1(self, QQuickImageProvider)
+QtQuick.QQuickImageProvider.imageType?4() -> QQmlImageProviderBase.ImageType
+QtQuick.QQuickImageProvider.flags?4() -> QQmlImageProviderBase.Flags
+QtQuick.QQuickImageProvider.requestImage?4(str, QSize) -> (QImage, QSize)
+QtQuick.QQuickImageProvider.requestPixmap?4(str, QSize) -> (QPixmap, QSize)
+QtQuick.QQuickImageProvider.requestTexture?4(str, QSize) -> (QQuickTextureFactory, QSize)
+QtQuick.QQuickItem.TransformOrigin?10
+QtQuick.QQuickItem.TopLeft?10
+QtQuick.QQuickItem.Top?10
+QtQuick.QQuickItem.TopRight?10
+QtQuick.QQuickItem.Left?10
+QtQuick.QQuickItem.Center?10
+QtQuick.QQuickItem.Right?10
+QtQuick.QQuickItem.BottomLeft?10
+QtQuick.QQuickItem.Bottom?10
+QtQuick.QQuickItem.BottomRight?10
+QtQuick.QQuickItem.ItemChange?10
+QtQuick.QQuickItem.ItemChildAddedChange?10
+QtQuick.QQuickItem.ItemChildRemovedChange?10
+QtQuick.QQuickItem.ItemSceneChange?10
+QtQuick.QQuickItem.ItemVisibleHasChanged?10
+QtQuick.QQuickItem.ItemParentHasChanged?10
+QtQuick.QQuickItem.ItemOpacityHasChanged?10
+QtQuick.QQuickItem.ItemActiveFocusHasChanged?10
+QtQuick.QQuickItem.ItemRotationHasChanged?10
+QtQuick.QQuickItem.Flag?10
+QtQuick.QQuickItem.ItemClipsChildrenToShape?10
+QtQuick.QQuickItem.ItemAcceptsInputMethod?10
+QtQuick.QQuickItem.ItemIsFocusScope?10
+QtQuick.QQuickItem.ItemHasContents?10
+QtQuick.QQuickItem.ItemAcceptsDrops?10
+QtQuick.QQuickItem?1(QQuickItem parent=None)
+QtQuick.QQuickItem.__init__?1(self, QQuickItem parent=None)
+QtQuick.QQuickItem.window?4() -> QQuickWindow
+QtQuick.QQuickItem.parentItem?4() -> QQuickItem
+QtQuick.QQuickItem.setParentItem?4(QQuickItem)
+QtQuick.QQuickItem.stackBefore?4(QQuickItem)
+QtQuick.QQuickItem.stackAfter?4(QQuickItem)
+QtQuick.QQuickItem.childrenRect?4() -> QRectF
+QtQuick.QQuickItem.childItems?4() -> list-of-QQuickItem
+QtQuick.QQuickItem.clip?4() -> bool
+QtQuick.QQuickItem.setClip?4(bool)
+QtQuick.QQuickItem.state?4() -> str
+QtQuick.QQuickItem.setState?4(str)
+QtQuick.QQuickItem.baselineOffset?4() -> float
+QtQuick.QQuickItem.setBaselineOffset?4(float)
+QtQuick.QQuickItem.x?4() -> float
+QtQuick.QQuickItem.y?4() -> float
+QtQuick.QQuickItem.setX?4(float)
+QtQuick.QQuickItem.setY?4(float)
+QtQuick.QQuickItem.width?4() -> float
+QtQuick.QQuickItem.setWidth?4(float)
+QtQuick.QQuickItem.resetWidth?4()
+QtQuick.QQuickItem.setImplicitWidth?4(float)
+QtQuick.QQuickItem.implicitWidth?4() -> float
+QtQuick.QQuickItem.height?4() -> float
+QtQuick.QQuickItem.setHeight?4(float)
+QtQuick.QQuickItem.resetHeight?4()
+QtQuick.QQuickItem.setImplicitHeight?4(float)
+QtQuick.QQuickItem.implicitHeight?4() -> float
+QtQuick.QQuickItem.transformOrigin?4() -> QQuickItem.TransformOrigin
+QtQuick.QQuickItem.setTransformOrigin?4(QQuickItem.TransformOrigin)
+QtQuick.QQuickItem.z?4() -> float
+QtQuick.QQuickItem.setZ?4(float)
+QtQuick.QQuickItem.rotation?4() -> float
+QtQuick.QQuickItem.setRotation?4(float)
+QtQuick.QQuickItem.scale?4() -> float
+QtQuick.QQuickItem.setScale?4(float)
+QtQuick.QQuickItem.opacity?4() -> float
+QtQuick.QQuickItem.setOpacity?4(float)
+QtQuick.QQuickItem.isVisible?4() -> bool
+QtQuick.QQuickItem.setVisible?4(bool)
+QtQuick.QQuickItem.isEnabled?4() -> bool
+QtQuick.QQuickItem.setEnabled?4(bool)
+QtQuick.QQuickItem.smooth?4() -> bool
+QtQuick.QQuickItem.setSmooth?4(bool)
+QtQuick.QQuickItem.antialiasing?4() -> bool
+QtQuick.QQuickItem.setAntialiasing?4(bool)
+QtQuick.QQuickItem.flags?4() -> QQuickItem.Flags
+QtQuick.QQuickItem.setFlag?4(QQuickItem.Flag, bool enabled=True)
+QtQuick.QQuickItem.setFlags?4(QQuickItem.Flags)
+QtQuick.QQuickItem.hasActiveFocus?4() -> bool
+QtQuick.QQuickItem.hasFocus?4() -> bool
+QtQuick.QQuickItem.setFocus?4(bool)
+QtQuick.QQuickItem.isFocusScope?4() -> bool
+QtQuick.QQuickItem.scopedFocusItem?4() -> QQuickItem
+QtQuick.QQuickItem.acceptedMouseButtons?4() -> Qt.MouseButtons
+QtQuick.QQuickItem.setAcceptedMouseButtons?4(Qt.MouseButtons)
+QtQuick.QQuickItem.acceptHoverEvents?4() -> bool
+QtQuick.QQuickItem.setAcceptHoverEvents?4(bool)
+QtQuick.QQuickItem.cursor?4() -> QCursor
+QtQuick.QQuickItem.setCursor?4(QCursor)
+QtQuick.QQuickItem.unsetCursor?4()
+QtQuick.QQuickItem.grabMouse?4()
+QtQuick.QQuickItem.ungrabMouse?4()
+QtQuick.QQuickItem.keepMouseGrab?4() -> bool
+QtQuick.QQuickItem.setKeepMouseGrab?4(bool)
+QtQuick.QQuickItem.filtersChildMouseEvents?4() -> bool
+QtQuick.QQuickItem.setFiltersChildMouseEvents?4(bool)
+QtQuick.QQuickItem.grabTouchPoints?4(list-of-int)
+QtQuick.QQuickItem.ungrabTouchPoints?4()
+QtQuick.QQuickItem.keepTouchGrab?4() -> bool
+QtQuick.QQuickItem.setKeepTouchGrab?4(bool)
+QtQuick.QQuickItem.contains?4(QPointF) -> bool
+QtQuick.QQuickItem.mapToItem?4(QQuickItem, QPointF) -> QPointF
+QtQuick.QQuickItem.mapToScene?4(QPointF) -> QPointF
+QtQuick.QQuickItem.mapRectToItem?4(QQuickItem, QRectF) -> QRectF
+QtQuick.QQuickItem.mapRectToScene?4(QRectF) -> QRectF
+QtQuick.QQuickItem.mapFromItem?4(QQuickItem, QPointF) -> QPointF
+QtQuick.QQuickItem.mapFromScene?4(QPointF) -> QPointF
+QtQuick.QQuickItem.mapRectFromItem?4(QQuickItem, QRectF) -> QRectF
+QtQuick.QQuickItem.mapRectFromScene?4(QRectF) -> QRectF
+QtQuick.QQuickItem.polish?4()
+QtQuick.QQuickItem.forceActiveFocus?4()
+QtQuick.QQuickItem.childAt?4(float, float) -> QQuickItem
+QtQuick.QQuickItem.inputMethodQuery?4(Qt.InputMethodQuery) -> QVariant
+QtQuick.QQuickItem.isTextureProvider?4() -> bool
+QtQuick.QQuickItem.textureProvider?4() -> QSGTextureProvider
+QtQuick.QQuickItem.update?4()
+QtQuick.QQuickItem.event?4(QEvent) -> bool
+QtQuick.QQuickItem.isComponentComplete?4() -> bool
+QtQuick.QQuickItem.itemChange?4(QQuickItem.ItemChange, QQuickItem.ItemChangeData)
+QtQuick.QQuickItem.updateInputMethod?4(Qt.InputMethodQueries queries=Qt.ImQueryInput)
+QtQuick.QQuickItem.widthValid?4() -> bool
+QtQuick.QQuickItem.heightValid?4() -> bool
+QtQuick.QQuickItem.classBegin?4()
+QtQuick.QQuickItem.componentComplete?4()
+QtQuick.QQuickItem.keyPressEvent?4(QKeyEvent)
+QtQuick.QQuickItem.keyReleaseEvent?4(QKeyEvent)
+QtQuick.QQuickItem.inputMethodEvent?4(QInputMethodEvent)
+QtQuick.QQuickItem.focusInEvent?4(QFocusEvent)
+QtQuick.QQuickItem.focusOutEvent?4(QFocusEvent)
+QtQuick.QQuickItem.mousePressEvent?4(QMouseEvent)
+QtQuick.QQuickItem.mouseMoveEvent?4(QMouseEvent)
+QtQuick.QQuickItem.mouseReleaseEvent?4(QMouseEvent)
+QtQuick.QQuickItem.mouseDoubleClickEvent?4(QMouseEvent)
+QtQuick.QQuickItem.mouseUngrabEvent?4()
+QtQuick.QQuickItem.touchUngrabEvent?4()
+QtQuick.QQuickItem.wheelEvent?4(QWheelEvent)
+QtQuick.QQuickItem.touchEvent?4(QTouchEvent)
+QtQuick.QQuickItem.hoverEnterEvent?4(QHoverEvent)
+QtQuick.QQuickItem.hoverMoveEvent?4(QHoverEvent)
+QtQuick.QQuickItem.hoverLeaveEvent?4(QHoverEvent)
+QtQuick.QQuickItem.dragEnterEvent?4(QDragEnterEvent)
+QtQuick.QQuickItem.dragMoveEvent?4(QDragMoveEvent)
+QtQuick.QQuickItem.dragLeaveEvent?4(QDragLeaveEvent)
+QtQuick.QQuickItem.dropEvent?4(QDropEvent)
+QtQuick.QQuickItem.childMouseEventFilter?4(QQuickItem, QEvent) -> bool
+QtQuick.QQuickItem.geometryChanged?4(QRectF, QRectF)
+QtQuick.QQuickItem.updatePaintNode?4(QSGNode, QQuickItem.UpdatePaintNodeData) -> QSGNode
+QtQuick.QQuickItem.releaseResources?4()
+QtQuick.QQuickItem.updatePolish?4()
+QtQuick.QQuickItem.activeFocusOnTab?4() -> bool
+QtQuick.QQuickItem.setActiveFocusOnTab?4(bool)
+QtQuick.QQuickItem.setFocus?4(bool, Qt.FocusReason)
+QtQuick.QQuickItem.forceActiveFocus?4(Qt.FocusReason)
+QtQuick.QQuickItem.nextItemInFocusChain?4(bool forward=True) -> QQuickItem
+QtQuick.QQuickItem.windowChanged?4(QQuickWindow)
+QtQuick.QQuickItem.Flags?1(QQuickItem.Flags)
+QtQuick.QQuickItem.Flags.__init__?1(self, QQuickItem.Flags)
+QtQuick.QQuickItem.Flags?1(int)
+QtQuick.QQuickItem.Flags.__init__?1(self, int)
+QtQuick.QQuickItem.Flags?1()
+QtQuick.QQuickItem.Flags.__init__?1(self)
+QtQuick.QQuickItem.ItemChangeData.boolValue?7
+QtQuick.QQuickItem.ItemChangeData.item?7
+QtQuick.QQuickItem.ItemChangeData.realValue?7
+QtQuick.QQuickItem.ItemChangeData.window?7
+QtQuick.QQuickItem.ItemChangeData?1(QQuickItem)
+QtQuick.QQuickItem.ItemChangeData.__init__?1(self, QQuickItem)
+QtQuick.QQuickItem.ItemChangeData?1(QQuickWindow)
+QtQuick.QQuickItem.ItemChangeData.__init__?1(self, QQuickWindow)
+QtQuick.QQuickItem.ItemChangeData?1(float)
+QtQuick.QQuickItem.ItemChangeData.__init__?1(self, float)
+QtQuick.QQuickItem.ItemChangeData?1(bool)
+QtQuick.QQuickItem.ItemChangeData.__init__?1(self, bool)
+QtQuick.QQuickItem.ItemChangeData?1(QQuickItem.ItemChangeData)
+QtQuick.QQuickItem.ItemChangeData.__init__?1(self, QQuickItem.ItemChangeData)
+QtQuick.QQuickItem.UpdatePaintNodeData.transformNode?7
+QtQuick.QQuickItem.UpdatePaintNodeData?1(QQuickItem.UpdatePaintNodeData)
+QtQuick.QQuickItem.UpdatePaintNodeData.__init__?1(self, QQuickItem.UpdatePaintNodeData)
+QtQuick.QQuickPaintedItem.PerformanceHint?10
+QtQuick.QQuickPaintedItem.FastFBOResizing?10
+QtQuick.QQuickPaintedItem.RenderTarget?10
+QtQuick.QQuickPaintedItem.Image?10
+QtQuick.QQuickPaintedItem.FramebufferObject?10
+QtQuick.QQuickPaintedItem.InvertedYFramebufferObject?10
+QtQuick.QQuickPaintedItem?1(QQuickItem parent=None)
+QtQuick.QQuickPaintedItem.__init__?1(self, QQuickItem parent=None)
+QtQuick.QQuickPaintedItem.update?4(QRect rect=QRect())
+QtQuick.QQuickPaintedItem.opaquePainting?4() -> bool
+QtQuick.QQuickPaintedItem.setOpaquePainting?4(bool)
+QtQuick.QQuickPaintedItem.antialiasing?4() -> bool
+QtQuick.QQuickPaintedItem.setAntialiasing?4(bool)
+QtQuick.QQuickPaintedItem.mipmap?4() -> bool
+QtQuick.QQuickPaintedItem.setMipmap?4(bool)
+QtQuick.QQuickPaintedItem.performanceHints?4() -> QQuickPaintedItem.PerformanceHints
+QtQuick.QQuickPaintedItem.setPerformanceHint?4(QQuickPaintedItem.PerformanceHint, bool enabled=True)
+QtQuick.QQuickPaintedItem.setPerformanceHints?4(QQuickPaintedItem.PerformanceHints)
+QtQuick.QQuickPaintedItem.contentsBoundingRect?4() -> QRectF
+QtQuick.QQuickPaintedItem.contentsSize?4() -> QSize
+QtQuick.QQuickPaintedItem.setContentsSize?4(QSize)
+QtQuick.QQuickPaintedItem.resetContentsSize?4()
+QtQuick.QQuickPaintedItem.contentsScale?4() -> float
+QtQuick.QQuickPaintedItem.setContentsScale?4(float)
+QtQuick.QQuickPaintedItem.fillColor?4() -> QColor
+QtQuick.QQuickPaintedItem.setFillColor?4(QColor)
+QtQuick.QQuickPaintedItem.renderTarget?4() -> QQuickPaintedItem.RenderTarget
+QtQuick.QQuickPaintedItem.setRenderTarget?4(QQuickPaintedItem.RenderTarget)
+QtQuick.QQuickPaintedItem.paint?4(QPainter)
+QtQuick.QQuickPaintedItem.fillColorChanged?4()
+QtQuick.QQuickPaintedItem.contentsSizeChanged?4()
+QtQuick.QQuickPaintedItem.contentsScaleChanged?4()
+QtQuick.QQuickPaintedItem.renderTargetChanged?4()
+QtQuick.QQuickPaintedItem.updatePaintNode?4(QSGNode, QQuickItem.UpdatePaintNodeData) -> QSGNode
+QtQuick.QQuickPaintedItem.PerformanceHints?1(QQuickPaintedItem.PerformanceHints)
+QtQuick.QQuickPaintedItem.PerformanceHints.__init__?1(self, QQuickPaintedItem.PerformanceHints)
+QtQuick.QQuickPaintedItem.PerformanceHints?1(int)
+QtQuick.QQuickPaintedItem.PerformanceHints.__init__?1(self, int)
+QtQuick.QQuickPaintedItem.PerformanceHints?1()
+QtQuick.QQuickPaintedItem.PerformanceHints.__init__?1(self)
+QtQuick.QQuickTextDocument?1(QQuickItem)
+QtQuick.QQuickTextDocument.__init__?1(self, QQuickItem)
+QtQuick.QQuickTextDocument.textDocument?4() -> QTextDocument
+QtQuick.QQuickWindow.CreateTextureOption?10
+QtQuick.QQuickWindow.TextureHasAlphaChannel?10
+QtQuick.QQuickWindow.TextureHasMipmaps?10
+QtQuick.QQuickWindow.TextureOwnsGLTexture?10
+QtQuick.QQuickWindow?1(QWindow parent=None)
+QtQuick.QQuickWindow.__init__?1(self, QWindow parent=None)
+QtQuick.QQuickWindow.contentItem?4() -> QQuickItem
+QtQuick.QQuickWindow.activeFocusItem?4() -> QQuickItem
+QtQuick.QQuickWindow.focusObject?4() -> QObject
+QtQuick.QQuickWindow.mouseGrabberItem?4() -> QQuickItem
+QtQuick.QQuickWindow.sendEvent?4(QQuickItem, QEvent) -> bool
+QtQuick.QQuickWindow.grabWindow?4() -> QImage
+QtQuick.QQuickWindow.setRenderTarget?4(QOpenGLFramebufferObject)
+QtQuick.QQuickWindow.renderTarget?4() -> QOpenGLFramebufferObject
+QtQuick.QQuickWindow.setRenderTarget?4(int, QSize)
+QtQuick.QQuickWindow.renderTargetId?4() -> int
+QtQuick.QQuickWindow.renderTargetSize?4() -> QSize
+QtQuick.QQuickWindow.incubationController?4() -> QQmlIncubationController
+QtQuick.QQuickWindow.createTextureFromImage?4(QImage) -> QSGTexture
+QtQuick.QQuickWindow.createTextureFromId?4(int, QSize, QQuickWindow.CreateTextureOptions options=(QQuickWindow::CreateTextureOption)0) -> QSGTexture
+QtQuick.QQuickWindow.setClearBeforeRendering?4(bool)
+QtQuick.QQuickWindow.clearBeforeRendering?4() -> bool
+QtQuick.QQuickWindow.setColor?4(QColor)
+QtQuick.QQuickWindow.color?4() -> QColor
+QtQuick.QQuickWindow.setPersistentOpenGLContext?4(bool)
+QtQuick.QQuickWindow.isPersistentOpenGLContext?4() -> bool
+QtQuick.QQuickWindow.setPersistentSceneGraph?4(bool)
+QtQuick.QQuickWindow.isPersistentSceneGraph?4() -> bool
+QtQuick.QQuickWindow.openglContext?4() -> QOpenGLContext
+QtQuick.QQuickWindow.frameSwapped?4()
+QtQuick.QQuickWindow.sceneGraphInitialized?4()
+QtQuick.QQuickWindow.sceneGraphInvalidated?4()
+QtQuick.QQuickWindow.beforeSynchronizing?4()
+QtQuick.QQuickWindow.beforeRendering?4()
+QtQuick.QQuickWindow.afterRendering?4()
+QtQuick.QQuickWindow.colorChanged?4(QColor)
+QtQuick.QQuickWindow.update?4()
+QtQuick.QQuickWindow.releaseResources?4()
+QtQuick.QQuickWindow.exposeEvent?4(QExposeEvent)
+QtQuick.QQuickWindow.resizeEvent?4(QResizeEvent)
+QtQuick.QQuickWindow.showEvent?4(QShowEvent)
+QtQuick.QQuickWindow.hideEvent?4(QHideEvent)
+QtQuick.QQuickWindow.focusInEvent?4(QFocusEvent)
+QtQuick.QQuickWindow.focusOutEvent?4(QFocusEvent)
+QtQuick.QQuickWindow.event?4(QEvent) -> bool
+QtQuick.QQuickWindow.keyPressEvent?4(QKeyEvent)
+QtQuick.QQuickWindow.keyReleaseEvent?4(QKeyEvent)
+QtQuick.QQuickWindow.mousePressEvent?4(QMouseEvent)
+QtQuick.QQuickWindow.mouseReleaseEvent?4(QMouseEvent)
+QtQuick.QQuickWindow.mouseDoubleClickEvent?4(QMouseEvent)
+QtQuick.QQuickWindow.mouseMoveEvent?4(QMouseEvent)
+QtQuick.QQuickWindow.wheelEvent?4(QWheelEvent)
+QtQuick.QQuickWindow.hasDefaultAlphaBuffer?4() -> bool
+QtQuick.QQuickWindow.setDefaultAlphaBuffer?4(bool)
+QtQuick.QQuickWindow.activeFocusItemChanged?4()
+QtQuick.QQuickView.Status?10
+QtQuick.QQuickView.Null?10
+QtQuick.QQuickView.Ready?10
+QtQuick.QQuickView.Loading?10
+QtQuick.QQuickView.Error?10
+QtQuick.QQuickView.ResizeMode?10
+QtQuick.QQuickView.SizeViewToRootObject?10
+QtQuick.QQuickView.SizeRootObjectToView?10
+QtQuick.QQuickView?1(QWindow parent=None)
+QtQuick.QQuickView.__init__?1(self, QWindow parent=None)
+QtQuick.QQuickView?1(QQmlEngine, QWindow)
+QtQuick.QQuickView.__init__?1(self, QQmlEngine, QWindow)
+QtQuick.QQuickView?1(QUrl, QWindow parent=None)
+QtQuick.QQuickView.__init__?1(self, QUrl, QWindow parent=None)
+QtQuick.QQuickView.source?4() -> QUrl
+QtQuick.QQuickView.engine?4() -> QQmlEngine
+QtQuick.QQuickView.rootContext?4() -> QQmlContext
+QtQuick.QQuickView.rootObject?4() -> QQuickItem
+QtQuick.QQuickView.resizeMode?4() -> QQuickView.ResizeMode
+QtQuick.QQuickView.setResizeMode?4(QQuickView.ResizeMode)
+QtQuick.QQuickView.status?4() -> QQuickView.Status
+QtQuick.QQuickView.errors?4() -> list-of-QQmlError
+QtQuick.QQuickView.initialSize?4() -> QSize
+QtQuick.QQuickView.setSource?4(QUrl)
+QtQuick.QQuickView.statusChanged?4(QQuickView.Status)
+QtQuick.QQuickView.resizeEvent?4(QResizeEvent)
+QtQuick.QQuickView.timerEvent?4(QTimerEvent)
+QtQuick.QQuickView.keyPressEvent?4(QKeyEvent)
+QtQuick.QQuickView.keyReleaseEvent?4(QKeyEvent)
+QtQuick.QQuickView.mousePressEvent?4(QMouseEvent)
+QtQuick.QQuickView.mouseReleaseEvent?4(QMouseEvent)
+QtQuick.QQuickView.mouseMoveEvent?4(QMouseEvent)
+QtQuick.QQuickWindow.CreateTextureOptions?1(QQuickWindow.CreateTextureOptions)
+QtQuick.QQuickWindow.CreateTextureOptions.__init__?1(self, QQuickWindow.CreateTextureOptions)
+QtQuick.QQuickWindow.CreateTextureOptions?1(int)
+QtQuick.QQuickWindow.CreateTextureOptions.__init__?1(self, int)
+QtQuick.QQuickWindow.CreateTextureOptions?1()
+QtQuick.QQuickWindow.CreateTextureOptions.__init__?1(self)
+QtQuick.QSGMaterial.Flag?10
+QtQuick.QSGMaterial.Blending?10
+QtQuick.QSGMaterial.RequiresDeterminant?10
+QtQuick.QSGMaterial.RequiresFullMatrixExceptTranslate?10
+QtQuick.QSGMaterial.RequiresFullMatrix?10
+QtQuick.QSGMaterial?1()
+QtQuick.QSGMaterial.__init__?1(self)
+QtQuick.QSGMaterial.type?4() -> QSGMaterialType
+QtQuick.QSGMaterial.createShader?4() -> QSGMaterialShader
+QtQuick.QSGMaterial.compare?4(QSGMaterial) -> int
+QtQuick.QSGMaterial.flags?4() -> QSGMaterial.Flags
+QtQuick.QSGMaterial.setFlag?4(QSGMaterial.Flags, bool enabled=True)
+QtQuick.QSGFlatColorMaterial?1()
+QtQuick.QSGFlatColorMaterial.__init__?1(self)
+QtQuick.QSGFlatColorMaterial.type?4() -> QSGMaterialType
+QtQuick.QSGFlatColorMaterial.createShader?4() -> QSGMaterialShader
+QtQuick.QSGFlatColorMaterial.setColor?4(QColor)
+QtQuick.QSGFlatColorMaterial.color?4() -> QColor
+QtQuick.QSGFlatColorMaterial.compare?4(QSGMaterial) -> int
+QtQuick.QSGGeometry.DataPattern?10
+QtQuick.QSGGeometry.AlwaysUploadPattern?10
+QtQuick.QSGGeometry.StreamPattern?10
+QtQuick.QSGGeometry.DynamicPattern?10
+QtQuick.QSGGeometry.StaticPattern?10
+QtQuick.QSGGeometry.GL_POINTS?10
+QtQuick.QSGGeometry.GL_LINES?10
+QtQuick.QSGGeometry.GL_LINE_LOOP?10
+QtQuick.QSGGeometry.GL_LINE_STRIP?10
+QtQuick.QSGGeometry.GL_TRIANGLES?10
+QtQuick.QSGGeometry.GL_TRIANGLE_STRIP?10
+QtQuick.QSGGeometry.GL_TRIANGLE_FAN?10
+QtQuick.QSGGeometry?1(QSGGeometry.AttributeSet, int, int indexCount=0, int indexType=GL_UNSIGNED_SHORT)
+QtQuick.QSGGeometry.__init__?1(self, QSGGeometry.AttributeSet, int, int indexCount=0, int indexType=GL_UNSIGNED_SHORT)
+QtQuick.QSGGeometry?1(QSGGeometry)
+QtQuick.QSGGeometry.__init__?1(self, QSGGeometry)
+QtQuick.QSGGeometry.defaultAttributes_Point2D?4() -> QSGGeometry.AttributeSet
+QtQuick.QSGGeometry.defaultAttributes_TexturedPoint2D?4() -> QSGGeometry.AttributeSet
+QtQuick.QSGGeometry.defaultAttributes_ColoredPoint2D?4() -> QSGGeometry.AttributeSet
+QtQuick.QSGGeometry.setDrawingMode?4(int)
+QtQuick.QSGGeometry.drawingMode?4() -> int
+QtQuick.QSGGeometry.allocate?4(int, int indexCount=0)
+QtQuick.QSGGeometry.vertexCount?4() -> int
+QtQuick.QSGGeometry.vertexData?4() -> sip.voidptr
+QtQuick.QSGGeometry.indexType?4() -> int
+QtQuick.QSGGeometry.indexCount?4() -> int
+QtQuick.QSGGeometry.indexData?4() -> sip.voidptr
+QtQuick.QSGGeometry.attributeCount?4() -> int
+QtQuick.QSGGeometry.attributes?4() -> read-only-array-of-QSGGeometry.Attribute
+QtQuick.QSGGeometry.sizeOfVertex?4() -> int
+QtQuick.QSGGeometry.updateRectGeometry?4(QSGGeometry, QRectF)
+QtQuick.QSGGeometry.updateTexturedRectGeometry?4(QSGGeometry, QRectF, QRectF)
+QtQuick.QSGGeometry.setIndexDataPattern?4(QSGGeometry.DataPattern)
+QtQuick.QSGGeometry.indexDataPattern?4() -> QSGGeometry.DataPattern
+QtQuick.QSGGeometry.setVertexDataPattern?4(QSGGeometry.DataPattern)
+QtQuick.QSGGeometry.vertexDataPattern?4() -> QSGGeometry.DataPattern
+QtQuick.QSGGeometry.markIndexDataDirty?4()
+QtQuick.QSGGeometry.markVertexDataDirty?4()
+QtQuick.QSGGeometry.lineWidth?4() -> float
+QtQuick.QSGGeometry.setLineWidth?4(float)
+QtQuick.QSGGeometry.indexDataAsUInt?4() -> array-of-unsigned-int
+QtQuick.QSGGeometry.indexDataAsUShort?4() -> array-of-unsigned-short
+QtQuick.QSGGeometry.vertexDataAsPoint2D?4() -> array-of-QSGGeometry.Point2D
+QtQuick.QSGGeometry.vertexDataAsTexturedPoint2D?4() -> array-of-QSGGeometry.TexturedPoint2D
+QtQuick.QSGGeometry.vertexDataAsColoredPoint2D?4() -> array-of-QSGGeometry.ColoredPoint2D
+QtQuick.QSGGeometry.sizeOfIndex?4() -> int
+QtQuick.QSGGeometry.Attribute.isVertexCoordinate?7
+QtQuick.QSGGeometry.Attribute.position?7
+QtQuick.QSGGeometry.Attribute.tupleSize?7
+QtQuick.QSGGeometry.Attribute.type?7
+QtQuick.QSGGeometry.Attribute?1()
+QtQuick.QSGGeometry.Attribute.__init__?1(self)
+QtQuick.QSGGeometry.Attribute?1(QSGGeometry.Attribute)
+QtQuick.QSGGeometry.Attribute.__init__?1(self, QSGGeometry.Attribute)
+QtQuick.QSGGeometry.Attribute.create?4(int, int, int, bool isPosition=False) -> QSGGeometry.Attribute
+QtQuick.QSGGeometry.AttributeSet.attributes?7
+QtQuick.QSGGeometry.AttributeSet.count?7
+QtQuick.QSGGeometry.AttributeSet.stride?7
+QtQuick.QSGGeometry.AttributeSet?1()
+QtQuick.QSGGeometry.AttributeSet.__init__?1(self)
+QtQuick.QSGGeometry.AttributeSet?1(QSGGeometry.AttributeSet)
+QtQuick.QSGGeometry.AttributeSet.__init__?1(self, QSGGeometry.AttributeSet)
+QtQuick.QSGGeometry.Point2D.x?7
+QtQuick.QSGGeometry.Point2D.y?7
+QtQuick.QSGGeometry.Point2D?1()
+QtQuick.QSGGeometry.Point2D.__init__?1(self)
+QtQuick.QSGGeometry.Point2D?1(QSGGeometry.Point2D)
+QtQuick.QSGGeometry.Point2D.__init__?1(self, QSGGeometry.Point2D)
+QtQuick.QSGGeometry.Point2D.set?4(float, float)
+QtQuick.QSGGeometry.TexturedPoint2D.tx?7
+QtQuick.QSGGeometry.TexturedPoint2D.ty?7
+QtQuick.QSGGeometry.TexturedPoint2D.x?7
+QtQuick.QSGGeometry.TexturedPoint2D.y?7
+QtQuick.QSGGeometry.TexturedPoint2D?1()
+QtQuick.QSGGeometry.TexturedPoint2D.__init__?1(self)
+QtQuick.QSGGeometry.TexturedPoint2D?1(QSGGeometry.TexturedPoint2D)
+QtQuick.QSGGeometry.TexturedPoint2D.__init__?1(self, QSGGeometry.TexturedPoint2D)
+QtQuick.QSGGeometry.TexturedPoint2D.set?4(float, float, float, float)
+QtQuick.QSGGeometry.ColoredPoint2D.a?7
+QtQuick.QSGGeometry.ColoredPoint2D.b?7
+QtQuick.QSGGeometry.ColoredPoint2D.g?7
+QtQuick.QSGGeometry.ColoredPoint2D.r?7
+QtQuick.QSGGeometry.ColoredPoint2D.x?7
+QtQuick.QSGGeometry.ColoredPoint2D.y?7
+QtQuick.QSGGeometry.ColoredPoint2D?1()
+QtQuick.QSGGeometry.ColoredPoint2D.__init__?1(self)
+QtQuick.QSGGeometry.ColoredPoint2D?1(QSGGeometry.ColoredPoint2D)
+QtQuick.QSGGeometry.ColoredPoint2D.__init__?1(self, QSGGeometry.ColoredPoint2D)
+QtQuick.QSGGeometry.ColoredPoint2D.set?4(float, float, int, int, int, int)
+QtQuick.QSGMaterialShader?1()
+QtQuick.QSGMaterialShader.__init__?1(self)
+QtQuick.QSGMaterialShader.activate?4()
+QtQuick.QSGMaterialShader.deactivate?4()
+QtQuick.QSGMaterialShader.updateState?4(QSGMaterialShader.RenderState, QSGMaterial, QSGMaterial)
+QtQuick.QSGMaterialShader.attributeNames?4() -> list-of-str
+QtQuick.QSGMaterialShader.program?4() -> QOpenGLShaderProgram
+QtQuick.QSGMaterialShader.compile?4()
+QtQuick.QSGMaterialShader.initialize?4()
+QtQuick.QSGMaterialShader.vertexShader?4() -> str
+QtQuick.QSGMaterialShader.fragmentShader?4() -> str
+QtQuick.QSGMaterialShader.RenderState.DirtyState?10
+QtQuick.QSGMaterialShader.RenderState.DirtyMatrix?10
+QtQuick.QSGMaterialShader.RenderState.DirtyOpacity?10
+QtQuick.QSGMaterialShader.RenderState?1()
+QtQuick.QSGMaterialShader.RenderState.__init__?1(self)
+QtQuick.QSGMaterialShader.RenderState?1(QSGMaterialShader.RenderState)
+QtQuick.QSGMaterialShader.RenderState.__init__?1(self, QSGMaterialShader.RenderState)
+QtQuick.QSGMaterialShader.RenderState.dirtyStates?4() -> QSGMaterialShader.RenderState.DirtyStates
+QtQuick.QSGMaterialShader.RenderState.isMatrixDirty?4() -> bool
+QtQuick.QSGMaterialShader.RenderState.isOpacityDirty?4() -> bool
+QtQuick.QSGMaterialShader.RenderState.opacity?4() -> float
+QtQuick.QSGMaterialShader.RenderState.combinedMatrix?4() -> QMatrix4x4
+QtQuick.QSGMaterialShader.RenderState.modelViewMatrix?4() -> QMatrix4x4
+QtQuick.QSGMaterialShader.RenderState.viewportRect?4() -> QRect
+QtQuick.QSGMaterialShader.RenderState.deviceRect?4() -> QRect
+QtQuick.QSGMaterialShader.RenderState.determinant?4() -> float
+QtQuick.QSGMaterialShader.RenderState.context?4() -> QOpenGLContext
+QtQuick.QSGMaterialShader.RenderState.projectionMatrix?4() -> QMatrix4x4
+QtQuick.QSGMaterialShader.RenderState.devicePixelRatio?4() -> float
+QtQuick.QSGMaterialShader.RenderState.DirtyStates?1(QSGMaterialShader.RenderState.DirtyStates)
+QtQuick.QSGMaterialShader.RenderState.DirtyStates.__init__?1(self, QSGMaterialShader.RenderState.DirtyStates)
+QtQuick.QSGMaterialShader.RenderState.DirtyStates?1(int)
+QtQuick.QSGMaterialShader.RenderState.DirtyStates.__init__?1(self, int)
+QtQuick.QSGMaterialShader.RenderState.DirtyStates?1()
+QtQuick.QSGMaterialShader.RenderState.DirtyStates.__init__?1(self)
+QtQuick.QSGMaterialType?1()
+QtQuick.QSGMaterialType.__init__?1(self)
+QtQuick.QSGMaterialType?1(QSGMaterialType)
+QtQuick.QSGMaterialType.__init__?1(self, QSGMaterialType)
+QtQuick.QSGMaterial.Flags?1(QSGMaterial.Flags)
+QtQuick.QSGMaterial.Flags.__init__?1(self, QSGMaterial.Flags)
+QtQuick.QSGMaterial.Flags?1(int)
+QtQuick.QSGMaterial.Flags.__init__?1(self, int)
+QtQuick.QSGMaterial.Flags?1()
+QtQuick.QSGMaterial.Flags.__init__?1(self)
+QtQuick.QSGNode.DirtyStateBit?10
+QtQuick.QSGNode.DirtyMatrix?10
+QtQuick.QSGNode.DirtyNodeAdded?10
+QtQuick.QSGNode.DirtyNodeRemoved?10
+QtQuick.QSGNode.DirtyGeometry?10
+QtQuick.QSGNode.DirtyMaterial?10
+QtQuick.QSGNode.DirtyOpacity?10
+QtQuick.QSGNode.Flag?10
+QtQuick.QSGNode.OwnedByParent?10
+QtQuick.QSGNode.UsePreprocess?10
+QtQuick.QSGNode.OwnsGeometry?10
+QtQuick.QSGNode.OwnsMaterial?10
+QtQuick.QSGNode.OwnsOpaqueMaterial?10
+QtQuick.QSGNode.NodeType?10
+QtQuick.QSGNode.BasicNodeType?10
+QtQuick.QSGNode.GeometryNodeType?10
+QtQuick.QSGNode.TransformNodeType?10
+QtQuick.QSGNode.ClipNodeType?10
+QtQuick.QSGNode.OpacityNodeType?10
+QtQuick.QSGNode?1()
+QtQuick.QSGNode.__init__?1(self)
+QtQuick.QSGNode?1(QSGNode)
+QtQuick.QSGNode.__init__?1(self, QSGNode)
+QtQuick.QSGNode.parent?4() -> QSGNode
+QtQuick.QSGNode.removeChildNode?4(QSGNode)
+QtQuick.QSGNode.removeAllChildNodes?4()
+QtQuick.QSGNode.prependChildNode?4(QSGNode)
+QtQuick.QSGNode.appendChildNode?4(QSGNode)
+QtQuick.QSGNode.insertChildNodeBefore?4(QSGNode, QSGNode)
+QtQuick.QSGNode.insertChildNodeAfter?4(QSGNode, QSGNode)
+QtQuick.QSGNode.childCount?4() -> int
+QtQuick.QSGNode.childAtIndex?4(int) -> QSGNode
+QtQuick.QSGNode.firstChild?4() -> QSGNode
+QtQuick.QSGNode.lastChild?4() -> QSGNode
+QtQuick.QSGNode.nextSibling?4() -> QSGNode
+QtQuick.QSGNode.previousSibling?4() -> QSGNode
+QtQuick.QSGNode.type?4() -> QSGNode.NodeType
+QtQuick.QSGNode.markDirty?4(QSGNode.DirtyState)
+QtQuick.QSGNode.isSubtreeBlocked?4() -> bool
+QtQuick.QSGNode.flags?4() -> QSGNode.Flags
+QtQuick.QSGNode.setFlag?4(QSGNode.Flag, bool enabled=True)
+QtQuick.QSGNode.setFlags?4(QSGNode.Flags, bool enabled=True)
+QtQuick.QSGNode.preprocess?4()
+QtQuick.QSGNode.Flags?1(QSGNode.Flags)
+QtQuick.QSGNode.Flags.__init__?1(self, QSGNode.Flags)
+QtQuick.QSGNode.Flags?1(int)
+QtQuick.QSGNode.Flags.__init__?1(self, int)
+QtQuick.QSGNode.Flags?1()
+QtQuick.QSGNode.Flags.__init__?1(self)
+QtQuick.QSGNode.DirtyState?1(QSGNode.DirtyState)
+QtQuick.QSGNode.DirtyState.__init__?1(self, QSGNode.DirtyState)
+QtQuick.QSGNode.DirtyState?1(int)
+QtQuick.QSGNode.DirtyState.__init__?1(self, int)
+QtQuick.QSGNode.DirtyState?1()
+QtQuick.QSGNode.DirtyState.__init__?1(self)
+QtQuick.QSGBasicGeometryNode.setGeometry?4(QSGGeometry)
+QtQuick.QSGBasicGeometryNode.geometry?4() -> QSGGeometry
+QtQuick.QSGGeometryNode?1()
+QtQuick.QSGGeometryNode.__init__?1(self)
+QtQuick.QSGGeometryNode?1(QSGGeometryNode)
+QtQuick.QSGGeometryNode.__init__?1(self, QSGGeometryNode)
+QtQuick.QSGGeometryNode.setMaterial?4(QSGMaterial)
+QtQuick.QSGGeometryNode.material?4() -> QSGMaterial
+QtQuick.QSGGeometryNode.setOpaqueMaterial?4(QSGMaterial)
+QtQuick.QSGGeometryNode.opaqueMaterial?4() -> QSGMaterial
+QtQuick.QSGClipNode?1()
+QtQuick.QSGClipNode.__init__?1(self)
+QtQuick.QSGClipNode?1(QSGClipNode)
+QtQuick.QSGClipNode.__init__?1(self, QSGClipNode)
+QtQuick.QSGClipNode.setIsRectangular?4(bool)
+QtQuick.QSGClipNode.isRectangular?4() -> bool
+QtQuick.QSGClipNode.setClipRect?4(QRectF)
+QtQuick.QSGClipNode.clipRect?4() -> QRectF
+QtQuick.QSGTransformNode?1()
+QtQuick.QSGTransformNode.__init__?1(self)
+QtQuick.QSGTransformNode?1(QSGTransformNode)
+QtQuick.QSGTransformNode.__init__?1(self, QSGTransformNode)
+QtQuick.QSGTransformNode.setMatrix?4(QMatrix4x4)
+QtQuick.QSGTransformNode.matrix?4() -> QMatrix4x4
+QtQuick.QSGOpacityNode?1()
+QtQuick.QSGOpacityNode.__init__?1(self)
+QtQuick.QSGOpacityNode?1(QSGOpacityNode)
+QtQuick.QSGOpacityNode.__init__?1(self, QSGOpacityNode)
+QtQuick.QSGOpacityNode.setOpacity?4(float)
+QtQuick.QSGOpacityNode.opacity?4() -> float
+QtQuick.QSGSimpleRectNode?1(QRectF, QColor)
+QtQuick.QSGSimpleRectNode.__init__?1(self, QRectF, QColor)
+QtQuick.QSGSimpleRectNode?1()
+QtQuick.QSGSimpleRectNode.__init__?1(self)
+QtQuick.QSGSimpleRectNode.setRect?4(QRectF)
+QtQuick.QSGSimpleRectNode.setRect?4(float, float, float, float)
+QtQuick.QSGSimpleRectNode.rect?4() -> QRectF
+QtQuick.QSGSimpleRectNode.setColor?4(QColor)
+QtQuick.QSGSimpleRectNode.color?4() -> QColor
+QtQuick.QSGSimpleTextureNode?1()
+QtQuick.QSGSimpleTextureNode.__init__?1(self)
+QtQuick.QSGSimpleTextureNode.setRect?4(QRectF)
+QtQuick.QSGSimpleTextureNode.setRect?4(float, float, float, float)
+QtQuick.QSGSimpleTextureNode.rect?4() -> QRectF
+QtQuick.QSGSimpleTextureNode.setTexture?4(QSGTexture)
+QtQuick.QSGSimpleTextureNode.texture?4() -> QSGTexture
+QtQuick.QSGSimpleTextureNode.setFiltering?4(QSGTexture.Filtering)
+QtQuick.QSGSimpleTextureNode.filtering?4() -> QSGTexture.Filtering
+QtQuick.QSGTexture.Filtering?10
+QtQuick.QSGTexture.None?10
+QtQuick.QSGTexture.Nearest?10
+QtQuick.QSGTexture.Linear?10
+QtQuick.QSGTexture.WrapMode?10
+QtQuick.QSGTexture.Repeat?10
+QtQuick.QSGTexture.ClampToEdge?10
+QtQuick.QSGTexture?1()
+QtQuick.QSGTexture.__init__?1(self)
+QtQuick.QSGTexture.textureId?4() -> int
+QtQuick.QSGTexture.textureSize?4() -> QSize
+QtQuick.QSGTexture.hasAlphaChannel?4() -> bool
+QtQuick.QSGTexture.hasMipmaps?4() -> bool
+QtQuick.QSGTexture.normalizedTextureSubRect?4() -> QRectF
+QtQuick.QSGTexture.isAtlasTexture?4() -> bool
+QtQuick.QSGTexture.removedFromAtlas?4() -> QSGTexture
+QtQuick.QSGTexture.bind?4()
+QtQuick.QSGTexture.updateBindOptions?4(bool force=False)
+QtQuick.QSGTexture.setMipmapFiltering?4(QSGTexture.Filtering)
+QtQuick.QSGTexture.mipmapFiltering?4() -> QSGTexture.Filtering
+QtQuick.QSGTexture.setFiltering?4(QSGTexture.Filtering)
+QtQuick.QSGTexture.filtering?4() -> QSGTexture.Filtering
+QtQuick.QSGTexture.setHorizontalWrapMode?4(QSGTexture.WrapMode)
+QtQuick.QSGTexture.horizontalWrapMode?4() -> QSGTexture.WrapMode
+QtQuick.QSGTexture.setVerticalWrapMode?4(QSGTexture.WrapMode)
+QtQuick.QSGTexture.verticalWrapMode?4() -> QSGTexture.WrapMode
+QtQuick.QSGTexture.convertToNormalizedSourceRect?4(QRectF) -> QRectF
+QtQuick.QSGDynamicTexture?1()
+QtQuick.QSGDynamicTexture.__init__?1(self)
+QtQuick.QSGDynamicTexture.updateTexture?4() -> bool
+QtQuick.QSGOpaqueTextureMaterial?1()
+QtQuick.QSGOpaqueTextureMaterial.__init__?1(self)
+QtQuick.QSGOpaqueTextureMaterial.type?4() -> QSGMaterialType
+QtQuick.QSGOpaqueTextureMaterial.createShader?4() -> QSGMaterialShader
+QtQuick.QSGOpaqueTextureMaterial.compare?4(QSGMaterial) -> int
+QtQuick.QSGOpaqueTextureMaterial.setTexture?4(QSGTexture)
+QtQuick.QSGOpaqueTextureMaterial.texture?4() -> QSGTexture
+QtQuick.QSGOpaqueTextureMaterial.setMipmapFiltering?4(QSGTexture.Filtering)
+QtQuick.QSGOpaqueTextureMaterial.mipmapFiltering?4() -> QSGTexture.Filtering
+QtQuick.QSGOpaqueTextureMaterial.setFiltering?4(QSGTexture.Filtering)
+QtQuick.QSGOpaqueTextureMaterial.filtering?4() -> QSGTexture.Filtering
+QtQuick.QSGOpaqueTextureMaterial.setHorizontalWrapMode?4(QSGTexture.WrapMode)
+QtQuick.QSGOpaqueTextureMaterial.horizontalWrapMode?4() -> QSGTexture.WrapMode
+QtQuick.QSGOpaqueTextureMaterial.setVerticalWrapMode?4(QSGTexture.WrapMode)
+QtQuick.QSGOpaqueTextureMaterial.verticalWrapMode?4() -> QSGTexture.WrapMode
+QtQuick.QSGTextureMaterial?1()
+QtQuick.QSGTextureMaterial.__init__?1(self)
+QtQuick.QSGTextureMaterial.type?4() -> QSGMaterialType
+QtQuick.QSGTextureMaterial.createShader?4() -> QSGMaterialShader
+QtQuick.QSGTextureProvider?1()
+QtQuick.QSGTextureProvider.__init__?1(self)
+QtQuick.QSGTextureProvider.texture?4() -> QSGTexture
+QtQuick.QSGTextureProvider.textureChanged?4()
+QtQuick.QSGVertexColorMaterial?1()
+QtQuick.QSGVertexColorMaterial.__init__?1(self)
+QtQuick.QSGVertexColorMaterial.compare?4(QSGMaterial) -> int
+QtQuick.QSGVertexColorMaterial.type?4() -> QSGMaterialType
+QtQuick.QSGVertexColorMaterial.createShader?4() -> QSGMaterialShader

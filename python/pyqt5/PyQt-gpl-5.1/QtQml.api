@@ -1,0 +1,372 @@
+QtQml.qmlAttachedPropertiesObject?4(type, QObject, bool create=True) -> QObject
+QtQml.qmlRegisterRevision?4(type, int, str, int, int, type attachedProperties=0) -> int
+QtQml.qmlRegisterSingletonType?4(type, str, int, int, str, callable) -> int
+QtQml.qmlRegisterType?4(type, type attachedProperties=0) -> int
+QtQml.qmlRegisterType?4(type, str, int, int, str, type attachedProperties=0) -> int
+QtQml.qmlRegisterType?4(type, int, str, int, int, str, type attachedProperties=0) -> int
+QtQml.qmlRegisterUncreatableType?4(type, str, int, int, str, str) -> int
+QtQml.qmlRegisterUncreatableType?4(type, int, str, int, int, str, str) -> int
+QtQml.QJSEngine?1()
+QtQml.QJSEngine.__init__?1(self)
+QtQml.QJSEngine?1(QObject)
+QtQml.QJSEngine.__init__?1(self, QObject)
+QtQml.QJSEngine.globalObject?4() -> QJSValue
+QtQml.QJSEngine.evaluate?4(str, str fileName=QString(), int lineNumber=1) -> QJSValue
+QtQml.QJSEngine.newObject?4() -> QJSValue
+QtQml.QJSEngine.newArray?4(int length=0) -> QJSValue
+QtQml.QJSEngine.newQObject?4(QObject) -> QJSValue
+QtQml.QJSEngine.collectGarbage?4()
+QtQml.QJSValue.SpecialValue?10
+QtQml.QJSValue.NullValue?10
+QtQml.QJSValue.UndefinedValue?10
+QtQml.QJSValue?1(QJSValue.SpecialValue value=QJSValue.UndefinedValue)
+QtQml.QJSValue.__init__?1(self, QJSValue.SpecialValue value=QJSValue.UndefinedValue)
+QtQml.QJSValue?1(QJSValue)
+QtQml.QJSValue.__init__?1(self, QJSValue)
+QtQml.QJSValue?1(bool)
+QtQml.QJSValue.__init__?1(self, bool)
+QtQml.QJSValue?1(int)
+QtQml.QJSValue.__init__?1(self, int)
+QtQml.QJSValue?1(float)
+QtQml.QJSValue.__init__?1(self, float)
+QtQml.QJSValue?1(str)
+QtQml.QJSValue.__init__?1(self, str)
+QtQml.QJSValue.isBool?4() -> bool
+QtQml.QJSValue.isNumber?4() -> bool
+QtQml.QJSValue.isNull?4() -> bool
+QtQml.QJSValue.isString?4() -> bool
+QtQml.QJSValue.isUndefined?4() -> bool
+QtQml.QJSValue.isVariant?4() -> bool
+QtQml.QJSValue.isQObject?4() -> bool
+QtQml.QJSValue.isObject?4() -> bool
+QtQml.QJSValue.isDate?4() -> bool
+QtQml.QJSValue.isRegExp?4() -> bool
+QtQml.QJSValue.isArray?4() -> bool
+QtQml.QJSValue.isError?4() -> bool
+QtQml.QJSValue.toString?4() -> str
+QtQml.QJSValue.toNumber?4() -> float
+QtQml.QJSValue.toInt?4() -> int
+QtQml.QJSValue.toUInt?4() -> int
+QtQml.QJSValue.toBool?4() -> bool
+QtQml.QJSValue.toVariant?4() -> QVariant
+QtQml.QJSValue.toQObject?4() -> QObject
+QtQml.QJSValue.toDateTime?4() -> QDateTime
+QtQml.QJSValue.equals?4(QJSValue) -> bool
+QtQml.QJSValue.strictlyEquals?4(QJSValue) -> bool
+QtQml.QJSValue.prototype?4() -> QJSValue
+QtQml.QJSValue.setPrototype?4(QJSValue)
+QtQml.QJSValue.property?4(str) -> QJSValue
+QtQml.QJSValue.setProperty?4(str, QJSValue)
+QtQml.QJSValue.hasProperty?4(str) -> bool
+QtQml.QJSValue.hasOwnProperty?4(str) -> bool
+QtQml.QJSValue.property?4(int) -> QJSValue
+QtQml.QJSValue.setProperty?4(int, QJSValue)
+QtQml.QJSValue.deleteProperty?4(str) -> bool
+QtQml.QJSValue.isCallable?4() -> bool
+QtQml.QJSValue.call?4(list-of-QJSValue args=QList&lt;QJSValue&gt;()) -> QJSValue
+QtQml.QJSValue.callWithInstance?4(QJSValue, list-of-QJSValue args=QList&lt;QJSValue&gt;()) -> QJSValue
+QtQml.QJSValue.callAsConstructor?4(list-of-QJSValue args=QList&lt;QJSValue&gt;()) -> QJSValue
+QtQml.QJSValueIterator?1(QJSValue)
+QtQml.QJSValueIterator.__init__?1(self, QJSValue)
+QtQml.QJSValueIterator.hasNext?4() -> bool
+QtQml.QJSValueIterator.next?4() -> bool
+QtQml.QJSValueIterator.name?4() -> str
+QtQml.QJSValueIterator.value?4() -> QJSValue
+QtQml.QQmlEngine.ObjectOwnership?10
+QtQml.QQmlEngine.CppOwnership?10
+QtQml.QQmlEngine.JavaScriptOwnership?10
+QtQml.QQmlEngine?1(QObject parent=None)
+QtQml.QQmlEngine.__init__?1(self, QObject parent=None)
+QtQml.QQmlEngine.rootContext?4() -> QQmlContext
+QtQml.QQmlEngine.clearComponentCache?4()
+QtQml.QQmlEngine.trimComponentCache?4()
+QtQml.QQmlEngine.importPathList?4() -> list-of-str
+QtQml.QQmlEngine.setImportPathList?4(list-of-str)
+QtQml.QQmlEngine.addImportPath?4(str)
+QtQml.QQmlEngine.pluginPathList?4() -> list-of-str
+QtQml.QQmlEngine.setPluginPathList?4(list-of-str)
+QtQml.QQmlEngine.addPluginPath?4(str)
+QtQml.QQmlEngine.addNamedBundle?4(str, str) -> bool
+QtQml.QQmlEngine.importPlugin?4(str, str, list-of-QQmlError) -> bool
+QtQml.QQmlEngine.setNetworkAccessManagerFactory?4(QQmlNetworkAccessManagerFactory)
+QtQml.QQmlEngine.networkAccessManagerFactory?4() -> QQmlNetworkAccessManagerFactory
+QtQml.QQmlEngine.networkAccessManager?4() -> QNetworkAccessManager
+QtQml.QQmlEngine.addImageProvider?4(str, QQmlImageProviderBase)
+QtQml.QQmlEngine.imageProvider?4(str) -> QQmlImageProviderBase
+QtQml.QQmlEngine.removeImageProvider?4(str)
+QtQml.QQmlEngine.setIncubationController?4(QQmlIncubationController)
+QtQml.QQmlEngine.incubationController?4() -> QQmlIncubationController
+QtQml.QQmlEngine.setOfflineStoragePath?4(str)
+QtQml.QQmlEngine.offlineStoragePath?4() -> str
+QtQml.QQmlEngine.baseUrl?4() -> QUrl
+QtQml.QQmlEngine.setBaseUrl?4(QUrl)
+QtQml.QQmlEngine.outputWarningsToStandardError?4() -> bool
+QtQml.QQmlEngine.setOutputWarningsToStandardError?4(bool)
+QtQml.QQmlEngine.contextForObject?4(QObject) -> QQmlContext
+QtQml.QQmlEngine.setContextForObject?4(QObject, QQmlContext)
+QtQml.QQmlEngine.setObjectOwnership?4(QObject, QQmlEngine.ObjectOwnership)
+QtQml.QQmlEngine.objectOwnership?4(QObject) -> QQmlEngine.ObjectOwnership
+QtQml.QQmlEngine.event?4(QEvent) -> bool
+QtQml.QQmlEngine.quit?4()
+QtQml.QQmlEngine.warnings?4(list-of-QQmlError)
+QtQml.QQmlApplicationEngine?1(QObject parent=None)
+QtQml.QQmlApplicationEngine.__init__?1(self, QObject parent=None)
+QtQml.QQmlApplicationEngine?1(QUrl, QObject parent=None)
+QtQml.QQmlApplicationEngine.__init__?1(self, QUrl, QObject parent=None)
+QtQml.QQmlApplicationEngine?1(str, QObject parent=None)
+QtQml.QQmlApplicationEngine.__init__?1(self, str, QObject parent=None)
+QtQml.QQmlApplicationEngine.rootObjects?4() -> list-of-QObject
+QtQml.QQmlApplicationEngine.load?4(QUrl)
+QtQml.QQmlApplicationEngine.load?4(str)
+QtQml.QQmlApplicationEngine.loadData?4(QByteArray, QUrl url=QUrl())
+QtQml.QQmlApplicationEngine.objectCreated?4(QObject, QUrl)
+QtQml.QQmlComponent.Status?10
+QtQml.QQmlComponent.Null?10
+QtQml.QQmlComponent.Ready?10
+QtQml.QQmlComponent.Loading?10
+QtQml.QQmlComponent.Error?10
+QtQml.QQmlComponent.CompilationMode?10
+QtQml.QQmlComponent.PreferSynchronous?10
+QtQml.QQmlComponent.Asynchronous?10
+QtQml.QQmlComponent?1(QQmlEngine, QObject parent=None)
+QtQml.QQmlComponent.__init__?1(self, QQmlEngine, QObject parent=None)
+QtQml.QQmlComponent?1(QQmlEngine, str, QObject parent=None)
+QtQml.QQmlComponent.__init__?1(self, QQmlEngine, str, QObject parent=None)
+QtQml.QQmlComponent?1(QQmlEngine, str, QQmlComponent.CompilationMode, QObject parent=None)
+QtQml.QQmlComponent.__init__?1(self, QQmlEngine, str, QQmlComponent.CompilationMode, QObject parent=None)
+QtQml.QQmlComponent?1(QQmlEngine, QUrl, QObject parent=None)
+QtQml.QQmlComponent.__init__?1(self, QQmlEngine, QUrl, QObject parent=None)
+QtQml.QQmlComponent?1(QQmlEngine, QUrl, QQmlComponent.CompilationMode, QObject parent=None)
+QtQml.QQmlComponent.__init__?1(self, QQmlEngine, QUrl, QQmlComponent.CompilationMode, QObject parent=None)
+QtQml.QQmlComponent?1(QObject parent=None)
+QtQml.QQmlComponent.__init__?1(self, QObject parent=None)
+QtQml.QQmlComponent.status?4() -> QQmlComponent.Status
+QtQml.QQmlComponent.isNull?4() -> bool
+QtQml.QQmlComponent.isReady?4() -> bool
+QtQml.QQmlComponent.isError?4() -> bool
+QtQml.QQmlComponent.isLoading?4() -> bool
+QtQml.QQmlComponent.errors?4() -> list-of-QQmlError
+QtQml.QQmlComponent.progress?4() -> float
+QtQml.QQmlComponent.url?4() -> QUrl
+QtQml.QQmlComponent.create?4(QQmlContext context=None) -> QObject
+QtQml.QQmlComponent.beginCreate?4(QQmlContext) -> QObject
+QtQml.QQmlComponent.completeCreate?4()
+QtQml.QQmlComponent.create?4(QQmlIncubator, QQmlContext context=None, QQmlContext forContext=None)
+QtQml.QQmlComponent.creationContext?4() -> QQmlContext
+QtQml.QQmlComponent.loadUrl?4(QUrl)
+QtQml.QQmlComponent.loadUrl?4(QUrl, QQmlComponent.CompilationMode)
+QtQml.QQmlComponent.setData?4(QByteArray, QUrl)
+QtQml.QQmlComponent.statusChanged?4(QQmlComponent.Status)
+QtQml.QQmlComponent.progressChanged?4(float)
+QtQml.QQmlContext?1(QQmlEngine, QObject parent=None)
+QtQml.QQmlContext.__init__?1(self, QQmlEngine, QObject parent=None)
+QtQml.QQmlContext?1(QQmlContext, QObject parent=None)
+QtQml.QQmlContext.__init__?1(self, QQmlContext, QObject parent=None)
+QtQml.QQmlContext.isValid?4() -> bool
+QtQml.QQmlContext.engine?4() -> QQmlEngine
+QtQml.QQmlContext.parentContext?4() -> QQmlContext
+QtQml.QQmlContext.contextObject?4() -> QObject
+QtQml.QQmlContext.setContextObject?4(QObject)
+QtQml.QQmlContext.contextProperty?4(str) -> QVariant
+QtQml.QQmlContext.setContextProperty?4(str, QObject)
+QtQml.QQmlContext.setContextProperty?4(str, QVariant)
+QtQml.QQmlContext.nameForObject?4(QObject) -> str
+QtQml.QQmlContext.resolvedUrl?4(QUrl) -> QUrl
+QtQml.QQmlContext.setBaseUrl?4(QUrl)
+QtQml.QQmlContext.baseUrl?4() -> QUrl
+QtQml.QQmlImageProviderBase.Flag?10
+QtQml.QQmlImageProviderBase.ForceAsynchronousImageLoading?10
+QtQml.QQmlImageProviderBase.ImageType?10
+QtQml.QQmlImageProviderBase.Image?10
+QtQml.QQmlImageProviderBase.Pixmap?10
+QtQml.QQmlImageProviderBase.Texture?10
+QtQml.QQmlImageProviderBase?1(QQmlImageProviderBase)
+QtQml.QQmlImageProviderBase.__init__?1(self, QQmlImageProviderBase)
+QtQml.QQmlImageProviderBase.imageType?4() -> QQmlImageProviderBase.ImageType
+QtQml.QQmlImageProviderBase.flags?4() -> QQmlImageProviderBase.Flags
+QtQml.QQmlImageProviderBase.Flags?1(QQmlImageProviderBase.Flags)
+QtQml.QQmlImageProviderBase.Flags.__init__?1(self, QQmlImageProviderBase.Flags)
+QtQml.QQmlImageProviderBase.Flags?1(int)
+QtQml.QQmlImageProviderBase.Flags.__init__?1(self, int)
+QtQml.QQmlImageProviderBase.Flags?1()
+QtQml.QQmlImageProviderBase.Flags.__init__?1(self)
+QtQml.QQmlError?1()
+QtQml.QQmlError.__init__?1(self)
+QtQml.QQmlError?1(QQmlError)
+QtQml.QQmlError.__init__?1(self, QQmlError)
+QtQml.QQmlError.isValid?4() -> bool
+QtQml.QQmlError.url?4() -> QUrl
+QtQml.QQmlError.setUrl?4(QUrl)
+QtQml.QQmlError.description?4() -> str
+QtQml.QQmlError.setDescription?4(str)
+QtQml.QQmlError.line?4() -> int
+QtQml.QQmlError.setLine?4(int)
+QtQml.QQmlError.column?4() -> int
+QtQml.QQmlError.setColumn?4(int)
+QtQml.QQmlError.toString?4() -> str
+QtQml.QQmlExpression?1()
+QtQml.QQmlExpression.__init__?1(self)
+QtQml.QQmlExpression?1(QQmlContext, QObject, str, QObject parent=None)
+QtQml.QQmlExpression.__init__?1(self, QQmlContext, QObject, str, QObject parent=None)
+QtQml.QQmlExpression?1(QQmlScriptString, QQmlContext context=None, QObject scope=None, QObject parent=None)
+QtQml.QQmlExpression.__init__?1(self, QQmlScriptString, QQmlContext context=None, QObject scope=None, QObject parent=None)
+QtQml.QQmlExpression.engine?4() -> QQmlEngine
+QtQml.QQmlExpression.context?4() -> QQmlContext
+QtQml.QQmlExpression.expression?4() -> str
+QtQml.QQmlExpression.setExpression?4(str)
+QtQml.QQmlExpression.notifyOnValueChanged?4() -> bool
+QtQml.QQmlExpression.setNotifyOnValueChanged?4(bool)
+QtQml.QQmlExpression.sourceFile?4() -> str
+QtQml.QQmlExpression.lineNumber?4() -> int
+QtQml.QQmlExpression.columnNumber?4() -> int
+QtQml.QQmlExpression.setSourceLocation?4(str, int, int column=0)
+QtQml.QQmlExpression.scopeObject?4() -> QObject
+QtQml.QQmlExpression.hasError?4() -> bool
+QtQml.QQmlExpression.clearError?4()
+QtQml.QQmlExpression.error?4() -> QQmlError
+QtQml.QQmlExpression.evaluate?4() -> (QVariant, bool)
+QtQml.QQmlExpression.valueChanged?4()
+QtQml.QQmlExtensionPlugin?1(QObject parent=None)
+QtQml.QQmlExtensionPlugin.__init__?1(self, QObject parent=None)
+QtQml.QQmlExtensionPlugin.registerTypes?4(str)
+QtQml.QQmlExtensionPlugin.initializeEngine?4(QQmlEngine, str)
+QtQml.QQmlExtensionPlugin.baseUrl?4() -> QUrl
+QtQml.QQmlIncubator.Status?10
+QtQml.QQmlIncubator.Null?10
+QtQml.QQmlIncubator.Ready?10
+QtQml.QQmlIncubator.Loading?10
+QtQml.QQmlIncubator.Error?10
+QtQml.QQmlIncubator.IncubationMode?10
+QtQml.QQmlIncubator.Asynchronous?10
+QtQml.QQmlIncubator.AsynchronousIfNested?10
+QtQml.QQmlIncubator.Synchronous?10
+QtQml.QQmlIncubator?1(QQmlIncubator.IncubationMode mode=QQmlIncubator.Asynchronous)
+QtQml.QQmlIncubator.__init__?1(self, QQmlIncubator.IncubationMode mode=QQmlIncubator.Asynchronous)
+QtQml.QQmlIncubator.clear?4()
+QtQml.QQmlIncubator.forceCompletion?4()
+QtQml.QQmlIncubator.isNull?4() -> bool
+QtQml.QQmlIncubator.isReady?4() -> bool
+QtQml.QQmlIncubator.isError?4() -> bool
+QtQml.QQmlIncubator.isLoading?4() -> bool
+QtQml.QQmlIncubator.errors?4() -> list-of-QQmlError
+QtQml.QQmlIncubator.incubationMode?4() -> QQmlIncubator.IncubationMode
+QtQml.QQmlIncubator.status?4() -> QQmlIncubator.Status
+QtQml.QQmlIncubator.object?4() -> QObject
+QtQml.QQmlIncubator.statusChanged?4(QQmlIncubator.Status)
+QtQml.QQmlIncubator.setInitialState?4(QObject)
+QtQml.QQmlIncubationController?1()
+QtQml.QQmlIncubationController.__init__?1(self)
+QtQml.QQmlIncubationController.engine?4() -> QQmlEngine
+QtQml.QQmlIncubationController.incubatingObjectCount?4() -> int
+QtQml.QQmlIncubationController.incubateFor?4(int)
+QtQml.QQmlIncubationController.incubatingObjectCountChanged?4(int)
+QtQml.QQmlListReference?1()
+QtQml.QQmlListReference.__init__?1(self)
+QtQml.QQmlListReference?1(QObject, str, QQmlEngine engine=None)
+QtQml.QQmlListReference.__init__?1(self, QObject, str, QQmlEngine engine=None)
+QtQml.QQmlListReference?1(QQmlListReference)
+QtQml.QQmlListReference.__init__?1(self, QQmlListReference)
+QtQml.QQmlListReference.isValid?4() -> bool
+QtQml.QQmlListReference.object?4() -> QObject
+QtQml.QQmlListReference.listElementType?4() -> QMetaObject
+QtQml.QQmlListReference.canAppend?4() -> bool
+QtQml.QQmlListReference.canAt?4() -> bool
+QtQml.QQmlListReference.canClear?4() -> bool
+QtQml.QQmlListReference.canCount?4() -> bool
+QtQml.QQmlListReference.isManipulable?4() -> bool
+QtQml.QQmlListReference.isReadable?4() -> bool
+QtQml.QQmlListReference.append?4(QObject) -> bool
+QtQml.QQmlListReference.at?4(int) -> QObject
+QtQml.QQmlListReference.clear?4() -> bool
+QtQml.QQmlListReference.count?4() -> int
+QtQml.QQmlNetworkAccessManagerFactory?1()
+QtQml.QQmlNetworkAccessManagerFactory.__init__?1(self)
+QtQml.QQmlNetworkAccessManagerFactory?1(QQmlNetworkAccessManagerFactory)
+QtQml.QQmlNetworkAccessManagerFactory.__init__?1(self, QQmlNetworkAccessManagerFactory)
+QtQml.QQmlNetworkAccessManagerFactory.create?4(QObject) -> QNetworkAccessManager
+QtQml.QQmlParserStatus?1()
+QtQml.QQmlParserStatus.__init__?1(self)
+QtQml.QQmlParserStatus?1(QQmlParserStatus)
+QtQml.QQmlParserStatus.__init__?1(self, QQmlParserStatus)
+QtQml.QQmlParserStatus.classBegin?4()
+QtQml.QQmlParserStatus.componentComplete?4()
+QtQml.QQmlProperty.Type?10
+QtQml.QQmlProperty.Invalid?10
+QtQml.QQmlProperty.Property?10
+QtQml.QQmlProperty.SignalProperty?10
+QtQml.QQmlProperty.PropertyTypeCategory?10
+QtQml.QQmlProperty.InvalidCategory?10
+QtQml.QQmlProperty.List?10
+QtQml.QQmlProperty.Object?10
+QtQml.QQmlProperty.Normal?10
+QtQml.QQmlProperty?1()
+QtQml.QQmlProperty.__init__?1(self)
+QtQml.QQmlProperty?1(QObject)
+QtQml.QQmlProperty.__init__?1(self, QObject)
+QtQml.QQmlProperty?1(QObject, QQmlContext)
+QtQml.QQmlProperty.__init__?1(self, QObject, QQmlContext)
+QtQml.QQmlProperty?1(QObject, QQmlEngine)
+QtQml.QQmlProperty.__init__?1(self, QObject, QQmlEngine)
+QtQml.QQmlProperty?1(QObject, str)
+QtQml.QQmlProperty.__init__?1(self, QObject, str)
+QtQml.QQmlProperty?1(QObject, str, QQmlContext)
+QtQml.QQmlProperty.__init__?1(self, QObject, str, QQmlContext)
+QtQml.QQmlProperty?1(QObject, str, QQmlEngine)
+QtQml.QQmlProperty.__init__?1(self, QObject, str, QQmlEngine)
+QtQml.QQmlProperty?1(QQmlProperty)
+QtQml.QQmlProperty.__init__?1(self, QQmlProperty)
+QtQml.QQmlProperty.type?4() -> QQmlProperty.Type
+QtQml.QQmlProperty.isValid?4() -> bool
+QtQml.QQmlProperty.isProperty?4() -> bool
+QtQml.QQmlProperty.isSignalProperty?4() -> bool
+QtQml.QQmlProperty.propertyType?4() -> int
+QtQml.QQmlProperty.propertyTypeCategory?4() -> QQmlProperty.PropertyTypeCategory
+QtQml.QQmlProperty.propertyTypeName?4() -> str
+QtQml.QQmlProperty.name?4() -> str
+QtQml.QQmlProperty.read?4() -> QVariant
+QtQml.QQmlProperty.read?4(QObject, str) -> QVariant
+QtQml.QQmlProperty.read?4(QObject, str, QQmlContext) -> QVariant
+QtQml.QQmlProperty.read?4(QObject, str, QQmlEngine) -> QVariant
+QtQml.QQmlProperty.write?4(QVariant) -> bool
+QtQml.QQmlProperty.write?4(QObject, str, QVariant) -> bool
+QtQml.QQmlProperty.write?4(QObject, str, QVariant, QQmlContext) -> bool
+QtQml.QQmlProperty.write?4(QObject, str, QVariant, QQmlEngine) -> bool
+QtQml.QQmlProperty.reset?4() -> bool
+QtQml.QQmlProperty.hasNotifySignal?4() -> bool
+QtQml.QQmlProperty.needsNotifySignal?4() -> bool
+QtQml.QQmlProperty.connectNotifySignal?4(slot) -> bool
+QtQml.QQmlProperty.connectNotifySignal?4(QObject, int) -> bool
+QtQml.QQmlProperty.isWritable?4() -> bool
+QtQml.QQmlProperty.isDesignable?4() -> bool
+QtQml.QQmlProperty.isResettable?4() -> bool
+QtQml.QQmlProperty.object?4() -> QObject
+QtQml.QQmlProperty.index?4() -> int
+QtQml.QQmlProperty.property?4() -> QMetaProperty
+QtQml.QQmlProperty.method?4() -> QMetaMethod
+QtQml.QQmlPropertyMap?1(QObject parent=None)
+QtQml.QQmlPropertyMap.__init__?1(self, QObject parent=None)
+QtQml.QQmlPropertyMap.value?4(str) -> QVariant
+QtQml.QQmlPropertyMap.insert?4(str, QVariant)
+QtQml.QQmlPropertyMap.clear?4(str)
+QtQml.QQmlPropertyMap.keys?4() -> list-of-str
+QtQml.QQmlPropertyMap.count?4() -> int
+QtQml.QQmlPropertyMap.size?4() -> int
+QtQml.QQmlPropertyMap.isEmpty?4() -> bool
+QtQml.QQmlPropertyMap.contains?4(str) -> bool
+QtQml.QQmlPropertyMap.valueChanged?4(str, QVariant)
+QtQml.QQmlPropertyMap.updateValue?4(str, QVariant) -> QVariant
+QtQml.QQmlPropertyValueSource?1()
+QtQml.QQmlPropertyValueSource.__init__?1(self)
+QtQml.QQmlPropertyValueSource?1(QQmlPropertyValueSource)
+QtQml.QQmlPropertyValueSource.__init__?1(self, QQmlPropertyValueSource)
+QtQml.QQmlPropertyValueSource.setTarget?4(QQmlProperty)
+QtQml.QQmlScriptString?1()
+QtQml.QQmlScriptString.__init__?1(self)
+QtQml.QQmlScriptString?1(QQmlScriptString)
+QtQml.QQmlScriptString.__init__?1(self, QQmlScriptString)
+QtQml.QQmlScriptString.isEmpty?4() -> bool
+QtQml.QQmlScriptString.isUndefinedLiteral?4() -> bool
+QtQml.QQmlScriptString.isNullLiteral?4() -> bool
+QtQml.QQmlScriptString.stringLiteral?4() -> str
+QtQml.QQmlScriptString.numberLiteral?4() -> (float, bool)
+QtQml.QQmlScriptString.booleanLiteral?4() -> (bool, bool)

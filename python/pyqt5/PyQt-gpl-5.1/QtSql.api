@@ -1,0 +1,451 @@
+QtSql.QSql.NumericalPrecisionPolicy?10
+QtSql.QSql.LowPrecisionInt32?10
+QtSql.QSql.LowPrecisionInt64?10
+QtSql.QSql.LowPrecisionDouble?10
+QtSql.QSql.HighPrecision?10
+QtSql.QSql.TableType?10
+QtSql.QSql.Tables?10
+QtSql.QSql.SystemTables?10
+QtSql.QSql.Views?10
+QtSql.QSql.AllTables?10
+QtSql.QSql.ParamTypeFlag?10
+QtSql.QSql.In?10
+QtSql.QSql.Out?10
+QtSql.QSql.InOut?10
+QtSql.QSql.Binary?10
+QtSql.QSql.Location?10
+QtSql.QSql.BeforeFirstRow?10
+QtSql.QSql.AfterLastRow?10
+QtSql.QSql.ParamType?1(QSql.ParamType)
+QtSql.QSql.ParamType.__init__?1(self, QSql.ParamType)
+QtSql.QSql.ParamType?1(int)
+QtSql.QSql.ParamType.__init__?1(self, int)
+QtSql.QSql.ParamType?1()
+QtSql.QSql.ParamType.__init__?1(self)
+QtSql.QSqlDriverCreatorBase?1()
+QtSql.QSqlDriverCreatorBase.__init__?1(self)
+QtSql.QSqlDriverCreatorBase?1(QSqlDriverCreatorBase)
+QtSql.QSqlDriverCreatorBase.__init__?1(self, QSqlDriverCreatorBase)
+QtSql.QSqlDriverCreatorBase.createObject?4() -> QSqlDriver
+QtSql.QSqlDatabase?1()
+QtSql.QSqlDatabase.__init__?1(self)
+QtSql.QSqlDatabase?1(QSqlDatabase)
+QtSql.QSqlDatabase.__init__?1(self, QSqlDatabase)
+QtSql.QSqlDatabase?1(str)
+QtSql.QSqlDatabase.__init__?1(self, str)
+QtSql.QSqlDatabase?1(QSqlDriver)
+QtSql.QSqlDatabase.__init__?1(self, QSqlDriver)
+QtSql.QSqlDatabase.open?4() -> bool
+QtSql.QSqlDatabase.open?4(str, str) -> bool
+QtSql.QSqlDatabase.close?4()
+QtSql.QSqlDatabase.isOpen?4() -> bool
+QtSql.QSqlDatabase.isOpenError?4() -> bool
+QtSql.QSqlDatabase.tables?4(QSql.TableType type=QSql.Tables) -> list-of-str
+QtSql.QSqlDatabase.primaryIndex?4(str) -> QSqlIndex
+QtSql.QSqlDatabase.record?4(str) -> QSqlRecord
+QtSql.QSqlDatabase.exec_?4(str query='') -> QSqlQuery
+QtSql.QSqlDatabase.exec?4(str query='') -> QSqlQuery
+QtSql.QSqlDatabase.lastError?4() -> QSqlError
+QtSql.QSqlDatabase.isValid?4() -> bool
+QtSql.QSqlDatabase.transaction?4() -> bool
+QtSql.QSqlDatabase.commit?4() -> bool
+QtSql.QSqlDatabase.rollback?4() -> bool
+QtSql.QSqlDatabase.setDatabaseName?4(str)
+QtSql.QSqlDatabase.setUserName?4(str)
+QtSql.QSqlDatabase.setPassword?4(str)
+QtSql.QSqlDatabase.setHostName?4(str)
+QtSql.QSqlDatabase.setPort?4(int)
+QtSql.QSqlDatabase.setConnectOptions?4(str options='')
+QtSql.QSqlDatabase.databaseName?4() -> str
+QtSql.QSqlDatabase.userName?4() -> str
+QtSql.QSqlDatabase.password?4() -> str
+QtSql.QSqlDatabase.hostName?4() -> str
+QtSql.QSqlDatabase.driverName?4() -> str
+QtSql.QSqlDatabase.port?4() -> int
+QtSql.QSqlDatabase.connectOptions?4() -> str
+QtSql.QSqlDatabase.connectionName?4() -> str
+QtSql.QSqlDatabase.driver?4() -> QSqlDriver
+QtSql.QSqlDatabase.addDatabase?4(str, str connectionName=QLatin1String(QSqlDatabase.defaultConnection)) -> QSqlDatabase
+QtSql.QSqlDatabase.addDatabase?4(QSqlDriver, str connectionName=QLatin1String(QSqlDatabase.defaultConnection)) -> QSqlDatabase
+QtSql.QSqlDatabase.cloneDatabase?4(QSqlDatabase, str) -> QSqlDatabase
+QtSql.QSqlDatabase.database?4(str connectionName=QLatin1String(QSqlDatabase.defaultConnection), bool open=True) -> QSqlDatabase
+QtSql.QSqlDatabase.removeDatabase?4(str)
+QtSql.QSqlDatabase.contains?4(str connectionName=QLatin1String(QSqlDatabase.defaultConnection)) -> bool
+QtSql.QSqlDatabase.drivers?4() -> list-of-str
+QtSql.QSqlDatabase.connectionNames?4() -> list-of-str
+QtSql.QSqlDatabase.registerSqlDriver?4(str, QSqlDriverCreatorBase)
+QtSql.QSqlDatabase.isDriverAvailable?4(str) -> bool
+QtSql.QSqlDatabase.setNumericalPrecisionPolicy?4(QSql.NumericalPrecisionPolicy)
+QtSql.QSqlDatabase.numericalPrecisionPolicy?4() -> QSql.NumericalPrecisionPolicy
+QtSql.QSqlDriver.NotificationSource?10
+QtSql.QSqlDriver.UnknownSource?10
+QtSql.QSqlDriver.SelfSource?10
+QtSql.QSqlDriver.OtherSource?10
+QtSql.QSqlDriver.IdentifierType?10
+QtSql.QSqlDriver.FieldName?10
+QtSql.QSqlDriver.TableName?10
+QtSql.QSqlDriver.StatementType?10
+QtSql.QSqlDriver.WhereStatement?10
+QtSql.QSqlDriver.SelectStatement?10
+QtSql.QSqlDriver.UpdateStatement?10
+QtSql.QSqlDriver.InsertStatement?10
+QtSql.QSqlDriver.DeleteStatement?10
+QtSql.QSqlDriver.DriverFeature?10
+QtSql.QSqlDriver.Transactions?10
+QtSql.QSqlDriver.QuerySize?10
+QtSql.QSqlDriver.BLOB?10
+QtSql.QSqlDriver.Unicode?10
+QtSql.QSqlDriver.PreparedQueries?10
+QtSql.QSqlDriver.NamedPlaceholders?10
+QtSql.QSqlDriver.PositionalPlaceholders?10
+QtSql.QSqlDriver.LastInsertId?10
+QtSql.QSqlDriver.BatchOperations?10
+QtSql.QSqlDriver.SimpleLocking?10
+QtSql.QSqlDriver.LowPrecisionNumbers?10
+QtSql.QSqlDriver.EventNotifications?10
+QtSql.QSqlDriver.FinishQuery?10
+QtSql.QSqlDriver.MultipleResultSets?10
+QtSql.QSqlDriver?1(QObject parent=None)
+QtSql.QSqlDriver.__init__?1(self, QObject parent=None)
+QtSql.QSqlDriver.isOpen?4() -> bool
+QtSql.QSqlDriver.isOpenError?4() -> bool
+QtSql.QSqlDriver.beginTransaction?4() -> bool
+QtSql.QSqlDriver.commitTransaction?4() -> bool
+QtSql.QSqlDriver.rollbackTransaction?4() -> bool
+QtSql.QSqlDriver.tables?4(QSql.TableType) -> list-of-str
+QtSql.QSqlDriver.primaryIndex?4(str) -> QSqlIndex
+QtSql.QSqlDriver.record?4(str) -> QSqlRecord
+QtSql.QSqlDriver.formatValue?4(QSqlField, bool trimStrings=False) -> str
+QtSql.QSqlDriver.escapeIdentifier?4(str, QSqlDriver.IdentifierType) -> str
+QtSql.QSqlDriver.sqlStatement?4(QSqlDriver.StatementType, str, QSqlRecord, bool) -> str
+QtSql.QSqlDriver.lastError?4() -> QSqlError
+QtSql.QSqlDriver.handle?4() -> QVariant
+QtSql.QSqlDriver.hasFeature?4(QSqlDriver.DriverFeature) -> bool
+QtSql.QSqlDriver.close?4()
+QtSql.QSqlDriver.createResult?4() -> QSqlResult
+QtSql.QSqlDriver.open?4(str, str user='', str password='', str host='', int port=-1, str options='') -> bool
+QtSql.QSqlDriver.setOpen?4(bool)
+QtSql.QSqlDriver.setOpenError?4(bool)
+QtSql.QSqlDriver.setLastError?4(QSqlError)
+QtSql.QSqlDriver.subscribeToNotification?4(str) -> bool
+QtSql.QSqlDriver.unsubscribeFromNotification?4(str) -> bool
+QtSql.QSqlDriver.subscribedToNotifications?4() -> list-of-str
+QtSql.QSqlDriver.notification?4(str)
+QtSql.QSqlDriver.notification?4(str, QSqlDriver.NotificationSource, QVariant)
+QtSql.QSqlDriver.isIdentifierEscaped?4(str, QSqlDriver.IdentifierType) -> bool
+QtSql.QSqlDriver.stripDelimiters?4(str, QSqlDriver.IdentifierType) -> str
+QtSql.QSqlDriver.setNumericalPrecisionPolicy?4(QSql.NumericalPrecisionPolicy)
+QtSql.QSqlDriver.numericalPrecisionPolicy?4() -> QSql.NumericalPrecisionPolicy
+QtSql.QSqlError.ErrorType?10
+QtSql.QSqlError.NoError?10
+QtSql.QSqlError.ConnectionError?10
+QtSql.QSqlError.StatementError?10
+QtSql.QSqlError.TransactionError?10
+QtSql.QSqlError.UnknownError?10
+QtSql.QSqlError?1(str driverText='', str databaseText='', QSqlError.ErrorType type=QSqlError.NoError, int number=-1)
+QtSql.QSqlError.__init__?1(self, str driverText='', str databaseText='', QSqlError.ErrorType type=QSqlError.NoError, int number=-1)
+QtSql.QSqlError?1(QSqlError)
+QtSql.QSqlError.__init__?1(self, QSqlError)
+QtSql.QSqlError.driverText?4() -> str
+QtSql.QSqlError.setDriverText?4(str)
+QtSql.QSqlError.databaseText?4() -> str
+QtSql.QSqlError.setDatabaseText?4(str)
+QtSql.QSqlError.type?4() -> QSqlError.ErrorType
+QtSql.QSqlError.setType?4(QSqlError.ErrorType)
+QtSql.QSqlError.number?4() -> int
+QtSql.QSqlError.setNumber?4(int)
+QtSql.QSqlError.text?4() -> str
+QtSql.QSqlError.isValid?4() -> bool
+QtSql.QSqlField.RequiredStatus?10
+QtSql.QSqlField.Unknown?10
+QtSql.QSqlField.Optional?10
+QtSql.QSqlField.Required?10
+QtSql.QSqlField?1(str fieldName='', QVariant.Type type=QVariant.Invalid)
+QtSql.QSqlField.__init__?1(self, str fieldName='', QVariant.Type type=QVariant.Invalid)
+QtSql.QSqlField?1(QSqlField)
+QtSql.QSqlField.__init__?1(self, QSqlField)
+QtSql.QSqlField.setValue?4(QVariant)
+QtSql.QSqlField.value?4() -> QVariant
+QtSql.QSqlField.setName?4(str)
+QtSql.QSqlField.name?4() -> str
+QtSql.QSqlField.isNull?4() -> bool
+QtSql.QSqlField.setReadOnly?4(bool)
+QtSql.QSqlField.isReadOnly?4() -> bool
+QtSql.QSqlField.clear?4()
+QtSql.QSqlField.type?4() -> QVariant.Type
+QtSql.QSqlField.isAutoValue?4() -> bool
+QtSql.QSqlField.setType?4(QVariant.Type)
+QtSql.QSqlField.setRequiredStatus?4(QSqlField.RequiredStatus)
+QtSql.QSqlField.setRequired?4(bool)
+QtSql.QSqlField.setLength?4(int)
+QtSql.QSqlField.setPrecision?4(int)
+QtSql.QSqlField.setDefaultValue?4(QVariant)
+QtSql.QSqlField.setSqlType?4(int)
+QtSql.QSqlField.setGenerated?4(bool)
+QtSql.QSqlField.setAutoValue?4(bool)
+QtSql.QSqlField.requiredStatus?4() -> QSqlField.RequiredStatus
+QtSql.QSqlField.length?4() -> int
+QtSql.QSqlField.precision?4() -> int
+QtSql.QSqlField.defaultValue?4() -> QVariant
+QtSql.QSqlField.typeID?4() -> int
+QtSql.QSqlField.isGenerated?4() -> bool
+QtSql.QSqlField.isValid?4() -> bool
+QtSql.QSqlRecord?1()
+QtSql.QSqlRecord.__init__?1(self)
+QtSql.QSqlRecord?1(QSqlRecord)
+QtSql.QSqlRecord.__init__?1(self, QSqlRecord)
+QtSql.QSqlRecord.value?4(int) -> QVariant
+QtSql.QSqlRecord.value?4(str) -> QVariant
+QtSql.QSqlRecord.setValue?4(int, QVariant)
+QtSql.QSqlRecord.setValue?4(str, QVariant)
+QtSql.QSqlRecord.setNull?4(int)
+QtSql.QSqlRecord.setNull?4(str)
+QtSql.QSqlRecord.isNull?4(int) -> bool
+QtSql.QSqlRecord.isNull?4(str) -> bool
+QtSql.QSqlRecord.indexOf?4(str) -> int
+QtSql.QSqlRecord.fieldName?4(int) -> str
+QtSql.QSqlRecord.field?4(int) -> QSqlField
+QtSql.QSqlRecord.field?4(str) -> QSqlField
+QtSql.QSqlRecord.isGenerated?4(int) -> bool
+QtSql.QSqlRecord.isGenerated?4(str) -> bool
+QtSql.QSqlRecord.setGenerated?4(str, bool)
+QtSql.QSqlRecord.setGenerated?4(int, bool)
+QtSql.QSqlRecord.append?4(QSqlField)
+QtSql.QSqlRecord.replace?4(int, QSqlField)
+QtSql.QSqlRecord.insert?4(int, QSqlField)
+QtSql.QSqlRecord.remove?4(int)
+QtSql.QSqlRecord.isEmpty?4() -> bool
+QtSql.QSqlRecord.contains?4(str) -> bool
+QtSql.QSqlRecord.clear?4()
+QtSql.QSqlRecord.clearValues?4()
+QtSql.QSqlRecord.count?4() -> int
+QtSql.QSqlRecord.keyValues?4(QSqlRecord) -> QSqlRecord
+QtSql.QSqlIndex?1(str cursorName='', str name='')
+QtSql.QSqlIndex.__init__?1(self, str cursorName='', str name='')
+QtSql.QSqlIndex?1(QSqlIndex)
+QtSql.QSqlIndex.__init__?1(self, QSqlIndex)
+QtSql.QSqlIndex.setCursorName?4(str)
+QtSql.QSqlIndex.cursorName?4() -> str
+QtSql.QSqlIndex.setName?4(str)
+QtSql.QSqlIndex.name?4() -> str
+QtSql.QSqlIndex.append?4(QSqlField)
+QtSql.QSqlIndex.append?4(QSqlField, bool)
+QtSql.QSqlIndex.isDescending?4(int) -> bool
+QtSql.QSqlIndex.setDescending?4(int, bool)
+QtSql.QSqlQuery.BatchExecutionMode?10
+QtSql.QSqlQuery.ValuesAsRows?10
+QtSql.QSqlQuery.ValuesAsColumns?10
+QtSql.QSqlQuery?1(QSqlResult)
+QtSql.QSqlQuery.__init__?1(self, QSqlResult)
+QtSql.QSqlQuery?1(str query='', QSqlDatabase db=QSqlDatabase())
+QtSql.QSqlQuery.__init__?1(self, str query='', QSqlDatabase db=QSqlDatabase())
+QtSql.QSqlQuery?1(QSqlDatabase)
+QtSql.QSqlQuery.__init__?1(self, QSqlDatabase)
+QtSql.QSqlQuery?1(QSqlQuery)
+QtSql.QSqlQuery.__init__?1(self, QSqlQuery)
+QtSql.QSqlQuery.isValid?4() -> bool
+QtSql.QSqlQuery.isActive?4() -> bool
+QtSql.QSqlQuery.isNull?4(int) -> bool
+QtSql.QSqlQuery.at?4() -> int
+QtSql.QSqlQuery.lastQuery?4() -> str
+QtSql.QSqlQuery.numRowsAffected?4() -> int
+QtSql.QSqlQuery.lastError?4() -> QSqlError
+QtSql.QSqlQuery.isSelect?4() -> bool
+QtSql.QSqlQuery.size?4() -> int
+QtSql.QSqlQuery.driver?4() -> QSqlDriver
+QtSql.QSqlQuery.result?4() -> QSqlResult
+QtSql.QSqlQuery.isForwardOnly?4() -> bool
+QtSql.QSqlQuery.record?4() -> QSqlRecord
+QtSql.QSqlQuery.setForwardOnly?4(bool)
+QtSql.QSqlQuery.exec_?4(str) -> bool
+QtSql.QSqlQuery.exec?4(str) -> bool
+QtSql.QSqlQuery.value?4(int) -> QVariant
+QtSql.QSqlQuery.value?4(str) -> QVariant
+QtSql.QSqlQuery.seek?4(int, bool relative=False) -> bool
+QtSql.QSqlQuery.next?4() -> bool
+QtSql.QSqlQuery.previous?4() -> bool
+QtSql.QSqlQuery.first?4() -> bool
+QtSql.QSqlQuery.last?4() -> bool
+QtSql.QSqlQuery.clear?4()
+QtSql.QSqlQuery.exec_?4() -> bool
+QtSql.QSqlQuery.execBatch?4(QSqlQuery.BatchExecutionMode mode=QSqlQuery.ValuesAsRows) -> bool
+QtSql.QSqlQuery.prepare?4(str) -> bool
+QtSql.QSqlQuery.bindValue?4(str, QVariant, QSql.ParamType type=QSql.In)
+QtSql.QSqlQuery.bindValue?4(int, QVariant, QSql.ParamType type=QSql.In)
+QtSql.QSqlQuery.addBindValue?4(QVariant, QSql.ParamType type=QSql.In)
+QtSql.QSqlQuery.boundValue?4(str) -> QVariant
+QtSql.QSqlQuery.boundValue?4(int) -> QVariant
+QtSql.QSqlQuery.boundValues?4() -> dict-of-QString-QVariant
+QtSql.QSqlQuery.executedQuery?4() -> str
+QtSql.QSqlQuery.lastInsertId?4() -> QVariant
+QtSql.QSqlQuery.setNumericalPrecisionPolicy?4(QSql.NumericalPrecisionPolicy)
+QtSql.QSqlQuery.numericalPrecisionPolicy?4() -> QSql.NumericalPrecisionPolicy
+QtSql.QSqlQuery.finish?4()
+QtSql.QSqlQuery.nextResult?4() -> bool
+QtSql.QSqlQueryModel?1(QObject parent=None)
+QtSql.QSqlQueryModel.__init__?1(self, QObject parent=None)
+QtSql.QSqlQueryModel.rowCount?4(QModelIndex parent=QModelIndex()) -> int
+QtSql.QSqlQueryModel.columnCount?4(QModelIndex parent=QModelIndex()) -> int
+QtSql.QSqlQueryModel.record?4(int) -> QSqlRecord
+QtSql.QSqlQueryModel.record?4() -> QSqlRecord
+QtSql.QSqlQueryModel.data?4(QModelIndex, int role=Qt.DisplayRole) -> QVariant
+QtSql.QSqlQueryModel.headerData?4(int, Qt.Orientation, int role=Qt.DisplayRole) -> QVariant
+QtSql.QSqlQueryModel.setHeaderData?4(int, Qt.Orientation, QVariant, int role=Qt.EditRole) -> bool
+QtSql.QSqlQueryModel.insertColumns?4(int, int, QModelIndex parent=QModelIndex()) -> bool
+QtSql.QSqlQueryModel.removeColumns?4(int, int, QModelIndex parent=QModelIndex()) -> bool
+QtSql.QSqlQueryModel.setQuery?4(QSqlQuery)
+QtSql.QSqlQueryModel.setQuery?4(str, QSqlDatabase db=QSqlDatabase())
+QtSql.QSqlQueryModel.query?4() -> QSqlQuery
+QtSql.QSqlQueryModel.clear?4()
+QtSql.QSqlQueryModel.lastError?4() -> QSqlError
+QtSql.QSqlQueryModel.fetchMore?4(QModelIndex parent=QModelIndex())
+QtSql.QSqlQueryModel.canFetchMore?4(QModelIndex parent=QModelIndex()) -> bool
+QtSql.QSqlQueryModel.queryChange?4()
+QtSql.QSqlQueryModel.indexInQuery?4(QModelIndex) -> QModelIndex
+QtSql.QSqlQueryModel.setLastError?4(QSqlError)
+QtSql.QSqlQueryModel.beginResetModel?4()
+QtSql.QSqlQueryModel.endResetModel?4()
+QtSql.QSqlQueryModel.beginInsertRows?4(QModelIndex, int, int)
+QtSql.QSqlQueryModel.endInsertRows?4()
+QtSql.QSqlQueryModel.beginRemoveRows?4(QModelIndex, int, int)
+QtSql.QSqlQueryModel.endRemoveRows?4()
+QtSql.QSqlQueryModel.beginInsertColumns?4(QModelIndex, int, int)
+QtSql.QSqlQueryModel.endInsertColumns?4()
+QtSql.QSqlQueryModel.beginRemoveColumns?4(QModelIndex, int, int)
+QtSql.QSqlQueryModel.endRemoveColumns?4()
+QtSql.QSqlRelationalDelegate?1(QObject parent=None)
+QtSql.QSqlRelationalDelegate.__init__?1(self, QObject parent=None)
+QtSql.QSqlRelationalDelegate.createEditor?4(QWidget, QStyleOptionViewItem, QModelIndex) -> QWidget
+QtSql.QSqlRelationalDelegate.setModelData?4(QWidget, QAbstractItemModel, QModelIndex)
+QtSql.QSqlRelation?1()
+QtSql.QSqlRelation.__init__?1(self)
+QtSql.QSqlRelation?1(str, str, str)
+QtSql.QSqlRelation.__init__?1(self, str, str, str)
+QtSql.QSqlRelation?1(QSqlRelation)
+QtSql.QSqlRelation.__init__?1(self, QSqlRelation)
+QtSql.QSqlRelation.tableName?4() -> str
+QtSql.QSqlRelation.indexColumn?4() -> str
+QtSql.QSqlRelation.displayColumn?4() -> str
+QtSql.QSqlRelation.isValid?4() -> bool
+QtSql.QSqlTableModel.EditStrategy?10
+QtSql.QSqlTableModel.OnFieldChange?10
+QtSql.QSqlTableModel.OnRowChange?10
+QtSql.QSqlTableModel.OnManualSubmit?10
+QtSql.QSqlTableModel?1(QObject parent=None, QSqlDatabase db=QSqlDatabase())
+QtSql.QSqlTableModel.__init__?1(self, QObject parent=None, QSqlDatabase db=QSqlDatabase())
+QtSql.QSqlTableModel.select?4() -> bool
+QtSql.QSqlTableModel.setTable?4(str)
+QtSql.QSqlTableModel.tableName?4() -> str
+QtSql.QSqlTableModel.flags?4(QModelIndex) -> Qt.ItemFlags
+QtSql.QSqlTableModel.data?4(QModelIndex, int role=Qt.DisplayRole) -> QVariant
+QtSql.QSqlTableModel.setData?4(QModelIndex, QVariant, int role=Qt.EditRole) -> bool
+QtSql.QSqlTableModel.headerData?4(int, Qt.Orientation, int role=Qt.DisplayRole) -> QVariant
+QtSql.QSqlTableModel.isDirty?4(QModelIndex) -> bool
+QtSql.QSqlTableModel.isDirty?4() -> bool
+QtSql.QSqlTableModel.clear?4()
+QtSql.QSqlTableModel.setEditStrategy?4(QSqlTableModel.EditStrategy)
+QtSql.QSqlTableModel.editStrategy?4() -> QSqlTableModel.EditStrategy
+QtSql.QSqlTableModel.primaryKey?4() -> QSqlIndex
+QtSql.QSqlTableModel.database?4() -> QSqlDatabase
+QtSql.QSqlTableModel.fieldIndex?4(str) -> int
+QtSql.QSqlTableModel.sort?4(int, Qt.SortOrder)
+QtSql.QSqlTableModel.setSort?4(int, Qt.SortOrder)
+QtSql.QSqlTableModel.filter?4() -> str
+QtSql.QSqlTableModel.setFilter?4(str)
+QtSql.QSqlTableModel.rowCount?4(QModelIndex parent=QModelIndex()) -> int
+QtSql.QSqlTableModel.removeColumns?4(int, int, QModelIndex parent=QModelIndex()) -> bool
+QtSql.QSqlTableModel.removeRows?4(int, int, QModelIndex parent=QModelIndex()) -> bool
+QtSql.QSqlTableModel.insertRows?4(int, int, QModelIndex parent=QModelIndex()) -> bool
+QtSql.QSqlTableModel.insertRecord?4(int, QSqlRecord) -> bool
+QtSql.QSqlTableModel.setRecord?4(int, QSqlRecord) -> bool
+QtSql.QSqlTableModel.revertRow?4(int)
+QtSql.QSqlTableModel.submit?4() -> bool
+QtSql.QSqlTableModel.revert?4()
+QtSql.QSqlTableModel.submitAll?4() -> bool
+QtSql.QSqlTableModel.revertAll?4()
+QtSql.QSqlTableModel.primeInsert?4(int, QSqlRecord)
+QtSql.QSqlTableModel.beforeInsert?4(QSqlRecord)
+QtSql.QSqlTableModel.beforeUpdate?4(int, QSqlRecord)
+QtSql.QSqlTableModel.beforeDelete?4(int)
+QtSql.QSqlTableModel.updateRowInTable?4(int, QSqlRecord) -> bool
+QtSql.QSqlTableModel.insertRowIntoTable?4(QSqlRecord) -> bool
+QtSql.QSqlTableModel.deleteRowFromTable?4(int) -> bool
+QtSql.QSqlTableModel.orderByClause?4() -> str
+QtSql.QSqlTableModel.selectStatement?4() -> str
+QtSql.QSqlTableModel.setPrimaryKey?4(QSqlIndex)
+QtSql.QSqlTableModel.setQuery?4(QSqlQuery)
+QtSql.QSqlTableModel.indexInQuery?4(QModelIndex) -> QModelIndex
+QtSql.QSqlTableModel.selectRow?4(int) -> bool
+QtSql.QSqlTableModel.record?4() -> QSqlRecord
+QtSql.QSqlTableModel.record?4(int) -> QSqlRecord
+QtSql.QSqlTableModel.primaryValues?4(int) -> QSqlRecord
+QtSql.QSqlRelationalTableModel.JoinMode?10
+QtSql.QSqlRelationalTableModel.InnerJoin?10
+QtSql.QSqlRelationalTableModel.LeftJoin?10
+QtSql.QSqlRelationalTableModel?1(QObject parent=None, QSqlDatabase db=QSqlDatabase())
+QtSql.QSqlRelationalTableModel.__init__?1(self, QObject parent=None, QSqlDatabase db=QSqlDatabase())
+QtSql.QSqlRelationalTableModel.data?4(QModelIndex, int role=Qt.DisplayRole) -> QVariant
+QtSql.QSqlRelationalTableModel.setData?4(QModelIndex, QVariant, int role=Qt.EditRole) -> bool
+QtSql.QSqlRelationalTableModel.clear?4()
+QtSql.QSqlRelationalTableModel.select?4() -> bool
+QtSql.QSqlRelationalTableModel.setTable?4(str)
+QtSql.QSqlRelationalTableModel.setRelation?4(int, QSqlRelation)
+QtSql.QSqlRelationalTableModel.relation?4(int) -> QSqlRelation
+QtSql.QSqlRelationalTableModel.relationModel?4(int) -> QSqlTableModel
+QtSql.QSqlRelationalTableModel.revertRow?4(int)
+QtSql.QSqlRelationalTableModel.removeColumns?4(int, int, QModelIndex parent=QModelIndex()) -> bool
+QtSql.QSqlRelationalTableModel.selectStatement?4() -> str
+QtSql.QSqlRelationalTableModel.updateRowInTable?4(int, QSqlRecord) -> bool
+QtSql.QSqlRelationalTableModel.orderByClause?4() -> str
+QtSql.QSqlRelationalTableModel.insertRowIntoTable?4(QSqlRecord) -> bool
+QtSql.QSqlRelationalTableModel.setJoinMode?4(QSqlRelationalTableModel.JoinMode)
+QtSql.QSqlResult.BindingSyntax?10
+QtSql.QSqlResult.PositionalBinding?10
+QtSql.QSqlResult.NamedBinding?10
+QtSql.QSqlResult?1(QSqlDriver)
+QtSql.QSqlResult.__init__?1(self, QSqlDriver)
+QtSql.QSqlResult.handle?4() -> QVariant
+QtSql.QSqlResult.at?4() -> int
+QtSql.QSqlResult.lastQuery?4() -> str
+QtSql.QSqlResult.lastError?4() -> QSqlError
+QtSql.QSqlResult.isValid?4() -> bool
+QtSql.QSqlResult.isActive?4() -> bool
+QtSql.QSqlResult.isSelect?4() -> bool
+QtSql.QSqlResult.isForwardOnly?4() -> bool
+QtSql.QSqlResult.driver?4() -> QSqlDriver
+QtSql.QSqlResult.setAt?4(int)
+QtSql.QSqlResult.setActive?4(bool)
+QtSql.QSqlResult.setLastError?4(QSqlError)
+QtSql.QSqlResult.setQuery?4(str)
+QtSql.QSqlResult.setSelect?4(bool)
+QtSql.QSqlResult.setForwardOnly?4(bool)
+QtSql.QSqlResult.exec_?4() -> bool
+QtSql.QSqlResult.exec?4() -> bool
+QtSql.QSqlResult.prepare?4(str) -> bool
+QtSql.QSqlResult.savePrepare?4(str) -> bool
+QtSql.QSqlResult.bindValue?4(int, QVariant, QSql.ParamType)
+QtSql.QSqlResult.bindValue?4(str, QVariant, QSql.ParamType)
+QtSql.QSqlResult.addBindValue?4(QVariant, QSql.ParamType)
+QtSql.QSqlResult.boundValue?4(str) -> QVariant
+QtSql.QSqlResult.boundValue?4(int) -> QVariant
+QtSql.QSqlResult.bindValueType?4(str) -> QSql.ParamType
+QtSql.QSqlResult.bindValueType?4(int) -> QSql.ParamType
+QtSql.QSqlResult.boundValueCount?4() -> int
+QtSql.QSqlResult.boundValues?4() -> list-of-QVariant
+QtSql.QSqlResult.executedQuery?4() -> str
+QtSql.QSqlResult.boundValueName?4(int) -> str
+QtSql.QSqlResult.clear?4()
+QtSql.QSqlResult.hasOutValues?4() -> bool
+QtSql.QSqlResult.bindingSyntax?4() -> QSqlResult.BindingSyntax
+QtSql.QSqlResult.data?4(int) -> QVariant
+QtSql.QSqlResult.isNull?4(int) -> bool
+QtSql.QSqlResult.reset?4(str) -> bool
+QtSql.QSqlResult.fetch?4(int) -> bool
+QtSql.QSqlResult.fetchNext?4() -> bool
+QtSql.QSqlResult.fetchPrevious?4() -> bool
+QtSql.QSqlResult.fetchFirst?4() -> bool
+QtSql.QSqlResult.fetchLast?4() -> bool
+QtSql.QSqlResult.size?4() -> int
+QtSql.QSqlResult.numRowsAffected?4() -> int
+QtSql.QSqlResult.record?4() -> QSqlRecord
+QtSql.QSqlResult.lastInsertId?4() -> QVariant

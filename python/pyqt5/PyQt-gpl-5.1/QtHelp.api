@@ -1,0 +1,107 @@
+QtHelp.QHelpContentItem.child?4(int) -> QHelpContentItem
+QtHelp.QHelpContentItem.childCount?4() -> int
+QtHelp.QHelpContentItem.title?4() -> str
+QtHelp.QHelpContentItem.url?4() -> QUrl
+QtHelp.QHelpContentItem.row?4() -> int
+QtHelp.QHelpContentItem.parent?4() -> QHelpContentItem
+QtHelp.QHelpContentItem.childPosition?4(QHelpContentItem) -> int
+QtHelp.QHelpContentModel.createContents?4(str)
+QtHelp.QHelpContentModel.contentItemAt?4(QModelIndex) -> QHelpContentItem
+QtHelp.QHelpContentModel.data?4(QModelIndex, int) -> QVariant
+QtHelp.QHelpContentModel.index?4(int, int, QModelIndex parent=QModelIndex()) -> QModelIndex
+QtHelp.QHelpContentModel.parent?4(QModelIndex) -> QModelIndex
+QtHelp.QHelpContentModel.rowCount?4(QModelIndex parent=QModelIndex()) -> int
+QtHelp.QHelpContentModel.columnCount?4(QModelIndex parent=QModelIndex()) -> int
+QtHelp.QHelpContentModel.isCreatingContents?4() -> bool
+QtHelp.QHelpContentModel.contentsCreationStarted?4()
+QtHelp.QHelpContentModel.contentsCreated?4()
+QtHelp.QHelpContentWidget.indexOf?4(QUrl) -> QModelIndex
+QtHelp.QHelpContentWidget.linkActivated?4(QUrl)
+QtHelp.QHelpEngineCore?1(str, QObject parent=None)
+QtHelp.QHelpEngineCore.__init__?1(self, str, QObject parent=None)
+QtHelp.QHelpEngineCore.setupData?4() -> bool
+QtHelp.QHelpEngineCore.collectionFile?4() -> str
+QtHelp.QHelpEngineCore.setCollectionFile?4(str)
+QtHelp.QHelpEngineCore.copyCollectionFile?4(str) -> bool
+QtHelp.QHelpEngineCore.namespaceName?4(str) -> str
+QtHelp.QHelpEngineCore.registerDocumentation?4(str) -> bool
+QtHelp.QHelpEngineCore.unregisterDocumentation?4(str) -> bool
+QtHelp.QHelpEngineCore.documentationFileName?4(str) -> str
+QtHelp.QHelpEngineCore.customFilters?4() -> list-of-str
+QtHelp.QHelpEngineCore.removeCustomFilter?4(str) -> bool
+QtHelp.QHelpEngineCore.addCustomFilter?4(str, list-of-str) -> bool
+QtHelp.QHelpEngineCore.filterAttributes?4() -> list-of-str
+QtHelp.QHelpEngineCore.filterAttributes?4(str) -> list-of-str
+QtHelp.QHelpEngineCore.currentFilter?4() -> str
+QtHelp.QHelpEngineCore.setCurrentFilter?4(str)
+QtHelp.QHelpEngineCore.registeredDocumentations?4() -> list-of-str
+QtHelp.QHelpEngineCore.filterAttributeSets?4(str) -> list-of-QStringList
+QtHelp.QHelpEngineCore.files?4(str, list-of-str, str extensionFilter='') -> list-of-QUrl
+QtHelp.QHelpEngineCore.findFile?4(QUrl) -> QUrl
+QtHelp.QHelpEngineCore.fileData?4(QUrl) -> QByteArray
+QtHelp.QHelpEngineCore.linksForIdentifier?4(str) -> dict-of-QString-QUrl
+QtHelp.QHelpEngineCore.removeCustomValue?4(str) -> bool
+QtHelp.QHelpEngineCore.customValue?4(str, QVariant defaultValue=None) -> QVariant
+QtHelp.QHelpEngineCore.setCustomValue?4(str, QVariant) -> bool
+QtHelp.QHelpEngineCore.metaData?4(str, str) -> QVariant
+QtHelp.QHelpEngineCore.error?4() -> str
+QtHelp.QHelpEngineCore.autoSaveFilter?4() -> bool
+QtHelp.QHelpEngineCore.setAutoSaveFilter?4(bool)
+QtHelp.QHelpEngineCore.setupStarted?4()
+QtHelp.QHelpEngineCore.setupFinished?4()
+QtHelp.QHelpEngineCore.currentFilterChanged?4(str)
+QtHelp.QHelpEngineCore.warning?4(str)
+QtHelp.QHelpEngine?1(str, QObject parent=None)
+QtHelp.QHelpEngine.__init__?1(self, str, QObject parent=None)
+QtHelp.QHelpEngine.contentModel?4() -> QHelpContentModel
+QtHelp.QHelpEngine.indexModel?4() -> QHelpIndexModel
+QtHelp.QHelpEngine.contentWidget?4() -> QHelpContentWidget
+QtHelp.QHelpEngine.indexWidget?4() -> QHelpIndexWidget
+QtHelp.QHelpEngine.searchEngine?4() -> QHelpSearchEngine
+QtHelp.QHelpIndexModel.createIndex?4(str)
+QtHelp.QHelpIndexModel.filter?4(str, str wildcard='') -> QModelIndex
+QtHelp.QHelpIndexModel.linksForKeyword?4(str) -> dict-of-QString-QUrl
+QtHelp.QHelpIndexModel.isCreatingIndex?4() -> bool
+QtHelp.QHelpIndexModel.indexCreationStarted?4()
+QtHelp.QHelpIndexModel.indexCreated?4()
+QtHelp.QHelpIndexWidget.linkActivated?4(QUrl, str)
+QtHelp.QHelpIndexWidget.linksActivated?4(dict-of-QString-QUrl, str)
+QtHelp.QHelpIndexWidget.filterIndices?4(str, str wildcard='')
+QtHelp.QHelpIndexWidget.activateCurrentItem?4()
+QtHelp.QHelpSearchQuery.FieldName?10
+QtHelp.QHelpSearchQuery.DEFAULT?10
+QtHelp.QHelpSearchQuery.FUZZY?10
+QtHelp.QHelpSearchQuery.WITHOUT?10
+QtHelp.QHelpSearchQuery.PHRASE?10
+QtHelp.QHelpSearchQuery.ALL?10
+QtHelp.QHelpSearchQuery.ATLEAST?10
+QtHelp.QHelpSearchQuery?1()
+QtHelp.QHelpSearchQuery.__init__?1(self)
+QtHelp.QHelpSearchQuery?1(QHelpSearchQuery.FieldName, list-of-str)
+QtHelp.QHelpSearchQuery.__init__?1(self, QHelpSearchQuery.FieldName, list-of-str)
+QtHelp.QHelpSearchQuery?1(QHelpSearchQuery)
+QtHelp.QHelpSearchQuery.__init__?1(self, QHelpSearchQuery)
+QtHelp.QHelpSearchEngine?1(QHelpEngineCore, QObject parent=None)
+QtHelp.QHelpSearchEngine.__init__?1(self, QHelpEngineCore, QObject parent=None)
+QtHelp.QHelpSearchEngine.query?4() -> list-of-QHelpSearchQuery
+QtHelp.QHelpSearchEngine.queryWidget?4() -> QHelpSearchQueryWidget
+QtHelp.QHelpSearchEngine.resultWidget?4() -> QHelpSearchResultWidget
+QtHelp.QHelpSearchEngine.hitCount?4() -> int
+QtHelp.QHelpSearchEngine.hits?4(int, int) -> list-of-tuple-of-QString-QString
+QtHelp.QHelpSearchEngine.reindexDocumentation?4()
+QtHelp.QHelpSearchEngine.cancelIndexing?4()
+QtHelp.QHelpSearchEngine.search?4(list-of-QHelpSearchQuery)
+QtHelp.QHelpSearchEngine.cancelSearching?4()
+QtHelp.QHelpSearchEngine.indexingStarted?4()
+QtHelp.QHelpSearchEngine.indexingFinished?4()
+QtHelp.QHelpSearchEngine.searchingStarted?4()
+QtHelp.QHelpSearchEngine.searchingFinished?4(int)
+QtHelp.QHelpSearchQueryWidget?1(QWidget parent=None)
+QtHelp.QHelpSearchQueryWidget.__init__?1(self, QWidget parent=None)
+QtHelp.QHelpSearchQueryWidget.query?4() -> list-of-QHelpSearchQuery
+QtHelp.QHelpSearchQueryWidget.setQuery?4(list-of-QHelpSearchQuery)
+QtHelp.QHelpSearchQueryWidget.expandExtendedSearch?4()
+QtHelp.QHelpSearchQueryWidget.collapseExtendedSearch?4()
+QtHelp.QHelpSearchQueryWidget.search?4()
+QtHelp.QHelpSearchResultWidget.linkAt?4(QPoint) -> QUrl
+QtHelp.QHelpSearchResultWidget.requestShowLink?4(QUrl)

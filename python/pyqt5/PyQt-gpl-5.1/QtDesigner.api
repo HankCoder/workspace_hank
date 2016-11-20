@@ -1,0 +1,312 @@
+QtDesigner.QDesignerActionEditorInterface?1(QWidget, Qt.WindowFlags flags=0)
+QtDesigner.QDesignerActionEditorInterface.__init__?1(self, QWidget, Qt.WindowFlags flags=0)
+QtDesigner.QDesignerActionEditorInterface.core?4() -> QDesignerFormEditorInterface
+QtDesigner.QDesignerActionEditorInterface.manageAction?4(QAction)
+QtDesigner.QDesignerActionEditorInterface.unmanageAction?4(QAction)
+QtDesigner.QDesignerActionEditorInterface.setFormWindow?4(QDesignerFormWindowInterface)
+QtDesigner.QAbstractFormBuilder?1()
+QtDesigner.QAbstractFormBuilder.__init__?1(self)
+QtDesigner.QAbstractFormBuilder.load?4(QIODevice, QWidget parent=None) -> QWidget
+QtDesigner.QAbstractFormBuilder.save?4(QIODevice, QWidget)
+QtDesigner.QAbstractFormBuilder.setWorkingDirectory?4(QDir)
+QtDesigner.QAbstractFormBuilder.workingDirectory?4() -> QDir
+QtDesigner.QAbstractFormBuilder.errorString?4() -> str
+QtDesigner.QDesignerFormEditorInterface?1(QObject parent=None)
+QtDesigner.QDesignerFormEditorInterface.__init__?1(self, QObject parent=None)
+QtDesigner.QDesignerFormEditorInterface.extensionManager?4() -> QExtensionManager
+QtDesigner.QDesignerFormEditorInterface.topLevel?4() -> QWidget
+QtDesigner.QDesignerFormEditorInterface.widgetBox?4() -> QDesignerWidgetBoxInterface
+QtDesigner.QDesignerFormEditorInterface.propertyEditor?4() -> QDesignerPropertyEditorInterface
+QtDesigner.QDesignerFormEditorInterface.objectInspector?4() -> QDesignerObjectInspectorInterface
+QtDesigner.QDesignerFormEditorInterface.formWindowManager?4() -> QDesignerFormWindowManagerInterface
+QtDesigner.QDesignerFormEditorInterface.actionEditor?4() -> QDesignerActionEditorInterface
+QtDesigner.QDesignerFormEditorInterface.setWidgetBox?4(QDesignerWidgetBoxInterface)
+QtDesigner.QDesignerFormEditorInterface.setPropertyEditor?4(QDesignerPropertyEditorInterface)
+QtDesigner.QDesignerFormEditorInterface.setObjectInspector?4(QDesignerObjectInspectorInterface)
+QtDesigner.QDesignerFormEditorInterface.setActionEditor?4(QDesignerActionEditorInterface)
+QtDesigner.QDesignerFormWindowInterface.FeatureFlag?10
+QtDesigner.QDesignerFormWindowInterface.EditFeature?10
+QtDesigner.QDesignerFormWindowInterface.GridFeature?10
+QtDesigner.QDesignerFormWindowInterface.TabOrderFeature?10
+QtDesigner.QDesignerFormWindowInterface.DefaultFeature?10
+QtDesigner.QDesignerFormWindowInterface?1(QWidget parent=None, Qt.WindowFlags flags=0)
+QtDesigner.QDesignerFormWindowInterface.__init__?1(self, QWidget parent=None, Qt.WindowFlags flags=0)
+QtDesigner.QDesignerFormWindowInterface.fileName?4() -> str
+QtDesigner.QDesignerFormWindowInterface.absoluteDir?4() -> QDir
+QtDesigner.QDesignerFormWindowInterface.contents?4() -> str
+QtDesigner.QDesignerFormWindowInterface.setContents?4(QIODevice, str errorMessage=None) -> bool
+QtDesigner.QDesignerFormWindowInterface.features?4() -> QDesignerFormWindowInterface.Feature
+QtDesigner.QDesignerFormWindowInterface.hasFeature?4(QDesignerFormWindowInterface.Feature) -> bool
+QtDesigner.QDesignerFormWindowInterface.author?4() -> str
+QtDesigner.QDesignerFormWindowInterface.setAuthor?4(str)
+QtDesigner.QDesignerFormWindowInterface.comment?4() -> str
+QtDesigner.QDesignerFormWindowInterface.setComment?4(str)
+QtDesigner.QDesignerFormWindowInterface.layoutDefault?4() -> (int, int)
+QtDesigner.QDesignerFormWindowInterface.setLayoutDefault?4(int, int)
+QtDesigner.QDesignerFormWindowInterface.layoutFunction?4() -> (str, str)
+QtDesigner.QDesignerFormWindowInterface.setLayoutFunction?4(str, str)
+QtDesigner.QDesignerFormWindowInterface.pixmapFunction?4() -> str
+QtDesigner.QDesignerFormWindowInterface.setPixmapFunction?4(str)
+QtDesigner.QDesignerFormWindowInterface.exportMacro?4() -> str
+QtDesigner.QDesignerFormWindowInterface.setExportMacro?4(str)
+QtDesigner.QDesignerFormWindowInterface.includeHints?4() -> list-of-str
+QtDesigner.QDesignerFormWindowInterface.setIncludeHints?4(list-of-str)
+QtDesigner.QDesignerFormWindowInterface.core?4() -> QDesignerFormEditorInterface
+QtDesigner.QDesignerFormWindowInterface.cursor?4() -> QDesignerFormWindowCursorInterface
+QtDesigner.QDesignerFormWindowInterface.grid?4() -> QPoint
+QtDesigner.QDesignerFormWindowInterface.mainContainer?4() -> QWidget
+QtDesigner.QDesignerFormWindowInterface.setMainContainer?4(QWidget)
+QtDesigner.QDesignerFormWindowInterface.isManaged?4(QWidget) -> bool
+QtDesigner.QDesignerFormWindowInterface.isDirty?4() -> bool
+QtDesigner.QDesignerFormWindowInterface.findFormWindow?4(QWidget) -> QDesignerFormWindowInterface
+QtDesigner.QDesignerFormWindowInterface.findFormWindow?4(QObject) -> QDesignerFormWindowInterface
+QtDesigner.QDesignerFormWindowInterface.emitSelectionChanged?4()
+QtDesigner.QDesignerFormWindowInterface.resourceFiles?4() -> list-of-str
+QtDesigner.QDesignerFormWindowInterface.addResourceFile?4(str)
+QtDesigner.QDesignerFormWindowInterface.removeResourceFile?4(str)
+QtDesigner.QDesignerFormWindowInterface.manageWidget?4(QWidget)
+QtDesigner.QDesignerFormWindowInterface.unmanageWidget?4(QWidget)
+QtDesigner.QDesignerFormWindowInterface.setFeatures?4(QDesignerFormWindowInterface.Feature)
+QtDesigner.QDesignerFormWindowInterface.setDirty?4(bool)
+QtDesigner.QDesignerFormWindowInterface.clearSelection?4(bool update=True)
+QtDesigner.QDesignerFormWindowInterface.selectWidget?4(QWidget, bool select=True)
+QtDesigner.QDesignerFormWindowInterface.setGrid?4(QPoint)
+QtDesigner.QDesignerFormWindowInterface.setFileName?4(str)
+QtDesigner.QDesignerFormWindowInterface.setContents?4(str) -> bool
+QtDesigner.QDesignerFormWindowInterface.mainContainerChanged?4(QWidget)
+QtDesigner.QDesignerFormWindowInterface.fileNameChanged?4(str)
+QtDesigner.QDesignerFormWindowInterface.featureChanged?4(QDesignerFormWindowInterface.Feature)
+QtDesigner.QDesignerFormWindowInterface.selectionChanged?4()
+QtDesigner.QDesignerFormWindowInterface.geometryChanged?4()
+QtDesigner.QDesignerFormWindowInterface.resourceFilesChanged?4()
+QtDesigner.QDesignerFormWindowInterface.widgetManaged?4(QWidget)
+QtDesigner.QDesignerFormWindowInterface.widgetUnmanaged?4(QWidget)
+QtDesigner.QDesignerFormWindowInterface.aboutToUnmanageWidget?4(QWidget)
+QtDesigner.QDesignerFormWindowInterface.activated?4(QWidget)
+QtDesigner.QDesignerFormWindowInterface.changed?4()
+QtDesigner.QDesignerFormWindowInterface.widgetRemoved?4(QWidget)
+QtDesigner.QDesignerFormWindowInterface.objectRemoved?4(QObject)
+QtDesigner.QDesignerFormWindowInterface.checkContents?4() -> list-of-str
+QtDesigner.QDesignerFormWindowInterface.activeResourceFilePaths?4() -> list-of-str
+QtDesigner.QDesignerFormWindowInterface.formContainer?4() -> QWidget
+QtDesigner.QDesignerFormWindowInterface.activateResourceFilePaths?4(list-of-str) -> (int, str)
+QtDesigner.QDesignerFormWindowInterface.Feature?1(QDesignerFormWindowInterface.Feature)
+QtDesigner.QDesignerFormWindowInterface.Feature.__init__?1(self, QDesignerFormWindowInterface.Feature)
+QtDesigner.QDesignerFormWindowInterface.Feature?1(int)
+QtDesigner.QDesignerFormWindowInterface.Feature.__init__?1(self, int)
+QtDesigner.QDesignerFormWindowInterface.Feature?1()
+QtDesigner.QDesignerFormWindowInterface.Feature.__init__?1(self)
+QtDesigner.QDesignerFormWindowCursorInterface.MoveMode?10
+QtDesigner.QDesignerFormWindowCursorInterface.MoveAnchor?10
+QtDesigner.QDesignerFormWindowCursorInterface.KeepAnchor?10
+QtDesigner.QDesignerFormWindowCursorInterface.MoveOperation?10
+QtDesigner.QDesignerFormWindowCursorInterface.NoMove?10
+QtDesigner.QDesignerFormWindowCursorInterface.Start?10
+QtDesigner.QDesignerFormWindowCursorInterface.End?10
+QtDesigner.QDesignerFormWindowCursorInterface.Next?10
+QtDesigner.QDesignerFormWindowCursorInterface.Prev?10
+QtDesigner.QDesignerFormWindowCursorInterface.Left?10
+QtDesigner.QDesignerFormWindowCursorInterface.Right?10
+QtDesigner.QDesignerFormWindowCursorInterface.Up?10
+QtDesigner.QDesignerFormWindowCursorInterface.Down?10
+QtDesigner.QDesignerFormWindowCursorInterface?1()
+QtDesigner.QDesignerFormWindowCursorInterface.__init__?1(self)
+QtDesigner.QDesignerFormWindowCursorInterface?1(QDesignerFormWindowCursorInterface)
+QtDesigner.QDesignerFormWindowCursorInterface.__init__?1(self, QDesignerFormWindowCursorInterface)
+QtDesigner.QDesignerFormWindowCursorInterface.formWindow?4() -> QDesignerFormWindowInterface
+QtDesigner.QDesignerFormWindowCursorInterface.movePosition?4(QDesignerFormWindowCursorInterface.MoveOperation, QDesignerFormWindowCursorInterface.MoveMode mode=QDesignerFormWindowCursorInterface.MoveAnchor) -> bool
+QtDesigner.QDesignerFormWindowCursorInterface.position?4() -> int
+QtDesigner.QDesignerFormWindowCursorInterface.setPosition?4(int, QDesignerFormWindowCursorInterface.MoveMode mode=QDesignerFormWindowCursorInterface.MoveAnchor)
+QtDesigner.QDesignerFormWindowCursorInterface.current?4() -> QWidget
+QtDesigner.QDesignerFormWindowCursorInterface.widgetCount?4() -> int
+QtDesigner.QDesignerFormWindowCursorInterface.widget?4(int) -> QWidget
+QtDesigner.QDesignerFormWindowCursorInterface.hasSelection?4() -> bool
+QtDesigner.QDesignerFormWindowCursorInterface.selectedWidgetCount?4() -> int
+QtDesigner.QDesignerFormWindowCursorInterface.selectedWidget?4(int) -> QWidget
+QtDesigner.QDesignerFormWindowCursorInterface.setProperty?4(str, QVariant)
+QtDesigner.QDesignerFormWindowCursorInterface.setWidgetProperty?4(QWidget, str, QVariant)
+QtDesigner.QDesignerFormWindowCursorInterface.resetWidgetProperty?4(QWidget, str)
+QtDesigner.QDesignerFormWindowCursorInterface.isWidgetSelected?4(QWidget) -> bool
+QtDesigner.QDesignerFormWindowManagerInterface.ActionGroup?10
+QtDesigner.QDesignerFormWindowManagerInterface.StyledPreviewActionGroup?10
+QtDesigner.QDesignerFormWindowManagerInterface.Action?10
+QtDesigner.QDesignerFormWindowManagerInterface.CutAction?10
+QtDesigner.QDesignerFormWindowManagerInterface.CopyAction?10
+QtDesigner.QDesignerFormWindowManagerInterface.PasteAction?10
+QtDesigner.QDesignerFormWindowManagerInterface.DeleteAction?10
+QtDesigner.QDesignerFormWindowManagerInterface.SelectAllAction?10
+QtDesigner.QDesignerFormWindowManagerInterface.LowerAction?10
+QtDesigner.QDesignerFormWindowManagerInterface.RaiseAction?10
+QtDesigner.QDesignerFormWindowManagerInterface.UndoAction?10
+QtDesigner.QDesignerFormWindowManagerInterface.RedoAction?10
+QtDesigner.QDesignerFormWindowManagerInterface.HorizontalLayoutAction?10
+QtDesigner.QDesignerFormWindowManagerInterface.VerticalLayoutAction?10
+QtDesigner.QDesignerFormWindowManagerInterface.SplitHorizontalAction?10
+QtDesigner.QDesignerFormWindowManagerInterface.SplitVerticalAction?10
+QtDesigner.QDesignerFormWindowManagerInterface.GridLayoutAction?10
+QtDesigner.QDesignerFormWindowManagerInterface.FormLayoutAction?10
+QtDesigner.QDesignerFormWindowManagerInterface.BreakLayoutAction?10
+QtDesigner.QDesignerFormWindowManagerInterface.AdjustSizeAction?10
+QtDesigner.QDesignerFormWindowManagerInterface.SimplifyLayoutAction?10
+QtDesigner.QDesignerFormWindowManagerInterface.DefaultPreviewAction?10
+QtDesigner.QDesignerFormWindowManagerInterface.FormWindowSettingsDialogAction?10
+QtDesigner.QDesignerFormWindowManagerInterface?1(QObject parent=None)
+QtDesigner.QDesignerFormWindowManagerInterface.__init__?1(self, QObject parent=None)
+QtDesigner.QDesignerFormWindowManagerInterface.actionFormLayout?4() -> QAction
+QtDesigner.QDesignerFormWindowManagerInterface.actionSimplifyLayout?4() -> QAction
+QtDesigner.QDesignerFormWindowManagerInterface.activeFormWindow?4() -> QDesignerFormWindowInterface
+QtDesigner.QDesignerFormWindowManagerInterface.formWindowCount?4() -> int
+QtDesigner.QDesignerFormWindowManagerInterface.formWindow?4(int) -> QDesignerFormWindowInterface
+QtDesigner.QDesignerFormWindowManagerInterface.createFormWindow?4(QWidget parent=None, Qt.WindowFlags flags=0) -> QDesignerFormWindowInterface
+QtDesigner.QDesignerFormWindowManagerInterface.core?4() -> QDesignerFormEditorInterface
+QtDesigner.QDesignerFormWindowManagerInterface.formWindowAdded?4(QDesignerFormWindowInterface)
+QtDesigner.QDesignerFormWindowManagerInterface.formWindowRemoved?4(QDesignerFormWindowInterface)
+QtDesigner.QDesignerFormWindowManagerInterface.activeFormWindowChanged?4(QDesignerFormWindowInterface)
+QtDesigner.QDesignerFormWindowManagerInterface.formWindowSettingsChanged?4(QDesignerFormWindowInterface)
+QtDesigner.QDesignerFormWindowManagerInterface.addFormWindow?4(QDesignerFormWindowInterface)
+QtDesigner.QDesignerFormWindowManagerInterface.removeFormWindow?4(QDesignerFormWindowInterface)
+QtDesigner.QDesignerFormWindowManagerInterface.setActiveFormWindow?4(QDesignerFormWindowInterface)
+QtDesigner.QDesignerFormWindowManagerInterface.action?4(QDesignerFormWindowManagerInterface.Action) -> QAction
+QtDesigner.QDesignerFormWindowManagerInterface.actionGroup?4(QDesignerFormWindowManagerInterface.ActionGroup) -> QActionGroup
+QtDesigner.QDesignerFormWindowManagerInterface.showPreview?4()
+QtDesigner.QDesignerFormWindowManagerInterface.closeAllPreviews?4()
+QtDesigner.QDesignerFormWindowManagerInterface.showPluginDialog?4()
+QtDesigner.QDesignerObjectInspectorInterface?1(QWidget, Qt.WindowFlags flags=0)
+QtDesigner.QDesignerObjectInspectorInterface.__init__?1(self, QWidget, Qt.WindowFlags flags=0)
+QtDesigner.QDesignerObjectInspectorInterface.core?4() -> QDesignerFormEditorInterface
+QtDesigner.QDesignerObjectInspectorInterface.setFormWindow?4(QDesignerFormWindowInterface)
+QtDesigner.QDesignerPropertyEditorInterface?1(QWidget, Qt.WindowFlags flags=0)
+QtDesigner.QDesignerPropertyEditorInterface.__init__?1(self, QWidget, Qt.WindowFlags flags=0)
+QtDesigner.QDesignerPropertyEditorInterface.core?4() -> QDesignerFormEditorInterface
+QtDesigner.QDesignerPropertyEditorInterface.isReadOnly?4() -> bool
+QtDesigner.QDesignerPropertyEditorInterface.object?4() -> QObject
+QtDesigner.QDesignerPropertyEditorInterface.currentPropertyName?4() -> str
+QtDesigner.QDesignerPropertyEditorInterface.propertyChanged?4(str, QVariant)
+QtDesigner.QDesignerPropertyEditorInterface.setObject?4(QObject)
+QtDesigner.QDesignerPropertyEditorInterface.setPropertyValue?4(str, QVariant, bool changed=True)
+QtDesigner.QDesignerPropertyEditorInterface.setReadOnly?4(bool)
+QtDesigner.QDesignerWidgetBoxInterface?1(QWidget parent=None, Qt.WindowFlags flags=0)
+QtDesigner.QDesignerWidgetBoxInterface.__init__?1(self, QWidget parent=None, Qt.WindowFlags flags=0)
+QtDesigner.QDesignerWidgetBoxInterface.setFileName?4(str)
+QtDesigner.QDesignerWidgetBoxInterface.fileName?4() -> str
+QtDesigner.QDesignerWidgetBoxInterface.load?4() -> bool
+QtDesigner.QDesignerWidgetBoxInterface.save?4() -> bool
+QtDesigner.QDesignerContainerExtension?1()
+QtDesigner.QDesignerContainerExtension.__init__?1(self)
+QtDesigner.QDesignerContainerExtension?1(QDesignerContainerExtension)
+QtDesigner.QDesignerContainerExtension.__init__?1(self, QDesignerContainerExtension)
+QtDesigner.QDesignerContainerExtension.count?4() -> int
+QtDesigner.QDesignerContainerExtension.widget?4(int) -> QWidget
+QtDesigner.QDesignerContainerExtension.currentIndex?4() -> int
+QtDesigner.QDesignerContainerExtension.setCurrentIndex?4(int)
+QtDesigner.QDesignerContainerExtension.addWidget?4(QWidget)
+QtDesigner.QDesignerContainerExtension.insertWidget?4(int, QWidget)
+QtDesigner.QDesignerContainerExtension.remove?4(int)
+QtDesigner.QDesignerContainerExtension.canAddWidget?4() -> bool
+QtDesigner.QDesignerContainerExtension.canRemove?4(int) -> bool
+QtDesigner.QDesignerCustomWidgetInterface?1()
+QtDesigner.QDesignerCustomWidgetInterface.__init__?1(self)
+QtDesigner.QDesignerCustomWidgetInterface?1(QDesignerCustomWidgetInterface)
+QtDesigner.QDesignerCustomWidgetInterface.__init__?1(self, QDesignerCustomWidgetInterface)
+QtDesigner.QDesignerCustomWidgetInterface.name?4() -> str
+QtDesigner.QDesignerCustomWidgetInterface.group?4() -> str
+QtDesigner.QDesignerCustomWidgetInterface.toolTip?4() -> str
+QtDesigner.QDesignerCustomWidgetInterface.whatsThis?4() -> str
+QtDesigner.QDesignerCustomWidgetInterface.includeFile?4() -> str
+QtDesigner.QDesignerCustomWidgetInterface.icon?4() -> QIcon
+QtDesigner.QDesignerCustomWidgetInterface.isContainer?4() -> bool
+QtDesigner.QDesignerCustomWidgetInterface.createWidget?4(QWidget) -> QWidget
+QtDesigner.QDesignerCustomWidgetInterface.isInitialized?4() -> bool
+QtDesigner.QDesignerCustomWidgetInterface.initialize?4(QDesignerFormEditorInterface)
+QtDesigner.QDesignerCustomWidgetInterface.domXml?4() -> str
+QtDesigner.QDesignerCustomWidgetInterface.codeTemplate?4() -> str
+QtDesigner.QDesignerCustomWidgetCollectionInterface?1()
+QtDesigner.QDesignerCustomWidgetCollectionInterface.__init__?1(self)
+QtDesigner.QDesignerCustomWidgetCollectionInterface?1(QDesignerCustomWidgetCollectionInterface)
+QtDesigner.QDesignerCustomWidgetCollectionInterface.__init__?1(self, QDesignerCustomWidgetCollectionInterface)
+QtDesigner.QDesignerCustomWidgetCollectionInterface.customWidgets?4() -> list-of-QDesignerCustomWidgetInterface
+QtDesigner.QAbstractExtensionFactory?1()
+QtDesigner.QAbstractExtensionFactory.__init__?1(self)
+QtDesigner.QAbstractExtensionFactory?1(QAbstractExtensionFactory)
+QtDesigner.QAbstractExtensionFactory.__init__?1(self, QAbstractExtensionFactory)
+QtDesigner.QAbstractExtensionFactory.extension?4(QObject, str) -> QObject
+QtDesigner.QExtensionFactory?1(QExtensionManager parent=None)
+QtDesigner.QExtensionFactory.__init__?1(self, QExtensionManager parent=None)
+QtDesigner.QExtensionFactory.extension?4(QObject, str) -> QObject
+QtDesigner.QExtensionFactory.extensionManager?4() -> QExtensionManager
+QtDesigner.QExtensionFactory.createExtension?4(QObject, str, QObject) -> QObject
+QtDesigner.QAbstractExtensionManager?1()
+QtDesigner.QAbstractExtensionManager.__init__?1(self)
+QtDesigner.QAbstractExtensionManager?1(QAbstractExtensionManager)
+QtDesigner.QAbstractExtensionManager.__init__?1(self, QAbstractExtensionManager)
+QtDesigner.QAbstractExtensionManager.registerExtensions?4(QAbstractExtensionFactory, str)
+QtDesigner.QAbstractExtensionManager.unregisterExtensions?4(QAbstractExtensionFactory, str)
+QtDesigner.QAbstractExtensionManager.extension?4(QObject, str) -> QObject
+QtDesigner.QFormBuilder?1()
+QtDesigner.QFormBuilder.__init__?1(self)
+QtDesigner.QFormBuilder.pluginPaths?4() -> list-of-str
+QtDesigner.QFormBuilder.clearPluginPaths?4()
+QtDesigner.QFormBuilder.addPluginPath?4(str)
+QtDesigner.QFormBuilder.setPluginPath?4(list-of-str)
+QtDesigner.QFormBuilder.customWidgets?4() -> list-of-QDesignerCustomWidgetInterface
+QtDesigner.QDesignerMemberSheetExtension?1()
+QtDesigner.QDesignerMemberSheetExtension.__init__?1(self)
+QtDesigner.QDesignerMemberSheetExtension?1(QDesignerMemberSheetExtension)
+QtDesigner.QDesignerMemberSheetExtension.__init__?1(self, QDesignerMemberSheetExtension)
+QtDesigner.QDesignerMemberSheetExtension.count?4() -> int
+QtDesigner.QDesignerMemberSheetExtension.indexOf?4(str) -> int
+QtDesigner.QDesignerMemberSheetExtension.memberName?4(int) -> str
+QtDesigner.QDesignerMemberSheetExtension.memberGroup?4(int) -> str
+QtDesigner.QDesignerMemberSheetExtension.setMemberGroup?4(int, str)
+QtDesigner.QDesignerMemberSheetExtension.isVisible?4(int) -> bool
+QtDesigner.QDesignerMemberSheetExtension.setVisible?4(int, bool)
+QtDesigner.QDesignerMemberSheetExtension.isSignal?4(int) -> bool
+QtDesigner.QDesignerMemberSheetExtension.isSlot?4(int) -> bool
+QtDesigner.QDesignerMemberSheetExtension.inheritedFromWidget?4(int) -> bool
+QtDesigner.QDesignerMemberSheetExtension.declaredInClass?4(int) -> str
+QtDesigner.QDesignerMemberSheetExtension.signature?4(int) -> str
+QtDesigner.QDesignerMemberSheetExtension.parameterTypes?4(int) -> list-of-QByteArray
+QtDesigner.QDesignerMemberSheetExtension.parameterNames?4(int) -> list-of-QByteArray
+QtDesigner.QDesignerPropertySheetExtension?1()
+QtDesigner.QDesignerPropertySheetExtension.__init__?1(self)
+QtDesigner.QDesignerPropertySheetExtension?1(QDesignerPropertySheetExtension)
+QtDesigner.QDesignerPropertySheetExtension.__init__?1(self, QDesignerPropertySheetExtension)
+QtDesigner.QDesignerPropertySheetExtension.count?4() -> int
+QtDesigner.QDesignerPropertySheetExtension.indexOf?4(str) -> int
+QtDesigner.QDesignerPropertySheetExtension.propertyName?4(int) -> str
+QtDesigner.QDesignerPropertySheetExtension.propertyGroup?4(int) -> str
+QtDesigner.QDesignerPropertySheetExtension.setPropertyGroup?4(int, str)
+QtDesigner.QDesignerPropertySheetExtension.hasReset?4(int) -> bool
+QtDesigner.QDesignerPropertySheetExtension.reset?4(int) -> bool
+QtDesigner.QDesignerPropertySheetExtension.isVisible?4(int) -> bool
+QtDesigner.QDesignerPropertySheetExtension.setVisible?4(int, bool)
+QtDesigner.QDesignerPropertySheetExtension.isAttribute?4(int) -> bool
+QtDesigner.QDesignerPropertySheetExtension.setAttribute?4(int, bool)
+QtDesigner.QDesignerPropertySheetExtension.property?4(int) -> QVariant
+QtDesigner.QDesignerPropertySheetExtension.setProperty?4(int, QVariant)
+QtDesigner.QDesignerPropertySheetExtension.isChanged?4(int) -> bool
+QtDesigner.QDesignerPropertySheetExtension.setChanged?4(int, bool)
+QtDesigner.QDesignerPropertySheetExtension.isEnabled?4(int) -> bool
+QtDesigner.QExtensionManager?1(QObject parent=None)
+QtDesigner.QExtensionManager.__init__?1(self, QObject parent=None)
+QtDesigner.QExtensionManager.registerExtensions?4(QAbstractExtensionFactory, str iid='')
+QtDesigner.QExtensionManager.unregisterExtensions?4(QAbstractExtensionFactory, str iid='')
+QtDesigner.QExtensionManager.extension?4(QObject, str) -> QObject
+QtDesigner.QDesignerTaskMenuExtension?1()
+QtDesigner.QDesignerTaskMenuExtension.__init__?1(self)
+QtDesigner.QDesignerTaskMenuExtension?1(QDesignerTaskMenuExtension)
+QtDesigner.QDesignerTaskMenuExtension.__init__?1(self, QDesignerTaskMenuExtension)
+QtDesigner.QDesignerTaskMenuExtension.taskActions?4() -> list-of-QAction
+QtDesigner.QDesignerTaskMenuExtension.preferredEditAction?4() -> QAction
+QtDesigner.QPyDesignerContainerExtension?1(QObject)
+QtDesigner.QPyDesignerContainerExtension.__init__?1(self, QObject)
+QtDesigner.QPyDesignerCustomWidgetCollectionPlugin?1(QObject parent=None)
+QtDesigner.QPyDesignerCustomWidgetCollectionPlugin.__init__?1(self, QObject parent=None)
+QtDesigner.QPyDesignerCustomWidgetPlugin?1(QObject parent=None)
+QtDesigner.QPyDesignerCustomWidgetPlugin.__init__?1(self, QObject parent=None)
+QtDesigner.QPyDesignerMemberSheetExtension?1(QObject)
+QtDesigner.QPyDesignerMemberSheetExtension.__init__?1(self, QObject)
+QtDesigner.QPyDesignerPropertySheetExtension?1(QObject)
+QtDesigner.QPyDesignerPropertySheetExtension.__init__?1(self, QObject)
+QtDesigner.QPyDesignerTaskMenuExtension?1(QObject)
+QtDesigner.QPyDesignerTaskMenuExtension.__init__?1(self, QObject)

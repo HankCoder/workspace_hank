@@ -1,0 +1,311 @@
+QtDBus.QDBusAbstractAdaptor?1(QObject)
+QtDBus.QDBusAbstractAdaptor.__init__?1(self, QObject)
+QtDBus.QDBusAbstractAdaptor.setAutoRelaySignals?4(bool)
+QtDBus.QDBusAbstractAdaptor.autoRelaySignals?4() -> bool
+QtDBus.QDBusAbstractInterface?1(str, str, str, QDBusConnection, QObject)
+QtDBus.QDBusAbstractInterface.__init__?1(self, str, str, str, QDBusConnection, QObject)
+QtDBus.QDBusAbstractInterface.isValid?4() -> bool
+QtDBus.QDBusAbstractInterface.connection?4() -> QDBusConnection
+QtDBus.QDBusAbstractInterface.service?4() -> str
+QtDBus.QDBusAbstractInterface.path?4() -> str
+QtDBus.QDBusAbstractInterface.interface?4() -> str
+QtDBus.QDBusAbstractInterface.lastError?4() -> QDBusError
+QtDBus.QDBusAbstractInterface.setTimeout?4(int)
+QtDBus.QDBusAbstractInterface.timeout?4() -> int
+QtDBus.QDBusAbstractInterface.call?4(str, QVariant arg1=QVariant(), QVariant arg2=QVariant(), QVariant arg3=QVariant(), QVariant arg4=QVariant(), QVariant arg5=QVariant(), QVariant arg6=QVariant(), QVariant arg7=QVariant(), QVariant arg8=QVariant()) -> QDBusMessage
+QtDBus.QDBusAbstractInterface.call?4(QDBus.CallMode, str, QVariant arg1=QVariant(), QVariant arg2=QVariant(), QVariant arg3=QVariant(), QVariant arg4=QVariant(), QVariant arg5=QVariant(), QVariant arg6=QVariant(), QVariant arg7=QVariant(), QVariant arg8=QVariant()) -> QDBusMessage
+QtDBus.QDBusAbstractInterface.callWithArgumentList?4(QDBus.CallMode, str, list-of-QVariant) -> QDBusMessage
+QtDBus.QDBusAbstractInterface.callWithCallback?4(str, list-of-QVariant, slot, slot) -> bool
+QtDBus.QDBusAbstractInterface.callWithCallback?4(str, list-of-QVariant, slot) -> bool
+QtDBus.QDBusAbstractInterface.asyncCall?4(str, QVariant arg1=QVariant(), QVariant arg2=QVariant(), QVariant arg3=QVariant(), QVariant arg4=QVariant(), QVariant arg5=QVariant(), QVariant arg6=QVariant(), QVariant arg7=QVariant(), QVariant arg8=QVariant()) -> QDBusPendingCall
+QtDBus.QDBusAbstractInterface.asyncCallWithArgumentList?4(str, list-of-QVariant) -> QDBusPendingCall
+QtDBus.QDBusAbstractInterface.connectNotify?4(QMetaMethod)
+QtDBus.QDBusAbstractInterface.disconnectNotify?4(QMetaMethod)
+QtDBus.QDBusArgument?1()
+QtDBus.QDBusArgument.__init__?1(self)
+QtDBus.QDBusArgument?1(QDBusArgument)
+QtDBus.QDBusArgument.__init__?1(self, QDBusArgument)
+QtDBus.QDBusArgument?1(object, int id=QMetaType.Int)
+QtDBus.QDBusArgument.__init__?1(self, object, int id=QMetaType.Int)
+QtDBus.QDBusArgument.add?4(object, int id=QMetaType.Int)
+QtDBus.QDBusArgument.beginStructure?4()
+QtDBus.QDBusArgument.endStructure?4()
+QtDBus.QDBusArgument.beginArray?4(int)
+QtDBus.QDBusArgument.endArray?4()
+QtDBus.QDBusArgument.beginMap?4(int, int)
+QtDBus.QDBusArgument.endMap?4()
+QtDBus.QDBusArgument.beginMapEntry?4()
+QtDBus.QDBusArgument.endMapEntry?4()
+QtDBus.QDBus.CallMode?10
+QtDBus.QDBus.NoBlock?10
+QtDBus.QDBus.Block?10
+QtDBus.QDBus.BlockWithGui?10
+QtDBus.QDBus.AutoDetect?10
+QtDBus.QDBusConnection.ConnectionCapability?10
+QtDBus.QDBusConnection.UnixFileDescriptorPassing?10
+QtDBus.QDBusConnection.UnregisterMode?10
+QtDBus.QDBusConnection.UnregisterNode?10
+QtDBus.QDBusConnection.UnregisterTree?10
+QtDBus.QDBusConnection.RegisterOption?10
+QtDBus.QDBusConnection.ExportAdaptors?10
+QtDBus.QDBusConnection.ExportScriptableSlots?10
+QtDBus.QDBusConnection.ExportScriptableSignals?10
+QtDBus.QDBusConnection.ExportScriptableProperties?10
+QtDBus.QDBusConnection.ExportScriptableInvokables?10
+QtDBus.QDBusConnection.ExportScriptableContents?10
+QtDBus.QDBusConnection.ExportNonScriptableSlots?10
+QtDBus.QDBusConnection.ExportNonScriptableSignals?10
+QtDBus.QDBusConnection.ExportNonScriptableProperties?10
+QtDBus.QDBusConnection.ExportNonScriptableInvokables?10
+QtDBus.QDBusConnection.ExportNonScriptableContents?10
+QtDBus.QDBusConnection.ExportAllSlots?10
+QtDBus.QDBusConnection.ExportAllSignals?10
+QtDBus.QDBusConnection.ExportAllProperties?10
+QtDBus.QDBusConnection.ExportAllInvokables?10
+QtDBus.QDBusConnection.ExportAllContents?10
+QtDBus.QDBusConnection.ExportAllSignal?10
+QtDBus.QDBusConnection.ExportChildObjects?10
+QtDBus.QDBusConnection.BusType?10
+QtDBus.QDBusConnection.SessionBus?10
+QtDBus.QDBusConnection.SystemBus?10
+QtDBus.QDBusConnection.ActivationBus?10
+QtDBus.QDBusConnection?1(str)
+QtDBus.QDBusConnection.__init__?1(self, str)
+QtDBus.QDBusConnection?1(QDBusConnection)
+QtDBus.QDBusConnection.__init__?1(self, QDBusConnection)
+QtDBus.QDBusConnection.isConnected?4() -> bool
+QtDBus.QDBusConnection.baseService?4() -> str
+QtDBus.QDBusConnection.lastError?4() -> QDBusError
+QtDBus.QDBusConnection.name?4() -> str
+QtDBus.QDBusConnection.connectionCapabilities?4() -> QDBusConnection.ConnectionCapabilities
+QtDBus.QDBusConnection.send?4(QDBusMessage) -> bool
+QtDBus.QDBusConnection.callWithCallback?4(QDBusMessage, slot, slot, int timeout=-1) -> bool
+QtDBus.QDBusConnection.call?4(QDBusMessage, QDBus.CallMode mode=QDBus.Block, int timeout=-1) -> QDBusMessage
+QtDBus.QDBusConnection.asyncCall?4(QDBusMessage, int timeout=-1) -> QDBusPendingCall
+QtDBus.QDBusConnection.connect?4(str, str, str, str, slot) -> bool
+QtDBus.QDBusConnection.connect?4(str, str, str, str, str, slot) -> bool
+QtDBus.QDBusConnection.connect?4(str, str, str, str, list-of-str, str, slot) -> bool
+QtDBus.QDBusConnection.disconnect?4(str, str, str, str, slot) -> bool
+QtDBus.QDBusConnection.disconnect?4(str, str, str, str, str, slot) -> bool
+QtDBus.QDBusConnection.disconnect?4(str, str, str, str, list-of-str, str, slot) -> bool
+QtDBus.QDBusConnection.registerObject?4(str, QObject, QDBusConnection.RegisterOptions options=QDBusConnection.ExportAdaptors) -> bool
+QtDBus.QDBusConnection.unregisterObject?4(str, QDBusConnection.UnregisterMode mode=QDBusConnection.UnregisterNode)
+QtDBus.QDBusConnection.objectRegisteredAt?4(str) -> QObject
+QtDBus.QDBusConnection.registerService?4(str) -> bool
+QtDBus.QDBusConnection.unregisterService?4(str) -> bool
+QtDBus.QDBusConnection.interface?4() -> QDBusConnectionInterface
+QtDBus.QDBusConnection.connectToBus?4(QDBusConnection.BusType, str) -> QDBusConnection
+QtDBus.QDBusConnection.connectToBus?4(str, str) -> QDBusConnection
+QtDBus.QDBusConnection.connectToPeer?4(str, str) -> QDBusConnection
+QtDBus.QDBusConnection.disconnectFromBus?4(str)
+QtDBus.QDBusConnection.disconnectFromPeer?4(str)
+QtDBus.QDBusConnection.localMachineId?4() -> QByteArray
+QtDBus.QDBusConnection.sessionBus?4() -> QDBusConnection
+QtDBus.QDBusConnection.systemBus?4() -> QDBusConnection
+QtDBus.QDBusConnection.sender?4() -> QDBusConnection
+QtDBus.QDBusConnection.RegisterOptions?1(QDBusConnection.RegisterOptions)
+QtDBus.QDBusConnection.RegisterOptions.__init__?1(self, QDBusConnection.RegisterOptions)
+QtDBus.QDBusConnection.RegisterOptions?1(int)
+QtDBus.QDBusConnection.RegisterOptions.__init__?1(self, int)
+QtDBus.QDBusConnection.RegisterOptions?1()
+QtDBus.QDBusConnection.RegisterOptions.__init__?1(self)
+QtDBus.QDBusConnection.ConnectionCapabilities?1(QDBusConnection.ConnectionCapabilities)
+QtDBus.QDBusConnection.ConnectionCapabilities.__init__?1(self, QDBusConnection.ConnectionCapabilities)
+QtDBus.QDBusConnection.ConnectionCapabilities?1(int)
+QtDBus.QDBusConnection.ConnectionCapabilities.__init__?1(self, int)
+QtDBus.QDBusConnection.ConnectionCapabilities?1()
+QtDBus.QDBusConnection.ConnectionCapabilities.__init__?1(self)
+QtDBus.QDBusConnectionInterface.RegisterServiceReply?10
+QtDBus.QDBusConnectionInterface.ServiceNotRegistered?10
+QtDBus.QDBusConnectionInterface.ServiceRegistered?10
+QtDBus.QDBusConnectionInterface.ServiceQueued?10
+QtDBus.QDBusConnectionInterface.ServiceReplacementOptions?10
+QtDBus.QDBusConnectionInterface.DontAllowReplacement?10
+QtDBus.QDBusConnectionInterface.AllowReplacement?10
+QtDBus.QDBusConnectionInterface.ServiceQueueOptions?10
+QtDBus.QDBusConnectionInterface.DontQueueService?10
+QtDBus.QDBusConnectionInterface.QueueService?10
+QtDBus.QDBusConnectionInterface.ReplaceExistingService?10
+QtDBus.QDBusConnectionInterface.registeredServiceNames?4() -> QDBusReply
+QtDBus.QDBusConnectionInterface.isServiceRegistered?4(str) -> QDBusReply
+QtDBus.QDBusConnectionInterface.serviceOwner?4(str) -> QDBusReply
+QtDBus.QDBusConnectionInterface.unregisterService?4(str) -> QDBusReply
+QtDBus.QDBusConnectionInterface.registerService?4(str, QDBusConnectionInterface.ServiceQueueOptions qoption=QDBusConnectionInterface.DontQueueService, QDBusConnectionInterface.ServiceReplacementOptions roption=QDBusConnectionInterface.DontAllowReplacement) -> QDBusReply
+QtDBus.QDBusConnectionInterface.servicePid?4(str) -> QDBusReply
+QtDBus.QDBusConnectionInterface.serviceUid?4(str) -> QDBusReply
+QtDBus.QDBusConnectionInterface.startService?4(str) -> QDBusReply
+QtDBus.QDBusConnectionInterface.serviceRegistered?4(str)
+QtDBus.QDBusConnectionInterface.serviceUnregistered?4(str)
+QtDBus.QDBusConnectionInterface.callWithCallbackFailed?4(QDBusError, QDBusMessage)
+QtDBus.QDBusConnectionInterface.connectNotify?4(QMetaMethod)
+QtDBus.QDBusConnectionInterface.disconnectNotify?4(QMetaMethod)
+QtDBus.QDBusError.ErrorType?10
+QtDBus.QDBusError.NoError?10
+QtDBus.QDBusError.Other?10
+QtDBus.QDBusError.Failed?10
+QtDBus.QDBusError.NoMemory?10
+QtDBus.QDBusError.ServiceUnknown?10
+QtDBus.QDBusError.NoReply?10
+QtDBus.QDBusError.BadAddress?10
+QtDBus.QDBusError.NotSupported?10
+QtDBus.QDBusError.LimitsExceeded?10
+QtDBus.QDBusError.AccessDenied?10
+QtDBus.QDBusError.NoServer?10
+QtDBus.QDBusError.Timeout?10
+QtDBus.QDBusError.NoNetwork?10
+QtDBus.QDBusError.AddressInUse?10
+QtDBus.QDBusError.Disconnected?10
+QtDBus.QDBusError.InvalidArgs?10
+QtDBus.QDBusError.UnknownMethod?10
+QtDBus.QDBusError.TimedOut?10
+QtDBus.QDBusError.InvalidSignature?10
+QtDBus.QDBusError.UnknownInterface?10
+QtDBus.QDBusError.InternalError?10
+QtDBus.QDBusError.UnknownObject?10
+QtDBus.QDBusError.InvalidService?10
+QtDBus.QDBusError.InvalidObjectPath?10
+QtDBus.QDBusError.InvalidInterface?10
+QtDBus.QDBusError.InvalidMember?10
+QtDBus.QDBusError.UnknownProperty?10
+QtDBus.QDBusError.PropertyReadOnly?10
+QtDBus.QDBusError?1(QDBusError)
+QtDBus.QDBusError.__init__?1(self, QDBusError)
+QtDBus.QDBusError.type?4() -> QDBusError.ErrorType
+QtDBus.QDBusError.name?4() -> str
+QtDBus.QDBusError.message?4() -> str
+QtDBus.QDBusError.isValid?4() -> bool
+QtDBus.QDBusError.errorString?4(QDBusError.ErrorType) -> str
+QtDBus.QDBusObjectPath?1()
+QtDBus.QDBusObjectPath.__init__?1(self)
+QtDBus.QDBusObjectPath?1(str)
+QtDBus.QDBusObjectPath.__init__?1(self, str)
+QtDBus.QDBusObjectPath?1(QDBusObjectPath)
+QtDBus.QDBusObjectPath.__init__?1(self, QDBusObjectPath)
+QtDBus.QDBusObjectPath.path?4() -> str
+QtDBus.QDBusObjectPath.setPath?4(str)
+QtDBus.QDBusSignature?1()
+QtDBus.QDBusSignature.__init__?1(self)
+QtDBus.QDBusSignature?1(str)
+QtDBus.QDBusSignature.__init__?1(self, str)
+QtDBus.QDBusSignature?1(QDBusSignature)
+QtDBus.QDBusSignature.__init__?1(self, QDBusSignature)
+QtDBus.QDBusSignature.signature?4() -> str
+QtDBus.QDBusSignature.setSignature?4(str)
+QtDBus.QDBusVariant?1()
+QtDBus.QDBusVariant.__init__?1(self)
+QtDBus.QDBusVariant?1(QVariant)
+QtDBus.QDBusVariant.__init__?1(self, QVariant)
+QtDBus.QDBusVariant?1(QDBusVariant)
+QtDBus.QDBusVariant.__init__?1(self, QDBusVariant)
+QtDBus.QDBusVariant.variant?4() -> QVariant
+QtDBus.QDBusVariant.setVariant?4(QVariant)
+QtDBus.QDBusInterface?1(str, str, str interface=QString(), QDBusConnection connection=QDBusConnection.sessionBus(), QObject parent=None)
+QtDBus.QDBusInterface.__init__?1(self, str, str, str interface=QString(), QDBusConnection connection=QDBusConnection.sessionBus(), QObject parent=None)
+QtDBus.QDBusMessage.MessageType?10
+QtDBus.QDBusMessage.InvalidMessage?10
+QtDBus.QDBusMessage.MethodCallMessage?10
+QtDBus.QDBusMessage.ReplyMessage?10
+QtDBus.QDBusMessage.ErrorMessage?10
+QtDBus.QDBusMessage.SignalMessage?10
+QtDBus.QDBusMessage?1()
+QtDBus.QDBusMessage.__init__?1(self)
+QtDBus.QDBusMessage?1(QDBusMessage)
+QtDBus.QDBusMessage.__init__?1(self, QDBusMessage)
+QtDBus.QDBusMessage.createSignal?4(str, str, str) -> QDBusMessage
+QtDBus.QDBusMessage.createMethodCall?4(str, str, str, str) -> QDBusMessage
+QtDBus.QDBusMessage.createError?4(str, str) -> QDBusMessage
+QtDBus.QDBusMessage.createError?4(QDBusError) -> QDBusMessage
+QtDBus.QDBusMessage.createError?4(QDBusError.ErrorType, str) -> QDBusMessage
+QtDBus.QDBusMessage.createReply?4(list-of-QVariant arguments=QList&lt;QVariant&gt;()) -> QDBusMessage
+QtDBus.QDBusMessage.createReply?4(QVariant) -> QDBusMessage
+QtDBus.QDBusMessage.createErrorReply?4(str, str) -> QDBusMessage
+QtDBus.QDBusMessage.createErrorReply?4(QDBusError) -> QDBusMessage
+QtDBus.QDBusMessage.createErrorReply?4(QDBusError.ErrorType, str) -> QDBusMessage
+QtDBus.QDBusMessage.service?4() -> str
+QtDBus.QDBusMessage.path?4() -> str
+QtDBus.QDBusMessage.interface?4() -> str
+QtDBus.QDBusMessage.member?4() -> str
+QtDBus.QDBusMessage.errorName?4() -> str
+QtDBus.QDBusMessage.errorMessage?4() -> str
+QtDBus.QDBusMessage.type?4() -> QDBusMessage.MessageType
+QtDBus.QDBusMessage.signature?4() -> str
+QtDBus.QDBusMessage.isReplyRequired?4() -> bool
+QtDBus.QDBusMessage.setDelayedReply?4(bool)
+QtDBus.QDBusMessage.isDelayedReply?4() -> bool
+QtDBus.QDBusMessage.setAutoStartService?4(bool)
+QtDBus.QDBusMessage.autoStartService?4() -> bool
+QtDBus.QDBusMessage.setArguments?4(list-of-QVariant)
+QtDBus.QDBusMessage.arguments?4() -> list-of-QVariant
+QtDBus.QDBusPendingCall?1(QDBusPendingCall)
+QtDBus.QDBusPendingCall.__init__?1(self, QDBusPendingCall)
+QtDBus.QDBusPendingCall.fromError?4(QDBusError) -> QDBusPendingCall
+QtDBus.QDBusPendingCall.fromCompletedCall?4(QDBusMessage) -> QDBusPendingCall
+QtDBus.QDBusPendingCall.swap?4(QDBusPendingCall)
+QtDBus.QDBusPendingCallWatcher?1(QDBusPendingCall, QObject parent=None)
+QtDBus.QDBusPendingCallWatcher.__init__?1(self, QDBusPendingCall, QObject parent=None)
+QtDBus.QDBusPendingCallWatcher.isFinished?4() -> bool
+QtDBus.QDBusPendingCallWatcher.waitForFinished?4()
+QtDBus.QDBusPendingCallWatcher.finished?4(QDBusPendingCallWatcher)
+QtDBus.QDBusServiceWatcher.WatchModeFlag?10
+QtDBus.QDBusServiceWatcher.WatchForRegistration?10
+QtDBus.QDBusServiceWatcher.WatchForUnregistration?10
+QtDBus.QDBusServiceWatcher.WatchForOwnerChange?10
+QtDBus.QDBusServiceWatcher?1(QObject parent=None)
+QtDBus.QDBusServiceWatcher.__init__?1(self, QObject parent=None)
+QtDBus.QDBusServiceWatcher?1(str, QDBusConnection, QDBusServiceWatcher.WatchMode watchMode=QDBusServiceWatcher.WatchForOwnerChange, QObject parent=None)
+QtDBus.QDBusServiceWatcher.__init__?1(self, str, QDBusConnection, QDBusServiceWatcher.WatchMode watchMode=QDBusServiceWatcher.WatchForOwnerChange, QObject parent=None)
+QtDBus.QDBusServiceWatcher.watchedServices?4() -> list-of-str
+QtDBus.QDBusServiceWatcher.setWatchedServices?4(list-of-str)
+QtDBus.QDBusServiceWatcher.addWatchedService?4(str)
+QtDBus.QDBusServiceWatcher.removeWatchedService?4(str) -> bool
+QtDBus.QDBusServiceWatcher.watchMode?4() -> QDBusServiceWatcher.WatchMode
+QtDBus.QDBusServiceWatcher.setWatchMode?4(QDBusServiceWatcher.WatchMode)
+QtDBus.QDBusServiceWatcher.connection?4() -> QDBusConnection
+QtDBus.QDBusServiceWatcher.setConnection?4(QDBusConnection)
+QtDBus.QDBusServiceWatcher.serviceRegistered?4(str)
+QtDBus.QDBusServiceWatcher.serviceUnregistered?4(str)
+QtDBus.QDBusServiceWatcher.serviceOwnerChanged?4(str, str, str)
+QtDBus.QDBusServiceWatcher.WatchMode?1(QDBusServiceWatcher.WatchMode)
+QtDBus.QDBusServiceWatcher.WatchMode.__init__?1(self, QDBusServiceWatcher.WatchMode)
+QtDBus.QDBusServiceWatcher.WatchMode?1(int)
+QtDBus.QDBusServiceWatcher.WatchMode.__init__?1(self, int)
+QtDBus.QDBusServiceWatcher.WatchMode?1()
+QtDBus.QDBusServiceWatcher.WatchMode.__init__?1(self)
+QtDBus.QDBusUnixFileDescriptor?1()
+QtDBus.QDBusUnixFileDescriptor.__init__?1(self)
+QtDBus.QDBusUnixFileDescriptor?1(int)
+QtDBus.QDBusUnixFileDescriptor.__init__?1(self, int)
+QtDBus.QDBusUnixFileDescriptor?1(QDBusUnixFileDescriptor)
+QtDBus.QDBusUnixFileDescriptor.__init__?1(self, QDBusUnixFileDescriptor)
+QtDBus.QDBusUnixFileDescriptor.isValid?4() -> bool
+QtDBus.QDBusUnixFileDescriptor.fileDescriptor?4() -> int
+QtDBus.QDBusUnixFileDescriptor.setFileDescriptor?4(int)
+QtDBus.QDBusUnixFileDescriptor.isSupported?4() -> bool
+QtDBus.QDBusUnixFileDescriptor.swap?4(QDBusUnixFileDescriptor)
+QtDBus.QDBusPendingReply?1()
+QtDBus.QDBusPendingReply.__init__?1(self)
+QtDBus.QDBusPendingReply?1(QDBusPendingReply)
+QtDBus.QDBusPendingReply.__init__?1(self, QDBusPendingReply)
+QtDBus.QDBusPendingReply?1(QDBusPendingCall)
+QtDBus.QDBusPendingReply.__init__?1(self, QDBusPendingCall)
+QtDBus.QDBusPendingReply?1(QDBusMessage)
+QtDBus.QDBusPendingReply.__init__?1(self, QDBusMessage)
+QtDBus.QDBusPendingReply.argumentAt?4(int) -> QVariant
+QtDBus.QDBusPendingReply.error?4() -> QDBusError
+QtDBus.QDBusPendingReply.isError?4() -> bool
+QtDBus.QDBusPendingReply.isFinished?4() -> bool
+QtDBus.QDBusPendingReply.isValid?4() -> bool
+QtDBus.QDBusPendingReply.reply?4() -> QDBusMessage
+QtDBus.QDBusPendingReply.waitForFinished?4()
+QtDBus.QDBusPendingReply.value?4(object type=None) -> object
+QtDBus.QDBusReply?1(QDBusMessage)
+QtDBus.QDBusReply.__init__?1(self, QDBusMessage)
+QtDBus.QDBusReply?1(QDBusPendingCall)
+QtDBus.QDBusReply.__init__?1(self, QDBusPendingCall)
+QtDBus.QDBusReply?1(QDBusError)
+QtDBus.QDBusReply.__init__?1(self, QDBusError)
+QtDBus.QDBusReply?1(QDBusReply)
+QtDBus.QDBusReply.__init__?1(self, QDBusReply)
+QtDBus.QDBusReply.error?4() -> QDBusError
+QtDBus.QDBusReply.isValid?4() -> bool
+QtDBus.QDBusReply.value?4(object type=None) -> object

@@ -1,0 +1,289 @@
+QtPrintSupport.QAbstractPrintDialog.PrintDialogOption?10
+QtPrintSupport.QAbstractPrintDialog.None?10
+QtPrintSupport.QAbstractPrintDialog.PrintToFile?10
+QtPrintSupport.QAbstractPrintDialog.PrintSelection?10
+QtPrintSupport.QAbstractPrintDialog.PrintPageRange?10
+QtPrintSupport.QAbstractPrintDialog.PrintCollateCopies?10
+QtPrintSupport.QAbstractPrintDialog.PrintShowPageSize?10
+QtPrintSupport.QAbstractPrintDialog.PrintCurrentPage?10
+QtPrintSupport.QAbstractPrintDialog.PrintRange?10
+QtPrintSupport.QAbstractPrintDialog.AllPages?10
+QtPrintSupport.QAbstractPrintDialog.Selection?10
+QtPrintSupport.QAbstractPrintDialog.PageRange?10
+QtPrintSupport.QAbstractPrintDialog.CurrentPage?10
+QtPrintSupport.QAbstractPrintDialog?1(QPrinter, QWidget parent=None)
+QtPrintSupport.QAbstractPrintDialog.__init__?1(self, QPrinter, QWidget parent=None)
+QtPrintSupport.QAbstractPrintDialog.exec_?4() -> int
+QtPrintSupport.QAbstractPrintDialog.exec?4() -> int
+QtPrintSupport.QAbstractPrintDialog.setPrintRange?4(QAbstractPrintDialog.PrintRange)
+QtPrintSupport.QAbstractPrintDialog.printRange?4() -> QAbstractPrintDialog.PrintRange
+QtPrintSupport.QAbstractPrintDialog.setMinMax?4(int, int)
+QtPrintSupport.QAbstractPrintDialog.minPage?4() -> int
+QtPrintSupport.QAbstractPrintDialog.maxPage?4() -> int
+QtPrintSupport.QAbstractPrintDialog.setFromTo?4(int, int)
+QtPrintSupport.QAbstractPrintDialog.fromPage?4() -> int
+QtPrintSupport.QAbstractPrintDialog.toPage?4() -> int
+QtPrintSupport.QAbstractPrintDialog.printer?4() -> QPrinter
+QtPrintSupport.QAbstractPrintDialog.setOptionTabs?4(list-of-QWidget)
+QtPrintSupport.QAbstractPrintDialog.PrintDialogOptions?1(QAbstractPrintDialog.PrintDialogOptions)
+QtPrintSupport.QAbstractPrintDialog.PrintDialogOptions.__init__?1(self, QAbstractPrintDialog.PrintDialogOptions)
+QtPrintSupport.QAbstractPrintDialog.PrintDialogOptions?1(int)
+QtPrintSupport.QAbstractPrintDialog.PrintDialogOptions.__init__?1(self, int)
+QtPrintSupport.QAbstractPrintDialog.PrintDialogOptions?1()
+QtPrintSupport.QAbstractPrintDialog.PrintDialogOptions.__init__?1(self)
+QtPrintSupport.QPageSetupDialog?1(QPrinter, QWidget parent=None)
+QtPrintSupport.QPageSetupDialog.__init__?1(self, QPrinter, QWidget parent=None)
+QtPrintSupport.QPageSetupDialog?1(QWidget parent=None)
+QtPrintSupport.QPageSetupDialog.__init__?1(self, QWidget parent=None)
+QtPrintSupport.QPageSetupDialog.setVisible?4(bool)
+QtPrintSupport.QPageSetupDialog.exec_?4() -> int
+QtPrintSupport.QPageSetupDialog.exec?4() -> int
+QtPrintSupport.QPageSetupDialog.open?4()
+QtPrintSupport.QPageSetupDialog.open?4(slot)
+QtPrintSupport.QPageSetupDialog.done?4(int)
+QtPrintSupport.QPageSetupDialog.printer?4() -> QPrinter
+QtPrintSupport.QPrintDialog?1(QPrinter, QWidget parent=None)
+QtPrintSupport.QPrintDialog.__init__?1(self, QPrinter, QWidget parent=None)
+QtPrintSupport.QPrintDialog?1(QWidget parent=None)
+QtPrintSupport.QPrintDialog.__init__?1(self, QWidget parent=None)
+QtPrintSupport.QPrintDialog.exec_?4() -> int
+QtPrintSupport.QPrintDialog.exec?4() -> int
+QtPrintSupport.QPrintDialog.accept?4()
+QtPrintSupport.QPrintDialog.done?4(int)
+QtPrintSupport.QPrintDialog.setOption?4(QAbstractPrintDialog.PrintDialogOption, bool on=True)
+QtPrintSupport.QPrintDialog.testOption?4(QAbstractPrintDialog.PrintDialogOption) -> bool
+QtPrintSupport.QPrintDialog.setOptions?4(QAbstractPrintDialog.PrintDialogOptions)
+QtPrintSupport.QPrintDialog.options?4() -> QAbstractPrintDialog.PrintDialogOptions
+QtPrintSupport.QPrintDialog.setVisible?4(bool)
+QtPrintSupport.QPrintDialog.open?4()
+QtPrintSupport.QPrintDialog.open?4(slot)
+QtPrintSupport.QPrintDialog.accepted?4()
+QtPrintSupport.QPrintDialog.accepted?4(QPrinter)
+QtPrintSupport.QPrintEngine.PrintEnginePropertyKey?10
+QtPrintSupport.QPrintEngine.PPK_CollateCopies?10
+QtPrintSupport.QPrintEngine.PPK_ColorMode?10
+QtPrintSupport.QPrintEngine.PPK_Creator?10
+QtPrintSupport.QPrintEngine.PPK_DocumentName?10
+QtPrintSupport.QPrintEngine.PPK_FullPage?10
+QtPrintSupport.QPrintEngine.PPK_NumberOfCopies?10
+QtPrintSupport.QPrintEngine.PPK_Orientation?10
+QtPrintSupport.QPrintEngine.PPK_OutputFileName?10
+QtPrintSupport.QPrintEngine.PPK_PageOrder?10
+QtPrintSupport.QPrintEngine.PPK_PageRect?10
+QtPrintSupport.QPrintEngine.PPK_PageSize?10
+QtPrintSupport.QPrintEngine.PPK_PaperRect?10
+QtPrintSupport.QPrintEngine.PPK_PaperSource?10
+QtPrintSupport.QPrintEngine.PPK_PrinterName?10
+QtPrintSupport.QPrintEngine.PPK_PrinterProgram?10
+QtPrintSupport.QPrintEngine.PPK_Resolution?10
+QtPrintSupport.QPrintEngine.PPK_SelectionOption?10
+QtPrintSupport.QPrintEngine.PPK_SupportedResolutions?10
+QtPrintSupport.QPrintEngine.PPK_WindowsPageSize?10
+QtPrintSupport.QPrintEngine.PPK_FontEmbedding?10
+QtPrintSupport.QPrintEngine.PPK_Duplex?10
+QtPrintSupport.QPrintEngine.PPK_PaperSources?10
+QtPrintSupport.QPrintEngine.PPK_CustomPaperSize?10
+QtPrintSupport.QPrintEngine.PPK_PageMargins?10
+QtPrintSupport.QPrintEngine.PPK_PaperSize?10
+QtPrintSupport.QPrintEngine.PPK_CopyCount?10
+QtPrintSupport.QPrintEngine.PPK_SupportsMultipleCopies?10
+QtPrintSupport.QPrintEngine.PPK_PaperName?10
+QtPrintSupport.QPrintEngine.PPK_CustomBase?10
+QtPrintSupport.QPrintEngine?1()
+QtPrintSupport.QPrintEngine.__init__?1(self)
+QtPrintSupport.QPrintEngine?1(QPrintEngine)
+QtPrintSupport.QPrintEngine.__init__?1(self, QPrintEngine)
+QtPrintSupport.QPrintEngine.setProperty?4(QPrintEngine.PrintEnginePropertyKey, QVariant)
+QtPrintSupport.QPrintEngine.property?4(QPrintEngine.PrintEnginePropertyKey) -> QVariant
+QtPrintSupport.QPrintEngine.newPage?4() -> bool
+QtPrintSupport.QPrintEngine.abort?4() -> bool
+QtPrintSupport.QPrintEngine.metric?4(QPaintDevice.PaintDeviceMetric) -> int
+QtPrintSupport.QPrintEngine.printerState?4() -> QPrinter.PrinterState
+QtPrintSupport.QPrinter.DuplexMode?10
+QtPrintSupport.QPrinter.DuplexNone?10
+QtPrintSupport.QPrinter.DuplexAuto?10
+QtPrintSupport.QPrinter.DuplexLongSide?10
+QtPrintSupport.QPrinter.DuplexShortSide?10
+QtPrintSupport.QPrinter.Unit?10
+QtPrintSupport.QPrinter.Millimeter?10
+QtPrintSupport.QPrinter.Point?10
+QtPrintSupport.QPrinter.Inch?10
+QtPrintSupport.QPrinter.Pica?10
+QtPrintSupport.QPrinter.Didot?10
+QtPrintSupport.QPrinter.Cicero?10
+QtPrintSupport.QPrinter.DevicePixel?10
+QtPrintSupport.QPrinter.PrintRange?10
+QtPrintSupport.QPrinter.AllPages?10
+QtPrintSupport.QPrinter.Selection?10
+QtPrintSupport.QPrinter.PageRange?10
+QtPrintSupport.QPrinter.CurrentPage?10
+QtPrintSupport.QPrinter.OutputFormat?10
+QtPrintSupport.QPrinter.NativeFormat?10
+QtPrintSupport.QPrinter.PdfFormat?10
+QtPrintSupport.QPrinter.PrinterState?10
+QtPrintSupport.QPrinter.Idle?10
+QtPrintSupport.QPrinter.Active?10
+QtPrintSupport.QPrinter.Aborted?10
+QtPrintSupport.QPrinter.Error?10
+QtPrintSupport.QPrinter.PaperSource?10
+QtPrintSupport.QPrinter.OnlyOne?10
+QtPrintSupport.QPrinter.Lower?10
+QtPrintSupport.QPrinter.Middle?10
+QtPrintSupport.QPrinter.Manual?10
+QtPrintSupport.QPrinter.Envelope?10
+QtPrintSupport.QPrinter.EnvelopeManual?10
+QtPrintSupport.QPrinter.Auto?10
+QtPrintSupport.QPrinter.Tractor?10
+QtPrintSupport.QPrinter.SmallFormat?10
+QtPrintSupport.QPrinter.LargeFormat?10
+QtPrintSupport.QPrinter.LargeCapacity?10
+QtPrintSupport.QPrinter.Cassette?10
+QtPrintSupport.QPrinter.FormSource?10
+QtPrintSupport.QPrinter.MaxPageSource?10
+QtPrintSupport.QPrinter.ColorMode?10
+QtPrintSupport.QPrinter.GrayScale?10
+QtPrintSupport.QPrinter.Color?10
+QtPrintSupport.QPrinter.PageOrder?10
+QtPrintSupport.QPrinter.FirstPageFirst?10
+QtPrintSupport.QPrinter.LastPageFirst?10
+QtPrintSupport.QPrinter.Orientation?10
+QtPrintSupport.QPrinter.Portrait?10
+QtPrintSupport.QPrinter.Landscape?10
+QtPrintSupport.QPrinter.PrinterMode?10
+QtPrintSupport.QPrinter.ScreenResolution?10
+QtPrintSupport.QPrinter.PrinterResolution?10
+QtPrintSupport.QPrinter.HighResolution?10
+QtPrintSupport.QPrinter?1(QPrinter.PrinterMode mode=QPrinter.ScreenResolution)
+QtPrintSupport.QPrinter.__init__?1(self, QPrinter.PrinterMode mode=QPrinter.ScreenResolution)
+QtPrintSupport.QPrinter?1(QPrinterInfo, QPrinter.PrinterMode mode=QPrinter.ScreenResolution)
+QtPrintSupport.QPrinter.__init__?1(self, QPrinterInfo, QPrinter.PrinterMode mode=QPrinter.ScreenResolution)
+QtPrintSupport.QPrinter.setOutputFormat?4(QPrinter.OutputFormat)
+QtPrintSupport.QPrinter.outputFormat?4() -> QPrinter.OutputFormat
+QtPrintSupport.QPrinter.setPrinterName?4(str)
+QtPrintSupport.QPrinter.printerName?4() -> str
+QtPrintSupport.QPrinter.isValid?4() -> bool
+QtPrintSupport.QPrinter.setOutputFileName?4(str)
+QtPrintSupport.QPrinter.outputFileName?4() -> str
+QtPrintSupport.QPrinter.setPrintProgram?4(str)
+QtPrintSupport.QPrinter.printProgram?4() -> str
+QtPrintSupport.QPrinter.setDocName?4(str)
+QtPrintSupport.QPrinter.docName?4() -> str
+QtPrintSupport.QPrinter.setCreator?4(str)
+QtPrintSupport.QPrinter.creator?4() -> str
+QtPrintSupport.QPrinter.setOrientation?4(QPrinter.Orientation)
+QtPrintSupport.QPrinter.orientation?4() -> QPrinter.Orientation
+QtPrintSupport.QPrinter.setPageSizeMM?4(QSizeF)
+QtPrintSupport.QPrinter.setPaperSize?4(QPagedPaintDevice.PageSize)
+QtPrintSupport.QPrinter.paperSize?4() -> QPagedPaintDevice.PageSize
+QtPrintSupport.QPrinter.setPaperSize?4(QSizeF, QPrinter.Unit)
+QtPrintSupport.QPrinter.paperSize?4(QPrinter.Unit) -> QSizeF
+QtPrintSupport.QPrinter.setPageOrder?4(QPrinter.PageOrder)
+QtPrintSupport.QPrinter.pageOrder?4() -> QPrinter.PageOrder
+QtPrintSupport.QPrinter.setResolution?4(int)
+QtPrintSupport.QPrinter.resolution?4() -> int
+QtPrintSupport.QPrinter.setColorMode?4(QPrinter.ColorMode)
+QtPrintSupport.QPrinter.colorMode?4() -> QPrinter.ColorMode
+QtPrintSupport.QPrinter.setCollateCopies?4(bool)
+QtPrintSupport.QPrinter.collateCopies?4() -> bool
+QtPrintSupport.QPrinter.setFullPage?4(bool)
+QtPrintSupport.QPrinter.fullPage?4() -> bool
+QtPrintSupport.QPrinter.setCopyCount?4(int)
+QtPrintSupport.QPrinter.copyCount?4() -> int
+QtPrintSupport.QPrinter.supportsMultipleCopies?4() -> bool
+QtPrintSupport.QPrinter.setPaperSource?4(QPrinter.PaperSource)
+QtPrintSupport.QPrinter.paperSource?4() -> QPrinter.PaperSource
+QtPrintSupport.QPrinter.setDuplex?4(QPrinter.DuplexMode)
+QtPrintSupport.QPrinter.duplex?4() -> QPrinter.DuplexMode
+QtPrintSupport.QPrinter.supportedResolutions?4() -> list-of-int
+QtPrintSupport.QPrinter.setFontEmbeddingEnabled?4(bool)
+QtPrintSupport.QPrinter.fontEmbeddingEnabled?4() -> bool
+QtPrintSupport.QPrinter.setDoubleSidedPrinting?4(bool)
+QtPrintSupport.QPrinter.doubleSidedPrinting?4() -> bool
+QtPrintSupport.QPrinter.paperRect?4() -> QRect
+QtPrintSupport.QPrinter.pageRect?4() -> QRect
+QtPrintSupport.QPrinter.paperRect?4(QPrinter.Unit) -> QRectF
+QtPrintSupport.QPrinter.pageRect?4(QPrinter.Unit) -> QRectF
+QtPrintSupport.QPrinter.printerSelectionOption?4() -> str
+QtPrintSupport.QPrinter.setPrinterSelectionOption?4(str)
+QtPrintSupport.QPrinter.newPage?4() -> bool
+QtPrintSupport.QPrinter.abort?4() -> bool
+QtPrintSupport.QPrinter.printerState?4() -> QPrinter.PrinterState
+QtPrintSupport.QPrinter.paintEngine?4() -> QPaintEngine
+QtPrintSupport.QPrinter.printEngine?4() -> QPrintEngine
+QtPrintSupport.QPrinter.setFromTo?4(int, int)
+QtPrintSupport.QPrinter.fromPage?4() -> int
+QtPrintSupport.QPrinter.toPage?4() -> int
+QtPrintSupport.QPrinter.setPrintRange?4(QPrinter.PrintRange)
+QtPrintSupport.QPrinter.printRange?4() -> QPrinter.PrintRange
+QtPrintSupport.QPrinter.setMargins?4(QPagedPaintDevice.Margins)
+QtPrintSupport.QPrinter.setPageMargins?4(float, float, float, float, QPrinter.Unit)
+QtPrintSupport.QPrinter.getPageMargins?4(QPrinter.Unit) -> (float, float, float, float)
+QtPrintSupport.QPrinter.metric?4(QPaintDevice.PaintDeviceMetric) -> int
+QtPrintSupport.QPrinter.setEngines?4(QPrintEngine, QPaintEngine)
+QtPrintSupport.QPrinter.setPaperName?4(str)
+QtPrintSupport.QPrinter.paperName?4() -> str
+QtPrintSupport.QPrinterInfo?1()
+QtPrintSupport.QPrinterInfo.__init__?1(self)
+QtPrintSupport.QPrinterInfo?1(QPrinterInfo)
+QtPrintSupport.QPrinterInfo.__init__?1(self, QPrinterInfo)
+QtPrintSupport.QPrinterInfo?1(QPrinter)
+QtPrintSupport.QPrinterInfo.__init__?1(self, QPrinter)
+QtPrintSupport.QPrinterInfo.printerName?4() -> str
+QtPrintSupport.QPrinterInfo.isNull?4() -> bool
+QtPrintSupport.QPrinterInfo.isDefault?4() -> bool
+QtPrintSupport.QPrinterInfo.supportedPaperSizes?4() -> list-of-QPagedPaintDevice.PageSize
+QtPrintSupport.QPrinterInfo.supportedSizesWithNames?4() -> list-of-tuple-of-QString-QSizeF
+QtPrintSupport.QPrinterInfo.availablePrinters?4() -> list-of-QPrinterInfo
+QtPrintSupport.QPrinterInfo.defaultPrinter?4() -> QPrinterInfo
+QtPrintSupport.QPrinterInfo.description?4() -> str
+QtPrintSupport.QPrinterInfo.location?4() -> str
+QtPrintSupport.QPrinterInfo.makeAndModel?4() -> str
+QtPrintSupport.QPrinterInfo.printerInfo?4(str) -> QPrinterInfo
+QtPrintSupport.QPrintPreviewDialog?1(QWidget parent=None, Qt.WindowFlags flags=0)
+QtPrintSupport.QPrintPreviewDialog.__init__?1(self, QWidget parent=None, Qt.WindowFlags flags=0)
+QtPrintSupport.QPrintPreviewDialog?1(QPrinter, QWidget parent=None, Qt.WindowFlags flags=0)
+QtPrintSupport.QPrintPreviewDialog.__init__?1(self, QPrinter, QWidget parent=None, Qt.WindowFlags flags=0)
+QtPrintSupport.QPrintPreviewDialog.setVisible?4(bool)
+QtPrintSupport.QPrintPreviewDialog.open?4()
+QtPrintSupport.QPrintPreviewDialog.open?4(slot)
+QtPrintSupport.QPrintPreviewDialog.printer?4() -> QPrinter
+QtPrintSupport.QPrintPreviewDialog.done?4(int)
+QtPrintSupport.QPrintPreviewDialog.paintRequested?4(QPrinter)
+QtPrintSupport.QPrintPreviewWidget.ZoomMode?10
+QtPrintSupport.QPrintPreviewWidget.CustomZoom?10
+QtPrintSupport.QPrintPreviewWidget.FitToWidth?10
+QtPrintSupport.QPrintPreviewWidget.FitInView?10
+QtPrintSupport.QPrintPreviewWidget.ViewMode?10
+QtPrintSupport.QPrintPreviewWidget.SinglePageView?10
+QtPrintSupport.QPrintPreviewWidget.FacingPagesView?10
+QtPrintSupport.QPrintPreviewWidget.AllPagesView?10
+QtPrintSupport.QPrintPreviewWidget?1(QPrinter, QWidget parent=None, Qt.WindowFlags flags=0)
+QtPrintSupport.QPrintPreviewWidget.__init__?1(self, QPrinter, QWidget parent=None, Qt.WindowFlags flags=0)
+QtPrintSupport.QPrintPreviewWidget?1(QWidget parent=None, Qt.WindowFlags flags=0)
+QtPrintSupport.QPrintPreviewWidget.__init__?1(self, QWidget parent=None, Qt.WindowFlags flags=0)
+QtPrintSupport.QPrintPreviewWidget.zoomFactor?4() -> float
+QtPrintSupport.QPrintPreviewWidget.orientation?4() -> QPrinter.Orientation
+QtPrintSupport.QPrintPreviewWidget.viewMode?4() -> QPrintPreviewWidget.ViewMode
+QtPrintSupport.QPrintPreviewWidget.zoomMode?4() -> QPrintPreviewWidget.ZoomMode
+QtPrintSupport.QPrintPreviewWidget.currentPage?4() -> int
+QtPrintSupport.QPrintPreviewWidget.setVisible?4(bool)
+QtPrintSupport.QPrintPreviewWidget.print_?4()
+QtPrintSupport.QPrintPreviewWidget.print?4()
+QtPrintSupport.QPrintPreviewWidget.zoomIn?4(float factor=1.1)
+QtPrintSupport.QPrintPreviewWidget.zoomOut?4(float factor=1.1)
+QtPrintSupport.QPrintPreviewWidget.setZoomFactor?4(float)
+QtPrintSupport.QPrintPreviewWidget.setOrientation?4(QPrinter.Orientation)
+QtPrintSupport.QPrintPreviewWidget.setViewMode?4(QPrintPreviewWidget.ViewMode)
+QtPrintSupport.QPrintPreviewWidget.setZoomMode?4(QPrintPreviewWidget.ZoomMode)
+QtPrintSupport.QPrintPreviewWidget.setCurrentPage?4(int)
+QtPrintSupport.QPrintPreviewWidget.fitToWidth?4()
+QtPrintSupport.QPrintPreviewWidget.fitInView?4()
+QtPrintSupport.QPrintPreviewWidget.setLandscapeOrientation?4()
+QtPrintSupport.QPrintPreviewWidget.setPortraitOrientation?4()
+QtPrintSupport.QPrintPreviewWidget.setSinglePageViewMode?4()
+QtPrintSupport.QPrintPreviewWidget.setFacingPagesViewMode?4()
+QtPrintSupport.QPrintPreviewWidget.setAllPagesViewMode?4()
+QtPrintSupport.QPrintPreviewWidget.updatePreview?4()
+QtPrintSupport.QPrintPreviewWidget.paintRequested?4(QPrinter)
+QtPrintSupport.QPrintPreviewWidget.previewChanged?4()
+QtPrintSupport.QPrintPreviewWidget.pageCount?4() -> int

@@ -1,0 +1,216 @@
+QtOpenGL.QGL.FormatOption?10
+QtOpenGL.QGL.DoubleBuffer?10
+QtOpenGL.QGL.DepthBuffer?10
+QtOpenGL.QGL.Rgba?10
+QtOpenGL.QGL.AlphaChannel?10
+QtOpenGL.QGL.AccumBuffer?10
+QtOpenGL.QGL.StencilBuffer?10
+QtOpenGL.QGL.StereoBuffers?10
+QtOpenGL.QGL.DirectRendering?10
+QtOpenGL.QGL.HasOverlay?10
+QtOpenGL.QGL.SampleBuffers?10
+QtOpenGL.QGL.SingleBuffer?10
+QtOpenGL.QGL.NoDepthBuffer?10
+QtOpenGL.QGL.ColorIndex?10
+QtOpenGL.QGL.NoAlphaChannel?10
+QtOpenGL.QGL.NoAccumBuffer?10
+QtOpenGL.QGL.NoStencilBuffer?10
+QtOpenGL.QGL.NoStereoBuffers?10
+QtOpenGL.QGL.IndirectRendering?10
+QtOpenGL.QGL.NoOverlay?10
+QtOpenGL.QGL.NoSampleBuffers?10
+QtOpenGL.QGL.DeprecatedFunctions?10
+QtOpenGL.QGL.NoDeprecatedFunctions?10
+QtOpenGL.QGL.FormatOptions?1(QGL.FormatOptions)
+QtOpenGL.QGL.FormatOptions.__init__?1(self, QGL.FormatOptions)
+QtOpenGL.QGL.FormatOptions?1(int)
+QtOpenGL.QGL.FormatOptions.__init__?1(self, int)
+QtOpenGL.QGL.FormatOptions?1()
+QtOpenGL.QGL.FormatOptions.__init__?1(self)
+QtOpenGL.QGLFormat.OpenGLContextProfile?10
+QtOpenGL.QGLFormat.NoProfile?10
+QtOpenGL.QGLFormat.CoreProfile?10
+QtOpenGL.QGLFormat.CompatibilityProfile?10
+QtOpenGL.QGLFormat.OpenGLVersionFlag?10
+QtOpenGL.QGLFormat.OpenGL_Version_None?10
+QtOpenGL.QGLFormat.OpenGL_Version_1_1?10
+QtOpenGL.QGLFormat.OpenGL_Version_1_2?10
+QtOpenGL.QGLFormat.OpenGL_Version_1_3?10
+QtOpenGL.QGLFormat.OpenGL_Version_1_4?10
+QtOpenGL.QGLFormat.OpenGL_Version_1_5?10
+QtOpenGL.QGLFormat.OpenGL_Version_2_0?10
+QtOpenGL.QGLFormat.OpenGL_Version_2_1?10
+QtOpenGL.QGLFormat.OpenGL_Version_3_0?10
+QtOpenGL.QGLFormat.OpenGL_Version_3_1?10
+QtOpenGL.QGLFormat.OpenGL_Version_3_2?10
+QtOpenGL.QGLFormat.OpenGL_Version_3_3?10
+QtOpenGL.QGLFormat.OpenGL_Version_4_0?10
+QtOpenGL.QGLFormat.OpenGL_Version_4_1?10
+QtOpenGL.QGLFormat.OpenGL_Version_4_2?10
+QtOpenGL.QGLFormat.OpenGL_Version_4_3?10
+QtOpenGL.QGLFormat.OpenGL_ES_Common_Version_1_0?10
+QtOpenGL.QGLFormat.OpenGL_ES_CommonLite_Version_1_0?10
+QtOpenGL.QGLFormat.OpenGL_ES_Common_Version_1_1?10
+QtOpenGL.QGLFormat.OpenGL_ES_CommonLite_Version_1_1?10
+QtOpenGL.QGLFormat.OpenGL_ES_Version_2_0?10
+QtOpenGL.QGLFormat?1()
+QtOpenGL.QGLFormat.__init__?1(self)
+QtOpenGL.QGLFormat?1(QGL.FormatOptions, int plane=0)
+QtOpenGL.QGLFormat.__init__?1(self, QGL.FormatOptions, int plane=0)
+QtOpenGL.QGLFormat?1(QGLFormat)
+QtOpenGL.QGLFormat.__init__?1(self, QGLFormat)
+QtOpenGL.QGLFormat.setDepthBufferSize?4(int)
+QtOpenGL.QGLFormat.depthBufferSize?4() -> int
+QtOpenGL.QGLFormat.setAccumBufferSize?4(int)
+QtOpenGL.QGLFormat.accumBufferSize?4() -> int
+QtOpenGL.QGLFormat.setAlphaBufferSize?4(int)
+QtOpenGL.QGLFormat.alphaBufferSize?4() -> int
+QtOpenGL.QGLFormat.setStencilBufferSize?4(int)
+QtOpenGL.QGLFormat.stencilBufferSize?4() -> int
+QtOpenGL.QGLFormat.setSampleBuffers?4(bool)
+QtOpenGL.QGLFormat.setSamples?4(int)
+QtOpenGL.QGLFormat.samples?4() -> int
+QtOpenGL.QGLFormat.setDoubleBuffer?4(bool)
+QtOpenGL.QGLFormat.setDepth?4(bool)
+QtOpenGL.QGLFormat.setRgba?4(bool)
+QtOpenGL.QGLFormat.setAlpha?4(bool)
+QtOpenGL.QGLFormat.setAccum?4(bool)
+QtOpenGL.QGLFormat.setStencil?4(bool)
+QtOpenGL.QGLFormat.setStereo?4(bool)
+QtOpenGL.QGLFormat.setDirectRendering?4(bool)
+QtOpenGL.QGLFormat.setOverlay?4(bool)
+QtOpenGL.QGLFormat.plane?4() -> int
+QtOpenGL.QGLFormat.setPlane?4(int)
+QtOpenGL.QGLFormat.setOption?4(QGL.FormatOptions)
+QtOpenGL.QGLFormat.testOption?4(QGL.FormatOptions) -> bool
+QtOpenGL.QGLFormat.defaultFormat?4() -> QGLFormat
+QtOpenGL.QGLFormat.setDefaultFormat?4(QGLFormat)
+QtOpenGL.QGLFormat.defaultOverlayFormat?4() -> QGLFormat
+QtOpenGL.QGLFormat.setDefaultOverlayFormat?4(QGLFormat)
+QtOpenGL.QGLFormat.hasOpenGL?4() -> bool
+QtOpenGL.QGLFormat.hasOpenGLOverlays?4() -> bool
+QtOpenGL.QGLFormat.doubleBuffer?4() -> bool
+QtOpenGL.QGLFormat.depth?4() -> bool
+QtOpenGL.QGLFormat.rgba?4() -> bool
+QtOpenGL.QGLFormat.alpha?4() -> bool
+QtOpenGL.QGLFormat.accum?4() -> bool
+QtOpenGL.QGLFormat.stencil?4() -> bool
+QtOpenGL.QGLFormat.stereo?4() -> bool
+QtOpenGL.QGLFormat.directRendering?4() -> bool
+QtOpenGL.QGLFormat.hasOverlay?4() -> bool
+QtOpenGL.QGLFormat.sampleBuffers?4() -> bool
+QtOpenGL.QGLFormat.setRedBufferSize?4(int)
+QtOpenGL.QGLFormat.redBufferSize?4() -> int
+QtOpenGL.QGLFormat.setGreenBufferSize?4(int)
+QtOpenGL.QGLFormat.greenBufferSize?4() -> int
+QtOpenGL.QGLFormat.setBlueBufferSize?4(int)
+QtOpenGL.QGLFormat.blueBufferSize?4() -> int
+QtOpenGL.QGLFormat.setSwapInterval?4(int)
+QtOpenGL.QGLFormat.swapInterval?4() -> int
+QtOpenGL.QGLFormat.openGLVersionFlags?4() -> QGLFormat.OpenGLVersionFlags
+QtOpenGL.QGLFormat.setVersion?4(int, int)
+QtOpenGL.QGLFormat.majorVersion?4() -> int
+QtOpenGL.QGLFormat.minorVersion?4() -> int
+QtOpenGL.QGLFormat.setProfile?4(QGLFormat.OpenGLContextProfile)
+QtOpenGL.QGLFormat.profile?4() -> QGLFormat.OpenGLContextProfile
+QtOpenGL.QGLFormat.OpenGLVersionFlags?1(QGLFormat.OpenGLVersionFlags)
+QtOpenGL.QGLFormat.OpenGLVersionFlags.__init__?1(self, QGLFormat.OpenGLVersionFlags)
+QtOpenGL.QGLFormat.OpenGLVersionFlags?1(int)
+QtOpenGL.QGLFormat.OpenGLVersionFlags.__init__?1(self, int)
+QtOpenGL.QGLFormat.OpenGLVersionFlags?1()
+QtOpenGL.QGLFormat.OpenGLVersionFlags.__init__?1(self)
+QtOpenGL.QGLContext.BindOption?10
+QtOpenGL.QGLContext.NoBindOption?10
+QtOpenGL.QGLContext.InvertedYBindOption?10
+QtOpenGL.QGLContext.MipmapBindOption?10
+QtOpenGL.QGLContext.PremultipliedAlphaBindOption?10
+QtOpenGL.QGLContext.LinearFilteringBindOption?10
+QtOpenGL.QGLContext.DefaultBindOption?10
+QtOpenGL.QGLContext?1(QGLFormat)
+QtOpenGL.QGLContext.__init__?1(self, QGLFormat)
+QtOpenGL.QGLContext.create?4(QGLContext shareContext=None) -> bool
+QtOpenGL.QGLContext.isValid?4() -> bool
+QtOpenGL.QGLContext.isSharing?4() -> bool
+QtOpenGL.QGLContext.reset?4()
+QtOpenGL.QGLContext.format?4() -> QGLFormat
+QtOpenGL.QGLContext.requestedFormat?4() -> QGLFormat
+QtOpenGL.QGLContext.setFormat?4(QGLFormat)
+QtOpenGL.QGLContext.makeCurrent?4()
+QtOpenGL.QGLContext.doneCurrent?4()
+QtOpenGL.QGLContext.swapBuffers?4()
+QtOpenGL.QGLContext.bindTexture?4(QImage, int target=GL_TEXTURE_2D, int format=GL_RGBA) -> int
+QtOpenGL.QGLContext.bindTexture?4(QPixmap, int target=GL_TEXTURE_2D, int format=GL_RGBA) -> int
+QtOpenGL.QGLContext.drawTexture?4(QRectF, int, int textureTarget=GL_TEXTURE_2D)
+QtOpenGL.QGLContext.drawTexture?4(QPointF, int, int textureTarget=GL_TEXTURE_2D)
+QtOpenGL.QGLContext.bindTexture?4(str) -> int
+QtOpenGL.QGLContext.deleteTexture?4(int)
+QtOpenGL.QGLContext.setTextureCacheLimit?4(int)
+QtOpenGL.QGLContext.textureCacheLimit?4() -> int
+QtOpenGL.QGLContext.getProcAddress?4(str) -> sip.voidptr
+QtOpenGL.QGLContext.device?4() -> QPaintDevice
+QtOpenGL.QGLContext.overlayTransparentColor?4() -> QColor
+QtOpenGL.QGLContext.currentContext?4() -> QGLContext
+QtOpenGL.QGLContext.chooseContext?4(QGLContext shareContext=None) -> bool
+QtOpenGL.QGLContext.deviceIsPixmap?4() -> bool
+QtOpenGL.QGLContext.windowCreated?4() -> bool
+QtOpenGL.QGLContext.setWindowCreated?4(bool)
+QtOpenGL.QGLContext.initialized?4() -> bool
+QtOpenGL.QGLContext.setInitialized?4(bool)
+QtOpenGL.QGLContext.areSharing?4(QGLContext, QGLContext) -> bool
+QtOpenGL.QGLContext.bindTexture?4(QImage, int, int, QGLContext.BindOptions) -> int
+QtOpenGL.QGLContext.bindTexture?4(QPixmap, int, int, QGLContext.BindOptions) -> int
+QtOpenGL.QGLContext.moveToThread?4(QThread)
+QtOpenGL.QGLContext.BindOptions?1(QGLContext.BindOptions)
+QtOpenGL.QGLContext.BindOptions.__init__?1(self, QGLContext.BindOptions)
+QtOpenGL.QGLContext.BindOptions?1(int)
+QtOpenGL.QGLContext.BindOptions.__init__?1(self, int)
+QtOpenGL.QGLContext.BindOptions?1()
+QtOpenGL.QGLContext.BindOptions.__init__?1(self)
+QtOpenGL.QGLWidget?1(QWidget parent=None, QGLWidget shareWidget=None, Qt.WindowFlags flags=0)
+QtOpenGL.QGLWidget.__init__?1(self, QWidget parent=None, QGLWidget shareWidget=None, Qt.WindowFlags flags=0)
+QtOpenGL.QGLWidget?1(QGLContext, QWidget parent=None, QGLWidget shareWidget=None, Qt.WindowFlags flags=0)
+QtOpenGL.QGLWidget.__init__?1(self, QGLContext, QWidget parent=None, QGLWidget shareWidget=None, Qt.WindowFlags flags=0)
+QtOpenGL.QGLWidget?1(QGLFormat, QWidget parent=None, QGLWidget shareWidget=None, Qt.WindowFlags flags=0)
+QtOpenGL.QGLWidget.__init__?1(self, QGLFormat, QWidget parent=None, QGLWidget shareWidget=None, Qt.WindowFlags flags=0)
+QtOpenGL.QGLWidget.qglColor?4(QColor)
+QtOpenGL.QGLWidget.qglClearColor?4(QColor)
+QtOpenGL.QGLWidget.isValid?4() -> bool
+QtOpenGL.QGLWidget.isSharing?4() -> bool
+QtOpenGL.QGLWidget.makeCurrent?4()
+QtOpenGL.QGLWidget.doneCurrent?4()
+QtOpenGL.QGLWidget.doubleBuffer?4() -> bool
+QtOpenGL.QGLWidget.swapBuffers?4()
+QtOpenGL.QGLWidget.format?4() -> QGLFormat
+QtOpenGL.QGLWidget.context?4() -> QGLContext
+QtOpenGL.QGLWidget.setContext?4(QGLContext, QGLContext shareContext=None, bool deleteOldContext=True)
+QtOpenGL.QGLWidget.renderPixmap?4(int width=0, int height=0, bool useContext=False) -> QPixmap
+QtOpenGL.QGLWidget.grabFrameBuffer?4(bool withAlpha=False) -> QImage
+QtOpenGL.QGLWidget.makeOverlayCurrent?4()
+QtOpenGL.QGLWidget.overlayContext?4() -> QGLContext
+QtOpenGL.QGLWidget.convertToGLFormat?4(QImage) -> QImage
+QtOpenGL.QGLWidget.renderText?4(int, int, str, QFont font=QFont())
+QtOpenGL.QGLWidget.renderText?4(float, float, float, str, QFont font=QFont())
+QtOpenGL.QGLWidget.paintEngine?4() -> QPaintEngine
+QtOpenGL.QGLWidget.bindTexture?4(QImage, int target=GL_TEXTURE_2D, int format=GL_RGBA) -> int
+QtOpenGL.QGLWidget.bindTexture?4(QPixmap, int target=GL_TEXTURE_2D, int format=GL_RGBA) -> int
+QtOpenGL.QGLWidget.bindTexture?4(str) -> int
+QtOpenGL.QGLWidget.drawTexture?4(QRectF, int, int textureTarget=GL_TEXTURE_2D)
+QtOpenGL.QGLWidget.drawTexture?4(QPointF, int, int textureTarget=GL_TEXTURE_2D)
+QtOpenGL.QGLWidget.deleteTexture?4(int)
+QtOpenGL.QGLWidget.updateGL?4()
+QtOpenGL.QGLWidget.updateOverlayGL?4()
+QtOpenGL.QGLWidget.event?4(QEvent) -> bool
+QtOpenGL.QGLWidget.initializeGL?4()
+QtOpenGL.QGLWidget.resizeGL?4(int, int)
+QtOpenGL.QGLWidget.paintGL?4()
+QtOpenGL.QGLWidget.initializeOverlayGL?4()
+QtOpenGL.QGLWidget.resizeOverlayGL?4(int, int)
+QtOpenGL.QGLWidget.paintOverlayGL?4()
+QtOpenGL.QGLWidget.setAutoBufferSwap?4(bool)
+QtOpenGL.QGLWidget.autoBufferSwap?4() -> bool
+QtOpenGL.QGLWidget.paintEvent?4(QPaintEvent)
+QtOpenGL.QGLWidget.resizeEvent?4(QResizeEvent)
+QtOpenGL.QGLWidget.glInit?4()
+QtOpenGL.QGLWidget.glDraw?4()
+QtOpenGL.QGLWidget.bindTexture?4(QImage, int, int, QGLContext.BindOptions) -> int
+QtOpenGL.QGLWidget.bindTexture?4(QPixmap, int, int, QGLContext.BindOptions) -> int

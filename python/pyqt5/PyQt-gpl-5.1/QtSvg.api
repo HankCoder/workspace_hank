@@ -1,0 +1,71 @@
+QtSvg.QGraphicsSvgItem?1(QGraphicsItem parent=None)
+QtSvg.QGraphicsSvgItem.__init__?1(self, QGraphicsItem parent=None)
+QtSvg.QGraphicsSvgItem?1(str, QGraphicsItem parent=None)
+QtSvg.QGraphicsSvgItem.__init__?1(self, str, QGraphicsItem parent=None)
+QtSvg.QGraphicsSvgItem.setSharedRenderer?4(QSvgRenderer)
+QtSvg.QGraphicsSvgItem.renderer?4() -> QSvgRenderer
+QtSvg.QGraphicsSvgItem.setElementId?4(str)
+QtSvg.QGraphicsSvgItem.elementId?4() -> str
+QtSvg.QGraphicsSvgItem.setMaximumCacheSize?4(QSize)
+QtSvg.QGraphicsSvgItem.maximumCacheSize?4() -> QSize
+QtSvg.QGraphicsSvgItem.boundingRect?4() -> QRectF
+QtSvg.QGraphicsSvgItem.paint?4(QPainter, QStyleOptionGraphicsItem, QWidget widget=None)
+QtSvg.QGraphicsSvgItem.type?4() -> int
+QtSvg.QSvgGenerator?1()
+QtSvg.QSvgGenerator.__init__?1(self)
+QtSvg.QSvgGenerator.size?4() -> QSize
+QtSvg.QSvgGenerator.setSize?4(QSize)
+QtSvg.QSvgGenerator.fileName?4() -> str
+QtSvg.QSvgGenerator.setFileName?4(str)
+QtSvg.QSvgGenerator.outputDevice?4() -> QIODevice
+QtSvg.QSvgGenerator.setOutputDevice?4(QIODevice)
+QtSvg.QSvgGenerator.resolution?4() -> int
+QtSvg.QSvgGenerator.setResolution?4(int)
+QtSvg.QSvgGenerator.title?4() -> str
+QtSvg.QSvgGenerator.setTitle?4(str)
+QtSvg.QSvgGenerator.description?4() -> str
+QtSvg.QSvgGenerator.setDescription?4(str)
+QtSvg.QSvgGenerator.viewBox?4() -> QRect
+QtSvg.QSvgGenerator.viewBoxF?4() -> QRectF
+QtSvg.QSvgGenerator.setViewBox?4(QRect)
+QtSvg.QSvgGenerator.setViewBox?4(QRectF)
+QtSvg.QSvgGenerator.paintEngine?4() -> QPaintEngine
+QtSvg.QSvgGenerator.metric?4(QPaintDevice.PaintDeviceMetric) -> int
+QtSvg.QSvgRenderer?1(QObject parent=None)
+QtSvg.QSvgRenderer.__init__?1(self, QObject parent=None)
+QtSvg.QSvgRenderer?1(str, QObject parent=None)
+QtSvg.QSvgRenderer.__init__?1(self, str, QObject parent=None)
+QtSvg.QSvgRenderer?1(QByteArray, QObject parent=None)
+QtSvg.QSvgRenderer.__init__?1(self, QByteArray, QObject parent=None)
+QtSvg.QSvgRenderer?1(QXmlStreamReader, QObject parent=None)
+QtSvg.QSvgRenderer.__init__?1(self, QXmlStreamReader, QObject parent=None)
+QtSvg.QSvgRenderer.isValid?4() -> bool
+QtSvg.QSvgRenderer.defaultSize?4() -> QSize
+QtSvg.QSvgRenderer.elementExists?4(str) -> bool
+QtSvg.QSvgRenderer.viewBox?4() -> QRect
+QtSvg.QSvgRenderer.viewBoxF?4() -> QRectF
+QtSvg.QSvgRenderer.setViewBox?4(QRect)
+QtSvg.QSvgRenderer.setViewBox?4(QRectF)
+QtSvg.QSvgRenderer.animated?4() -> bool
+QtSvg.QSvgRenderer.boundsOnElement?4(str) -> QRectF
+QtSvg.QSvgRenderer.framesPerSecond?4() -> int
+QtSvg.QSvgRenderer.setFramesPerSecond?4(int)
+QtSvg.QSvgRenderer.currentFrame?4() -> int
+QtSvg.QSvgRenderer.setCurrentFrame?4(int)
+QtSvg.QSvgRenderer.animationDuration?4() -> int
+QtSvg.QSvgRenderer.load?4(str) -> bool
+QtSvg.QSvgRenderer.load?4(QByteArray) -> bool
+QtSvg.QSvgRenderer.load?4(QXmlStreamReader) -> bool
+QtSvg.QSvgRenderer.render?4(QPainter)
+QtSvg.QSvgRenderer.render?4(QPainter, QRectF)
+QtSvg.QSvgRenderer.render?4(QPainter, str, QRectF bounds=QRectF())
+QtSvg.QSvgRenderer.repaintNeeded?4()
+QtSvg.QSvgWidget?1(QWidget parent=None)
+QtSvg.QSvgWidget.__init__?1(self, QWidget parent=None)
+QtSvg.QSvgWidget?1(str, QWidget parent=None)
+QtSvg.QSvgWidget.__init__?1(self, str, QWidget parent=None)
+QtSvg.QSvgWidget.renderer?4() -> QSvgRenderer
+QtSvg.QSvgWidget.sizeHint?4() -> QSize
+QtSvg.QSvgWidget.load?4(str)
+QtSvg.QSvgWidget.load?4(QByteArray)
+QtSvg.QSvgWidget.paintEvent?4(QPaintEvent)

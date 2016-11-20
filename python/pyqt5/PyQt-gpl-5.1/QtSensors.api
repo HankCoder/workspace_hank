@@ -1,0 +1,317 @@
+QtSensors.QSensorReading.timestamp?4() -> int
+QtSensors.QSensorReading.setTimestamp?4(int)
+QtSensors.QSensorReading.valueCount?4() -> int
+QtSensors.QSensorReading.value?4(int) -> QVariant
+QtSensors.QAccelerometerReading.x?4() -> float
+QtSensors.QAccelerometerReading.setX?4(float)
+QtSensors.QAccelerometerReading.y?4() -> float
+QtSensors.QAccelerometerReading.setY?4(float)
+QtSensors.QAccelerometerReading.z?4() -> float
+QtSensors.QAccelerometerReading.setZ?4(float)
+QtSensors.QSensorFilter?1()
+QtSensors.QSensorFilter.__init__?1(self)
+QtSensors.QSensorFilter?1(QSensorFilter)
+QtSensors.QSensorFilter.__init__?1(self, QSensorFilter)
+QtSensors.QSensorFilter.filter?4(QSensorReading) -> bool
+QtSensors.QAccelerometerFilter?1()
+QtSensors.QAccelerometerFilter.__init__?1(self)
+QtSensors.QAccelerometerFilter?1(QAccelerometerFilter)
+QtSensors.QAccelerometerFilter.__init__?1(self, QAccelerometerFilter)
+QtSensors.QAccelerometerFilter.filter?4(QAccelerometerReading) -> bool
+QtSensors.QSensor.AxesOrientationMode?10
+QtSensors.QSensor.FixedOrientation?10
+QtSensors.QSensor.AutomaticOrientation?10
+QtSensors.QSensor.UserOrientation?10
+QtSensors.QSensor.Feature?10
+QtSensors.QSensor.Buffering?10
+QtSensors.QSensor.AlwaysOn?10
+QtSensors.QSensor.GeoValues?10
+QtSensors.QSensor.FieldOfView?10
+QtSensors.QSensor.AccelerationMode?10
+QtSensors.QSensor.SkipDuplicates?10
+QtSensors.QSensor.AxesOrientation?10
+QtSensors.QSensor?1(QByteArray, QObject parent=None)
+QtSensors.QSensor.__init__?1(self, QByteArray, QObject parent=None)
+QtSensors.QSensor.identifier?4() -> QByteArray
+QtSensors.QSensor.setIdentifier?4(QByteArray)
+QtSensors.QSensor.type?4() -> QByteArray
+QtSensors.QSensor.connectToBackend?4() -> bool
+QtSensors.QSensor.isConnectedToBackend?4() -> bool
+QtSensors.QSensor.isBusy?4() -> bool
+QtSensors.QSensor.setActive?4(bool)
+QtSensors.QSensor.isActive?4() -> bool
+QtSensors.QSensor.isAlwaysOn?4() -> bool
+QtSensors.QSensor.setAlwaysOn?4(bool)
+QtSensors.QSensor.skipDuplicates?4() -> bool
+QtSensors.QSensor.setSkipDuplicates?4(bool)
+QtSensors.QSensor.availableDataRates?4() -> list-of-tuple-of-int-int
+QtSensors.QSensor.dataRate?4() -> int
+QtSensors.QSensor.setDataRate?4(int)
+QtSensors.QSensor.outputRanges?4() -> list-of-qoutputrange
+QtSensors.QSensor.outputRange?4() -> int
+QtSensors.QSensor.setOutputRange?4(int)
+QtSensors.QSensor.description?4() -> str
+QtSensors.QSensor.error?4() -> int
+QtSensors.QSensor.addFilter?4(QSensorFilter)
+QtSensors.QSensor.removeFilter?4(QSensorFilter)
+QtSensors.QSensor.filters?4() -> list-of-QSensorFilter
+QtSensors.QSensor.reading?4() -> QSensorReading
+QtSensors.QSensor.sensorTypes?4() -> list-of-QByteArray
+QtSensors.QSensor.sensorsForType?4(QByteArray) -> list-of-QByteArray
+QtSensors.QSensor.defaultSensorForType?4(QByteArray) -> QByteArray
+QtSensors.QSensor.isFeatureSupported?4(QSensor.Feature) -> bool
+QtSensors.QSensor.axesOrientationMode?4() -> QSensor.AxesOrientationMode
+QtSensors.QSensor.setAxesOrientationMode?4(QSensor.AxesOrientationMode)
+QtSensors.QSensor.currentOrientation?4() -> int
+QtSensors.QSensor.setCurrentOrientation?4(int)
+QtSensors.QSensor.userOrientation?4() -> int
+QtSensors.QSensor.setUserOrientation?4(int)
+QtSensors.QSensor.maxBufferSize?4() -> int
+QtSensors.QSensor.setMaxBufferSize?4(int)
+QtSensors.QSensor.efficientBufferSize?4() -> int
+QtSensors.QSensor.setEfficientBufferSize?4(int)
+QtSensors.QSensor.bufferSize?4() -> int
+QtSensors.QSensor.setBufferSize?4(int)
+QtSensors.QSensor.start?4() -> bool
+QtSensors.QSensor.stop?4()
+QtSensors.QSensor.busyChanged?4()
+QtSensors.QSensor.activeChanged?4()
+QtSensors.QSensor.readingChanged?4()
+QtSensors.QSensor.sensorError?4(int)
+QtSensors.QSensor.availableSensorsChanged?4()
+QtSensors.QSensor.alwaysOnChanged?4()
+QtSensors.QSensor.dataRateChanged?4()
+QtSensors.QSensor.skipDuplicatesChanged?4(bool)
+QtSensors.QSensor.axesOrientationModeChanged?4(QSensor.AxesOrientationMode)
+QtSensors.QSensor.currentOrientationChanged?4(int)
+QtSensors.QSensor.userOrientationChanged?4(int)
+QtSensors.QSensor.maxBufferSizeChanged?4(int)
+QtSensors.QSensor.efficientBufferSizeChanged?4(int)
+QtSensors.QSensor.bufferSizeChanged?4(int)
+QtSensors.QAccelerometer.AccelerationMode?10
+QtSensors.QAccelerometer.Combined?10
+QtSensors.QAccelerometer.Gravity?10
+QtSensors.QAccelerometer.User?10
+QtSensors.QAccelerometer?1(QObject parent=None)
+QtSensors.QAccelerometer.__init__?1(self, QObject parent=None)
+QtSensors.QAccelerometer.accelerationMode?4() -> QAccelerometer.AccelerationMode
+QtSensors.QAccelerometer.setAccelerationMode?4(QAccelerometer.AccelerationMode)
+QtSensors.QAccelerometer.reading?4() -> QAccelerometerReading
+QtSensors.QAccelerometer.accelerationModeChanged?4(QAccelerometer.AccelerationMode)
+QtSensors.QAltimeterReading.altitude?4() -> float
+QtSensors.QAltimeterReading.setAltitude?4(float)
+QtSensors.QAltimeterFilter?1()
+QtSensors.QAltimeterFilter.__init__?1(self)
+QtSensors.QAltimeterFilter?1(QAltimeterFilter)
+QtSensors.QAltimeterFilter.__init__?1(self, QAltimeterFilter)
+QtSensors.QAltimeterFilter.filter?4(QAltimeterReading) -> bool
+QtSensors.QAltimeter?1(QObject parent=None)
+QtSensors.QAltimeter.__init__?1(self, QObject parent=None)
+QtSensors.QAltimeter.reading?4() -> QAltimeterReading
+QtSensors.QAmbientLightReading.LightLevel?10
+QtSensors.QAmbientLightReading.Undefined?10
+QtSensors.QAmbientLightReading.Dark?10
+QtSensors.QAmbientLightReading.Twilight?10
+QtSensors.QAmbientLightReading.Light?10
+QtSensors.QAmbientLightReading.Bright?10
+QtSensors.QAmbientLightReading.Sunny?10
+QtSensors.QAmbientLightReading.lightLevel?4() -> QAmbientLightReading.LightLevel
+QtSensors.QAmbientLightReading.setLightLevel?4(QAmbientLightReading.LightLevel)
+QtSensors.QAmbientLightFilter?1()
+QtSensors.QAmbientLightFilter.__init__?1(self)
+QtSensors.QAmbientLightFilter?1(QAmbientLightFilter)
+QtSensors.QAmbientLightFilter.__init__?1(self, QAmbientLightFilter)
+QtSensors.QAmbientLightFilter.filter?4(QAmbientLightReading) -> bool
+QtSensors.QAmbientLightSensor?1(QObject parent=None)
+QtSensors.QAmbientLightSensor.__init__?1(self, QObject parent=None)
+QtSensors.QAmbientLightSensor.reading?4() -> QAmbientLightReading
+QtSensors.QAmbientTemperatureReading.temperature?4() -> float
+QtSensors.QAmbientTemperatureReading.setTemperature?4(float)
+QtSensors.QAmbientTemperatureFilter?1()
+QtSensors.QAmbientTemperatureFilter.__init__?1(self)
+QtSensors.QAmbientTemperatureFilter?1(QAmbientTemperatureFilter)
+QtSensors.QAmbientTemperatureFilter.__init__?1(self, QAmbientTemperatureFilter)
+QtSensors.QAmbientTemperatureFilter.filter?4(QAmbientTemperatureReading) -> bool
+QtSensors.QAmbientTemperatureSensor?1(QObject parent=None)
+QtSensors.QAmbientTemperatureSensor.__init__?1(self, QObject parent=None)
+QtSensors.QAmbientTemperatureSensor.reading?4() -> QAmbientTemperatureReading
+QtSensors.QCompassReading.azimuth?4() -> float
+QtSensors.QCompassReading.setAzimuth?4(float)
+QtSensors.QCompassReading.calibrationLevel?4() -> float
+QtSensors.QCompassReading.setCalibrationLevel?4(float)
+QtSensors.QCompassFilter?1()
+QtSensors.QCompassFilter.__init__?1(self)
+QtSensors.QCompassFilter?1(QCompassFilter)
+QtSensors.QCompassFilter.__init__?1(self, QCompassFilter)
+QtSensors.QCompassFilter.filter?4(QCompassReading) -> bool
+QtSensors.QCompass?1(QObject parent=None)
+QtSensors.QCompass.__init__?1(self, QObject parent=None)
+QtSensors.QCompass.reading?4() -> QCompassReading
+QtSensors.QGyroscopeReading.x?4() -> float
+QtSensors.QGyroscopeReading.setX?4(float)
+QtSensors.QGyroscopeReading.y?4() -> float
+QtSensors.QGyroscopeReading.setY?4(float)
+QtSensors.QGyroscopeReading.z?4() -> float
+QtSensors.QGyroscopeReading.setZ?4(float)
+QtSensors.QGyroscopeFilter?1()
+QtSensors.QGyroscopeFilter.__init__?1(self)
+QtSensors.QGyroscopeFilter?1(QGyroscopeFilter)
+QtSensors.QGyroscopeFilter.__init__?1(self, QGyroscopeFilter)
+QtSensors.QGyroscopeFilter.filter?4(QGyroscopeReading) -> bool
+QtSensors.QGyroscope?1(QObject parent=None)
+QtSensors.QGyroscope.__init__?1(self, QObject parent=None)
+QtSensors.QGyroscope.reading?4() -> QGyroscopeReading
+QtSensors.QHolsterReading.holstered?4() -> bool
+QtSensors.QHolsterReading.setHolstered?4(bool)
+QtSensors.QHolsterFilter?1()
+QtSensors.QHolsterFilter.__init__?1(self)
+QtSensors.QHolsterFilter?1(QHolsterFilter)
+QtSensors.QHolsterFilter.__init__?1(self, QHolsterFilter)
+QtSensors.QHolsterFilter.filter?4(QHolsterReading) -> bool
+QtSensors.QHolsterSensor?1(QObject parent=None)
+QtSensors.QHolsterSensor.__init__?1(self, QObject parent=None)
+QtSensors.QHolsterSensor.reading?4() -> QHolsterReading
+QtSensors.QIRProximityReading.reflectance?4() -> float
+QtSensors.QIRProximityReading.setReflectance?4(float)
+QtSensors.QIRProximityFilter?1()
+QtSensors.QIRProximityFilter.__init__?1(self)
+QtSensors.QIRProximityFilter?1(QIRProximityFilter)
+QtSensors.QIRProximityFilter.__init__?1(self, QIRProximityFilter)
+QtSensors.QIRProximityFilter.filter?4(QIRProximityReading) -> bool
+QtSensors.QIRProximitySensor?1(QObject parent=None)
+QtSensors.QIRProximitySensor.__init__?1(self, QObject parent=None)
+QtSensors.QIRProximitySensor.reading?4() -> QIRProximityReading
+QtSensors.QLightReading.lux?4() -> float
+QtSensors.QLightReading.setLux?4(float)
+QtSensors.QLightFilter?1()
+QtSensors.QLightFilter.__init__?1(self)
+QtSensors.QLightFilter?1(QLightFilter)
+QtSensors.QLightFilter.__init__?1(self, QLightFilter)
+QtSensors.QLightFilter.filter?4(QLightReading) -> bool
+QtSensors.QLightSensor?1(QObject parent=None)
+QtSensors.QLightSensor.__init__?1(self, QObject parent=None)
+QtSensors.QLightSensor.reading?4() -> QLightReading
+QtSensors.QLightSensor.fieldOfView?4() -> float
+QtSensors.QLightSensor.setFieldOfView?4(float)
+QtSensors.QLightSensor.fieldOfViewChanged?4(float)
+QtSensors.QMagnetometerReading.x?4() -> float
+QtSensors.QMagnetometerReading.setX?4(float)
+QtSensors.QMagnetometerReading.y?4() -> float
+QtSensors.QMagnetometerReading.setY?4(float)
+QtSensors.QMagnetometerReading.z?4() -> float
+QtSensors.QMagnetometerReading.setZ?4(float)
+QtSensors.QMagnetometerReading.calibrationLevel?4() -> float
+QtSensors.QMagnetometerReading.setCalibrationLevel?4(float)
+QtSensors.QMagnetometerFilter?1()
+QtSensors.QMagnetometerFilter.__init__?1(self)
+QtSensors.QMagnetometerFilter?1(QMagnetometerFilter)
+QtSensors.QMagnetometerFilter.__init__?1(self, QMagnetometerFilter)
+QtSensors.QMagnetometerFilter.filter?4(QMagnetometerReading) -> bool
+QtSensors.QMagnetometer?1(QObject parent=None)
+QtSensors.QMagnetometer.__init__?1(self, QObject parent=None)
+QtSensors.QMagnetometer.reading?4() -> QMagnetometerReading
+QtSensors.QMagnetometer.returnGeoValues?4() -> bool
+QtSensors.QMagnetometer.setReturnGeoValues?4(bool)
+QtSensors.QMagnetometer.returnGeoValuesChanged?4(bool)
+QtSensors.QOrientationReading.Orientation?10
+QtSensors.QOrientationReading.Undefined?10
+QtSensors.QOrientationReading.TopUp?10
+QtSensors.QOrientationReading.TopDown?10
+QtSensors.QOrientationReading.LeftUp?10
+QtSensors.QOrientationReading.RightUp?10
+QtSensors.QOrientationReading.FaceUp?10
+QtSensors.QOrientationReading.FaceDown?10
+QtSensors.QOrientationReading.orientation?4() -> QOrientationReading.Orientation
+QtSensors.QOrientationReading.setOrientation?4(QOrientationReading.Orientation)
+QtSensors.QOrientationFilter?1()
+QtSensors.QOrientationFilter.__init__?1(self)
+QtSensors.QOrientationFilter?1(QOrientationFilter)
+QtSensors.QOrientationFilter.__init__?1(self, QOrientationFilter)
+QtSensors.QOrientationFilter.filter?4(QOrientationReading) -> bool
+QtSensors.QOrientationSensor?1(QObject parent=None)
+QtSensors.QOrientationSensor.__init__?1(self, QObject parent=None)
+QtSensors.QOrientationSensor.reading?4() -> QOrientationReading
+QtSensors.QPressureReading.pressure?4() -> float
+QtSensors.QPressureReading.setPressure?4(float)
+QtSensors.QPressureFilter?1()
+QtSensors.QPressureFilter.__init__?1(self)
+QtSensors.QPressureFilter?1(QPressureFilter)
+QtSensors.QPressureFilter.__init__?1(self, QPressureFilter)
+QtSensors.QPressureFilter.filter?4(QPressureReading) -> bool
+QtSensors.QPressureSensor?1(QObject parent=None)
+QtSensors.QPressureSensor.__init__?1(self, QObject parent=None)
+QtSensors.QPressureSensor.reading?4() -> QPressureReading
+QtSensors.QProximityReading.close?4() -> bool
+QtSensors.QProximityReading.setClose?4(bool)
+QtSensors.QProximityFilter?1()
+QtSensors.QProximityFilter.__init__?1(self)
+QtSensors.QProximityFilter?1(QProximityFilter)
+QtSensors.QProximityFilter.__init__?1(self, QProximityFilter)
+QtSensors.QProximityFilter.filter?4(QProximityReading) -> bool
+QtSensors.QProximitySensor?1(QObject parent=None)
+QtSensors.QProximitySensor.__init__?1(self, QObject parent=None)
+QtSensors.QProximitySensor.reading?4() -> QProximityReading
+QtSensors.qoutputrange.accuracy?7
+QtSensors.qoutputrange.maximum?7
+QtSensors.qoutputrange.minimum?7
+QtSensors.qoutputrange?1()
+QtSensors.qoutputrange.__init__?1(self)
+QtSensors.qoutputrange?1(qoutputrange)
+QtSensors.qoutputrange.__init__?1(self, qoutputrange)
+QtSensors.QTapReading.TapDirection?10
+QtSensors.QTapReading.Undefined?10
+QtSensors.QTapReading.X?10
+QtSensors.QTapReading.Y?10
+QtSensors.QTapReading.Z?10
+QtSensors.QTapReading.X_Pos?10
+QtSensors.QTapReading.Y_Pos?10
+QtSensors.QTapReading.Z_Pos?10
+QtSensors.QTapReading.X_Neg?10
+QtSensors.QTapReading.Y_Neg?10
+QtSensors.QTapReading.Z_Neg?10
+QtSensors.QTapReading.X_Both?10
+QtSensors.QTapReading.Y_Both?10
+QtSensors.QTapReading.Z_Both?10
+QtSensors.QTapReading.tapDirection?4() -> QTapReading.TapDirection
+QtSensors.QTapReading.setTapDirection?4(QTapReading.TapDirection)
+QtSensors.QTapReading.isDoubleTap?4() -> bool
+QtSensors.QTapReading.setDoubleTap?4(bool)
+QtSensors.QTapFilter?1()
+QtSensors.QTapFilter.__init__?1(self)
+QtSensors.QTapFilter?1(QTapFilter)
+QtSensors.QTapFilter.__init__?1(self, QTapFilter)
+QtSensors.QTapFilter.filter?4(QTapReading) -> bool
+QtSensors.QTapSensor?1(QObject parent=None)
+QtSensors.QTapSensor.__init__?1(self, QObject parent=None)
+QtSensors.QTapSensor.reading?4() -> QTapReading
+QtSensors.QTapSensor.returnDoubleTapEvents?4() -> bool
+QtSensors.QTapSensor.setReturnDoubleTapEvents?4(bool)
+QtSensors.QTapSensor.returnDoubleTapEventsChanged?4(bool)
+QtSensors.QTiltReading.yRotation?4() -> float
+QtSensors.QTiltReading.setYRotation?4(float)
+QtSensors.QTiltReading.xRotation?4() -> float
+QtSensors.QTiltReading.setXRotation?4(float)
+QtSensors.QTiltFilter?1()
+QtSensors.QTiltFilter.__init__?1(self)
+QtSensors.QTiltFilter?1(QTiltFilter)
+QtSensors.QTiltFilter.__init__?1(self, QTiltFilter)
+QtSensors.QTiltFilter.filter?4(QTiltReading) -> bool
+QtSensors.QTiltSensor?1(QObject parent=None)
+QtSensors.QTiltSensor.__init__?1(self, QObject parent=None)
+QtSensors.QTiltSensor.reading?4() -> QTiltReading
+QtSensors.QTiltSensor.calibrate?4()
+QtSensors.QRotationReading.x?4() -> float
+QtSensors.QRotationReading.y?4() -> float
+QtSensors.QRotationReading.z?4() -> float
+QtSensors.QRotationReading.setFromEuler?4(float, float, float)
+QtSensors.QRotationFilter?1()
+QtSensors.QRotationFilter.__init__?1(self)
+QtSensors.QRotationFilter?1(QRotationFilter)
+QtSensors.QRotationFilter.__init__?1(self, QRotationFilter)
+QtSensors.QRotationFilter.filter?4(QRotationReading) -> bool
+QtSensors.QRotationSensor?1(QObject parent=None)
+QtSensors.QRotationSensor.__init__?1(self, QObject parent=None)
+QtSensors.QRotationSensor.reading?4() -> QRotationReading
+QtSensors.QRotationSensor.hasZ?4() -> bool
+QtSensors.QRotationSensor.setHasZ?4(bool)
+QtSensors.QRotationSensor.hasZChanged?4(bool)

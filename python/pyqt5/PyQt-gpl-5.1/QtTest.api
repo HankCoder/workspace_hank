@@ -1,0 +1,63 @@
+QtTest.QSignalSpy?1(signal)
+QtTest.QSignalSpy.__init__?1(self, signal)
+QtTest.QSignalSpy.isValid?4() -> bool
+QtTest.QSignalSpy.signal?4() -> QByteArray
+QtTest.QSignalSpy.wait?4(int timeout=5000) -> bool
+QtTest.QTest.MouseAction?10
+QtTest.QTest.MousePress?10
+QtTest.QTest.MouseRelease?10
+QtTest.QTest.MouseClick?10
+QtTest.QTest.MouseDClick?10
+QtTest.QTest.MouseMove?10
+QtTest.QTest.KeyAction?10
+QtTest.QTest.Press?10
+QtTest.QTest.Release?10
+QtTest.QTest.Click?10
+QtTest.QTest.qSleep?4(int)
+QtTest.QTest.keyClick?4(QWidget, Qt.Key, Qt.KeyboardModifiers modifier=Qt.NoModifier, int delay=-1)
+QtTest.QTest.keyClick?4(QWidget, str, Qt.KeyboardModifiers modifier=Qt.NoModifier, int delay=-1)
+QtTest.QTest.keyClicks?4(QWidget, str, Qt.KeyboardModifiers modifier=Qt.NoModifier, int delay=-1)
+QtTest.QTest.keyEvent?4(QTest.KeyAction, QWidget, Qt.Key, Qt.KeyboardModifiers modifier=Qt.NoModifier, int delay=-1)
+QtTest.QTest.keyEvent?4(QTest.KeyAction, QWidget, str, Qt.KeyboardModifiers modifier=Qt.NoModifier, int delay=-1)
+QtTest.QTest.keyPress?4(QWidget, Qt.Key, Qt.KeyboardModifiers modifier=Qt.NoModifier, int delay=-1)
+QtTest.QTest.keyPress?4(QWidget, str, Qt.KeyboardModifiers modifier=Qt.NoModifier, int delay=-1)
+QtTest.QTest.keyRelease?4(QWidget, Qt.Key, Qt.KeyboardModifiers modifier=Qt.NoModifier, int delay=-1)
+QtTest.QTest.keyRelease?4(QWidget, str, Qt.KeyboardModifiers modifier=Qt.NoModifier, int delay=-1)
+QtTest.QTest.keyEvent?4(QTest.KeyAction, QWindow, str, Qt.KeyboardModifiers modifier=Qt.NoModifier, int delay=-1)
+QtTest.QTest.keyEvent?4(QTest.KeyAction, QWindow, Qt.Key, Qt.KeyboardModifiers modifier=Qt.NoModifier, int delay=-1)
+QtTest.QTest.keyClick?4(QWindow, Qt.Key, Qt.KeyboardModifiers modifier=Qt.NoModifier, int delay=-1)
+QtTest.QTest.keyClick?4(QWindow, str, Qt.KeyboardModifiers modifier=Qt.NoModifier, int delay=-1)
+QtTest.QTest.keyRelease?4(QWindow, str, Qt.KeyboardModifiers modifier=Qt.NoModifier, int delay=-1)
+QtTest.QTest.keyRelease?4(QWindow, Qt.Key, Qt.KeyboardModifiers modifier=Qt.NoModifier, int delay=-1)
+QtTest.QTest.keyPress?4(QWindow, str, Qt.KeyboardModifiers modifier=Qt.NoModifier, int delay=-1)
+QtTest.QTest.keyPress?4(QWindow, Qt.Key, Qt.KeyboardModifiers modifier=Qt.NoModifier, int delay=-1)
+QtTest.QTest.mouseClick?4(QWidget, Qt.MouseButton, Qt.KeyboardModifiers modifier=0, QPoint pos=QPoint(), int delay=-1)
+QtTest.QTest.mouseDClick?4(QWidget, Qt.MouseButton, Qt.KeyboardModifiers modifier=0, QPoint pos=QPoint(), int delay=-1)
+QtTest.QTest.mouseMove?4(QWidget, QPoint pos=QPoint(), int delay=-1)
+QtTest.QTest.mousePress?4(QWidget, Qt.MouseButton, Qt.KeyboardModifiers modifier=0, QPoint pos=QPoint(), int delay=-1)
+QtTest.QTest.mouseRelease?4(QWidget, Qt.MouseButton, Qt.KeyboardModifiers modifier=0, QPoint pos=QPoint(), int delay=-1)
+QtTest.QTest.mouseEvent?4(QTest.MouseAction, QWidget, Qt.MouseButton, Qt.KeyboardModifiers, QPoint, int delay=-1)
+QtTest.QTest.waitForEvents?4()
+QtTest.QTest.mouseEvent?4(QTest.MouseAction, QWindow, Qt.MouseButton, Qt.KeyboardModifiers, QPoint, int delay=-1)
+QtTest.QTest.mousePress?4(QWindow, Qt.MouseButton, Qt.KeyboardModifiers modifier=0, QPoint pos=QPoint(), int delay=-1)
+QtTest.QTest.mouseRelease?4(QWindow, Qt.MouseButton, Qt.KeyboardModifiers modifier=0, QPoint pos=QPoint(), int delay=-1)
+QtTest.QTest.mouseClick?4(QWindow, Qt.MouseButton, Qt.KeyboardModifiers modifier=0, QPoint pos=QPoint(), int delay=-1)
+QtTest.QTest.mouseDClick?4(QWindow, Qt.MouseButton, Qt.KeyboardModifiers modifier=0, QPoint pos=QPoint(), int delay=-1)
+QtTest.QTest.mouseMove?4(QWindow, QPoint pos=QPoint(), int delay=-1)
+QtTest.QTest.qWait?4(int)
+QtTest.QTest.qWaitForWindowActive?4(QWindow, int timeout=5000) -> bool
+QtTest.QTest.qWaitForWindowExposed?4(QWindow, int timeout=5000) -> bool
+QtTest.QTest.qWaitForWindowActive?4(QWidget, int timeout=1000) -> bool
+QtTest.QTest.qWaitForWindowExposed?4(QWidget, int timeout=1000) -> bool
+QtTest.QTest.touchEvent?4(QWidget, QTouchDevice) -> QTest.QTouchEventSequence
+QtTest.QTest.touchEvent?4(QWindow, QTouchDevice) -> QTest.QTouchEventSequence
+QtTest.QTest.QTouchEventSequence?1(QTest.QTouchEventSequence)
+QtTest.QTest.QTouchEventSequence.__init__?1(self, QTest.QTouchEventSequence)
+QtTest.QTest.QTouchEventSequence.press?4(int, QPoint, QWindow window=None) -> QTest.QTouchEventSequence
+QtTest.QTest.QTouchEventSequence.move?4(int, QPoint, QWindow window=None) -> QTest.QTouchEventSequence
+QtTest.QTest.QTouchEventSequence.release?4(int, QPoint, QWindow window=None) -> QTest.QTouchEventSequence
+QtTest.QTest.QTouchEventSequence.stationary?4(int) -> QTest.QTouchEventSequence
+QtTest.QTest.QTouchEventSequence.press?4(int, QPoint, QWidget) -> QTest.QTouchEventSequence
+QtTest.QTest.QTouchEventSequence.move?4(int, QPoint, QWidget) -> QTest.QTouchEventSequence
+QtTest.QTest.QTouchEventSequence.release?4(int, QPoint, QWidget) -> QTest.QTouchEventSequence
+QtTest.QTest.QTouchEventSequence.commit?4(bool processEvents=True)

@@ -1,0 +1,1219 @@
+QtNetwork.QNetworkCacheMetaData?1()
+QtNetwork.QNetworkCacheMetaData.__init__?1(self)
+QtNetwork.QNetworkCacheMetaData?1(QNetworkCacheMetaData)
+QtNetwork.QNetworkCacheMetaData.__init__?1(self, QNetworkCacheMetaData)
+QtNetwork.QNetworkCacheMetaData.isValid?4() -> bool
+QtNetwork.QNetworkCacheMetaData.url?4() -> QUrl
+QtNetwork.QNetworkCacheMetaData.setUrl?4(QUrl)
+QtNetwork.QNetworkCacheMetaData.rawHeaders?4() -> list-of-tuple-of-QByteArray-QByteArray
+QtNetwork.QNetworkCacheMetaData.setRawHeaders?4(list-of-tuple-of-QByteArray-QByteArray)
+QtNetwork.QNetworkCacheMetaData.lastModified?4() -> QDateTime
+QtNetwork.QNetworkCacheMetaData.setLastModified?4(QDateTime)
+QtNetwork.QNetworkCacheMetaData.expirationDate?4() -> QDateTime
+QtNetwork.QNetworkCacheMetaData.setExpirationDate?4(QDateTime)
+QtNetwork.QNetworkCacheMetaData.saveToDisk?4() -> bool
+QtNetwork.QNetworkCacheMetaData.setSaveToDisk?4(bool)
+QtNetwork.QNetworkCacheMetaData.attributes?4() -> dict-of-QNetworkRequest.Attribute-object
+QtNetwork.QNetworkCacheMetaData.setAttributes?4(dict-of-QNetworkRequest.Attribute-object)
+QtNetwork.QNetworkCacheMetaData.swap?4(QNetworkCacheMetaData)
+QtNetwork.QAbstractNetworkCache?1(QObject parent=None)
+QtNetwork.QAbstractNetworkCache.__init__?1(self, QObject parent=None)
+QtNetwork.QAbstractNetworkCache.metaData?4(QUrl) -> QNetworkCacheMetaData
+QtNetwork.QAbstractNetworkCache.updateMetaData?4(QNetworkCacheMetaData)
+QtNetwork.QAbstractNetworkCache.data?4(QUrl) -> QIODevice
+QtNetwork.QAbstractNetworkCache.remove?4(QUrl) -> bool
+QtNetwork.QAbstractNetworkCache.cacheSize?4() -> int
+QtNetwork.QAbstractNetworkCache.prepare?4(QNetworkCacheMetaData) -> QIODevice
+QtNetwork.QAbstractNetworkCache.insert?4(QIODevice)
+QtNetwork.QAbstractNetworkCache.clear?4()
+QtNetwork.QAbstractSocket.PauseMode?10
+QtNetwork.QAbstractSocket.PauseNever?10
+QtNetwork.QAbstractSocket.PauseOnSslErrors?10
+QtNetwork.QAbstractSocket.BindFlag?10
+QtNetwork.QAbstractSocket.DefaultForPlatform?10
+QtNetwork.QAbstractSocket.ShareAddress?10
+QtNetwork.QAbstractSocket.DontShareAddress?10
+QtNetwork.QAbstractSocket.ReuseAddressHint?10
+QtNetwork.QAbstractSocket.SocketOption?10
+QtNetwork.QAbstractSocket.LowDelayOption?10
+QtNetwork.QAbstractSocket.KeepAliveOption?10
+QtNetwork.QAbstractSocket.MulticastTtlOption?10
+QtNetwork.QAbstractSocket.MulticastLoopbackOption?10
+QtNetwork.QAbstractSocket.TypeOfServiceOption?10
+QtNetwork.QAbstractSocket.SocketState?10
+QtNetwork.QAbstractSocket.UnconnectedState?10
+QtNetwork.QAbstractSocket.HostLookupState?10
+QtNetwork.QAbstractSocket.ConnectingState?10
+QtNetwork.QAbstractSocket.ConnectedState?10
+QtNetwork.QAbstractSocket.BoundState?10
+QtNetwork.QAbstractSocket.ListeningState?10
+QtNetwork.QAbstractSocket.ClosingState?10
+QtNetwork.QAbstractSocket.SocketError?10
+QtNetwork.QAbstractSocket.ConnectionRefusedError?10
+QtNetwork.QAbstractSocket.RemoteHostClosedError?10
+QtNetwork.QAbstractSocket.HostNotFoundError?10
+QtNetwork.QAbstractSocket.SocketAccessError?10
+QtNetwork.QAbstractSocket.SocketResourceError?10
+QtNetwork.QAbstractSocket.SocketTimeoutError?10
+QtNetwork.QAbstractSocket.DatagramTooLargeError?10
+QtNetwork.QAbstractSocket.NetworkError?10
+QtNetwork.QAbstractSocket.AddressInUseError?10
+QtNetwork.QAbstractSocket.SocketAddressNotAvailableError?10
+QtNetwork.QAbstractSocket.UnsupportedSocketOperationError?10
+QtNetwork.QAbstractSocket.UnfinishedSocketOperationError?10
+QtNetwork.QAbstractSocket.ProxyAuthenticationRequiredError?10
+QtNetwork.QAbstractSocket.SslHandshakeFailedError?10
+QtNetwork.QAbstractSocket.ProxyConnectionRefusedError?10
+QtNetwork.QAbstractSocket.ProxyConnectionClosedError?10
+QtNetwork.QAbstractSocket.ProxyConnectionTimeoutError?10
+QtNetwork.QAbstractSocket.ProxyNotFoundError?10
+QtNetwork.QAbstractSocket.ProxyProtocolError?10
+QtNetwork.QAbstractSocket.OperationError?10
+QtNetwork.QAbstractSocket.SslInternalError?10
+QtNetwork.QAbstractSocket.SslInvalidUserDataError?10
+QtNetwork.QAbstractSocket.TemporaryError?10
+QtNetwork.QAbstractSocket.UnknownSocketError?10
+QtNetwork.QAbstractSocket.NetworkLayerProtocol?10
+QtNetwork.QAbstractSocket.IPv4Protocol?10
+QtNetwork.QAbstractSocket.IPv6Protocol?10
+QtNetwork.QAbstractSocket.AnyIPProtocol?10
+QtNetwork.QAbstractSocket.UnknownNetworkLayerProtocol?10
+QtNetwork.QAbstractSocket.SocketType?10
+QtNetwork.QAbstractSocket.TcpSocket?10
+QtNetwork.QAbstractSocket.UdpSocket?10
+QtNetwork.QAbstractSocket.UnknownSocketType?10
+QtNetwork.QAbstractSocket?1(QAbstractSocket.SocketType, QObject)
+QtNetwork.QAbstractSocket.__init__?1(self, QAbstractSocket.SocketType, QObject)
+QtNetwork.QAbstractSocket.connectToHost?4(str, int, QIODevice.OpenMode mode=QIODevice.ReadWrite, QAbstractSocket.NetworkLayerProtocol protocol=QAbstractSocket.AnyIPProtocol)
+QtNetwork.QAbstractSocket.connectToHost?4(QHostAddress, int, QIODevice.OpenMode mode=QIODevice.ReadWrite)
+QtNetwork.QAbstractSocket.disconnectFromHost?4()
+QtNetwork.QAbstractSocket.isValid?4() -> bool
+QtNetwork.QAbstractSocket.bytesAvailable?4() -> int
+QtNetwork.QAbstractSocket.bytesToWrite?4() -> int
+QtNetwork.QAbstractSocket.canReadLine?4() -> bool
+QtNetwork.QAbstractSocket.localPort?4() -> int
+QtNetwork.QAbstractSocket.localAddress?4() -> QHostAddress
+QtNetwork.QAbstractSocket.peerPort?4() -> int
+QtNetwork.QAbstractSocket.peerAddress?4() -> QHostAddress
+QtNetwork.QAbstractSocket.peerName?4() -> str
+QtNetwork.QAbstractSocket.readBufferSize?4() -> int
+QtNetwork.QAbstractSocket.setReadBufferSize?4(int)
+QtNetwork.QAbstractSocket.abort?4()
+QtNetwork.QAbstractSocket.setSocketDescriptor?4(sip.voidptr, QAbstractSocket.SocketState state=QAbstractSocket.ConnectedState, QIODevice.OpenMode mode=QIODevice.ReadWrite) -> bool
+QtNetwork.QAbstractSocket.socketDescriptor?4() -> sip.voidptr
+QtNetwork.QAbstractSocket.socketType?4() -> QAbstractSocket.SocketType
+QtNetwork.QAbstractSocket.state?4() -> QAbstractSocket.SocketState
+QtNetwork.QAbstractSocket.error?4() -> QAbstractSocket.SocketError
+QtNetwork.QAbstractSocket.close?4()
+QtNetwork.QAbstractSocket.isSequential?4() -> bool
+QtNetwork.QAbstractSocket.atEnd?4() -> bool
+QtNetwork.QAbstractSocket.flush?4() -> bool
+QtNetwork.QAbstractSocket.waitForConnected?4(int msecs=30000) -> bool
+QtNetwork.QAbstractSocket.waitForReadyRead?4(int msecs=30000) -> bool
+QtNetwork.QAbstractSocket.waitForBytesWritten?4(int msecs=30000) -> bool
+QtNetwork.QAbstractSocket.waitForDisconnected?4(int msecs=30000) -> bool
+QtNetwork.QAbstractSocket.setProxy?4(QNetworkProxy)
+QtNetwork.QAbstractSocket.proxy?4() -> QNetworkProxy
+QtNetwork.QAbstractSocket.hostFound?4()
+QtNetwork.QAbstractSocket.connected?4()
+QtNetwork.QAbstractSocket.disconnected?4()
+QtNetwork.QAbstractSocket.stateChanged?4(QAbstractSocket.SocketState)
+QtNetwork.QAbstractSocket.error?4(QAbstractSocket.SocketError)
+QtNetwork.QAbstractSocket.proxyAuthenticationRequired?4(QNetworkProxy, QAuthenticator)
+QtNetwork.QAbstractSocket.readData?4(int) -> bytes
+QtNetwork.QAbstractSocket.readLineData?4(int) -> bytes
+QtNetwork.QAbstractSocket.writeData?4(bytes) -> int
+QtNetwork.QAbstractSocket.setSocketState?4(QAbstractSocket.SocketState)
+QtNetwork.QAbstractSocket.setSocketError?4(QAbstractSocket.SocketError)
+QtNetwork.QAbstractSocket.setLocalPort?4(int)
+QtNetwork.QAbstractSocket.setLocalAddress?4(QHostAddress)
+QtNetwork.QAbstractSocket.setPeerPort?4(int)
+QtNetwork.QAbstractSocket.setPeerAddress?4(QHostAddress)
+QtNetwork.QAbstractSocket.setPeerName?4(str)
+QtNetwork.QAbstractSocket.setSocketOption?4(QAbstractSocket.SocketOption, QVariant)
+QtNetwork.QAbstractSocket.socketOption?4(QAbstractSocket.SocketOption) -> QVariant
+QtNetwork.QAbstractSocket.resume?4()
+QtNetwork.QAbstractSocket.pauseMode?4() -> QAbstractSocket.PauseModes
+QtNetwork.QAbstractSocket.setPauseMode?4(QAbstractSocket.PauseModes)
+QtNetwork.QAbstractSocket.bind?4(QHostAddress, int port=0, QAbstractSocket.BindMode mode=QAbstractSocket.DefaultForPlatform) -> bool
+QtNetwork.QAbstractSocket.bind?4(int port=0, QAbstractSocket.BindMode mode=QAbstractSocket.DefaultForPlatform) -> bool
+QtNetwork.QAbstractSocket.BindMode?1(QAbstractSocket.BindMode)
+QtNetwork.QAbstractSocket.BindMode.__init__?1(self, QAbstractSocket.BindMode)
+QtNetwork.QAbstractSocket.BindMode?1(int)
+QtNetwork.QAbstractSocket.BindMode.__init__?1(self, int)
+QtNetwork.QAbstractSocket.BindMode?1()
+QtNetwork.QAbstractSocket.BindMode.__init__?1(self)
+QtNetwork.QAbstractSocket.PauseModes?1(QAbstractSocket.PauseModes)
+QtNetwork.QAbstractSocket.PauseModes.__init__?1(self, QAbstractSocket.PauseModes)
+QtNetwork.QAbstractSocket.PauseModes?1(int)
+QtNetwork.QAbstractSocket.PauseModes.__init__?1(self, int)
+QtNetwork.QAbstractSocket.PauseModes?1()
+QtNetwork.QAbstractSocket.PauseModes.__init__?1(self)
+QtNetwork.QAuthenticator?1()
+QtNetwork.QAuthenticator.__init__?1(self)
+QtNetwork.QAuthenticator?1(QAuthenticator)
+QtNetwork.QAuthenticator.__init__?1(self, QAuthenticator)
+QtNetwork.QAuthenticator.user?4() -> str
+QtNetwork.QAuthenticator.setUser?4(str)
+QtNetwork.QAuthenticator.password?4() -> str
+QtNetwork.QAuthenticator.setPassword?4(str)
+QtNetwork.QAuthenticator.realm?4() -> str
+QtNetwork.QAuthenticator.isNull?4() -> bool
+QtNetwork.QAuthenticator.option?4(str) -> QVariant
+QtNetwork.QAuthenticator.options?4() -> dict-of-str-object
+QtNetwork.QAuthenticator.setOption?4(str, QVariant)
+QtNetwork.QDnsDomainNameRecord?1()
+QtNetwork.QDnsDomainNameRecord.__init__?1(self)
+QtNetwork.QDnsDomainNameRecord?1(QDnsDomainNameRecord)
+QtNetwork.QDnsDomainNameRecord.__init__?1(self, QDnsDomainNameRecord)
+QtNetwork.QDnsDomainNameRecord.swap?4(QDnsDomainNameRecord)
+QtNetwork.QDnsDomainNameRecord.name?4() -> str
+QtNetwork.QDnsDomainNameRecord.timeToLive?4() -> int
+QtNetwork.QDnsDomainNameRecord.value?4() -> str
+QtNetwork.QDnsHostAddressRecord?1()
+QtNetwork.QDnsHostAddressRecord.__init__?1(self)
+QtNetwork.QDnsHostAddressRecord?1(QDnsHostAddressRecord)
+QtNetwork.QDnsHostAddressRecord.__init__?1(self, QDnsHostAddressRecord)
+QtNetwork.QDnsHostAddressRecord.swap?4(QDnsHostAddressRecord)
+QtNetwork.QDnsHostAddressRecord.name?4() -> str
+QtNetwork.QDnsHostAddressRecord.timeToLive?4() -> int
+QtNetwork.QDnsHostAddressRecord.value?4() -> QHostAddress
+QtNetwork.QDnsMailExchangeRecord?1()
+QtNetwork.QDnsMailExchangeRecord.__init__?1(self)
+QtNetwork.QDnsMailExchangeRecord?1(QDnsMailExchangeRecord)
+QtNetwork.QDnsMailExchangeRecord.__init__?1(self, QDnsMailExchangeRecord)
+QtNetwork.QDnsMailExchangeRecord.swap?4(QDnsMailExchangeRecord)
+QtNetwork.QDnsMailExchangeRecord.exchange?4() -> str
+QtNetwork.QDnsMailExchangeRecord.name?4() -> str
+QtNetwork.QDnsMailExchangeRecord.preference?4() -> int
+QtNetwork.QDnsMailExchangeRecord.timeToLive?4() -> int
+QtNetwork.QDnsServiceRecord?1()
+QtNetwork.QDnsServiceRecord.__init__?1(self)
+QtNetwork.QDnsServiceRecord?1(QDnsServiceRecord)
+QtNetwork.QDnsServiceRecord.__init__?1(self, QDnsServiceRecord)
+QtNetwork.QDnsServiceRecord.swap?4(QDnsServiceRecord)
+QtNetwork.QDnsServiceRecord.name?4() -> str
+QtNetwork.QDnsServiceRecord.port?4() -> int
+QtNetwork.QDnsServiceRecord.priority?4() -> int
+QtNetwork.QDnsServiceRecord.target?4() -> str
+QtNetwork.QDnsServiceRecord.timeToLive?4() -> int
+QtNetwork.QDnsServiceRecord.weight?4() -> int
+QtNetwork.QDnsTextRecord?1()
+QtNetwork.QDnsTextRecord.__init__?1(self)
+QtNetwork.QDnsTextRecord?1(QDnsTextRecord)
+QtNetwork.QDnsTextRecord.__init__?1(self, QDnsTextRecord)
+QtNetwork.QDnsTextRecord.swap?4(QDnsTextRecord)
+QtNetwork.QDnsTextRecord.name?4() -> str
+QtNetwork.QDnsTextRecord.timeToLive?4() -> int
+QtNetwork.QDnsTextRecord.values?4() -> list-of-QByteArray
+QtNetwork.QDnsLookup.Type?10
+QtNetwork.QDnsLookup.A?10
+QtNetwork.QDnsLookup.AAAA?10
+QtNetwork.QDnsLookup.ANY?10
+QtNetwork.QDnsLookup.CNAME?10
+QtNetwork.QDnsLookup.MX?10
+QtNetwork.QDnsLookup.NS?10
+QtNetwork.QDnsLookup.PTR?10
+QtNetwork.QDnsLookup.SRV?10
+QtNetwork.QDnsLookup.TXT?10
+QtNetwork.QDnsLookup.Error?10
+QtNetwork.QDnsLookup.NoError?10
+QtNetwork.QDnsLookup.ResolverError?10
+QtNetwork.QDnsLookup.OperationCancelledError?10
+QtNetwork.QDnsLookup.InvalidRequestError?10
+QtNetwork.QDnsLookup.InvalidReplyError?10
+QtNetwork.QDnsLookup.ServerFailureError?10
+QtNetwork.QDnsLookup.ServerRefusedError?10
+QtNetwork.QDnsLookup.NotFoundError?10
+QtNetwork.QDnsLookup?1(QObject parent=None)
+QtNetwork.QDnsLookup.__init__?1(self, QObject parent=None)
+QtNetwork.QDnsLookup?1(QDnsLookup.Type, str, QObject parent=None)
+QtNetwork.QDnsLookup.__init__?1(self, QDnsLookup.Type, str, QObject parent=None)
+QtNetwork.QDnsLookup.error?4() -> QDnsLookup.Error
+QtNetwork.QDnsLookup.errorString?4() -> str
+QtNetwork.QDnsLookup.isFinished?4() -> bool
+QtNetwork.QDnsLookup.name?4() -> str
+QtNetwork.QDnsLookup.setName?4(str)
+QtNetwork.QDnsLookup.type?4() -> QDnsLookup.Type
+QtNetwork.QDnsLookup.setType?4(QDnsLookup.Type)
+QtNetwork.QDnsLookup.canonicalNameRecords?4() -> list-of-QDnsDomainNameRecord
+QtNetwork.QDnsLookup.hostAddressRecords?4() -> list-of-QDnsHostAddressRecord
+QtNetwork.QDnsLookup.mailExchangeRecords?4() -> list-of-QDnsMailExchangeRecord
+QtNetwork.QDnsLookup.nameServerRecords?4() -> list-of-QDnsDomainNameRecord
+QtNetwork.QDnsLookup.pointerRecords?4() -> list-of-QDnsDomainNameRecord
+QtNetwork.QDnsLookup.serviceRecords?4() -> list-of-QDnsServiceRecord
+QtNetwork.QDnsLookup.textRecords?4() -> list-of-QDnsTextRecord
+QtNetwork.QDnsLookup.abort?4()
+QtNetwork.QDnsLookup.lookup?4()
+QtNetwork.QDnsLookup.finished?4()
+QtNetwork.QDnsLookup.nameChanged?4(str)
+QtNetwork.QDnsLookup.typeChanged?4(QDnsLookup.Type)
+QtNetwork.QHostAddress.SpecialAddress?10
+QtNetwork.QHostAddress.Null?10
+QtNetwork.QHostAddress.Broadcast?10
+QtNetwork.QHostAddress.LocalHost?10
+QtNetwork.QHostAddress.LocalHostIPv6?10
+QtNetwork.QHostAddress.AnyIPv4?10
+QtNetwork.QHostAddress.AnyIPv6?10
+QtNetwork.QHostAddress.Any?10
+QtNetwork.QHostAddress?1()
+QtNetwork.QHostAddress.__init__?1(self)
+QtNetwork.QHostAddress?1(QHostAddress.SpecialAddress)
+QtNetwork.QHostAddress.__init__?1(self, QHostAddress.SpecialAddress)
+QtNetwork.QHostAddress?1(int)
+QtNetwork.QHostAddress.__init__?1(self, int)
+QtNetwork.QHostAddress?1(str)
+QtNetwork.QHostAddress.__init__?1(self, str)
+QtNetwork.QHostAddress?1(16-tuple-of-int)
+QtNetwork.QHostAddress.__init__?1(self, 16-tuple-of-int)
+QtNetwork.QHostAddress?1(QHostAddress)
+QtNetwork.QHostAddress.__init__?1(self, QHostAddress)
+QtNetwork.QHostAddress.setAddress?4(int)
+QtNetwork.QHostAddress.setAddress?4(str) -> bool
+QtNetwork.QHostAddress.setAddress?4(16-tuple-of-int)
+QtNetwork.QHostAddress.protocol?4() -> QAbstractSocket.NetworkLayerProtocol
+QtNetwork.QHostAddress.toIPv4Address?4() -> int
+QtNetwork.QHostAddress.toIPv6Address?4() -> 16-tuple-of-int
+QtNetwork.QHostAddress.toString?4() -> str
+QtNetwork.QHostAddress.scopeId?4() -> str
+QtNetwork.QHostAddress.setScopeId?4(str)
+QtNetwork.QHostAddress.isNull?4() -> bool
+QtNetwork.QHostAddress.clear?4()
+QtNetwork.QHostAddress.isInSubnet?4(QHostAddress, int) -> bool
+QtNetwork.QHostAddress.isInSubnet?4(tuple-of-QHostAddress-int) -> bool
+QtNetwork.QHostAddress.isLoopback?4() -> bool
+QtNetwork.QHostAddress.parseSubnet?4(str) -> tuple-of-QHostAddress-int
+QtNetwork.QHostInfo.HostInfoError?10
+QtNetwork.QHostInfo.NoError?10
+QtNetwork.QHostInfo.HostNotFound?10
+QtNetwork.QHostInfo.UnknownError?10
+QtNetwork.QHostInfo?1(int id=-1)
+QtNetwork.QHostInfo.__init__?1(self, int id=-1)
+QtNetwork.QHostInfo?1(QHostInfo)
+QtNetwork.QHostInfo.__init__?1(self, QHostInfo)
+QtNetwork.QHostInfo.hostName?4() -> str
+QtNetwork.QHostInfo.setHostName?4(str)
+QtNetwork.QHostInfo.addresses?4() -> list-of-QHostAddress
+QtNetwork.QHostInfo.setAddresses?4(list-of-QHostAddress)
+QtNetwork.QHostInfo.error?4() -> QHostInfo.HostInfoError
+QtNetwork.QHostInfo.setError?4(QHostInfo.HostInfoError)
+QtNetwork.QHostInfo.errorString?4() -> str
+QtNetwork.QHostInfo.setErrorString?4(str)
+QtNetwork.QHostInfo.setLookupId?4(int)
+QtNetwork.QHostInfo.lookupId?4() -> int
+QtNetwork.QHostInfo.lookupHost?4(str, callable-or-signal) -> int
+QtNetwork.QHostInfo.abortHostLookup?4(int)
+QtNetwork.QHostInfo.fromName?4(str) -> QHostInfo
+QtNetwork.QHostInfo.localHostName?4() -> str
+QtNetwork.QHostInfo.localDomainName?4() -> str
+QtNetwork.QHttpPart?1()
+QtNetwork.QHttpPart.__init__?1(self)
+QtNetwork.QHttpPart?1(QHttpPart)
+QtNetwork.QHttpPart.__init__?1(self, QHttpPart)
+QtNetwork.QHttpPart.setHeader?4(QNetworkRequest.KnownHeaders, QVariant)
+QtNetwork.QHttpPart.setRawHeader?4(QByteArray, QByteArray)
+QtNetwork.QHttpPart.setBody?4(QByteArray)
+QtNetwork.QHttpPart.setBodyDevice?4(QIODevice)
+QtNetwork.QHttpPart.swap?4(QHttpPart)
+QtNetwork.QHttpMultiPart.ContentType?10
+QtNetwork.QHttpMultiPart.MixedType?10
+QtNetwork.QHttpMultiPart.RelatedType?10
+QtNetwork.QHttpMultiPart.FormDataType?10
+QtNetwork.QHttpMultiPart.AlternativeType?10
+QtNetwork.QHttpMultiPart?1(QObject parent=None)
+QtNetwork.QHttpMultiPart.__init__?1(self, QObject parent=None)
+QtNetwork.QHttpMultiPart?1(QHttpMultiPart.ContentType, QObject parent=None)
+QtNetwork.QHttpMultiPart.__init__?1(self, QHttpMultiPart.ContentType, QObject parent=None)
+QtNetwork.QHttpMultiPart.append?4(QHttpPart)
+QtNetwork.QHttpMultiPart.setContentType?4(QHttpMultiPart.ContentType)
+QtNetwork.QHttpMultiPart.boundary?4() -> QByteArray
+QtNetwork.QHttpMultiPart.setBoundary?4(QByteArray)
+QtNetwork.QLocalServer.SocketOption?10
+QtNetwork.QLocalServer.UserAccessOption?10
+QtNetwork.QLocalServer.GroupAccessOption?10
+QtNetwork.QLocalServer.OtherAccessOption?10
+QtNetwork.QLocalServer.WorldAccessOption?10
+QtNetwork.QLocalServer?1(QObject parent=None)
+QtNetwork.QLocalServer.__init__?1(self, QObject parent=None)
+QtNetwork.QLocalServer.close?4()
+QtNetwork.QLocalServer.errorString?4() -> str
+QtNetwork.QLocalServer.hasPendingConnections?4() -> bool
+QtNetwork.QLocalServer.isListening?4() -> bool
+QtNetwork.QLocalServer.listen?4(str) -> bool
+QtNetwork.QLocalServer.listen?4(sip.voidptr) -> bool
+QtNetwork.QLocalServer.maxPendingConnections?4() -> int
+QtNetwork.QLocalServer.nextPendingConnection?4() -> QLocalSocket
+QtNetwork.QLocalServer.serverName?4() -> str
+QtNetwork.QLocalServer.fullServerName?4() -> str
+QtNetwork.QLocalServer.serverError?4() -> QAbstractSocket.SocketError
+QtNetwork.QLocalServer.setMaxPendingConnections?4(int)
+QtNetwork.QLocalServer.waitForNewConnection?4(int msecs=0) -> (bool, bool)
+QtNetwork.QLocalServer.removeServer?4(str) -> bool
+QtNetwork.QLocalServer.newConnection?4()
+QtNetwork.QLocalServer.incomingConnection?4(sip.voidptr)
+QtNetwork.QLocalServer.setSocketOptions?4(QLocalServer.SocketOptions)
+QtNetwork.QLocalServer.socketOptions?4() -> QLocalServer.SocketOptions
+QtNetwork.QLocalServer.SocketOptions?1(QLocalServer.SocketOptions)
+QtNetwork.QLocalServer.SocketOptions.__init__?1(self, QLocalServer.SocketOptions)
+QtNetwork.QLocalServer.SocketOptions?1(int)
+QtNetwork.QLocalServer.SocketOptions.__init__?1(self, int)
+QtNetwork.QLocalServer.SocketOptions?1()
+QtNetwork.QLocalServer.SocketOptions.__init__?1(self)
+QtNetwork.QLocalSocket.LocalSocketState?10
+QtNetwork.QLocalSocket.UnconnectedState?10
+QtNetwork.QLocalSocket.ConnectingState?10
+QtNetwork.QLocalSocket.ConnectedState?10
+QtNetwork.QLocalSocket.ClosingState?10
+QtNetwork.QLocalSocket.LocalSocketError?10
+QtNetwork.QLocalSocket.ConnectionRefusedError?10
+QtNetwork.QLocalSocket.PeerClosedError?10
+QtNetwork.QLocalSocket.ServerNotFoundError?10
+QtNetwork.QLocalSocket.SocketAccessError?10
+QtNetwork.QLocalSocket.SocketResourceError?10
+QtNetwork.QLocalSocket.SocketTimeoutError?10
+QtNetwork.QLocalSocket.DatagramTooLargeError?10
+QtNetwork.QLocalSocket.ConnectionError?10
+QtNetwork.QLocalSocket.UnsupportedSocketOperationError?10
+QtNetwork.QLocalSocket.OperationError?10
+QtNetwork.QLocalSocket.UnknownSocketError?10
+QtNetwork.QLocalSocket?1(QObject parent=None)
+QtNetwork.QLocalSocket.__init__?1(self, QObject parent=None)
+QtNetwork.QLocalSocket.connectToServer?4(str, QIODevice.OpenMode mode=QIODevice.ReadWrite)
+QtNetwork.QLocalSocket.connectToServer?4(QIODevice.OpenMode mode=QIODevice.ReadWrite)
+QtNetwork.QLocalSocket.disconnectFromServer?4()
+QtNetwork.QLocalSocket.open?4(QIODevice.OpenMode mode=QIODevice.ReadWrite) -> bool
+QtNetwork.QLocalSocket.serverName?4() -> str
+QtNetwork.QLocalSocket.setServerName?4(str)
+QtNetwork.QLocalSocket.fullServerName?4() -> str
+QtNetwork.QLocalSocket.abort?4()
+QtNetwork.QLocalSocket.isSequential?4() -> bool
+QtNetwork.QLocalSocket.bytesAvailable?4() -> int
+QtNetwork.QLocalSocket.bytesToWrite?4() -> int
+QtNetwork.QLocalSocket.canReadLine?4() -> bool
+QtNetwork.QLocalSocket.close?4()
+QtNetwork.QLocalSocket.error?4() -> QLocalSocket.LocalSocketError
+QtNetwork.QLocalSocket.flush?4() -> bool
+QtNetwork.QLocalSocket.isValid?4() -> bool
+QtNetwork.QLocalSocket.readBufferSize?4() -> int
+QtNetwork.QLocalSocket.setReadBufferSize?4(int)
+QtNetwork.QLocalSocket.setSocketDescriptor?4(sip.voidptr, QLocalSocket.LocalSocketState state=QLocalSocket.ConnectedState, QIODevice.OpenMode mode=QIODevice.ReadWrite) -> bool
+QtNetwork.QLocalSocket.socketDescriptor?4() -> sip.voidptr
+QtNetwork.QLocalSocket.state?4() -> QLocalSocket.LocalSocketState
+QtNetwork.QLocalSocket.waitForBytesWritten?4(int msecs=30000) -> bool
+QtNetwork.QLocalSocket.waitForConnected?4(int msecs=30000) -> bool
+QtNetwork.QLocalSocket.waitForDisconnected?4(int msecs=30000) -> bool
+QtNetwork.QLocalSocket.waitForReadyRead?4(int msecs=30000) -> bool
+QtNetwork.QLocalSocket.connected?4()
+QtNetwork.QLocalSocket.disconnected?4()
+QtNetwork.QLocalSocket.error?4(QLocalSocket.LocalSocketError)
+QtNetwork.QLocalSocket.stateChanged?4(QLocalSocket.LocalSocketState)
+QtNetwork.QLocalSocket.readData?4(int) -> bytes
+QtNetwork.QLocalSocket.writeData?4(bytes) -> int
+QtNetwork.QNetworkAccessManager.NetworkAccessibility?10
+QtNetwork.QNetworkAccessManager.UnknownAccessibility?10
+QtNetwork.QNetworkAccessManager.NotAccessible?10
+QtNetwork.QNetworkAccessManager.Accessible?10
+QtNetwork.QNetworkAccessManager.Operation?10
+QtNetwork.QNetworkAccessManager.HeadOperation?10
+QtNetwork.QNetworkAccessManager.GetOperation?10
+QtNetwork.QNetworkAccessManager.PutOperation?10
+QtNetwork.QNetworkAccessManager.PostOperation?10
+QtNetwork.QNetworkAccessManager.DeleteOperation?10
+QtNetwork.QNetworkAccessManager.CustomOperation?10
+QtNetwork.QNetworkAccessManager?1(QObject parent=None)
+QtNetwork.QNetworkAccessManager.__init__?1(self, QObject parent=None)
+QtNetwork.QNetworkAccessManager.proxy?4() -> QNetworkProxy
+QtNetwork.QNetworkAccessManager.setProxy?4(QNetworkProxy)
+QtNetwork.QNetworkAccessManager.cookieJar?4() -> QNetworkCookieJar
+QtNetwork.QNetworkAccessManager.setCookieJar?4(QNetworkCookieJar)
+QtNetwork.QNetworkAccessManager.head?4(QNetworkRequest) -> QNetworkReply
+QtNetwork.QNetworkAccessManager.get?4(QNetworkRequest) -> QNetworkReply
+QtNetwork.QNetworkAccessManager.post?4(QNetworkRequest, QIODevice) -> QNetworkReply
+QtNetwork.QNetworkAccessManager.post?4(QNetworkRequest, QByteArray) -> QNetworkReply
+QtNetwork.QNetworkAccessManager.post?4(QNetworkRequest, QHttpMultiPart) -> QNetworkReply
+QtNetwork.QNetworkAccessManager.put?4(QNetworkRequest, QIODevice) -> QNetworkReply
+QtNetwork.QNetworkAccessManager.put?4(QNetworkRequest, QByteArray) -> QNetworkReply
+QtNetwork.QNetworkAccessManager.put?4(QNetworkRequest, QHttpMultiPart) -> QNetworkReply
+QtNetwork.QNetworkAccessManager.proxyAuthenticationRequired?4(QNetworkProxy, QAuthenticator)
+QtNetwork.QNetworkAccessManager.authenticationRequired?4(QNetworkReply, QAuthenticator)
+QtNetwork.QNetworkAccessManager.finished?4(QNetworkReply)
+QtNetwork.QNetworkAccessManager.encrypted?4(QNetworkReply)
+QtNetwork.QNetworkAccessManager.sslErrors?4(QNetworkReply, list-of-QSslError)
+QtNetwork.QNetworkAccessManager.networkAccessibleChanged?4(QNetworkAccessManager.NetworkAccessibility)
+QtNetwork.QNetworkAccessManager.createRequest?4(QNetworkAccessManager.Operation, QNetworkRequest, QIODevice device=None) -> QNetworkReply
+QtNetwork.QNetworkAccessManager.proxyFactory?4() -> QNetworkProxyFactory
+QtNetwork.QNetworkAccessManager.setProxyFactory?4(QNetworkProxyFactory)
+QtNetwork.QNetworkAccessManager.cache?4() -> QAbstractNetworkCache
+QtNetwork.QNetworkAccessManager.setCache?4(QAbstractNetworkCache)
+QtNetwork.QNetworkAccessManager.deleteResource?4(QNetworkRequest) -> QNetworkReply
+QtNetwork.QNetworkAccessManager.sendCustomRequest?4(QNetworkRequest, QByteArray, QIODevice data=None) -> QNetworkReply
+QtNetwork.QNetworkAccessManager.setConfiguration?4(QNetworkConfiguration)
+QtNetwork.QNetworkAccessManager.configuration?4() -> QNetworkConfiguration
+QtNetwork.QNetworkAccessManager.activeConfiguration?4() -> QNetworkConfiguration
+QtNetwork.QNetworkAccessManager.setNetworkAccessible?4(QNetworkAccessManager.NetworkAccessibility)
+QtNetwork.QNetworkAccessManager.networkAccessible?4() -> QNetworkAccessManager.NetworkAccessibility
+QtNetwork.QNetworkAccessManager.clearAccessCache?4()
+QtNetwork.QNetworkConfigurationManager.Capability?10
+QtNetwork.QNetworkConfigurationManager.CanStartAndStopInterfaces?10
+QtNetwork.QNetworkConfigurationManager.DirectConnectionRouting?10
+QtNetwork.QNetworkConfigurationManager.SystemSessionSupport?10
+QtNetwork.QNetworkConfigurationManager.ApplicationLevelRoaming?10
+QtNetwork.QNetworkConfigurationManager.ForcedRoaming?10
+QtNetwork.QNetworkConfigurationManager.DataStatistics?10
+QtNetwork.QNetworkConfigurationManager.NetworkSessionRequired?10
+QtNetwork.QNetworkConfigurationManager?1(QObject parent=None)
+QtNetwork.QNetworkConfigurationManager.__init__?1(self, QObject parent=None)
+QtNetwork.QNetworkConfigurationManager.capabilities?4() -> QNetworkConfigurationManager.Capabilities
+QtNetwork.QNetworkConfigurationManager.defaultConfiguration?4() -> QNetworkConfiguration
+QtNetwork.QNetworkConfigurationManager.allConfigurations?4(QNetworkConfiguration.StateFlags flags=0) -> list-of-QNetworkConfiguration
+QtNetwork.QNetworkConfigurationManager.configurationFromIdentifier?4(str) -> QNetworkConfiguration
+QtNetwork.QNetworkConfigurationManager.updateConfigurations?4()
+QtNetwork.QNetworkConfigurationManager.isOnline?4() -> bool
+QtNetwork.QNetworkConfigurationManager.configurationAdded?4(QNetworkConfiguration)
+QtNetwork.QNetworkConfigurationManager.configurationRemoved?4(QNetworkConfiguration)
+QtNetwork.QNetworkConfigurationManager.configurationChanged?4(QNetworkConfiguration)
+QtNetwork.QNetworkConfigurationManager.onlineStateChanged?4(bool)
+QtNetwork.QNetworkConfigurationManager.updateCompleted?4()
+QtNetwork.QNetworkConfigurationManager.Capabilities?1(QNetworkConfigurationManager.Capabilities)
+QtNetwork.QNetworkConfigurationManager.Capabilities.__init__?1(self, QNetworkConfigurationManager.Capabilities)
+QtNetwork.QNetworkConfigurationManager.Capabilities?1(int)
+QtNetwork.QNetworkConfigurationManager.Capabilities.__init__?1(self, int)
+QtNetwork.QNetworkConfigurationManager.Capabilities?1()
+QtNetwork.QNetworkConfigurationManager.Capabilities.__init__?1(self)
+QtNetwork.QNetworkConfiguration.BearerType?10
+QtNetwork.QNetworkConfiguration.BearerUnknown?10
+QtNetwork.QNetworkConfiguration.BearerEthernet?10
+QtNetwork.QNetworkConfiguration.BearerWLAN?10
+QtNetwork.QNetworkConfiguration.Bearer2G?10
+QtNetwork.QNetworkConfiguration.BearerCDMA2000?10
+QtNetwork.QNetworkConfiguration.BearerWCDMA?10
+QtNetwork.QNetworkConfiguration.BearerHSPA?10
+QtNetwork.QNetworkConfiguration.BearerBluetooth?10
+QtNetwork.QNetworkConfiguration.BearerWiMAX?10
+QtNetwork.QNetworkConfiguration.StateFlag?10
+QtNetwork.QNetworkConfiguration.Undefined?10
+QtNetwork.QNetworkConfiguration.Defined?10
+QtNetwork.QNetworkConfiguration.Discovered?10
+QtNetwork.QNetworkConfiguration.Active?10
+QtNetwork.QNetworkConfiguration.Purpose?10
+QtNetwork.QNetworkConfiguration.UnknownPurpose?10
+QtNetwork.QNetworkConfiguration.PublicPurpose?10
+QtNetwork.QNetworkConfiguration.PrivatePurpose?10
+QtNetwork.QNetworkConfiguration.ServiceSpecificPurpose?10
+QtNetwork.QNetworkConfiguration.Type?10
+QtNetwork.QNetworkConfiguration.InternetAccessPoint?10
+QtNetwork.QNetworkConfiguration.ServiceNetwork?10
+QtNetwork.QNetworkConfiguration.UserChoice?10
+QtNetwork.QNetworkConfiguration.Invalid?10
+QtNetwork.QNetworkConfiguration?1()
+QtNetwork.QNetworkConfiguration.__init__?1(self)
+QtNetwork.QNetworkConfiguration?1(QNetworkConfiguration)
+QtNetwork.QNetworkConfiguration.__init__?1(self, QNetworkConfiguration)
+QtNetwork.QNetworkConfiguration.state?4() -> QNetworkConfiguration.StateFlags
+QtNetwork.QNetworkConfiguration.type?4() -> QNetworkConfiguration.Type
+QtNetwork.QNetworkConfiguration.purpose?4() -> QNetworkConfiguration.Purpose
+QtNetwork.QNetworkConfiguration.bearerType?4() -> QNetworkConfiguration.BearerType
+QtNetwork.QNetworkConfiguration.bearerTypeName?4() -> str
+QtNetwork.QNetworkConfiguration.identifier?4() -> str
+QtNetwork.QNetworkConfiguration.isRoamingAvailable?4() -> bool
+QtNetwork.QNetworkConfiguration.children?4() -> list-of-QNetworkConfiguration
+QtNetwork.QNetworkConfiguration.name?4() -> str
+QtNetwork.QNetworkConfiguration.isValid?4() -> bool
+QtNetwork.QNetworkConfiguration.swap?4(QNetworkConfiguration)
+QtNetwork.QNetworkConfiguration.StateFlags?1(QNetworkConfiguration.StateFlags)
+QtNetwork.QNetworkConfiguration.StateFlags.__init__?1(self, QNetworkConfiguration.StateFlags)
+QtNetwork.QNetworkConfiguration.StateFlags?1(int)
+QtNetwork.QNetworkConfiguration.StateFlags.__init__?1(self, int)
+QtNetwork.QNetworkConfiguration.StateFlags?1()
+QtNetwork.QNetworkConfiguration.StateFlags.__init__?1(self)
+QtNetwork.QNetworkCookie.RawForm?10
+QtNetwork.QNetworkCookie.NameAndValueOnly?10
+QtNetwork.QNetworkCookie.Full?10
+QtNetwork.QNetworkCookie?1(QByteArray name=QByteArray(), QByteArray value=QByteArray())
+QtNetwork.QNetworkCookie.__init__?1(self, QByteArray name=QByteArray(), QByteArray value=QByteArray())
+QtNetwork.QNetworkCookie?1(QNetworkCookie)
+QtNetwork.QNetworkCookie.__init__?1(self, QNetworkCookie)
+QtNetwork.QNetworkCookie.isSecure?4() -> bool
+QtNetwork.QNetworkCookie.setSecure?4(bool)
+QtNetwork.QNetworkCookie.isSessionCookie?4() -> bool
+QtNetwork.QNetworkCookie.expirationDate?4() -> QDateTime
+QtNetwork.QNetworkCookie.setExpirationDate?4(QDateTime)
+QtNetwork.QNetworkCookie.domain?4() -> str
+QtNetwork.QNetworkCookie.setDomain?4(str)
+QtNetwork.QNetworkCookie.path?4() -> str
+QtNetwork.QNetworkCookie.setPath?4(str)
+QtNetwork.QNetworkCookie.name?4() -> QByteArray
+QtNetwork.QNetworkCookie.setName?4(QByteArray)
+QtNetwork.QNetworkCookie.value?4() -> QByteArray
+QtNetwork.QNetworkCookie.setValue?4(QByteArray)
+QtNetwork.QNetworkCookie.toRawForm?4(QNetworkCookie.RawForm form=QNetworkCookie.Full) -> QByteArray
+QtNetwork.QNetworkCookie.parseCookies?4(QByteArray) -> list-of-QNetworkCookie
+QtNetwork.QNetworkCookie.isHttpOnly?4() -> bool
+QtNetwork.QNetworkCookie.setHttpOnly?4(bool)
+QtNetwork.QNetworkCookie.swap?4(QNetworkCookie)
+QtNetwork.QNetworkCookie.hasSameIdentifier?4(QNetworkCookie) -> bool
+QtNetwork.QNetworkCookie.normalize?4(QUrl)
+QtNetwork.QNetworkCookieJar?1(QObject parent=None)
+QtNetwork.QNetworkCookieJar.__init__?1(self, QObject parent=None)
+QtNetwork.QNetworkCookieJar.cookiesForUrl?4(QUrl) -> list-of-QNetworkCookie
+QtNetwork.QNetworkCookieJar.setCookiesFromUrl?4(list-of-QNetworkCookie, QUrl) -> bool
+QtNetwork.QNetworkCookieJar.insertCookie?4(QNetworkCookie) -> bool
+QtNetwork.QNetworkCookieJar.updateCookie?4(QNetworkCookie) -> bool
+QtNetwork.QNetworkCookieJar.deleteCookie?4(QNetworkCookie) -> bool
+QtNetwork.QNetworkCookieJar.setAllCookies?4(list-of-QNetworkCookie)
+QtNetwork.QNetworkCookieJar.allCookies?4() -> list-of-QNetworkCookie
+QtNetwork.QNetworkCookieJar.validateCookie?4(QNetworkCookie, QUrl) -> bool
+QtNetwork.QNetworkDiskCache?1(QObject parent=None)
+QtNetwork.QNetworkDiskCache.__init__?1(self, QObject parent=None)
+QtNetwork.QNetworkDiskCache.cacheDirectory?4() -> str
+QtNetwork.QNetworkDiskCache.setCacheDirectory?4(str)
+QtNetwork.QNetworkDiskCache.maximumCacheSize?4() -> int
+QtNetwork.QNetworkDiskCache.setMaximumCacheSize?4(int)
+QtNetwork.QNetworkDiskCache.cacheSize?4() -> int
+QtNetwork.QNetworkDiskCache.metaData?4(QUrl) -> QNetworkCacheMetaData
+QtNetwork.QNetworkDiskCache.updateMetaData?4(QNetworkCacheMetaData)
+QtNetwork.QNetworkDiskCache.data?4(QUrl) -> QIODevice
+QtNetwork.QNetworkDiskCache.remove?4(QUrl) -> bool
+QtNetwork.QNetworkDiskCache.prepare?4(QNetworkCacheMetaData) -> QIODevice
+QtNetwork.QNetworkDiskCache.insert?4(QIODevice)
+QtNetwork.QNetworkDiskCache.fileMetaData?4(str) -> QNetworkCacheMetaData
+QtNetwork.QNetworkDiskCache.clear?4()
+QtNetwork.QNetworkDiskCache.expire?4() -> int
+QtNetwork.QNetworkAddressEntry?1()
+QtNetwork.QNetworkAddressEntry.__init__?1(self)
+QtNetwork.QNetworkAddressEntry?1(QNetworkAddressEntry)
+QtNetwork.QNetworkAddressEntry.__init__?1(self, QNetworkAddressEntry)
+QtNetwork.QNetworkAddressEntry.ip?4() -> QHostAddress
+QtNetwork.QNetworkAddressEntry.setIp?4(QHostAddress)
+QtNetwork.QNetworkAddressEntry.netmask?4() -> QHostAddress
+QtNetwork.QNetworkAddressEntry.setNetmask?4(QHostAddress)
+QtNetwork.QNetworkAddressEntry.broadcast?4() -> QHostAddress
+QtNetwork.QNetworkAddressEntry.setBroadcast?4(QHostAddress)
+QtNetwork.QNetworkAddressEntry.prefixLength?4() -> int
+QtNetwork.QNetworkAddressEntry.setPrefixLength?4(int)
+QtNetwork.QNetworkAddressEntry.swap?4(QNetworkAddressEntry)
+QtNetwork.QNetworkInterface.InterfaceFlag?10
+QtNetwork.QNetworkInterface.IsUp?10
+QtNetwork.QNetworkInterface.IsRunning?10
+QtNetwork.QNetworkInterface.CanBroadcast?10
+QtNetwork.QNetworkInterface.IsLoopBack?10
+QtNetwork.QNetworkInterface.IsPointToPoint?10
+QtNetwork.QNetworkInterface.CanMulticast?10
+QtNetwork.QNetworkInterface?1()
+QtNetwork.QNetworkInterface.__init__?1(self)
+QtNetwork.QNetworkInterface?1(QNetworkInterface)
+QtNetwork.QNetworkInterface.__init__?1(self, QNetworkInterface)
+QtNetwork.QNetworkInterface.isValid?4() -> bool
+QtNetwork.QNetworkInterface.name?4() -> str
+QtNetwork.QNetworkInterface.flags?4() -> QNetworkInterface.InterfaceFlags
+QtNetwork.QNetworkInterface.hardwareAddress?4() -> str
+QtNetwork.QNetworkInterface.addressEntries?4() -> list-of-QNetworkAddressEntry
+QtNetwork.QNetworkInterface.interfaceFromName?4(str) -> QNetworkInterface
+QtNetwork.QNetworkInterface.interfaceFromIndex?4(int) -> QNetworkInterface
+QtNetwork.QNetworkInterface.allInterfaces?4() -> list-of-QNetworkInterface
+QtNetwork.QNetworkInterface.allAddresses?4() -> list-of-QHostAddress
+QtNetwork.QNetworkInterface.index?4() -> int
+QtNetwork.QNetworkInterface.humanReadableName?4() -> str
+QtNetwork.QNetworkInterface.swap?4(QNetworkInterface)
+QtNetwork.QNetworkInterface.InterfaceFlags?1(QNetworkInterface.InterfaceFlags)
+QtNetwork.QNetworkInterface.InterfaceFlags.__init__?1(self, QNetworkInterface.InterfaceFlags)
+QtNetwork.QNetworkInterface.InterfaceFlags?1(int)
+QtNetwork.QNetworkInterface.InterfaceFlags.__init__?1(self, int)
+QtNetwork.QNetworkInterface.InterfaceFlags?1()
+QtNetwork.QNetworkInterface.InterfaceFlags.__init__?1(self)
+QtNetwork.QNetworkProxy.Capability?10
+QtNetwork.QNetworkProxy.TunnelingCapability?10
+QtNetwork.QNetworkProxy.ListeningCapability?10
+QtNetwork.QNetworkProxy.UdpTunnelingCapability?10
+QtNetwork.QNetworkProxy.CachingCapability?10
+QtNetwork.QNetworkProxy.HostNameLookupCapability?10
+QtNetwork.QNetworkProxy.ProxyType?10
+QtNetwork.QNetworkProxy.DefaultProxy?10
+QtNetwork.QNetworkProxy.Socks5Proxy?10
+QtNetwork.QNetworkProxy.NoProxy?10
+QtNetwork.QNetworkProxy.HttpProxy?10
+QtNetwork.QNetworkProxy.HttpCachingProxy?10
+QtNetwork.QNetworkProxy.FtpCachingProxy?10
+QtNetwork.QNetworkProxy?1()
+QtNetwork.QNetworkProxy.__init__?1(self)
+QtNetwork.QNetworkProxy?1(QNetworkProxy.ProxyType, str hostName='', int port=0, str user='', str password='')
+QtNetwork.QNetworkProxy.__init__?1(self, QNetworkProxy.ProxyType, str hostName='', int port=0, str user='', str password='')
+QtNetwork.QNetworkProxy?1(QNetworkProxy)
+QtNetwork.QNetworkProxy.__init__?1(self, QNetworkProxy)
+QtNetwork.QNetworkProxy.setType?4(QNetworkProxy.ProxyType)
+QtNetwork.QNetworkProxy.type?4() -> QNetworkProxy.ProxyType
+QtNetwork.QNetworkProxy.setUser?4(str)
+QtNetwork.QNetworkProxy.user?4() -> str
+QtNetwork.QNetworkProxy.setPassword?4(str)
+QtNetwork.QNetworkProxy.password?4() -> str
+QtNetwork.QNetworkProxy.setHostName?4(str)
+QtNetwork.QNetworkProxy.hostName?4() -> str
+QtNetwork.QNetworkProxy.setPort?4(int)
+QtNetwork.QNetworkProxy.port?4() -> int
+QtNetwork.QNetworkProxy.setApplicationProxy?4(QNetworkProxy)
+QtNetwork.QNetworkProxy.applicationProxy?4() -> QNetworkProxy
+QtNetwork.QNetworkProxy.isCachingProxy?4() -> bool
+QtNetwork.QNetworkProxy.isTransparentProxy?4() -> bool
+QtNetwork.QNetworkProxy.setCapabilities?4(QNetworkProxy.Capabilities)
+QtNetwork.QNetworkProxy.capabilities?4() -> QNetworkProxy.Capabilities
+QtNetwork.QNetworkProxy.swap?4(QNetworkProxy)
+QtNetwork.QNetworkProxy.header?4(QNetworkRequest.KnownHeaders) -> QVariant
+QtNetwork.QNetworkProxy.setHeader?4(QNetworkRequest.KnownHeaders, QVariant)
+QtNetwork.QNetworkProxy.hasRawHeader?4(QByteArray) -> bool
+QtNetwork.QNetworkProxy.rawHeaderList?4() -> list-of-QByteArray
+QtNetwork.QNetworkProxy.rawHeader?4(QByteArray) -> QByteArray
+QtNetwork.QNetworkProxy.setRawHeader?4(QByteArray, QByteArray)
+QtNetwork.QNetworkProxy.Capabilities?1(QNetworkProxy.Capabilities)
+QtNetwork.QNetworkProxy.Capabilities.__init__?1(self, QNetworkProxy.Capabilities)
+QtNetwork.QNetworkProxy.Capabilities?1(int)
+QtNetwork.QNetworkProxy.Capabilities.__init__?1(self, int)
+QtNetwork.QNetworkProxy.Capabilities?1()
+QtNetwork.QNetworkProxy.Capabilities.__init__?1(self)
+QtNetwork.QNetworkProxyQuery.QueryType?10
+QtNetwork.QNetworkProxyQuery.TcpSocket?10
+QtNetwork.QNetworkProxyQuery.UdpSocket?10
+QtNetwork.QNetworkProxyQuery.TcpServer?10
+QtNetwork.QNetworkProxyQuery.UrlRequest?10
+QtNetwork.QNetworkProxyQuery?1()
+QtNetwork.QNetworkProxyQuery.__init__?1(self)
+QtNetwork.QNetworkProxyQuery?1(QUrl, QNetworkProxyQuery.QueryType type=QNetworkProxyQuery.UrlRequest)
+QtNetwork.QNetworkProxyQuery.__init__?1(self, QUrl, QNetworkProxyQuery.QueryType type=QNetworkProxyQuery.UrlRequest)
+QtNetwork.QNetworkProxyQuery?1(str, int, str protocolTag='', QNetworkProxyQuery.QueryType type=QNetworkProxyQuery.TcpSocket)
+QtNetwork.QNetworkProxyQuery.__init__?1(self, str, int, str protocolTag='', QNetworkProxyQuery.QueryType type=QNetworkProxyQuery.TcpSocket)
+QtNetwork.QNetworkProxyQuery?1(int, str protocolTag='', QNetworkProxyQuery.QueryType type=QNetworkProxyQuery.TcpServer)
+QtNetwork.QNetworkProxyQuery.__init__?1(self, int, str protocolTag='', QNetworkProxyQuery.QueryType type=QNetworkProxyQuery.TcpServer)
+QtNetwork.QNetworkProxyQuery?1(QNetworkConfiguration, QUrl, QNetworkProxyQuery.QueryType queryType=QNetworkProxyQuery.UrlRequest)
+QtNetwork.QNetworkProxyQuery.__init__?1(self, QNetworkConfiguration, QUrl, QNetworkProxyQuery.QueryType queryType=QNetworkProxyQuery.UrlRequest)
+QtNetwork.QNetworkProxyQuery?1(QNetworkConfiguration, str, int, str protocolTag='', QNetworkProxyQuery.QueryType type=QNetworkProxyQuery.TcpSocket)
+QtNetwork.QNetworkProxyQuery.__init__?1(self, QNetworkConfiguration, str, int, str protocolTag='', QNetworkProxyQuery.QueryType type=QNetworkProxyQuery.TcpSocket)
+QtNetwork.QNetworkProxyQuery?1(QNetworkConfiguration, int, str protocolTag='', QNetworkProxyQuery.QueryType type=QNetworkProxyQuery.TcpServer)
+QtNetwork.QNetworkProxyQuery.__init__?1(self, QNetworkConfiguration, int, str protocolTag='', QNetworkProxyQuery.QueryType type=QNetworkProxyQuery.TcpServer)
+QtNetwork.QNetworkProxyQuery?1(QNetworkProxyQuery)
+QtNetwork.QNetworkProxyQuery.__init__?1(self, QNetworkProxyQuery)
+QtNetwork.QNetworkProxyQuery.queryType?4() -> QNetworkProxyQuery.QueryType
+QtNetwork.QNetworkProxyQuery.setQueryType?4(QNetworkProxyQuery.QueryType)
+QtNetwork.QNetworkProxyQuery.peerPort?4() -> int
+QtNetwork.QNetworkProxyQuery.setPeerPort?4(int)
+QtNetwork.QNetworkProxyQuery.peerHostName?4() -> str
+QtNetwork.QNetworkProxyQuery.setPeerHostName?4(str)
+QtNetwork.QNetworkProxyQuery.localPort?4() -> int
+QtNetwork.QNetworkProxyQuery.setLocalPort?4(int)
+QtNetwork.QNetworkProxyQuery.protocolTag?4() -> str
+QtNetwork.QNetworkProxyQuery.setProtocolTag?4(str)
+QtNetwork.QNetworkProxyQuery.url?4() -> QUrl
+QtNetwork.QNetworkProxyQuery.setUrl?4(QUrl)
+QtNetwork.QNetworkProxyQuery.networkConfiguration?4() -> QNetworkConfiguration
+QtNetwork.QNetworkProxyQuery.setNetworkConfiguration?4(QNetworkConfiguration)
+QtNetwork.QNetworkProxyQuery.swap?4(QNetworkProxyQuery)
+QtNetwork.QNetworkProxyFactory?1()
+QtNetwork.QNetworkProxyFactory.__init__?1(self)
+QtNetwork.QNetworkProxyFactory?1(QNetworkProxyFactory)
+QtNetwork.QNetworkProxyFactory.__init__?1(self, QNetworkProxyFactory)
+QtNetwork.QNetworkProxyFactory.queryProxy?4(QNetworkProxyQuery query=QNetworkProxyQuery()) -> list-of-QNetworkProxy
+QtNetwork.QNetworkProxyFactory.setApplicationProxyFactory?4(QNetworkProxyFactory)
+QtNetwork.QNetworkProxyFactory.proxyForQuery?4(QNetworkProxyQuery) -> list-of-QNetworkProxy
+QtNetwork.QNetworkProxyFactory.systemProxyForQuery?4(QNetworkProxyQuery query=QNetworkProxyQuery()) -> list-of-QNetworkProxy
+QtNetwork.QNetworkProxyFactory.setUseSystemConfiguration?4(bool)
+QtNetwork.QNetworkReply.NetworkError?10
+QtNetwork.QNetworkReply.NoError?10
+QtNetwork.QNetworkReply.ConnectionRefusedError?10
+QtNetwork.QNetworkReply.RemoteHostClosedError?10
+QtNetwork.QNetworkReply.HostNotFoundError?10
+QtNetwork.QNetworkReply.TimeoutError?10
+QtNetwork.QNetworkReply.OperationCanceledError?10
+QtNetwork.QNetworkReply.SslHandshakeFailedError?10
+QtNetwork.QNetworkReply.UnknownNetworkError?10
+QtNetwork.QNetworkReply.ProxyConnectionRefusedError?10
+QtNetwork.QNetworkReply.ProxyConnectionClosedError?10
+QtNetwork.QNetworkReply.ProxyNotFoundError?10
+QtNetwork.QNetworkReply.ProxyTimeoutError?10
+QtNetwork.QNetworkReply.ProxyAuthenticationRequiredError?10
+QtNetwork.QNetworkReply.UnknownProxyError?10
+QtNetwork.QNetworkReply.ContentAccessDenied?10
+QtNetwork.QNetworkReply.ContentOperationNotPermittedError?10
+QtNetwork.QNetworkReply.ContentNotFoundError?10
+QtNetwork.QNetworkReply.AuthenticationRequiredError?10
+QtNetwork.QNetworkReply.UnknownContentError?10
+QtNetwork.QNetworkReply.ProtocolUnknownError?10
+QtNetwork.QNetworkReply.ProtocolInvalidOperationError?10
+QtNetwork.QNetworkReply.ProtocolFailure?10
+QtNetwork.QNetworkReply.ContentReSendError?10
+QtNetwork.QNetworkReply.TemporaryNetworkFailureError?10
+QtNetwork.QNetworkReply.NetworkSessionFailedError?10
+QtNetwork.QNetworkReply.BackgroundRequestNotAllowedError?10
+QtNetwork.QNetworkReply?1(QObject parent=None)
+QtNetwork.QNetworkReply.__init__?1(self, QObject parent=None)
+QtNetwork.QNetworkReply.abort?4()
+QtNetwork.QNetworkReply.close?4()
+QtNetwork.QNetworkReply.isSequential?4() -> bool
+QtNetwork.QNetworkReply.readBufferSize?4() -> int
+QtNetwork.QNetworkReply.setReadBufferSize?4(int)
+QtNetwork.QNetworkReply.manager?4() -> QNetworkAccessManager
+QtNetwork.QNetworkReply.operation?4() -> QNetworkAccessManager.Operation
+QtNetwork.QNetworkReply.request?4() -> QNetworkRequest
+QtNetwork.QNetworkReply.error?4() -> QNetworkReply.NetworkError
+QtNetwork.QNetworkReply.url?4() -> QUrl
+QtNetwork.QNetworkReply.header?4(QNetworkRequest.KnownHeaders) -> QVariant
+QtNetwork.QNetworkReply.hasRawHeader?4(QByteArray) -> bool
+QtNetwork.QNetworkReply.rawHeaderList?4() -> list-of-QByteArray
+QtNetwork.QNetworkReply.rawHeader?4(QByteArray) -> QByteArray
+QtNetwork.QNetworkReply.attribute?4(QNetworkRequest.Attribute) -> QVariant
+QtNetwork.QNetworkReply.sslConfiguration?4() -> QSslConfiguration
+QtNetwork.QNetworkReply.setSslConfiguration?4(QSslConfiguration)
+QtNetwork.QNetworkReply.ignoreSslErrors?4()
+QtNetwork.QNetworkReply.metaDataChanged?4()
+QtNetwork.QNetworkReply.finished?4()
+QtNetwork.QNetworkReply.encrypted?4()
+QtNetwork.QNetworkReply.error?4(QNetworkReply.NetworkError)
+QtNetwork.QNetworkReply.sslErrors?4(list-of-QSslError)
+QtNetwork.QNetworkReply.uploadProgress?4(int, int)
+QtNetwork.QNetworkReply.downloadProgress?4(int, int)
+QtNetwork.QNetworkReply.writeData?4(bytes) -> int
+QtNetwork.QNetworkReply.setOperation?4(QNetworkAccessManager.Operation)
+QtNetwork.QNetworkReply.setRequest?4(QNetworkRequest)
+QtNetwork.QNetworkReply.setError?4(QNetworkReply.NetworkError, str)
+QtNetwork.QNetworkReply.setUrl?4(QUrl)
+QtNetwork.QNetworkReply.setHeader?4(QNetworkRequest.KnownHeaders, QVariant)
+QtNetwork.QNetworkReply.setRawHeader?4(QByteArray, QByteArray)
+QtNetwork.QNetworkReply.setAttribute?4(QNetworkRequest.Attribute, QVariant)
+QtNetwork.QNetworkReply.setFinished?4(bool)
+QtNetwork.QNetworkReply.isFinished?4() -> bool
+QtNetwork.QNetworkReply.isRunning?4() -> bool
+QtNetwork.QNetworkReply.ignoreSslErrors?4(list-of-QSslError)
+QtNetwork.QNetworkReply.rawHeaderPairs?4() -> list-of-tuple-of-QByteArray-QByteArray
+QtNetwork.QNetworkReply.sslConfigurationImplementation?4(QSslConfiguration)
+QtNetwork.QNetworkReply.setSslConfigurationImplementation?4(QSslConfiguration)
+QtNetwork.QNetworkReply.ignoreSslErrorsImplementation?4(list-of-QSslError)
+QtNetwork.QNetworkRequest.Priority?10
+QtNetwork.QNetworkRequest.HighPriority?10
+QtNetwork.QNetworkRequest.NormalPriority?10
+QtNetwork.QNetworkRequest.LowPriority?10
+QtNetwork.QNetworkRequest.LoadControl?10
+QtNetwork.QNetworkRequest.Automatic?10
+QtNetwork.QNetworkRequest.Manual?10
+QtNetwork.QNetworkRequest.CacheLoadControl?10
+QtNetwork.QNetworkRequest.AlwaysNetwork?10
+QtNetwork.QNetworkRequest.PreferNetwork?10
+QtNetwork.QNetworkRequest.PreferCache?10
+QtNetwork.QNetworkRequest.AlwaysCache?10
+QtNetwork.QNetworkRequest.Attribute?10
+QtNetwork.QNetworkRequest.HttpStatusCodeAttribute?10
+QtNetwork.QNetworkRequest.HttpReasonPhraseAttribute?10
+QtNetwork.QNetworkRequest.RedirectionTargetAttribute?10
+QtNetwork.QNetworkRequest.ConnectionEncryptedAttribute?10
+QtNetwork.QNetworkRequest.CacheLoadControlAttribute?10
+QtNetwork.QNetworkRequest.CacheSaveControlAttribute?10
+QtNetwork.QNetworkRequest.SourceIsFromCacheAttribute?10
+QtNetwork.QNetworkRequest.DoNotBufferUploadDataAttribute?10
+QtNetwork.QNetworkRequest.HttpPipeliningAllowedAttribute?10
+QtNetwork.QNetworkRequest.HttpPipeliningWasUsedAttribute?10
+QtNetwork.QNetworkRequest.CustomVerbAttribute?10
+QtNetwork.QNetworkRequest.CookieLoadControlAttribute?10
+QtNetwork.QNetworkRequest.AuthenticationReuseAttribute?10
+QtNetwork.QNetworkRequest.CookieSaveControlAttribute?10
+QtNetwork.QNetworkRequest.BackgroundRequestAttribute?10
+QtNetwork.QNetworkRequest.User?10
+QtNetwork.QNetworkRequest.UserMax?10
+QtNetwork.QNetworkRequest.KnownHeaders?10
+QtNetwork.QNetworkRequest.ContentTypeHeader?10
+QtNetwork.QNetworkRequest.ContentLengthHeader?10
+QtNetwork.QNetworkRequest.LocationHeader?10
+QtNetwork.QNetworkRequest.LastModifiedHeader?10
+QtNetwork.QNetworkRequest.CookieHeader?10
+QtNetwork.QNetworkRequest.SetCookieHeader?10
+QtNetwork.QNetworkRequest.ContentDispositionHeader?10
+QtNetwork.QNetworkRequest.UserAgentHeader?10
+QtNetwork.QNetworkRequest.ServerHeader?10
+QtNetwork.QNetworkRequest?1(QUrl url=QUrl())
+QtNetwork.QNetworkRequest.__init__?1(self, QUrl url=QUrl())
+QtNetwork.QNetworkRequest?1(QNetworkRequest)
+QtNetwork.QNetworkRequest.__init__?1(self, QNetworkRequest)
+QtNetwork.QNetworkRequest.url?4() -> QUrl
+QtNetwork.QNetworkRequest.setUrl?4(QUrl)
+QtNetwork.QNetworkRequest.header?4(QNetworkRequest.KnownHeaders) -> QVariant
+QtNetwork.QNetworkRequest.setHeader?4(QNetworkRequest.KnownHeaders, QVariant)
+QtNetwork.QNetworkRequest.hasRawHeader?4(QByteArray) -> bool
+QtNetwork.QNetworkRequest.rawHeaderList?4() -> list-of-QByteArray
+QtNetwork.QNetworkRequest.rawHeader?4(QByteArray) -> QByteArray
+QtNetwork.QNetworkRequest.setRawHeader?4(QByteArray, QByteArray)
+QtNetwork.QNetworkRequest.attribute?4(QNetworkRequest.Attribute, QVariant defaultValue=None) -> QVariant
+QtNetwork.QNetworkRequest.setAttribute?4(QNetworkRequest.Attribute, QVariant)
+QtNetwork.QNetworkRequest.sslConfiguration?4() -> QSslConfiguration
+QtNetwork.QNetworkRequest.setSslConfiguration?4(QSslConfiguration)
+QtNetwork.QNetworkRequest.setOriginatingObject?4(QObject)
+QtNetwork.QNetworkRequest.originatingObject?4() -> QObject
+QtNetwork.QNetworkRequest.priority?4() -> QNetworkRequest.Priority
+QtNetwork.QNetworkRequest.setPriority?4(QNetworkRequest.Priority)
+QtNetwork.QNetworkRequest.swap?4(QNetworkRequest)
+QtNetwork.QNetworkSession.UsagePolicy?10
+QtNetwork.QNetworkSession.NoPolicy?10
+QtNetwork.QNetworkSession.NoBackgroundTrafficPolicy?10
+QtNetwork.QNetworkSession.SessionError?10
+QtNetwork.QNetworkSession.UnknownSessionError?10
+QtNetwork.QNetworkSession.SessionAbortedError?10
+QtNetwork.QNetworkSession.RoamingError?10
+QtNetwork.QNetworkSession.OperationNotSupportedError?10
+QtNetwork.QNetworkSession.InvalidConfigurationError?10
+QtNetwork.QNetworkSession.State?10
+QtNetwork.QNetworkSession.Invalid?10
+QtNetwork.QNetworkSession.NotAvailable?10
+QtNetwork.QNetworkSession.Connecting?10
+QtNetwork.QNetworkSession.Connected?10
+QtNetwork.QNetworkSession.Closing?10
+QtNetwork.QNetworkSession.Disconnected?10
+QtNetwork.QNetworkSession.Roaming?10
+QtNetwork.QNetworkSession?1(QNetworkConfiguration, QObject parent=None)
+QtNetwork.QNetworkSession.__init__?1(self, QNetworkConfiguration, QObject parent=None)
+QtNetwork.QNetworkSession.isOpen?4() -> bool
+QtNetwork.QNetworkSession.configuration?4() -> QNetworkConfiguration
+QtNetwork.QNetworkSession.interface?4() -> QNetworkInterface
+QtNetwork.QNetworkSession.state?4() -> QNetworkSession.State
+QtNetwork.QNetworkSession.error?4() -> QNetworkSession.SessionError
+QtNetwork.QNetworkSession.errorString?4() -> str
+QtNetwork.QNetworkSession.sessionProperty?4(str) -> QVariant
+QtNetwork.QNetworkSession.setSessionProperty?4(str, QVariant)
+QtNetwork.QNetworkSession.bytesWritten?4() -> int
+QtNetwork.QNetworkSession.bytesReceived?4() -> int
+QtNetwork.QNetworkSession.activeTime?4() -> int
+QtNetwork.QNetworkSession.waitForOpened?4(int msecs=30000) -> bool
+QtNetwork.QNetworkSession.open?4()
+QtNetwork.QNetworkSession.close?4()
+QtNetwork.QNetworkSession.stop?4()
+QtNetwork.QNetworkSession.migrate?4()
+QtNetwork.QNetworkSession.ignore?4()
+QtNetwork.QNetworkSession.accept?4()
+QtNetwork.QNetworkSession.reject?4()
+QtNetwork.QNetworkSession.stateChanged?4(QNetworkSession.State)
+QtNetwork.QNetworkSession.opened?4()
+QtNetwork.QNetworkSession.closed?4()
+QtNetwork.QNetworkSession.error?4(QNetworkSession.SessionError)
+QtNetwork.QNetworkSession.preferredConfigurationChanged?4(QNetworkConfiguration, bool)
+QtNetwork.QNetworkSession.newConfigurationActivated?4()
+QtNetwork.QNetworkSession.connectNotify?4(QMetaMethod)
+QtNetwork.QNetworkSession.disconnectNotify?4(QMetaMethod)
+QtNetwork.QNetworkSession.usagePolicies?4() -> QNetworkSession.UsagePolicies
+QtNetwork.QNetworkSession.usagePoliciesChanged?4(QNetworkSession.UsagePolicies)
+QtNetwork.QNetworkSession.UsagePolicies?1(QNetworkSession.UsagePolicies)
+QtNetwork.QNetworkSession.UsagePolicies.__init__?1(self, QNetworkSession.UsagePolicies)
+QtNetwork.QNetworkSession.UsagePolicies?1(int)
+QtNetwork.QNetworkSession.UsagePolicies.__init__?1(self, int)
+QtNetwork.QNetworkSession.UsagePolicies?1()
+QtNetwork.QNetworkSession.UsagePolicies.__init__?1(self)
+QtNetwork.QSsl.SslOption?10
+QtNetwork.QSsl.SslOptionDisableEmptyFragments?10
+QtNetwork.QSsl.SslOptionDisableSessionTickets?10
+QtNetwork.QSsl.SslOptionDisableCompression?10
+QtNetwork.QSsl.SslOptionDisableServerNameIndication?10
+QtNetwork.QSsl.SslOptionDisableLegacyRenegotiation?10
+QtNetwork.QSsl.SslProtocol?10
+QtNetwork.QSsl.UnknownProtocol?10
+QtNetwork.QSsl.SslV3?10
+QtNetwork.QSsl.SslV2?10
+QtNetwork.QSsl.TlsV1_0?10
+QtNetwork.QSsl.TlsV1_1?10
+QtNetwork.QSsl.TlsV1_2?10
+QtNetwork.QSsl.AnyProtocol?10
+QtNetwork.QSsl.TlsV1SslV3?10
+QtNetwork.QSsl.SecureProtocols?10
+QtNetwork.QSsl.AlternativeNameEntryType?10
+QtNetwork.QSsl.EmailEntry?10
+QtNetwork.QSsl.DnsEntry?10
+QtNetwork.QSsl.KeyAlgorithm?10
+QtNetwork.QSsl.Opaque?10
+QtNetwork.QSsl.Rsa?10
+QtNetwork.QSsl.Dsa?10
+QtNetwork.QSsl.EncodingFormat?10
+QtNetwork.QSsl.Pem?10
+QtNetwork.QSsl.Der?10
+QtNetwork.QSsl.KeyType?10
+QtNetwork.QSsl.PrivateKey?10
+QtNetwork.QSsl.PublicKey?10
+QtNetwork.QSsl.SslOptions?1(QSsl.SslOptions)
+QtNetwork.QSsl.SslOptions.__init__?1(self, QSsl.SslOptions)
+QtNetwork.QSsl.SslOptions?1(int)
+QtNetwork.QSsl.SslOptions.__init__?1(self, int)
+QtNetwork.QSsl.SslOptions?1()
+QtNetwork.QSsl.SslOptions.__init__?1(self)
+QtNetwork.QSslCertificate.SubjectInfo?10
+QtNetwork.QSslCertificate.Organization?10
+QtNetwork.QSslCertificate.CommonName?10
+QtNetwork.QSslCertificate.LocalityName?10
+QtNetwork.QSslCertificate.OrganizationalUnitName?10
+QtNetwork.QSslCertificate.CountryName?10
+QtNetwork.QSslCertificate.StateOrProvinceName?10
+QtNetwork.QSslCertificate.DistinguishedNameQualifier?10
+QtNetwork.QSslCertificate.SerialNumber?10
+QtNetwork.QSslCertificate.EmailAddress?10
+QtNetwork.QSslCertificate?1(QIODevice, QSsl.EncodingFormat format=QSsl.Pem)
+QtNetwork.QSslCertificate.__init__?1(self, QIODevice, QSsl.EncodingFormat format=QSsl.Pem)
+QtNetwork.QSslCertificate?1(QByteArray data=QByteArray(), QSsl.EncodingFormat format=QSsl.Pem)
+QtNetwork.QSslCertificate.__init__?1(self, QByteArray data=QByteArray(), QSsl.EncodingFormat format=QSsl.Pem)
+QtNetwork.QSslCertificate?1(QSslCertificate)
+QtNetwork.QSslCertificate.__init__?1(self, QSslCertificate)
+QtNetwork.QSslCertificate.isNull?4() -> bool
+QtNetwork.QSslCertificate.clear?4()
+QtNetwork.QSslCertificate.version?4() -> QByteArray
+QtNetwork.QSslCertificate.serialNumber?4() -> QByteArray
+QtNetwork.QSslCertificate.digest?4(QCryptographicHash.Algorithm algorithm=QCryptographicHash.Md5) -> QByteArray
+QtNetwork.QSslCertificate.issuerInfo?4(QSslCertificate.SubjectInfo) -> list-of-str
+QtNetwork.QSslCertificate.issuerInfo?4(QByteArray) -> list-of-str
+QtNetwork.QSslCertificate.subjectInfo?4(QSslCertificate.SubjectInfo) -> list-of-str
+QtNetwork.QSslCertificate.subjectInfo?4(QByteArray) -> list-of-str
+QtNetwork.QSslCertificate.subjectAlternativeNames?4() -> dict-of-QSsl.AlternativeNameEntryType-list-of-str
+QtNetwork.QSslCertificate.effectiveDate?4() -> QDateTime
+QtNetwork.QSslCertificate.expiryDate?4() -> QDateTime
+QtNetwork.QSslCertificate.publicKey?4() -> QSslKey
+QtNetwork.QSslCertificate.toPem?4() -> QByteArray
+QtNetwork.QSslCertificate.toDer?4() -> QByteArray
+QtNetwork.QSslCertificate.fromPath?4(str, QSsl.EncodingFormat format=QSsl.Pem, QRegExp.PatternSyntax syntax=QRegExp.FixedString) -> list-of-QSslCertificate
+QtNetwork.QSslCertificate.fromDevice?4(QIODevice, QSsl.EncodingFormat format=QSsl.Pem) -> list-of-QSslCertificate
+QtNetwork.QSslCertificate.fromData?4(QByteArray, QSsl.EncodingFormat format=QSsl.Pem) -> list-of-QSslCertificate
+QtNetwork.QSslCertificate.handle?4() -> sip.voidptr
+QtNetwork.QSslCertificate.swap?4(QSslCertificate)
+QtNetwork.QSslCertificate.isBlacklisted?4() -> bool
+QtNetwork.QSslCertificate.subjectInfoAttributes?4() -> list-of-QByteArray
+QtNetwork.QSslCertificate.issuerInfoAttributes?4() -> list-of-QByteArray
+QtNetwork.QSslCertificate.extensions?4() -> list-of-QSslCertificateExtension
+QtNetwork.QSslCertificate.toText?4() -> str
+QtNetwork.QSslCertificate.verify?4(list-of-QSslCertificate, str hostName=QString()) -> list-of-QSslError
+QtNetwork.QSslCertificateExtension?1()
+QtNetwork.QSslCertificateExtension.__init__?1(self)
+QtNetwork.QSslCertificateExtension?1(QSslCertificateExtension)
+QtNetwork.QSslCertificateExtension.__init__?1(self, QSslCertificateExtension)
+QtNetwork.QSslCertificateExtension.swap?4(QSslCertificateExtension)
+QtNetwork.QSslCertificateExtension.oid?4() -> str
+QtNetwork.QSslCertificateExtension.name?4() -> str
+QtNetwork.QSslCertificateExtension.value?4() -> QVariant
+QtNetwork.QSslCertificateExtension.isCritical?4() -> bool
+QtNetwork.QSslCertificateExtension.isSupported?4() -> bool
+QtNetwork.QSslConfiguration?1()
+QtNetwork.QSslConfiguration.__init__?1(self)
+QtNetwork.QSslConfiguration?1(QSslConfiguration)
+QtNetwork.QSslConfiguration.__init__?1(self, QSslConfiguration)
+QtNetwork.QSslConfiguration.isNull?4() -> bool
+QtNetwork.QSslConfiguration.protocol?4() -> QSsl.SslProtocol
+QtNetwork.QSslConfiguration.setProtocol?4(QSsl.SslProtocol)
+QtNetwork.QSslConfiguration.peerVerifyMode?4() -> QSslSocket.PeerVerifyMode
+QtNetwork.QSslConfiguration.setPeerVerifyMode?4(QSslSocket.PeerVerifyMode)
+QtNetwork.QSslConfiguration.peerVerifyDepth?4() -> int
+QtNetwork.QSslConfiguration.setPeerVerifyDepth?4(int)
+QtNetwork.QSslConfiguration.localCertificate?4() -> QSslCertificate
+QtNetwork.QSslConfiguration.setLocalCertificate?4(QSslCertificate)
+QtNetwork.QSslConfiguration.peerCertificate?4() -> QSslCertificate
+QtNetwork.QSslConfiguration.peerCertificateChain?4() -> list-of-QSslCertificate
+QtNetwork.QSslConfiguration.sessionCipher?4() -> QSslCipher
+QtNetwork.QSslConfiguration.privateKey?4() -> QSslKey
+QtNetwork.QSslConfiguration.setPrivateKey?4(QSslKey)
+QtNetwork.QSslConfiguration.ciphers?4() -> list-of-QSslCipher
+QtNetwork.QSslConfiguration.setCiphers?4(list-of-QSslCipher)
+QtNetwork.QSslConfiguration.caCertificates?4() -> list-of-QSslCertificate
+QtNetwork.QSslConfiguration.setCaCertificates?4(list-of-QSslCertificate)
+QtNetwork.QSslConfiguration.defaultConfiguration?4() -> QSslConfiguration
+QtNetwork.QSslConfiguration.setDefaultConfiguration?4(QSslConfiguration)
+QtNetwork.QSslConfiguration.setSslOption?4(QSsl.SslOption, bool)
+QtNetwork.QSslConfiguration.testSslOption?4(QSsl.SslOption) -> bool
+QtNetwork.QSslConfiguration.swap?4(QSslConfiguration)
+QtNetwork.QSslConfiguration.localCertificateChain?4() -> list-of-QSslCertificate
+QtNetwork.QSslConfiguration.setLocalCertificateChain?4(list-of-QSslCertificate)
+QtNetwork.QSslCipher?1()
+QtNetwork.QSslCipher.__init__?1(self)
+QtNetwork.QSslCipher?1(str, QSsl.SslProtocol)
+QtNetwork.QSslCipher.__init__?1(self, str, QSsl.SslProtocol)
+QtNetwork.QSslCipher?1(QSslCipher)
+QtNetwork.QSslCipher.__init__?1(self, QSslCipher)
+QtNetwork.QSslCipher.isNull?4() -> bool
+QtNetwork.QSslCipher.name?4() -> str
+QtNetwork.QSslCipher.supportedBits?4() -> int
+QtNetwork.QSslCipher.usedBits?4() -> int
+QtNetwork.QSslCipher.keyExchangeMethod?4() -> str
+QtNetwork.QSslCipher.authenticationMethod?4() -> str
+QtNetwork.QSslCipher.encryptionMethod?4() -> str
+QtNetwork.QSslCipher.protocolString?4() -> str
+QtNetwork.QSslCipher.protocol?4() -> QSsl.SslProtocol
+QtNetwork.QSslCipher.swap?4(QSslCipher)
+QtNetwork.QSslError.SslError?10
+QtNetwork.QSslError.UnspecifiedError?10
+QtNetwork.QSslError.NoError?10
+QtNetwork.QSslError.UnableToGetIssuerCertificate?10
+QtNetwork.QSslError.UnableToDecryptCertificateSignature?10
+QtNetwork.QSslError.UnableToDecodeIssuerPublicKey?10
+QtNetwork.QSslError.CertificateSignatureFailed?10
+QtNetwork.QSslError.CertificateNotYetValid?10
+QtNetwork.QSslError.CertificateExpired?10
+QtNetwork.QSslError.InvalidNotBeforeField?10
+QtNetwork.QSslError.InvalidNotAfterField?10
+QtNetwork.QSslError.SelfSignedCertificate?10
+QtNetwork.QSslError.SelfSignedCertificateInChain?10
+QtNetwork.QSslError.UnableToGetLocalIssuerCertificate?10
+QtNetwork.QSslError.UnableToVerifyFirstCertificate?10
+QtNetwork.QSslError.CertificateRevoked?10
+QtNetwork.QSslError.InvalidCaCertificate?10
+QtNetwork.QSslError.PathLengthExceeded?10
+QtNetwork.QSslError.InvalidPurpose?10
+QtNetwork.QSslError.CertificateUntrusted?10
+QtNetwork.QSslError.CertificateRejected?10
+QtNetwork.QSslError.SubjectIssuerMismatch?10
+QtNetwork.QSslError.AuthorityIssuerSerialNumberMismatch?10
+QtNetwork.QSslError.NoPeerCertificate?10
+QtNetwork.QSslError.HostNameMismatch?10
+QtNetwork.QSslError.NoSslSupport?10
+QtNetwork.QSslError.CertificateBlacklisted?10
+QtNetwork.QSslError?1()
+QtNetwork.QSslError.__init__?1(self)
+QtNetwork.QSslError?1(QSslError.SslError)
+QtNetwork.QSslError.__init__?1(self, QSslError.SslError)
+QtNetwork.QSslError?1(QSslError.SslError, QSslCertificate)
+QtNetwork.QSslError.__init__?1(self, QSslError.SslError, QSslCertificate)
+QtNetwork.QSslError?1(QSslError)
+QtNetwork.QSslError.__init__?1(self, QSslError)
+QtNetwork.QSslError.error?4() -> QSslError.SslError
+QtNetwork.QSslError.errorString?4() -> str
+QtNetwork.QSslError.certificate?4() -> QSslCertificate
+QtNetwork.QSslError.swap?4(QSslError)
+QtNetwork.QSslKey?1()
+QtNetwork.QSslKey.__init__?1(self)
+QtNetwork.QSslKey?1(QByteArray, QSsl.KeyAlgorithm, QSsl.EncodingFormat encoding=QSsl.Pem, QSsl.KeyType type=QSsl.PrivateKey, QByteArray passPhrase=QByteArray())
+QtNetwork.QSslKey.__init__?1(self, QByteArray, QSsl.KeyAlgorithm, QSsl.EncodingFormat encoding=QSsl.Pem, QSsl.KeyType type=QSsl.PrivateKey, QByteArray passPhrase=QByteArray())
+QtNetwork.QSslKey?1(QIODevice, QSsl.KeyAlgorithm, QSsl.EncodingFormat encoding=QSsl.Pem, QSsl.KeyType type=QSsl.PrivateKey, QByteArray passPhrase=QByteArray())
+QtNetwork.QSslKey.__init__?1(self, QIODevice, QSsl.KeyAlgorithm, QSsl.EncodingFormat encoding=QSsl.Pem, QSsl.KeyType type=QSsl.PrivateKey, QByteArray passPhrase=QByteArray())
+QtNetwork.QSslKey?1(sip.voidptr, QSsl.KeyType type=QSsl.PrivateKey)
+QtNetwork.QSslKey.__init__?1(self, sip.voidptr, QSsl.KeyType type=QSsl.PrivateKey)
+QtNetwork.QSslKey?1(QSslKey)
+QtNetwork.QSslKey.__init__?1(self, QSslKey)
+QtNetwork.QSslKey.isNull?4() -> bool
+QtNetwork.QSslKey.clear?4()
+QtNetwork.QSslKey.length?4() -> int
+QtNetwork.QSslKey.type?4() -> QSsl.KeyType
+QtNetwork.QSslKey.algorithm?4() -> QSsl.KeyAlgorithm
+QtNetwork.QSslKey.toPem?4(QByteArray passPhrase=QByteArray()) -> QByteArray
+QtNetwork.QSslKey.toDer?4(QByteArray passPhrase=QByteArray()) -> QByteArray
+QtNetwork.QSslKey.handle?4() -> sip.voidptr
+QtNetwork.QSslKey.swap?4(QSslKey)
+QtNetwork.QTcpSocket?1(QObject parent=None)
+QtNetwork.QTcpSocket.__init__?1(self, QObject parent=None)
+QtNetwork.QSslSocket.PeerVerifyMode?10
+QtNetwork.QSslSocket.VerifyNone?10
+QtNetwork.QSslSocket.QueryPeer?10
+QtNetwork.QSslSocket.VerifyPeer?10
+QtNetwork.QSslSocket.AutoVerifyPeer?10
+QtNetwork.QSslSocket.SslMode?10
+QtNetwork.QSslSocket.UnencryptedMode?10
+QtNetwork.QSslSocket.SslClientMode?10
+QtNetwork.QSslSocket.SslServerMode?10
+QtNetwork.QSslSocket?1(QObject parent=None)
+QtNetwork.QSslSocket.__init__?1(self, QObject parent=None)
+QtNetwork.QSslSocket.connectToHostEncrypted?4(str, int, QIODevice.OpenMode mode=QIODevice.ReadWrite, QAbstractSocket.NetworkLayerProtocol protocol=QAbstractSocket.AnyIPProtocol)
+QtNetwork.QSslSocket.connectToHostEncrypted?4(str, int, str, QIODevice.OpenMode mode=QIODevice.ReadWrite, QAbstractSocket.NetworkLayerProtocol protocol=QAbstractSocket.AnyIPProtocol)
+QtNetwork.QSslSocket.setSocketDescriptor?4(sip.voidptr, QAbstractSocket.SocketState state=QAbstractSocket.ConnectedState, QIODevice.OpenMode mode=QIODevice.ReadWrite) -> bool
+QtNetwork.QSslSocket.mode?4() -> QSslSocket.SslMode
+QtNetwork.QSslSocket.isEncrypted?4() -> bool
+QtNetwork.QSslSocket.protocol?4() -> QSsl.SslProtocol
+QtNetwork.QSslSocket.setProtocol?4(QSsl.SslProtocol)
+QtNetwork.QSslSocket.bytesAvailable?4() -> int
+QtNetwork.QSslSocket.bytesToWrite?4() -> int
+QtNetwork.QSslSocket.canReadLine?4() -> bool
+QtNetwork.QSslSocket.close?4()
+QtNetwork.QSslSocket.atEnd?4() -> bool
+QtNetwork.QSslSocket.flush?4() -> bool
+QtNetwork.QSslSocket.abort?4()
+QtNetwork.QSslSocket.setLocalCertificate?4(QSslCertificate)
+QtNetwork.QSslSocket.setLocalCertificate?4(str, QSsl.EncodingFormat format=QSsl.Pem)
+QtNetwork.QSslSocket.localCertificate?4() -> QSslCertificate
+QtNetwork.QSslSocket.peerCertificate?4() -> QSslCertificate
+QtNetwork.QSslSocket.peerCertificateChain?4() -> list-of-QSslCertificate
+QtNetwork.QSslSocket.sessionCipher?4() -> QSslCipher
+QtNetwork.QSslSocket.setPrivateKey?4(QSslKey)
+QtNetwork.QSslSocket.setPrivateKey?4(str, QSsl.KeyAlgorithm algorithm=QSsl.Rsa, QSsl.EncodingFormat format=QSsl.Pem, QByteArray passPhrase=QByteArray())
+QtNetwork.QSslSocket.privateKey?4() -> QSslKey
+QtNetwork.QSslSocket.ciphers?4() -> list-of-QSslCipher
+QtNetwork.QSslSocket.setCiphers?4(list-of-QSslCipher)
+QtNetwork.QSslSocket.setCiphers?4(str)
+QtNetwork.QSslSocket.setDefaultCiphers?4(list-of-QSslCipher)
+QtNetwork.QSslSocket.defaultCiphers?4() -> list-of-QSslCipher
+QtNetwork.QSslSocket.supportedCiphers?4() -> list-of-QSslCipher
+QtNetwork.QSslSocket.addCaCertificates?4(str, QSsl.EncodingFormat format=QSsl.Pem, QRegExp.PatternSyntax syntax=QRegExp.FixedString) -> bool
+QtNetwork.QSslSocket.addCaCertificate?4(QSslCertificate)
+QtNetwork.QSslSocket.addCaCertificates?4(list-of-QSslCertificate)
+QtNetwork.QSslSocket.setCaCertificates?4(list-of-QSslCertificate)
+QtNetwork.QSslSocket.caCertificates?4() -> list-of-QSslCertificate
+QtNetwork.QSslSocket.addDefaultCaCertificates?4(str, QSsl.EncodingFormat format=QSsl.Pem, QRegExp.PatternSyntax syntax=QRegExp.FixedString) -> bool
+QtNetwork.QSslSocket.addDefaultCaCertificate?4(QSslCertificate)
+QtNetwork.QSslSocket.addDefaultCaCertificates?4(list-of-QSslCertificate)
+QtNetwork.QSslSocket.setDefaultCaCertificates?4(list-of-QSslCertificate)
+QtNetwork.QSslSocket.defaultCaCertificates?4() -> list-of-QSslCertificate
+QtNetwork.QSslSocket.systemCaCertificates?4() -> list-of-QSslCertificate
+QtNetwork.QSslSocket.waitForConnected?4(int msecs=30000) -> bool
+QtNetwork.QSslSocket.waitForEncrypted?4(int msecs=30000) -> bool
+QtNetwork.QSslSocket.waitForReadyRead?4(int msecs=30000) -> bool
+QtNetwork.QSslSocket.waitForBytesWritten?4(int msecs=30000) -> bool
+QtNetwork.QSslSocket.waitForDisconnected?4(int msecs=30000) -> bool
+QtNetwork.QSslSocket.sslErrors?4() -> list-of-QSslError
+QtNetwork.QSslSocket.supportsSsl?4() -> bool
+QtNetwork.QSslSocket.startClientEncryption?4()
+QtNetwork.QSslSocket.startServerEncryption?4()
+QtNetwork.QSslSocket.ignoreSslErrors?4()
+QtNetwork.QSslSocket.encrypted?4()
+QtNetwork.QSslSocket.sslErrors?4(list-of-QSslError)
+QtNetwork.QSslSocket.modeChanged?4(QSslSocket.SslMode)
+QtNetwork.QSslSocket.readData?4(int) -> bytes
+QtNetwork.QSslSocket.writeData?4(bytes) -> int
+QtNetwork.QSslSocket.peerVerifyMode?4() -> QSslSocket.PeerVerifyMode
+QtNetwork.QSslSocket.setPeerVerifyMode?4(QSslSocket.PeerVerifyMode)
+QtNetwork.QSslSocket.peerVerifyDepth?4() -> int
+QtNetwork.QSslSocket.setPeerVerifyDepth?4(int)
+QtNetwork.QSslSocket.setReadBufferSize?4(int)
+QtNetwork.QSslSocket.encryptedBytesAvailable?4() -> int
+QtNetwork.QSslSocket.encryptedBytesToWrite?4() -> int
+QtNetwork.QSslSocket.sslConfiguration?4() -> QSslConfiguration
+QtNetwork.QSslSocket.setSslConfiguration?4(QSslConfiguration)
+QtNetwork.QSslSocket.peerVerifyError?4(QSslError)
+QtNetwork.QSslSocket.encryptedBytesWritten?4(int)
+QtNetwork.QSslSocket.setSocketOption?4(QAbstractSocket.SocketOption, QVariant)
+QtNetwork.QSslSocket.socketOption?4(QAbstractSocket.SocketOption) -> QVariant
+QtNetwork.QSslSocket.ignoreSslErrors?4(list-of-QSslError)
+QtNetwork.QSslSocket.peerVerifyName?4() -> str
+QtNetwork.QSslSocket.setPeerVerifyName?4(str)
+QtNetwork.QSslSocket.resume?4()
+QtNetwork.QSslSocket.connectToHost?4(str, int, QIODevice.OpenMode mode=QIODevice.ReadWrite, QAbstractSocket.NetworkLayerProtocol protocol=QAbstractSocket.AnyIPProtocol)
+QtNetwork.QSslSocket.disconnectFromHost?4()
+QtNetwork.QSslSocket.sslLibraryVersionNumber?4() -> int
+QtNetwork.QSslSocket.sslLibraryVersionString?4() -> str
+QtNetwork.QSslSocket.setLocalCertificateChain?4(list-of-QSslCertificate)
+QtNetwork.QSslSocket.localCertificateChain?4() -> list-of-QSslCertificate
+QtNetwork.QTcpServer?1(QObject parent=None)
+QtNetwork.QTcpServer.__init__?1(self, QObject parent=None)
+QtNetwork.QTcpServer.listen?4(QHostAddress address=QHostAddress.Any, int port=0) -> bool
+QtNetwork.QTcpServer.close?4()
+QtNetwork.QTcpServer.isListening?4() -> bool
+QtNetwork.QTcpServer.setMaxPendingConnections?4(int)
+QtNetwork.QTcpServer.maxPendingConnections?4() -> int
+QtNetwork.QTcpServer.serverPort?4() -> int
+QtNetwork.QTcpServer.serverAddress?4() -> QHostAddress
+QtNetwork.QTcpServer.socketDescriptor?4() -> sip.voidptr
+QtNetwork.QTcpServer.setSocketDescriptor?4(sip.voidptr) -> bool
+QtNetwork.QTcpServer.waitForNewConnection?4(int msecs=0) -> (bool, bool)
+QtNetwork.QTcpServer.hasPendingConnections?4() -> bool
+QtNetwork.QTcpServer.nextPendingConnection?4() -> QTcpSocket
+QtNetwork.QTcpServer.serverError?4() -> QAbstractSocket.SocketError
+QtNetwork.QTcpServer.errorString?4() -> str
+QtNetwork.QTcpServer.setProxy?4(QNetworkProxy)
+QtNetwork.QTcpServer.proxy?4() -> QNetworkProxy
+QtNetwork.QTcpServer.pauseAccepting?4()
+QtNetwork.QTcpServer.resumeAccepting?4()
+QtNetwork.QTcpServer.incomingConnection?4(sip.voidptr)
+QtNetwork.QTcpServer.addPendingConnection?4(QTcpSocket)
+QtNetwork.QTcpServer.newConnection?4()
+QtNetwork.QTcpServer.acceptError?4(QAbstractSocket.SocketError)
+QtNetwork.QUdpSocket?1(QObject parent=None)
+QtNetwork.QUdpSocket.__init__?1(self, QObject parent=None)
+QtNetwork.QUdpSocket.hasPendingDatagrams?4() -> bool
+QtNetwork.QUdpSocket.pendingDatagramSize?4() -> int
+QtNetwork.QUdpSocket.readDatagram?4(int) -> (bytes, QHostAddress, int)
+QtNetwork.QUdpSocket.writeDatagram?4(bytes, QHostAddress, int) -> int
+QtNetwork.QUdpSocket.writeDatagram?4(QByteArray, QHostAddress, int) -> int
+QtNetwork.QUdpSocket.joinMulticastGroup?4(QHostAddress) -> bool
+QtNetwork.QUdpSocket.joinMulticastGroup?4(QHostAddress, QNetworkInterface) -> bool
+QtNetwork.QUdpSocket.leaveMulticastGroup?4(QHostAddress) -> bool
+QtNetwork.QUdpSocket.leaveMulticastGroup?4(QHostAddress, QNetworkInterface) -> bool
+QtNetwork.QUdpSocket.multicastInterface?4() -> QNetworkInterface
+QtNetwork.QUdpSocket.setMulticastInterface?4(QNetworkInterface)
