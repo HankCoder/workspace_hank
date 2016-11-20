@@ -1,0 +1,47 @@
+11-06 21:25:24.999: E/ActivityThread(935): Failed to find provider info for com.nd.pad.sdk.monitor.entity.sysruninfo
+11-06 21:25:25.014: E/SQLiteLog(2903): (1) table alarm_templates already exists
+11-06 21:25:25.024: E/AndroidRuntime(2903): FATAL EXCEPTION: main
+11-06 21:25:25.024: E/AndroidRuntime(2903): Process: com.android.deskclock, PID: 2903
+11-06 21:25:25.024: E/AndroidRuntime(2903): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClock}: android.database.sqlite.SQLiteException: table alarm_templates already exists (code 1): , while compiling: CREATE TABLE alarm_templates (_id INTEGER PRIMARY KEY,hour INTEGER NOT NULL, minutes INTEGER NOT NULL, daysofweek INTEGER NOT NULL, enabled INTEGER NOT NULL, vibrate INTEGER NOT NULL, label TEXT NOT NULL, ringtone TEXT, delete_after_use INTEGER NOT NULL DEFAULT 0, incvol INTEGER NOT NULL DEFAULT 0, profile TEXT NOT NULL DEFAULT '00000000-0000-0000-0000-000000000000');
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2212)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2271)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at android.app.ActivityThread.access$800(ActivityThread.java:144)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1205)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at android.os.Looper.loop(Looper.java:136)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at android.app.ActivityThread.main(ActivityThread.java:5146)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at java.lang.reflect.Method.invokeNative(Native Method)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at java.lang.reflect.Method.invoke(Method.java:515)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:732)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:566)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at dalvik.system.NativeStart.main(Native Method)
+11-06 21:25:25.024: E/AndroidRuntime(2903): Caused by: android.database.sqlite.SQLiteException: table alarm_templates already exists (code 1): , while compiling: CREATE TABLE alarm_templates (_id INTEGER PRIMARY KEY,hour INTEGER NOT NULL, minutes INTEGER NOT NULL, daysofweek INTEGER NOT NULL, enabled INTEGER NOT NULL, vibrate INTEGER NOT NULL, label TEXT NOT NULL, ringtone TEXT, delete_after_use INTEGER NOT NULL DEFAULT 0, incvol INTEGER NOT NULL DEFAULT 0, profile TEXT NOT NULL DEFAULT '00000000-0000-0000-0000-000000000000');
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at android.database.sqlite.SQLiteConnection.nativePrepareStatement(Native Method)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at android.database.sqlite.SQLiteConnection.acquirePreparedStatement(SQLiteConnection.java:889)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at android.database.sqlite.SQLiteConnection.prepare(SQLiteConnection.java:500)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at android.database.sqlite.SQLiteSession.prepare(SQLiteSession.java:588)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at android.database.sqlite.SQLiteProgram.<init>(SQLiteProgram.java:58)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at android.database.sqlite.SQLiteStatement.<init>(SQLiteStatement.java:31)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at android.database.sqlite.SQLiteDatabase.executeSql(SQLiteDatabase.java:1672)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at android.database.sqlite.SQLiteDatabase.execSQL(SQLiteDatabase.java:1603)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at com.android.deskclock.provider.ClockDatabaseHelper.createAlarmsTable(ClockDatabaseHelper.java:91)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at com.android.deskclock.provider.ClockDatabaseHelper.onUpgrade(ClockDatabaseHelper.java:180)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:257)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:188)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at com.android.deskclock.provider.ClockProvider.query(ClockProvider.java:96)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at android.content.ContentProvider.query(ContentProvider.java:857)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at android.content.ContentProvider$Transport.query(ContentProvider.java:200)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at android.content.ContentResolver.query(ContentResolver.java:461)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at android.content.ContentResolver.query(ContentResolver.java:404)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at com.android.deskclock.provider.AlarmInstance.getInstances(AlarmInstance.java:197)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at com.android.deskclock.alarms.AlarmStateManager.updateNextAlarm(AlarmStateManager.java:149)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at com.android.deskclock.DeskClock.onCreate(DeskClock.java:178)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at android.app.Activity.performCreate(Activity.java:5231)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2169)
+11-06 21:25:25.024: E/AndroidRuntime(2903): 	... 11 more
+11-06 21:25:25.024: E/ActivityThread(935): Failed to find provider info for com.nd.pad.sdk.monitor.entity.sysruninfo
+11-06 21:25:25.654: E/ActivityThread(886): Failed to find provider info for com.nd.pad.sdk.oauth.keyvalue
+11-06 21:25:25.994: E/ActivityThread(935): Failed to find provider info for com.nd.pad.sdk.monitor.entity.sysruninfo
+11-06 21:25:26.019: E/ActivityThread(935): Failed to find provider info for com.nd.pad.sdk.monitor.entity.sysruninfo
+11-06 21:25:34.674: E/WindowManager(462): Starting window AppWindowToken{41fc9380 token=Token{41d092f0 ActivityRecord{419e50b0 u0 com.android.deskclock/.DeskClock t10}}} timed out
