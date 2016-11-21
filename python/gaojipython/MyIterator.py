@@ -14,7 +14,7 @@ class MyIterator(object):
 		return self
 def main():
 	for i in MyIterator(10):
-		print i
+		print (i)
 
 if __name__ == "__main__":
 	main()
