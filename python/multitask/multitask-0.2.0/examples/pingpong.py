@@ -3,7 +3,7 @@ import multitask
 
 def pingponger(get_queue, put_queue, message):
     while True:
-        print (yield get_queue.get())
+        yield get_queue.get()
         yield put_queue.put(message)
 
 
