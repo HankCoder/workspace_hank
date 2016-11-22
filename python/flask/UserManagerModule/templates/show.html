@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form method="post">
+        content: {{form.content}}
+        <br/><br/>
+        sender: {{form.sender}}
+        <br /><br/>
+        <input type="submit" value="Submit"> Submit
+        <input type="reset" value="Reset"> Reset
+    </form>
+    <ul>
+        {%for each in entries%}
+        <li>
+            {{each.content}} Send by {{each.sender}}
+        </li>
+        {%endfor%}
+    </ul>
+</body>
+</html>
