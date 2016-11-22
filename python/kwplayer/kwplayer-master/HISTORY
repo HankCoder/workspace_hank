@@ -1,0 +1,319 @@
+3.5.2 - 2015.3.14
+* Fixed: IndexError in Lrc.py
+* Fixed: strip blank links while updating LRC background images
+* Fixed: catch GLib.Error Exception in PlayerNotify
+* Fixed: remove `kwplayer_ar` from song path
+* Fixed: AttributeError, `module` object has no attribue `exec
+* Remove margins between control buttons
+* Cleanup temporary media files at startup
+* Add gstreamer1.0-plugins-bad and gir1.2-gtk-3.0 to dependencies
+
+3.5.1 - 2015.1.9
+* Fixed: remove all highlighted tags in lyric when a new position is seeked
+* Fixed: Artists has no attribute self.artist_songs_taotal
+* Fixed: App object has no attribute reset_notebook_tabs
+* Fixed: convert time tag to nanoseconds
+* Handle [00:11] tag in lrc file
+
+3.4.9 - 2015.1.1
+* Fixed: ply.lex.LexError: Scanning error. Illegal character '['
+* Fixed: gnome-shell crashes when OSDLrc.PreferencesDialog close
+* Fixed: NoneType has no attribute set_cursor() in App
+* Fixed: Autohide cursor in fullscreen mode
+* Fixed: html2text module is unavailable in Fedora 20 and Fedora 21
+* Remove auto-hide option
+
+3.4.8 - 2014.12.7
+* Fixed: media-subtitles-symbolic is missing in Ubuntu 14.04
+* Update app logo
+
+3.4.7 - 2014.12.6
+* Use default icon theme
+* Remove GtkMenuButton in Song list
+* Remove favorite.png from global hicolor icon theme
+* Rename kuwo/ to kwplayer/
+* Update OSD icon
+* Add python3-html2text to dependencies
+* Add toast() function
+* Add python-mutagen to dependencies
+* Add debian/
+* Log all exceptions to file
+
+3.4.6 - 2014.11.9
+* Feature: rewrite lrc parser
+* Feature: support AppIndicator in Ubuntu Unity desktop
+* Feature: update OSD lryic style
+* Feature: use GtkMenuButton
+* Feature: add auto-hide-tab option
+* plyvel removed
+* Gio.File.query_info() removed in Net.py
+* Fixed: ValueError: invalid path when deleting songs from playlist
+* Fixed: NoneType has not attribute `songs` in playlist
+* Fixed: handle play button signal in song list
+* Fixed: do not switch to current activated playlist automatically
+* i18n updated
+
+3.4.5 - 2014.10.31
+* Feature: add OSD lyric
+* Feature: add some ations
+* Show playlist tab on startup
+* i18n updated
+
+3.4.4 - 2014.10.18
+* Fixed: failed to load images in Artist tab; https://github.com/LiuLang/kwplayer/issues/53 and https://github.com/LiuLang/kwplayer-packages/issues/50
+
+3.4.3 - 2014.10.11
+* Fixed: reset vscrollbar in ScrolledWindows
+* Fixed: NoneType is not iterable in MV tab
+* Fixed: call update_liststore_images in background thread
+* Fixed: Catch UnicodeDecodeError in json_loads_single
+* Fixed: range() arg 3 must not be zero in Lrc tab
+* Fixed: check tree_iter type in PlayList tab
+* Feature: add log module
+* Feature: add caching monitor
+* Feature: display caching speed
+* GtkAdjustment removed in Preferences dialog
+* Change default audio type from 128k to 320k
+
+3.4.2 - 2014.10.1
+* Fixed: replace aac format with 128k mp3
+* Fixed: emit can-play signal
+* Automatically load next page when curr_song >= 10
+* Fixed: lrc text size reset to 4pt in gtk3.14
+* Fixed: list index out of range in Radio tab
+* Fixed: do not fetch MV info while playing radio
+
+3.4.1 - 2014.9.28
+* KARAOKE mode removed
+* Support 320k mp3 and flac format
+* Support KuwoDES
+* Set http connection timeout to 30s
+* Fixed: stop player when network error occurs
+* Fixed: PlayList has no attribute `add_song_to_favorite`
+* Rename `mutagenx` with `mutagen`
+* Automatically hide toolbar and notebook on lrc tab
+* i18n updated
+
+3.3.7 - 2014.9.1
+* add popup menu to playlist
+* rebuilt search-page
+* store media data to temp files
+* fixed: failed to locate that song which is being played; reported by @wangjiezhe
+* i18n updated
+
+3.3.6 - 2014.8.2
+* add classifiers
+* Fixed: NoneType object is not iterable
+* Press Shift+Delete keys to delete mp3 files from disk
+
+3.3.5 - 2014.6.18
+* Put export worker to background thread
+* Fixed: GstPlaybin(0.10) has no property `mute`
+* Fixed: lrc text blinks on top of MV window
+* Fixed: two songs might be deleted at a time by mistake when delete_button is clicked
+
+3.3.4 - 2014.5.1
+* Support dark theme
+* Get thumbnails one by one
+* Fixed: ValueError: invalid literal for int() with base 10
+* Fixed: check image is intact before loading; reported by @wangjiezhe
+* i18n updated
+
+3.3.3 - 2014.4.17
+* Fixed: update icons in IconWindow
+* Add timestamp to leveldb data
+* Set background threads as daemon
+* Using async_call to get artist list
+* Automatically start caching daemon when song is added to cache list
+* Single click to operate songs in songlist
+* Fixed: Warning: Source ID xxx was not found when attempting to remove it
+
+3.3.2 - 2014.4.6
+* Support PyGObject 3.11
+* Redesign export dialog
+* Fixed: active MTV button when playing MTV
+* Show scale fill
+* Simplify error message dialog
+* Fixed: Invalid character in json string
+* Lazy loading artist tab
+
+3.3.1 - 2014.3.14
+* Add a favorite button to control panel
+* Fixed: i18n KeyError; reported by @MJsaka
+* i18n updated
+
+3.2.9 - 2014.3.2
+* Automatically show playlist tab after startup; reported by @saiatsai
+* Fixed: GtkWidget.is_visible() is unavailable in gtk3.4; reported by @coslyk
+* Fixed: unpack tooltip from left-side panel
+
+3.2.8 - 2014.2.9
+* Fixed: failed to save playlist; reported by @MJsaka
+* Fixed: add a scrolledWindow to wrap playlist treeview; reported by @saiatsai
+* Fixed: Support Karaoke mode
+* i18n updated
+
+3.2.7 - 2014.1.11
+* Fixed: unescaping html markups in artist name and album name
+* Fixed: `return` and `yield cannot mix together in python3.2 and before; reported by @Inocr
+* i18n updated; reported by @MJsaka
+* Fixed: make sure PLS_JSON(playlist file) exists; reported by @Inocr
+
+3.2.6 - 2014.1.5
+* Cached playlist is removed
+* Italic font style is removed
+* It is faster to append thousands of songs to a playlist
+* Fixed: failed to move songs in a playlist, reported by @wangjiezhe
+* Fixed: transition-property is not supported in Gtk3.4.
+* Fixed: index out of range in Lrc.sync_lrc()
+
+3.2.5 - 2013.12.30
+* Add tooltip to control buttons
+* Fixed: reset to default background when there are no background images available
+* Fixed: reset select_all button when show_artist() is called
+* Speed up cache service
+* gir1.2-notify-0.7 was added to dependencies list
+* Change highlighted lyrics text color to black
+* Support lyrics background seeking
+* Easier to control fullscreen mode
+* Show control panel only when mouse moves on top side in fullscreen mode
+* Disable access control of X11 server (in python3-keybinder-1.1.2) when needed
+
+3.2.4 - 2013.12.6
+* Fixed: add two parameters to _failed_to_download()
+* Fixed: GtkButton has no `always_show_image` property before gtk3.6; reported by @leavfin
+* Fixed: hide control box in Aritst tab after inited
+* Fixed: range() arg 3 must not be zero, in Lrc tab
+* Fixed: ID3NoHeaderError accurs when there is no ID3 header in an mp3 file.
+
+3.2.3 - 2013.11.29
+* Fixed: catch IndexError when caching list is empty
+* Fixed: init Artists widgets by default
+* Fixed: activate album/artist search tab by default
+* Add a fav_artists list to Artist
+* i18n updated
+
+3.2.2 - 2013.11.15
+* Fixed: failed to clear highlighted tags in lrc view
+* Some blank lines were added to lyrics
+* Outline in GtkScale removed
+* Popup a notifcation when all songs in cache list have been downloaded
+* Automatically load next song when error occurs
+* Use Gtk_CSS_STYLE_MENUBAR (for Gnome3.8+)
+* i18n updated
+
+3.2.1 - 2013.11.11
+* Fixed: catch `BitPaddendInt` exception; reported by @wangjiezhe
+* Fixed: `shuffle` was not used in play_prev_song()
+* Fixed: volume value mismatch between app.conf and GtkVolume
+* Add 5px between buttons
+* Add a button into caching_playlist, to open current cached folder
+* i18n updated
+
+3.1.9 - 2013.11.6
+* Disable notify by default.
+* menu.ui and reset.css removed.
+* Add tooltips to all GtkIconViews.
+
+v3.1.8 - 2013.10.30
+* Fixed: media-playback-play does not exist.
+* Package dependencies in Fedora19 updated.
+* Fixed: random playing does not work; bug reported by @wangjiezhe.
+* Fixed: volumes in system settings and kwplayer mismatch; bug reported by @wangjiezhe.
+* Mute kwplayer with mute channel in gst, instead of just setting volume of playbin to 0.
+* getttext domain name updated.
+
+v3.1.7 - 2013.10.27
+* Fixed: Notify.Notification.add_actions() needs 6 parameters in Fedora 19.
+* Enable/disable notification on gdm lock screen.
+* Fixed: failed to chunk ASyncSong.
+* Another pkgbuild added.
+
+v3.1.6 - 2013.10.25
+* Show kwplayer control panel on gdm lock screen.
+* Some debug info removed.
+* Fixed: force switching to playlist while loading next song; bug reported by @wangjiezhe.
+* Fixed: gstreamer1.0-libav added to dependencies again.
+* i18n updated.
+* If kwplayer is already launched, it will be presented when `kwplayer` is executed again.
+* Fixed: using async MainLoop in PlayerDBus.
+* Songs can be sorted and moved in a playlist.
+
+v3.1.5 - 2013.10.23
+* Songs in Cached playlist can be deleted
+* Can automatically create a new playlist and add songs into it.
+* python3-keybinder is optional now
+* Select None by default in Search tab
+* Fixed: sqlite3 does not support LIMIT command in Arch Linux
+* i18n updated
+* dir_entry in Preferences dialog cannot be foucused
+
+v3.1.4 - 2013.10.22
+* Can control player with keyboard (global keyboard shortcut)
+* Fixed: set_volume() with incorrect value.
+
+v3.1.3 - 2013.10.20
+* Fixed: memory leak caused by CssProvider.
+* Automatically load next song when error occurs.
+* Debug infor removed from kuwo/Artists.py.
+* Enable `raise` in MPRIS Interface.
+* Transition animation only applies to lrc_window now.
+
+v3.1.2 - 2013.10.20
+* Add micro version.
+* unescape html entity; reported by @gdgglhy.
+* show song name in window title
+* python3-cairo removed from package dependencies
+* lrc redesigned.
+* use reset.css to initialize GtkWidget styles.
+* gnome-icon-theme-symbolic-git added to Arch Linux package dependencies
+
+v3.1 - 2013.10.19
+* <Ctrl>Q to quit program.
+* Add dbus support, Support MPRIS Dbus Interface v2.2.
+* Move playbin to a new Class.
+* Support plyvel-0.6.
+* Installation method was rewritten.
+* zh_CN.po supported.
+* Add setup.py, now can use `pip` command to install kwpalyer
+* mutagenx removed from source tree
+* pkgbuild for Arch Linux added.
+* Fixed: goes wrong when ~/.config does not exist.
+
+v2.7 - 2013.10.13
+* Add more software dependency.
+* Fixed: failed to display song item in Search Box.
+* Fixed: failed to display control box in Search Box.
+* Fixed: failed to display song item in some lists in TopCategories.
+* Fixed: Error: Junk at end, in Gtk<3.6, this is an old CSS Error.
+* Fixed: forgot to append MV item to playlist when playing.
+* Fixed: VolumeRange inited with too small value.
+* Added: two symbolic icons added, to support Debian wheezy.
+* Added: copyright comment added to all the source files.
+
+v2.6 - 2013.10.12
+* Show a warning dialog when network error or filesystem error
+* Automatically cache next MV
+* Can export lyrics
+* Can custom lyrics text style
+
+v2.5 - 2013.10.10
+* Fixed: LRC_DIR failed to init in Config.check_first()
+* Increase max retry times in Net.get_lrc()
+* Fixed: Main window freezed when playing MV
+* Add a choice to enable/disable status icon.
+* Fixed: Main window freezed when searching songs/albums.
+* Fixed: hide control bar in Artist.artist_tab
+* Add repeat one song mode.
+
+v2.4 - 2013.10.6
+* Add drop and drop support in playlists
+* Fixed: failed to load next song in background on Ubuntu 12.04
+* Add a video-x-generic-symbolic icon for Ubuntu 12.04
+
+v2.3 - 2013.10.5
+* Support Ubuntu 12.04
+* add transient parent window for about_dialog and preference dialog
+* Remove gettext from Net.py and Utils.py
+* Add a check for eos in Player.sync_adjustment()
+
