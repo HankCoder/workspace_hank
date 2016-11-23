@@ -16,7 +16,9 @@ Including another URLconf
 from myLesson.views import *
 from django.conf.urls import url
 from django.contrib import admin
+
 urlpatterns = [
-    url(r'^hello/$', hello),
+    url(r'^book/(\d+)$', book_list),
+    url(r'^hello/$', views),
     url(r'^admin/', admin.site.urls),
 ]

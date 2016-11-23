@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World</title>
+</head>
+<body>
+    {% block content %}
+    <p>hello {{ name }}</p>
+    {% endblock %}
+    <form method="post">
+        <input type="text" value="username" name="username">
+        <input type="password" value="password" name="password">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
